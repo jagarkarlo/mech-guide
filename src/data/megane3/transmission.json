@@ -1,0 +1,1980 @@
+[
+  {
+    "id": "jr5-gearbox-removal-refit",
+    "name": "JR5 manual gearbox removal and refitting",
+    "system": "Transmission",
+    "subsystem": "Gearbox",
+    "position": [
+      1.42,
+      0.66,
+      0.3
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "Remove and refit the K4M manual gearbox using the K4M-applicable Renault procedure. The applicable procedure is explicitly grouped for K4J/K4M/K9K; nearby F4R/F9Q-specific values are excluded.",
+    "safety": [
+      "Use an approved vehicle lift and support the engine and gearbox before removing their mounts.",
+      "Keep the steering wheel centered and immobilized before separating the steering column from the rack; the source warns of rotary-contact damage.",
+      "Disconnect the battery negative terminal first. Support the gearbox on a suitable transmission jack; do not let it hang from the clutch hydraulics or wiring.",
+      "After refitting, bleed the clutch hydraulic circuit and verify gearbox oil level."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Engine support beam Mot. 1453 or equivalent approved support",
+      "Transmission jack",
+      "Hub immobilizer Rou. 604-01",
+      "Ball-joint separator Tav. 476",
+      "Steering-wheel lock",
+      "Torque wrench",
+      "Fluid syringe and drain pan"
+    ],
+    "parts": [
+      {
+        "name": "Gearbox lip seals disturbed during removal",
+        "replace": "always",
+        "notes": "Renew removed lip seals; the manual gearbox notes require this for seals that have been removed.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Particularités",
+            "url": "https://www.manuelmeg.org/particularit_eacute_s-261.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer lorsqu’ils ont été déposés : les joints à lèvres »"
+          }
+        ]
+      },
+      {
+        "name": "Gearbox O-rings disturbed during internal work",
+        "replace": "always",
+        "notes": "Renew O-rings when removed; inspect undisturbed seals for damage.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Particularités",
+            "url": "https://www.manuelmeg.org/particularit_eacute_s-261.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer lorsqu’ils ont été déposés : les joints toriques »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation des roues (11 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "drive-shaft-hub-nut",
+        "fastener": "Drive-shaft hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de transmission (28 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-ball-joint",
+        "fastener": "Lower ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule inférieure (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "track-rod-end",
+        "fastener": "Outer tie-rod-end nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule de direction (3,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "anti-roll-link",
+        "fastener": "Anti-roll-bar link nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule de barre stabilisatrice (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-side-shields",
+        "fastener": "Gearbox side-shield fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis de fixation des joues latérales (2,1 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-bellhousing-starter",
+        "fastener": "Gearbox perimeter and starter fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis de tour de boîte et démarreur (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "upper-torque-link-engine",
+        "fastener": "Upper torque-link fasteners at engine",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis de biellette de reprise de couple sur moteur (10,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-torque-link-cradle",
+        "fastener": "Torque-link fasteners at subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis de biellette de reprise de couple sur berceau (10,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-mount",
+        "fastener": "Gearbox pendulum-mount fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis du support pendulaire de boîte (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-mount-to-pad",
+        "fastener": "Gearbox mount-to-rubber-pad nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 180,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « écrou support pendulaire sur tampon (18 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "radiator-crossmember-front",
+        "fastener": "Front radiator-crossmember fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « vis de fixation avant de la traverse de radiateur (10,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-drain-plug",
+        "fastener": "Gearbox drain plug",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 25,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « bouchon de vidange ... (2,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "gearbox-filler-plug",
+        "fastener": "Gearbox filler plug",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 3,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « bouchon de remplissage ... (0,3 daN.m) »"
+          }
+        ],
+        "notes": "Unusually low: the source prints 0.3 daN·m twice on this page, and no second source was found. Confirm against Renault data before relying on it."
+      },
+      {
+        "id": "battery-cover",
+        "fastener": "Battery-cover fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 4,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K list: « cache batterie (0,4 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Identification",
+        "label": "Gearbox family",
+        "value": "JR5 (target configuration)",
+        "notes": "The task specifies JR5; the fetched pages describe applicable JH3/JR5 procedures but do not provide the vehicle-specific stamped gearbox code or identification location.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "heading: « JH3 ou JR5 ou ND0 »"
+          }
+        ]
+      },
+      {
+        "group": "Gear ratios",
+        "label": "Forward and reverse ratios",
+        "value": null,
+        "notes": "The applicable manual-gearbox section does not provide the ratios in its fetched text. Automatic DP0 ratio pages are not applicable.",
+        "sources": []
+      },
+      {
+        "group": "Capacity",
+        "label": "Gearbox oil capacity",
+        "value": null,
+        "notes": "The JR5 oil page labels a capacity table, but no legible capacity value is provided in the fetched text; do not infer a fill quantity.",
+        "sources": []
+      },
+      {
+        "group": "Lubrication",
+        "label": "Specified gearbox oil",
+        "value": "Tranself TRJ 75W-80",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Lubrifiants",
+            "url": "https://www.manuelmeg.org/lubrifiants-259.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5/ND0: « TRANSELF TRJ 75 W80W »"
+          }
+        ]
+      },
+      {
+        "group": "Lubrication",
+        "label": "Level check",
+        "value": "Fill to the filler-orifice level",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Lubrifiants",
+            "url": "https://www.manuelmeg.org/lubrifiants-259.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « Remplir jusqu’au niveau de l’orifice »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Raise the vehicle, remove the battery cover, disconnect the negative battery terminal, remove the under-engine shield and drain the gearbox oil."
+      },
+      {
+        "text": "Remove the front wheels, engine covers, battery, battery tray, injection ECU and its support, airflow meter and intake duct; release the gearbox control cables and wiring retainers."
+      },
+      {
+        "text": "Remove both front driveshafts by separating their hubs and suspension joints; on the right, release the intermediate-bearing bracket. Secure the radiator assembly before removing its crossmember."
+      },
+      {
+        "text": "Remove the catalyst support, starter and torque link. Disconnect the reverse-switch connector and engine speed/position sensor wiring, then disconnect the clutch hydraulic receiver without contaminating its line."
+      },
+      {
+        "text": "Support the engine and gearbox, remove the gearbox mount and casing fasteners, then lower the gearbox clear of the engine.",
+        "warning": "Do not allow the gearbox to load or damage the clutch hydraulic receiver, wiring or steering rotary contact."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Confirm the engine-to-gearbox locating sleeves are present and correctly seated; inspect mating faces and clutch components before raising the gearbox into place."
+      },
+      {
+        "text": "Refit the gearbox and disturbed assemblies in reverse order, observing the sourced torque values. Do not grease the gearbox output shaft or clutch splines, as the manual warns this can damage the receiver."
+      },
+      {
+        "text": "Refit the driveshafts and renew the differential output seals that were removed. Refill the gearbox and set its level at the filler orifice; no capacity value is asserted here."
+      },
+      {
+        "text": "Reconnect and bleed the clutch hydraulic circuit, restore the brake-fluid level, reconnect the battery and perform any required vehicle learning procedures."
+      },
+      {
+        "text": "Check for oil and hydraulic leaks, confirm every gear selects correctly and road-test only after all supports, wheels and steering connections are secured."
+      }
+    ],
+    "checks": [
+      "Gearbox oil level reaches the filler-orifice level.",
+      "Clutch hydraulic circuit is bled and has no leaks.",
+      "All forward gears and reverse engage with the engine both off and running.",
+      "No oil leaks at either differential seal or gearbox plugs."
+    ],
+    "faults": [
+      {
+        "symptom": "Gearbox will not separate or seat flush to the engine",
+        "causes": "A locating sleeve may be displaced, the clutch disc may not be centered, or the gearbox input splines may not be aligned; do not draw the assembly together with bolts."
+      },
+      {
+        "symptom": "Oil leak after refitting",
+        "causes": "A disturbed lip seal may be damaged, incorrectly seated or not renewed; inspect the filler and drain plugs and verify level."
+      }
+    ]
+  },
+  {
+    "id": "k4m-flywheel",
+    "name": "K4M flywheel",
+    "system": "Transmission",
+    "subsystem": "Clutch",
+    "position": [
+      1.42,
+      0.65,
+      0.18
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The flywheel is accessed after gearbox and clutch-mechanism removal. The K4J/K4M-specific tightening value is used; K9K/F4R values and instructions are not applied.",
+    "safety": [
+      "Support the engine and gearbox before removal.",
+      "Lock the crankshaft with the specified flywheel-locking tool; keep hands clear of pinch points.",
+      "Inspect the flywheel and crankshaft flange for damage before refitting."
+    ],
+    "tools": [
+      "Engine support",
+      "Flywheel locking tool Mot. 582-01",
+      "Torque wrench",
+      "Clutch alignment tools"
+    ],
+    "parts": [
+      {
+        "name": "Flywheel",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Volant moteur",
+            "url": "https://www.manuelmeg.org/volant_moteur-257.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K: « vérifier l’état du volant moteur »"
+          }
+        ]
+      },
+      {
+        "name": "Flywheel fasteners",
+        "replace": "if-worn",
+        "notes": "The cited mandatory-new-fastener instruction is in the K9K-specific procedure and is not generalized to K4M.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Volant moteur",
+            "url": "https://www.manuelmeg.org/volant_moteur-257.html",
+            "accessed": "2026-10-29",
+            "locator": "K9K-specific paragraph says to renew fasteners; K4M value is separately listed"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "flywheel-bolts",
+        "fastener": "Flywheel-to-crankshaft fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 65,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Volant moteur",
+            "url": "https://www.manuelmeg.org/volant_moteur-257.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation du volant moteur (moteurs K) (6,5 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the gearbox and clutch mechanism, then lock the crankshaft with Mot. 582-01."
+      },
+      {
+        "text": "Remove the flywheel fasteners and lift the flywheel away from the crankshaft flange."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the crankshaft fastener threads and degrease the flywheel-to-crankshaft seating face; inspect the flywheel condition."
+      },
+      {
+        "text": "Position the flywheel, install its fasteners and tighten them to the K-engine torque value.",
+        "torque": "flywheel-bolts"
+      },
+      {
+        "text": "Remove the locking tool and refit the clutch and gearbox using their separate service procedures."
+      }
+    ],
+    "checks": [
+      "Flywheel sits flush on the crankshaft flange.",
+      "No abnormal wear, cracks or damage are visible before reuse."
+    ],
+    "faults": [
+      {
+        "symptom": "Clutch judder or abnormal noise",
+        "causes": "Flywheel wear or damage may be present; inspect against the applicable Renault criteria."
+      }
+    ]
+  },
+  {
+    "id": "jr5-input-shaft-lip-seal",
+    "name": "JR5 clutch input-shaft lip seal",
+    "system": "Transmission",
+    "subsystem": "Gearbox",
+    "position": [
+      1.43,
+      0.64,
+      0.32
+    ],
+    "difficulty": 5,
+    "timeMinutes": 180,
+    "summary": "The JR5 input-shaft lip seal is replaced only after the gearbox has been opened. The fetched Renault reproduction refers to a separate gearbox technical note for the internal operation, so no unverified teardown sequence is supplied.",
+    "safety": [
+      "This is an internal gearbox repair; use the correct JR5 overhaul procedure and keep the gearbox clean.",
+      "Renew lip seals when removed; avoid damaging the input shaft or seal bore."
+    ],
+    "tools": [
+      "Gearbox removal and support equipment",
+      "JR5-specific internal gearbox service tooling",
+      "Seal installation tool specified by the gearbox overhaul procedure"
+    ],
+    "parts": [
+      {
+        "name": "Clutch input-shaft lip seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint à lèvre d’arbre d’embrayage",
+            "url": "https://www.manuelmeg.org/joint_agrave_l_egrave_vre_d_arbre_d_embrayage-262.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « effectuer le remplacement du joint à lèvres après avoir ouvert la boîte de vitesses »"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Particularités",
+            "url": "https://www.manuelmeg.org/particularit_eacute_s-261.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer lorsqu’ils ont été déposés : les joints à lèvres »"
+          }
+        ]
+      }
+    ],
+    "torques": [],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the gearbox, then open it using the JR5-specific internal service procedure. The fetched page directs the technician to technical note 3661A; internal disassembly details are not reproduced here."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Remove the old lip seal without scoring its bore or the input shaft, then install a new seal using the JR5 overhaul procedure’s specified driver."
+      },
+      {
+        "text": "Reassemble and refit the gearbox using the applicable JR5 procedure; no internal fastener torque is supplied by the fetched seal page."
+      }
+    ],
+    "checks": [
+      "Inspect the seal contact surface and surrounding gearbox for leakage after refitting."
+    ],
+    "faults": [
+      {
+        "symptom": "Oil leak at the clutch bellhousing",
+        "causes": "The input-shaft lip seal may be damaged or worn; inspect only after the gearbox is removed and opened."
+      }
+    ]
+  },
+  {
+    "id": "jr5-differential-output-seal-left",
+    "name": "JR5 left differential output seal",
+    "system": "Transmission",
+    "subsystem": "Differential",
+    "position": [
+      1.43,
+      0.62,
+      0.34
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Replace the left-side differential output lip seal after removing the corresponding driveshaft. Use the side-specific Renault seal driver and protect the differential splines.",
+    "safety": [
+      "Support the vehicle securely on an approved lift.",
+      "Drain gearbox oil before opening the differential output; refill and check the level after installation.",
+      "Avoid scoring the differential splines, seal bore or shaft sealing surface."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Hub immobilizer Rou. 604-01",
+      "Ball-joint separator Tav. 476",
+      "Seal driver Bvi. 1666",
+      "Drain pan",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Left differential output lip seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5 section: seal replacement and the correct side-specific Bvi. 1666 installation index"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "replace the differential output lip seal systematically when the driveshaft is removed"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de fixation des roues (11 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-ball-joint",
+        "fastener": "Lower ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule inférieure (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "steering-ball-joint",
+        "fastener": "Outer steering ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule de direction (3,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "anti-roll-link",
+        "fastener": "Anti-roll-bar link nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule de la barre stabilisatrice (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "hub-nut",
+        "fastener": "Drive-shaft hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de moyeu (28 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "relay-bearing-bracket",
+        "fastener": "Intermediate-bearing bracket nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de la bride du palier relais (2,1 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "torque-link-engine",
+        "fastener": "Torque-link fasteners at engine",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de biellette de reprise de couple-moteur (10,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "torque-link-cradle",
+        "fastener": "Torque-link fasteners at subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de biellette de reprise de couple-berceau (10,5 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise and support the vehicle, disconnect the battery negative terminal, remove the under-engine shield and drain the gearbox."
+      },
+      {
+        "text": "Remove the wheel and release the hub nut, steering tie-rod end, anti-roll-bar link and lower joint as required to withdraw the driveshaft."
+      },
+      {
+        "text": "On the right side, release the intermediate-bearing bracket before withdrawing the shaft. Pull the driveshaft clear of the differential."
+      },
+      {
+        "text": "Use a drift to rotate and extract the old lip seal without damaging the differential splines or bore."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Lightly oil the new seal and use Bvi. 1666 with the source’s side-specific adapter index to seat it squarely.",
+        "tip": "The source labels adapter index A for the right side and B for the left side."
+      },
+      {
+        "text": "Engage the driveshaft carefully with the differential, refit the disturbed suspension and relay bracket, and tighten the listed hardware.",
+        "torque": "hub-nut"
+      },
+      {
+        "text": "Refit the wheel, refill the gearbox and set oil to the filler-orifice level; reconnect the battery and perform any required learning procedures."
+      }
+    ],
+    "checks": [
+      "Seal is seated evenly and remains dry after refilling.",
+      "Gearbox oil level reaches the filler-orifice level.",
+      "Driveshaft and suspension joints are secure."
+    ],
+    "faults": [
+      {
+        "symptom": "Gearbox oil visible around a driveshaft output",
+        "causes": "The lip seal may be worn, damaged during shaft removal or incorrectly seated."
+      }
+    ]
+  },
+  {
+    "id": "jr5-differential-output-seal-right",
+    "name": "JR5 right differential output seal",
+    "system": "Transmission",
+    "subsystem": "Differential",
+    "position": [
+      1.43,
+      0.62,
+      -0.34
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Replace the right-side differential output lip seal after removing the corresponding driveshaft. Use the side-specific Renault seal driver and protect the differential splines.",
+    "safety": [
+      "Support the vehicle securely on an approved lift.",
+      "Drain gearbox oil before opening the differential output; refill and check the level after installation.",
+      "Avoid scoring the differential splines, seal bore or shaft sealing surface."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Hub immobilizer Rou. 604-01",
+      "Ball-joint separator Tav. 476",
+      "Seal driver Bvi. 1666",
+      "Drain pan",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Right differential output lip seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5 section: seal replacement and the correct side-specific Bvi. 1666 installation index"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "replace the differential output lip seal systematically when the driveshaft is removed"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de fixation des roues (11 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-ball-joint",
+        "fastener": "Lower ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule inférieure (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "steering-ball-joint",
+        "fastener": "Outer steering ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule de direction (3,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "anti-roll-link",
+        "fastener": "Anti-roll-bar link nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de rotule de la barre stabilisatrice (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "hub-nut",
+        "fastener": "Drive-shaft hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de moyeu (28 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "relay-bearing-bracket",
+        "fastener": "Intermediate-bearing bracket nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « écrou de la bride du palier relais (2,1 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "torque-link-engine",
+        "fastener": "Torque-link fasteners at engine",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de biellette de reprise de couple-moteur (10,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "torque-link-cradle",
+        "fastener": "Torque-link fasteners at subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de sortie de différentiel",
+            "url": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « vis de biellette de reprise de couple-berceau (10,5 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise and support the vehicle, disconnect the battery negative terminal, remove the under-engine shield and drain the gearbox."
+      },
+      {
+        "text": "Remove the wheel and release the hub nut, steering tie-rod end, anti-roll-bar link and lower joint as required to withdraw the driveshaft."
+      },
+      {
+        "text": "On the right side, release the intermediate-bearing bracket before withdrawing the shaft. Pull the driveshaft clear of the differential."
+      },
+      {
+        "text": "Use a drift to rotate and extract the old lip seal without damaging the differential splines or bore."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Lightly oil the new seal and use Bvi. 1666 with the source’s side-specific adapter index to seat it squarely.",
+        "tip": "The source labels adapter index A for the right side and B for the left side."
+      },
+      {
+        "text": "Engage the driveshaft carefully with the differential, refit the disturbed suspension and relay bracket, and tighten the listed hardware.",
+        "torque": "hub-nut"
+      },
+      {
+        "text": "Refit the wheel, refill the gearbox and set oil to the filler-orifice level; reconnect the battery and perform any required learning procedures."
+      }
+    ],
+    "checks": [
+      "Seal is seated evenly and remains dry after refilling.",
+      "Gearbox oil level reaches the filler-orifice level.",
+      "Driveshaft and suspension joints are secure."
+    ],
+    "faults": [
+      {
+        "symptom": "Gearbox oil visible around a driveshaft output",
+        "causes": "The lip seal may be worn, damaged during shaft removal or incorrectly seated."
+      }
+    ]
+  },
+  {
+    "id": "jr5-driveshaft-left",
+    "name": "Left front driveshaft removal and refitting",
+    "system": "Transmission",
+    "subsystem": "Driveshafts",
+    "position": [
+      1.24,
+      0.34,
+      0.72
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Remove the left front shaft from the hub and gearbox, then refit it with a new differential output seal and the prescribed spline lubricant.",
+    "safety": [
+      "Support the vehicle securely and do not let the shaft hang by a CV joint.",
+      "Drain gearbox oil before removing the shaft from the gearbox.",
+      "Do not damage the ABS wheel-speed sensor wiring while releasing the knuckle."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Hub immobilizer Rou. 604-01",
+      "Ball-joint separator Tav. 476",
+      "Torque wrench",
+      "Drain pan"
+    ],
+    "parts": [
+      {
+        "name": "Left front driveshaft",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« déposer la transmission côté roue » and « déposer la transmission côté boîte de vitesses »"
+          }
+        ]
+      },
+      {
+        "name": "Differential output lip seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer systématiquement le joint à lèvre de sortie de différentiel »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation de roue (11 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "hub-nut",
+        "fastener": "Drive-shaft hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de moyeu (28 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "outer-tie-rod-end",
+        "fastener": "Outer tie-rod-end nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule de direction (3,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-ball-joint",
+        "fastener": "Lower ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule inférieure (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "anti-roll-link",
+        "fastener": "Anti-roll-bar link nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de barre stabilisatrice (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "relay-bearing-support",
+        "fastener": "Intermediate-bearing support fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant gauche",
+            "url": "https://www.manuelmeg.org/transmission_avant_gauche-288.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du palier de transmission (4,4 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise and support the vehicle, remove the left front wheel and hub nut, then disconnect the wheel-speed sensor connector."
+      },
+      {
+        "text": "Release the steering tie-rod end, anti-roll-bar link and lower joint; pivot the knuckle to withdraw the shaft from the hub."
+      },
+      {
+        "text": "Drain the gearbox, then withdraw the left shaft from the differential while protecting the output seal and CV joints."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Inspect the lip-seal running surface and renew the differential output seal. With its protective sleeve in place, grease the gearbox-side splines with MOLYKOTE BR2."
+      },
+      {
+        "text": "Engage the shaft into the differential and hub without force, then refit the suspension joints and wheel hardware to the sourced torques.",
+        "torque": "hub-nut"
+      },
+      {
+        "text": "Refill the gearbox and set the level at the filler orifice; reconnect the wheel-speed sensor and verify the shaft is fully seated."
+      }
+    ],
+    "checks": [
+      "The shaft enters freely and is fully engaged at the gearbox and hub.",
+      "No gearbox oil escapes at the differential seal.",
+      "Wheel-speed sensor wiring is routed and connected correctly."
+    ],
+    "faults": [
+      {
+        "symptom": "Clicking on turns or a split CV boot",
+        "causes": "A worn or damaged CV joint/boot may require driveshaft service."
+      }
+    ]
+  },
+  {
+    "id": "jr5-driveshaft-right",
+    "name": "Right front driveshaft removal and refitting",
+    "system": "Transmission",
+    "subsystem": "Driveshafts",
+    "position": [
+      1.24,
+      0.34,
+      -0.72
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Remove the right shaft from the hub and gearbox, releasing its intermediate-bearing bracket, then refit with a new differential output seal.",
+    "safety": [
+      "Support the vehicle securely and do not let the shaft hang by a CV joint.",
+      "Drain gearbox oil before removing the shaft from the gearbox.",
+      "Protect the ABS wheel-speed sensor wiring and the shaft seal-running surface."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Hub immobilizer Rou. 604-01",
+      "Ball-joint separator Tav. 476",
+      "Torque wrench",
+      "Drain pan",
+      "Bearing press if shaft-bearing service is required"
+    ],
+    "parts": [
+      {
+        "name": "Right front driveshaft",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« déposer la transmission côté roue » and « déposer la transmission côté boîte de vitesses »"
+          }
+        ]
+      },
+      {
+        "name": "Differential output lip seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer systématiquement le joint à lèvres de sortie de différentiel »"
+          }
+        ]
+      },
+      {
+        "name": "Intermediate-shaft bearing",
+        "replace": "if-worn",
+        "notes": "Replace if seized in its carrier; the source also directs replacement when the bearing is seized in the relay support.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« si le roulement est grippé dans le palier relais, remplacer systématiquement le roulement »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation de roue (11 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "hub-nut",
+        "fastener": "Drive-shaft hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de moyeu (28 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "outer-tie-rod-end",
+        "fastener": "Outer tie-rod-end nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule de direction (3,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "lower-ball-joint",
+        "fastener": "Lower ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de rotule inférieure (6,2 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "anti-roll-link",
+        "fastener": "Anti-roll-bar link nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrou de barre stabilisatrice (4,4 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "relay-bearing-support",
+        "fastener": "Intermediate-bearing support fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du palier de transmission (4,4 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise and support the vehicle, remove the right front wheel and hub nut, and disconnect the wheel-speed sensor connector."
+      },
+      {
+        "text": "Release the steering tie-rod end, anti-roll-bar link and lower joint; pivot the knuckle to withdraw the shaft from the hub."
+      },
+      {
+        "text": "Drain the gearbox, remove the two intermediate-bearing bracket bolts and withdraw the shaft from the gearbox."
+      },
+      {
+        "text": "If the intermediate bearing requires replacement, remove the complete shaft and press the bearing off without scoring the shaft seal-running surface."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Inspect the intermediate-bearing seat and differential seal surface. If renewing the bearing, lubricate its shaft seat and press on the new bearing by loading its inner race."
+      },
+      {
+        "text": "Clean and grease the bearing carrier bore; renew a damaged O-ring and the differential output seal. Grease the protected gearbox-side splines with MOLYKOTE BR2."
+      },
+      {
+        "text": "Engage the shaft into the differential and hub, refit the bearing bracket and suspension, and tighten disturbed hardware to its sourced values.",
+        "torque": "hub-nut"
+      },
+      {
+        "text": "Refill the gearbox and set its level at the filler orifice; reconnect the wheel-speed sensor and verify correct shaft seating."
+      }
+    ],
+    "checks": [
+      "The intermediate bearing is fully seated and runs smoothly.",
+      "The shaft is fully engaged and no seal leakage is present.",
+      "Wheel-speed sensor wiring is connected and routed safely."
+    ],
+    "faults": [
+      {
+        "symptom": "Vibration or rumble from the right front driveline",
+        "causes": "Inspect the intermediate bearing, its carrier fit and the CV joints."
+      }
+    ]
+  },
+  {
+    "id": "jr5-driveshaft-intermediate-bearing",
+    "name": "Right driveshaft intermediate bearing",
+    "system": "Transmission",
+    "subsystem": "Driveshafts",
+    "position": [
+      1.31,
+      0.36,
+      -0.4
+    ],
+    "difficulty": 4,
+    "timeMinutes": 90,
+    "summary": "The right shaft bearing can be replaced on the removed shaft when seized in its relay support. Press it on using the inner race as the force path.",
+    "safety": [
+      "Remove the complete shaft before pressing the bearing.",
+      "Use a press and a correctly sized tube; do not transmit press force through the rolling elements.",
+      "Do not scratch the shaft surface where the lip seal runs."
+    ],
+    "tools": [
+      "Hydraulic press",
+      "Bearing separator",
+      "Tube that contacts the bearing inner race",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Right driveshaft intermediate bearing",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« si le roulement est grippé dans le palier relais, remplacer systématiquement le roulement »"
+          }
+        ]
+      },
+      {
+        "name": "Intermediate-bearing O-ring",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer le joint torique ... s’il est détérioré »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "relay-bearing-bracket",
+        "fastener": "Intermediate-bearing bracket fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Transmission avant droite",
+            "url": "https://www.manuelmeg.org/transmission_avant_droite-289.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du palier de transmission (4,4 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the right driveshaft assembly and support it on a press fixture."
+      },
+      {
+        "text": "Press the old intermediate bearing off the shaft, keeping the tool clear of the lip-seal running surface."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Lubricate the bearing seat and press the new bearing fully home using a tube that bears only on its inner race."
+      },
+      {
+        "text": "Clean and grease the relay-bearing carrier bore, check the O-ring and reinstall the driveshaft assembly.",
+        "torque": "relay-bearing-bracket"
+      }
+    ],
+    "checks": [
+      "Bearing is fully seated, rotates smoothly and has no roughness.",
+      "Shaft seal-running surface remains free of scratches."
+    ],
+    "faults": [
+      {
+        "symptom": "Right-side driveline rumble or bearing movement",
+        "causes": "The intermediate bearing may be worn, seized or loose in its carrier."
+      }
+    ]
+  },
+  {
+    "id": "jr5-gearshift-control-cables",
+    "name": "JR5 gear lever and shift cables",
+    "system": "Transmission",
+    "subsystem": "Gearshift control",
+    "position": [
+      0.35,
+      0.34,
+      0.0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 120,
+    "summary": "The JR5 external selector uses separate selection and shift cables. Refit both ends with the gearbox and cabin control in neutral; the JR5 setup has no cable adjustment procedure.",
+    "safety": [
+      "Disconnect the battery negative terminal before removing the console or control assembly.",
+      "Do not damage cable-retaining clips; replace a damaged anchor clip.",
+      "Confirm all gears select correctly before starting the engine."
+    ],
+    "tools": [
+      "Trim removal tools",
+      "Hand tools",
+      "Torque wrench",
+      "Replacement flat control-box gasket if the cable housing is opened"
+    ],
+    "parts": [
+      {
+        "name": "Gear-selection cable",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses : Description",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses_description-358.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: numbered item 1, « Câble de sélection »"
+          }
+        ]
+      },
+      {
+        "name": "Gear-shift cable",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses : Description",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses_description-358.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: numbered item 2, « Câble de passage »"
+          }
+        ]
+      },
+      {
+        "name": "External gear-control housing",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5 procedure: external gear-control housing removal and refitting"
+          }
+        ]
+      },
+      {
+        "name": "Flat housing gasket",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Câble de commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/c_acirc_ble_de_commande_externe_des_vitesses-360.html",
+            "accessed": "2026-10-29",
+            "locator": "« Coller un nouveau joint plat sur le boîtier de commande »"
+          }
+        ]
+      },
+      {
+        "name": "Cable anchor clips",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "« Toute détérioration du clip d’ancrage entraîne son remplacement »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "gear-control-housing",
+        "fastener": "External gear-control housing fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5/ND0: « vis de fixation du boîtier de commande (2,1 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "battery-cover",
+        "fastener": "Battery-cover fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 4,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du cache batterie (0,4 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Configuration",
+        "label": "External control cables",
+        "value": "Selection cable and shift cable",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses : Description",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses_description-358.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: items 1 and 2, « câble de sélection » and « câble de passage »"
+          }
+        ]
+      },
+      {
+        "group": "Adjustment",
+        "label": "JR5 cable adjustment",
+        "value": "No adjustment system; attach both cables with the control and gearbox in neutral",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Commande externe des vitesses",
+            "url": "https://www.manuelmeg.org/commande_externe_des_vitesses-359.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3/JR5: « il n’y a pas de système de réglage » and both controls in neutral for cable anchoring"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal, remove the battery, tray and injection ECU as required, then release the two cables from the gearbox levers and sheath stops."
+      },
+      {
+        "text": "Remove the gear knob and boot, console trim and console fasteners; expose and release the external control housing."
+      },
+      {
+        "text": "To replace an individual cable, remove the complete control assembly, open the housing, disconnect the cable ball joint, release its sheath clip and withdraw the cable."
+      }
+    ],
+    "installation": [
+      {
+        "text": "If the housing was opened, fit a new flat gasket. Install the replacement cable and restore the housing and heat shield."
+      },
+      {
+        "text": "Place the cabin gear control and gearbox levers in neutral, seat the cable sheaths in their stops and attach each cable to its corresponding ball joint. The JR5 cable system is not adjusted."
+      },
+      {
+        "text": "Tighten the external control housing fasteners to the sourced torque, reconnect the battery and test every gear before starting.",
+        "torque": "gear-control-housing"
+      },
+      {
+        "text": "Refit the battery cover and tighten its fasteners to the sourced value.",
+        "torque": "battery-cover"
+      }
+    ],
+    "checks": [
+      "All gears and reverse engage smoothly with the engine off.",
+      "Cable sheath stops and retaining clips are fully seated.",
+      "No cable binds through the full shift pattern."
+    ],
+    "faults": [
+      {
+        "symptom": "One or more gears are difficult to select",
+        "causes": "A cable may be disconnected, incorrectly seated in its sheath stop, damaged, or attached while the control was not in neutral."
+      }
+    ]
+  },
+  {
+    "id": "jr5-reverse-light-switch",
+    "name": "JR5 reverse-light switch and connector",
+    "system": "Transmission",
+    "subsystem": "Gearbox electrical connections",
+    "position": [
+      1.43,
+      0.62,
+      0.3
+    ],
+    "difficulty": 2,
+    "timeMinutes": 30,
+    "summary": "The K4M gearbox removal procedure identifies and disconnects the reverse-switch connector, but the fetched applicable pages do not give a standalone switch replacement procedure or torque. Verify switch access and parts against the exact gearbox before service.",
+    "safety": [
+      "Disconnect the battery negative terminal before separating the connector.",
+      "Do not pull on the wiring; release the connector lock before separation."
+    ],
+    "tools": [
+      "Hand tools",
+      "Electrical contact inspection light"
+    ],
+    "parts": [
+      {
+        "name": "Reverse-light switch",
+        "replace": "if-worn",
+        "notes": "No standalone JR5 switch replacement steps, location or part number were found in the fetched applicable pages.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîte de vitesses mécanique : Dépose - Repose",
+            "url": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+            "accessed": "2026-10-29",
+            "locator": "K4J/K4M/K9K removal: « débrancher le connecteur de marche arrière »"
+          }
+        ]
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Function",
+        "label": "Reverse-light activation",
+        "value": null,
+        "sources": [],
+        "notes": "Mégane III handbook value removed; Mégane II value not yet sourced."
+      },
+      {
+        "group": "Service data",
+        "label": "Standalone JR5 switch removal and tightening data",
+        "value": null,
+        "notes": "Not provided by the fetched K4M/JR5 manual-transmission pages; automatic DP0 sensor data is not applicable.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "For gearbox removal, disconnect the reverse-switch connector before lowering the gearbox; release its lock and protect the wiring."
+      },
+      {
+        "text": "The fetched applicable manual does not document standalone switch access or removal. Use exact JR5 identification and a matching repair procedure before attempting switch replacement."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect and secure the connector during gearbox refitting. Do not apply a torque value; none is provided in the applicable source."
+      },
+      {
+        "text": "With the ignition on, select reverse and confirm that both reversing lamps illuminate; return the selector to neutral and confirm the lamps extinguish."
+      }
+    ],
+    "checks": [
+      "Connector lock is engaged and wiring is not strained.",
+      "Reverse lamps switch on only when reverse is engaged and ignition is on."
+    ],
+    "faults": [
+      {
+        "symptom": "Reverse lamps do not illuminate in reverse",
+        "causes": "Inspect the fuse, lamps, connector, wiring and reverse-light switch; the fetched sources do not provide a JR5-specific diagnostic sequence."
+      }
+    ]
+  }
+]
