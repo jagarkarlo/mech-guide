@@ -1,0 +1,2454 @@
+[
+  {
+    "id": "k4m-ac-compressor",
+    "name": "A/C compressor (K4M)",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      1.45,
+      0.65,
+      -0.35
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Remove and replace the K4M-compatible compressor, preserve the refrigerant circuit, and recharge it with a service station. The cited procedure explicitly groups K4M with K4J and K9K; use the K4M-specific torque set, not the separate F4R/F9Q set.",
+    "safety": [
+      "Refrigerant must be recovered with an approved A/C service station; do not vent it.",
+      "Disconnect the battery negative terminal before electrical or mechanical work.",
+      "Replace the accessory belt if it has been removed."
+    ],
+    "tools": [
+      "Vehicle lift and axle stand",
+      "Approved refrigerant recovery/recharge station",
+      "Wheel and trim tools",
+      "Torque wrench",
+      "Refrigerant-line plugs"
+    ],
+    "parts": [
+      {
+        "name": "A/C compressor",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "A/C compressor",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Compressor-to-line O-rings",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Compressor-to-line O-rings",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "Remplacer les joints d’étanchéité",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      },
+      {
+        "name": "Accessory belt",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Accessory belt",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "Remplacer impérativement une courroie déposée",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "compressor-mounting-bolts",
+        "fastener": "Compressor mounting bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 25,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Compresseur",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "K4J ou K4M ou K9K; vis de fixation du compresseur 2,5 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "compressor-line-fittings",
+        "fastener": "Compressor refrigerant-line fittings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Compresseur",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "K4J ou K4M ou K9K; vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "compressor-reinforcement-plate",
+        "fastener": "Compressor reinforcement-plate bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Compresseur",
+            "url": "https://www.manuelmeg.org/compresseur-400.html",
+            "locator": "K4J ou K4M ou K9K; vis de fixation de la plaque de renfort 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Refrigerant type",
+        "value": null,
+        "sources": [],
+        "notes": "Not stated in the K4M compressor page fetched; identify the vehicle specification from its label/service data."
+      },
+      {
+        "group": "Air conditioning",
+        "label": "Refrigerant charge quantity",
+        "value": null,
+        "sources": [],
+        "notes": "Not stated in the K4M compressor page fetched; do not infer a charge value."
+      },
+      {
+        "group": "Compressor lubrication",
+        "label": "Oil type",
+        "value": null,
+        "sources": [],
+        "notes": "The page refers only to the prescribed A/C oil; it does not identify the oil specification."
+      },
+      {
+        "group": "Compressor lubrication",
+        "label": "Oil quantity",
+        "value": null,
+        "sources": [],
+        "notes": "The source says not to add oil when replacing the compressor; it gives no total system oil capacity."
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover refrigerant with a service station, disconnect the battery negative terminal, and remove the under-engine cover, right-front wheel, wheel-arch liner, and front bumper."
+      },
+      {
+        "text": "Remove the reinforcement plate and accessory belt, then cap the opened compressor lines to keep contamination out."
+      },
+      {
+        "text": "Disconnect the compressor electrical plug, remove its mounting bolts, and lift the unit out."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit new line seals and lubricate them with the prescribed A/C oil; reconnect the lines and electrical plug."
+      },
+      {
+        "text": "Refit the compressor and reinforcement plate to the K4M torque specifications, and replace the removed accessory belt."
+      },
+      {
+        "text": "Recharge the refrigerant circuit using the approved station; do not add oil solely because the compressor was replaced."
+      }
+    ],
+    "checks": [
+      "Check for refrigerant leakage and confirm cold-air operation with the cabin blower running.",
+      "If cooling is absent, use proper leak-detection and diagnostic procedures."
+    ],
+    "faults": [
+      {
+        "symptom": "No or weak cooling",
+        "causes": "Refrigerant leak, compressor/electrical fault, or another A/C system fault; diagnose rather than adding an assumed refrigerant or oil quantity."
+      }
+    ]
+  },
+  {
+    "id": "ac-condenser",
+    "name": "A/C condenser",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      2,
+      0.58,
+      0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Replace the condenser after refrigerant recovery and front-end access. The fetched procedure gives an oil compensation amount but its removal sequence contains a separate F9Q/K9K branch, so its K4M torque applicability is not assumed here.",
+    "safety": [
+      "Recover refrigerant with an approved service station; never release it to atmosphere.",
+      "Disconnect the battery negative terminal before dismantling.",
+      "Cap open refrigerant ports promptly."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Approved refrigerant recovery/recharge station",
+      "Front bumper and fascia tools",
+      "Line plugs",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "A/C condenser",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "A/C condenser",
+            "url": "https://www.manuelmeg.org/condenseur-398.html",
+            "locator": "Déposer le condenseur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Condenser-line O-rings",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Condenser-line O-rings",
+            "url": "https://www.manuelmeg.org/condenseur-398.html",
+            "locator": "Remplacer les joints d’étanchéité",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "condenser-line-fittings",
+        "fastener": "Condenser refrigerant-line fittings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The page has an engine-specific removal branch that does not explicitly identify K4M applicability for its torque table."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Oil compensation when replacing condenser",
+        "value": "30 ml added to the recovered quantity",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Condenseur",
+            "url": "https://www.manuelmeg.org/condenseur-398.html",
+            "locator": "Lors d’un remplacement de condenseur, ajouter 30 ml d’huile préconisée à la quantité récupérée.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Air conditioning",
+        "label": "Refrigerant type and charge quantity",
+        "value": null,
+        "sources": [],
+        "notes": "Not stated in the fetched condenser page; confirm using vehicle-specific service data."
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover the refrigerant, disconnect the battery negative terminal, and remove the front bumper and front fascia."
+      },
+      {
+        "text": "Disconnect the condenser pipes, cap the opened ports, then remove the condenser from its mounts."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the condenser with sound seals, lubricated with the prescribed A/C oil; replace a line if its seal surface is damaged."
+      },
+      {
+        "text": "Reassemble, add the documented oil compensation to the amount recovered, evacuate and recharge the system with the service station."
+      }
+    ],
+    "checks": [
+      "Verify the condenser is secure and the refrigerant circuit is leak-free.",
+      "Run the cabin blower at high speed and confirm that the A/C cools."
+    ],
+    "faults": []
+  },
+  {
+    "id": "ac-receiver-drier",
+    "name": "A/C receiver-dehydrator",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      1.95,
+      0.56,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Replace the receiver-dehydrator after recovering the refrigerant; protect all opened pipes from moisture and debris.",
+    "safety": [
+      "Recover refrigerant with an approved station; do not vent it.",
+      "Disconnect the battery negative terminal.",
+      "Keep open circuit ports capped and replace line seals."
+    ],
+    "tools": [
+      "Approved refrigerant recovery/recharge station",
+      "Front bumper/fascia tools",
+      "Line plugs",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Receiver-dehydrator",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Receiver-dehydrator",
+            "url": "https://www.manuelmeg.org/bouteille_d_eacute_shydratante-399.html",
+            "locator": "Extraire la bouteille en la soulevant",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      },
+      {
+        "name": "Receiver-line seals",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Receiver-line seals",
+            "url": "https://www.manuelmeg.org/bouteille_d_eacute_shydratante-399.html",
+            "locator": "Remplacer les joints d’étanchéité",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "receiver-line-fittings",
+        "fastener": "Receiver refrigerant-line fittings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bouteille déshydratante",
+            "url": "https://www.manuelmeg.org/bouteille_d_eacute_shydratante-399.html",
+            "locator": "vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Oil compensation when replacing receiver-dehydrator",
+        "value": "15 ml added to the recovered quantity",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bouteille déshydratante",
+            "url": "https://www.manuelmeg.org/bouteille_d_eacute_shydratante-399.html",
+            "locator": "Lors d’un remplacement de bouteille, ajouter 15 ml d’huile préconisée à la quantité récupérée.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Air conditioning",
+        "label": "Refrigerant type and charge quantity",
+        "value": null,
+        "sources": [],
+        "notes": "Not stated on the fetched receiver-dehydrator page."
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover refrigerant with the service station, disconnect the battery, and remove the front bumper and front fascia."
+      },
+      {
+        "text": "Disconnect and cap both receiver pipes, then lift the receiver-dehydrator out."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the replacement receiver with new seals lubricated using the prescribed A/C oil."
+      },
+      {
+        "text": "Reconnect the pipes, add the documented oil compensation, then evacuate and recharge the circuit with the service station."
+      }
+    ],
+    "checks": [
+      "Check pipe joints for leaks and confirm correct cooling operation."
+    ],
+    "faults": []
+  },
+  {
+    "id": "ac-evaporator",
+    "name": "A/C evaporator assembly",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      0.6,
+      0.78,
+      0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 360,
+    "summary": "The evaporator is supplied installed in its housing; replacement requires removal of the dashboard and HVAC case. The procedure explicitly calls for airbag-module lockout before related work.",
+    "safety": [
+      "Before any work involving the airbag system, lock the airbag ECU with the diagnostic tool.",
+      "Recover refrigerant with an approved station and disconnect the battery negative terminal.",
+      "Catch coolant from the heater hoses and protect the cabin carpet."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Approved refrigerant recovery/recharge station",
+      "Coolant hose clamps",
+      "Dashboard/interior trim tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Evaporator and case assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Evaporator and case assembly",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "L’évaporateur est livré monté dans son boîtier",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      },
+      {
+        "name": "Refrigerant-line seals",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Refrigerant-line seals",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "Remplacer les joints d’étanchéité",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "evaporator-case-fasteners",
+        "fastener": "Evaporator-case fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 6.5,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Evaporateur",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "vis de fixation du boîtier évaporateur 0,65 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "evaporator-line-fittings",
+        "fastener": "Evaporator refrigerant-line fittings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Evaporateur",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "evaporator-elastic-mount",
+        "fastener": "Elastic mounting fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Evaporateur",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "vis de fixation du plot élastique 0,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Oil compensation when replacing evaporator",
+        "value": "30 ml added to the recovered quantity",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Evaporateur",
+            "url": "https://www.manuelmeg.org/evaporateur-403.html",
+            "locator": "Lors d’un remplacement d’évaporateur, ajouter 30 ml d’huile préconisée à la quantité récupérée.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Air conditioning",
+        "label": "Refrigerant type and charge quantity",
+        "value": null,
+        "sources": [],
+        "notes": "Not given on the fetched evaporator page."
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover refrigerant, disconnect the battery, cap the A/C lines, and clamp the heater hoses at the bulkhead."
+      },
+      {
+        "text": "Remove the dashboard and cross-car beam as required, disconnect the HVAC case attachments, and catch any coolant."
+      },
+      {
+        "text": "Remove the HVAC assembly and transfer the specified reusable components to the replacement case."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the evaporator in its case, renew the seals, lubricate the seals with prescribed A/C oil, and reconnect the drain and pipes."
+      },
+      {
+        "text": "Reinstall the dashboard and HVAC components, add the documented oil compensation, then evacuate and recharge the refrigerant circuit."
+      },
+      {
+        "text": "Restore the battery and perform required learning procedures; release the airbag ECU lock with the diagnostic tool after assembly."
+      }
+    ],
+    "checks": [
+      "Check refrigerant and coolant circuits for leaks.",
+      "Confirm condensate drains freely and verify HVAC operation."
+    ],
+    "faults": []
+  },
+  {
+    "id": "ac-calibrated-orifice",
+    "name": "A/C calibrated expansion orifice",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      1.8,
+      0.58,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "The calibrated orifice is not a separately replaceable service part in the cited procedure; if defective, replace the condenser-to-evaporator line assembly.",
+    "safety": [
+      "Refrigerant must be recovered with an approved service station before opening the circuit.",
+      "Keep pipe openings capped to prevent moisture or dirt entry."
+    ],
+    "tools": [
+      "Approved refrigerant recovery/recharge station",
+      "Line plugs",
+      "Front-end access tools"
+    ],
+    "parts": [
+      {
+        "name": "Condenser-to-evaporator pipe assembly if the orifice is defective",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Condenser-to-evaporator pipe assembly if the orifice is defective",
+            "url": "https://www.manuelmeg.org/orifice_calibr_eacute_-401.html",
+            "locator": "Remplacer la canalisation condensateur - évaporateur si l’orifice calibré est défectueux",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "orifice-fasteners",
+        "fastener": "Calibrated-orifice fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The orifice is not separately serviceable; the page gives no torque for its line assembly."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Separate replacement availability",
+        "value": "Not separately replaceable",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Orifice calibré",
+            "url": "https://www.manuelmeg.org/orifice_calibr_eacute_-401.html",
+            "locator": "De par sa conception, l’orifice calibré est un élément qui ne peut être remplacé.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover refrigerant and remove the condenser-to-evaporator line using the applicable line-replacement procedure."
+      },
+      {
+        "text": "Do not attempt to extract or replace the calibrated orifice by itself."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Replace the complete condenser-to-evaporator line if the orifice is faulty; renew seals and restore the circuit using approved A/C service equipment."
+      }
+    ],
+    "checks": [
+      "Confirm the A/C circuit is leak-free and cools correctly."
+    ],
+    "faults": []
+  },
+  {
+    "id": "ac-refrigerant-lines",
+    "name": "A/C refrigerant pipes and hoses",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      1.35,
+      0.64,
+      0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Service refrigerant pipe segments individually. The K4M branch is explicit for the condenser-to-evaporator line; connector torque differs by the named line segment, so use the matching spec rather than a blanket value.",
+    "safety": [
+      "Recover refrigerant with an approved service station; never vent it.",
+      "Disconnect the battery negative terminal and plug open ports.",
+      "Replace damaged line seals and do not reuse a pipe with a damaged sealing face."
+    ],
+    "tools": [
+      "Approved refrigerant recovery/recharge station",
+      "Front bumper and wheel-arch tools",
+      "Line plugs",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Compressor-to-condenser line",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Compressor-to-condenser line",
+            "url": "https://www.manuelmeg.org/tuyau_compresseur_condenseur-404.html",
+            "locator": "Extraire le tuyau de liaison compresseur - condenseur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Condenser-to-evaporator line",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Condenser-to-evaporator line",
+            "url": "https://www.manuelmeg.org/tuyau_condenseur_eacute_vaporateur-405.html",
+            "locator": "F9Q ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Evaporator/receiver pipe segment",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Evaporator/receiver pipe segment",
+            "url": "https://www.manuelmeg.org/tuyau_eacute_vaporateur_bouteille_d_eacute_shydratante-406.html",
+            "locator": "F9Q ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Receiver-to-compressor line",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Receiver-to-compressor line",
+            "url": "https://www.manuelmeg.org/tuyau_bouteille_d_eacute_shydratante_compresseur-407.html",
+            "locator": "Extraire le tuyau de liaison de la bouteille - compresseur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "ac-lines-standard-fittings",
+        "fastener": "Line fittings on compressor-condenser, evaporator/receiver, and receiver-compressor segments",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau compresseur-condenseur",
+            "url": "https://www.manuelmeg.org/tuyau_compresseur_condenseur-404.html",
+            "locator": "vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau évaporateur-bouteille déshydratante",
+            "url": "https://www.manuelmeg.org/tuyau_eacute_vaporateur_bouteille_d_eacute_shydratante-406.html",
+            "locator": "F9Q ou K4M ou K9K; vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau bouteille-compresseur",
+            "url": "https://www.manuelmeg.org/tuyau_bouteille_d_eacute_shydratante_compresseur-407.html",
+            "locator": "vis de fixation des raccords de canalisations 1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ac-condenser-evaporator-fittings",
+        "fastener": "Condenser-to-evaporator line fittings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau condenseur-évaporateur",
+            "url": "https://www.manuelmeg.org/tuyau_condenseur_eacute_vaporateur-405.html",
+            "locator": "F9Q ou K4M ou K9K; vis de fixation des raccords de canalisations 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "notes": "This value applies to the named condenser-to-evaporator line; do not substitute the 10 Nm value listed for other pipe segments."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Air conditioning",
+        "label": "Oil compensation when replacing a line",
+        "value": "10 ml added to recovered quantity",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau compresseur-condenseur",
+            "url": "https://www.manuelmeg.org/tuyau_compresseur_condenseur-404.html",
+            "locator": "Lors d’un remplacement de canalisation, ajouter 10 ml d’huile préconisée à la quantité d’huile récupérée.",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tuyau condenseur-évaporateur",
+            "url": "https://www.manuelmeg.org/tuyau_condenseur_eacute_vaporateur-405.html",
+            "locator": "Lors d’un remplacement de canalisation, ajouter 10 ml d’huile préconisée à la quantité récupérée.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Recover refrigerant, disconnect the battery, remove the required front-end or wheel-arch access parts, then disconnect the selected line at both ends."
+      },
+      {
+        "text": "Cap openings and remove the pipe from its retaining clips; use the K4M branch where identified."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit new seals lubricated with the prescribed A/C oil, route the pipe correctly, and tighten the fittings to the torque for that exact line segment."
+      },
+      {
+        "text": "Add the documented oil compensation for a replaced line, then evacuate and recharge the system with the service station."
+      }
+    ],
+    "checks": [
+      "Inspect for leaks and confirm cooling performance."
+    ],
+    "faults": []
+  },
+  {
+    "id": "ac-pressure-sensor",
+    "name": "A/C refrigerant pressure sensor",
+    "system": "HVAC",
+    "subsystem": "Air conditioning",
+    "position": [
+      1.95,
+      0.62,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "Replace the three-function pressure sensor at the condenser outlet. The source says its automatic shutoff valve isolates the refrigerant circuit during sensor removal, so recovery is not required for this sensor-only operation.",
+    "safety": [
+      "Disconnect the battery negative terminal before electrical work.",
+      "Do not disturb the refrigerant circuit beyond the sensor/valve arrangement described in the procedure."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Torque screwdriver",
+      "Front bumper tools"
+    ],
+    "parts": [
+      {
+        "name": "Three-function A/C pressure sensor",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Three-function A/C pressure sensor",
+            "url": "https://www.manuelmeg.org/capteur_de_pression-408.html",
+            "locator": "capteur de pression de type trifonction installé à la sortie du condensateur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Sensor O-ring",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Sensor O-ring",
+            "url": "https://www.manuelmeg.org/capteur_de_pression-408.html",
+            "locator": "Vérifier le bon état du joint torique",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "ac-pressure-sensor",
+        "fastener": "A/C pressure sensor",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 9,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression",
+            "url": "https://www.manuelmeg.org/capteur_de_pression-408.html",
+            "locator": "capteur de pression 0.9 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Pressure sensing",
+        "label": "Low-pressure cut-off",
+        "value": "2 bar",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression",
+            "url": "https://www.manuelmeg.org/capteur_de_pression-408.html",
+            "locator": "coupure basse pression : 2 bars",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Pressure sensing",
+        "label": "High-pressure cut-off",
+        "value": "27 bar",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression",
+            "url": "https://www.manuelmeg.org/capteur_de_pression-408.html",
+            "locator": "coupure haute pression : 27 bars",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Raise the vehicle, disconnect the battery, and remove the front bumper for sensor access."
+      },
+      {
+        "text": "Disconnect the sensor plug and unscrew the sensor from its outlet port."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Check the O-ring condition, fit the sensor, reconnect its plug, and tighten to the documented torque."
+      },
+      {
+        "text": "Reconnect the battery and perform the prescribed post-battery learning checks."
+      }
+    ],
+    "checks": [
+      "Verify normal A/C operation and check for leakage around the sensor."
+    ],
+    "faults": []
+  },
+  {
+    "id": "heater-core",
+    "name": "Heater matrix (heater core)",
+    "system": "HVAC",
+    "subsystem": "Heating",
+    "position": [
+      0.58,
+      0.66,
+      0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "Replace the heater matrix from the cabin side. The procedure varies by steering position and requires coolant hose isolation, cabin trim removal, cooling-system refill, and bleeding.",
+    "safety": [
+      "Disconnect the battery negative terminal.",
+      "Clamp the heater hoses at the bulkhead and protect the carpet from coolant.",
+      "After assembly, refill and bleed the cooling system and pressure-check it."
+    ],
+    "tools": [
+      "Coolant hose clamps",
+      "Coolant catch container",
+      "Trim tools",
+      "Torque wrench",
+      "Cooling-system pressure tester"
+    ],
+    "parts": [
+      {
+        "name": "Heater matrix",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Heater matrix",
+            "url": "https://www.manuelmeg.org/radiateur_de_chauffage-383.html",
+            "locator": "Extraire le radiateur de chauffage",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      },
+      {
+        "name": "Heater-matrix seals",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Heater-matrix seals",
+            "url": "https://www.manuelmeg.org/radiateur_de_chauffage-383.html",
+            "locator": "Lors du remplacement du radiateur, remplacer impérativement les joints",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "heater-cross-car-reinforcement",
+        "fastener": "Cross-car reinforcement plate fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Radiateur de chauffage",
+            "url": "https://www.manuelmeg.org/radiateur_de_chauffage-383.html",
+            "locator": "vis de fixation de la tôle de renfort de poutre (2,1 daN.m)",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "heater-elastic-mount",
+        "fastener": "HVAC case elastic-mount fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Radiateur de chauffage",
+            "url": "https://www.manuelmeg.org/radiateur_de_chauffage-383.html",
+            "locator": "vis du plot élastique (0,2 daN.m)",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Cooling system",
+        "label": "Coolant refill quantity",
+        "value": null,
+        "sources": [],
+        "notes": "Not stated on this heater-matrix page; use the vehicle-specific cooling-system procedure."
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery and clamp the heater hoses at the bulkhead."
+      },
+      {
+        "text": "Remove the relevant footwell trim, air ducting, and reinforcement access parts for the vehicle steering configuration."
+      },
+      {
+        "text": "Release the heater-pipe retainer, protect the carpet, disconnect the matrix pipes, and withdraw the matrix."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the replacement matrix with new seals, reconnect its pipes and retainer, and reassemble the cabin trim."
+      },
+      {
+        "text": "Refill and bleed the cooling system, reconnect the battery, and pressure-test the system."
+      }
+    ],
+    "checks": [
+      "Check for coolant leaks at the matrix and bulkhead connections.",
+      "Confirm warm air output and correct HVAC airflow."
+    ],
+    "faults": []
+  },
+  {
+    "id": "cabin-blower-motor",
+    "name": "Cabin blower motor",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.55,
+      0.65,
+      -0.3
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Remove the blower assembly from below the dashboard after gaining footwell access. The procedure requires removal of the driver-side reinforcement plate and pedal assembly on LHD vehicles.",
+    "safety": [
+      "Disconnect the battery negative terminal.",
+      "Support the pedal assembly and avoid stressing its wiring and brake-booster pushrod area."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Cabin blower motor assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Cabin blower motor assembly",
+            "url": "https://www.manuelmeg.org/groupe_motoventilateur_habitacle-384.html",
+            "locator": "Extraire le groupe motoventilateur de son emplacement",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "blower-cross-car-reinforcement",
+        "fastener": "Cross-car reinforcement fasteners (LHD procedure)",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe motoventilateur habitacle",
+            "url": "https://www.manuelmeg.org/groupe_motoventilateur_habitacle-384.html",
+            "locator": "DIRECTION A GAUCHE; vis de fixation de la tôle de renfort de poutre 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "blower-elastic-mount",
+        "fastener": "Blower-case elastic mounting fastener (LHD procedure)",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe motoventilateur habitacle",
+            "url": "https://www.manuelmeg.org/groupe_motoventilateur_habitacle-384.html",
+            "locator": "DIRECTION A GAUCHE; vis de fixation du plot élastique 0,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and remove the footwell trim, ducts, wiring retainers, reinforcement plate, and pedal assembly as required by the LHD procedure."
+      },
+      {
+        "text": "Remove the resistor relay block, unlock the blower tab, rotate the assembly counter-clockwise, disconnect it, and lower it out."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the electrical plug and rotate/lock the blower into its housing."
+      },
+      {
+        "text": "Reinstall the relay block, pedal assembly, reinforcement, ducts, and trim; restore the battery and perform required learning."
+      }
+    ],
+    "checks": [
+      "Test all available blower speeds and listen for rubbing or vibration."
+    ],
+    "faults": []
+  },
+  {
+    "id": "blower-resistor-module",
+    "name": "Blower resistor / power module",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.54,
+      0.65,
+      -0.34
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Replace the blower resistor block or power module through the front footwell. The system configuration determines which module is fitted.",
+    "safety": [
+      "Disconnect the battery negative terminal before unplugging the module.",
+      "Inspect the connector for heat damage before reassembly."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Blower resistor block or power module",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Blower resistor block or power module",
+            "url": "https://www.manuelmeg.org/bloc_de_r_eacute_sistances_de_chauffage-387.html",
+            "locator": "Extraire le bloc de résistances de chauffage",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "blower-resistor-mount",
+        "fastener": "Resistor-block mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bloc de résistances de chauffage",
+            "url": "https://www.manuelmeg.org/bloc_de_r_eacute_sistances_de_chauffage-387.html",
+            "locator": "vis de fixation du bloc de résistances de chauffage 0,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "blower-resistor-reinforcement",
+        "fastener": "Cross-car reinforcement fasteners (LHD access)",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bloc de résistances de chauffage",
+            "url": "https://www.manuelmeg.org/bloc_de_r_eacute_sistances_de_chauffage-387.html",
+            "locator": "DIRECTION A GAUCHE; vis de fixation de la tôle de renfort de poutre 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove footwell trim and ducting, and move the reinforcement plate if required for access."
+      },
+      {
+        "text": "Disconnect the resistor-block plug, remove its fasteners, and withdraw the module."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct resistor or power module for the vehicle configuration and reconnect its plug."
+      },
+      {
+        "text": "Reassemble ducts and trim, restore the battery, and complete required learning procedures."
+      }
+    ],
+    "checks": [
+      "Test every blower speed and inspect for hot or loose connector terminals."
+    ],
+    "faults": []
+  },
+  {
+    "id": "hvac-control-panel",
+    "name": "HVAC control panel",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.6,
+      1,
+      0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 60,
+    "summary": "Remove the manual or climate-control panel after taking out the center fascia and any fitted radio/navigation equipment. On cable-operated systems, reconnect the cables to their marked controls.",
+    "safety": [
+      "Disconnect the battery negative terminal before removing the center-console electrical connectors.",
+      "Avoid stretching or kinking mechanical HVAC control cables."
+    ],
+    "tools": [
+      "Radio extraction tools appropriate to fitted equipment",
+      "Trim tool",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "HVAC control panel",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "HVAC control panel",
+            "url": "https://www.manuelmeg.org/tableau_de_commande-413.html",
+            "locator": "Extraire le tableau de commande de chauffage",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "hvac-control-panel-fasteners",
+        "fastener": "HVAC control panel mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tableau de commande",
+            "url": "https://www.manuelmeg.org/tableau_de_commande-413.html",
+            "locator": "vis de fixation de tableau de commande de climatisation 0,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Control layout",
+        "label": "Functions",
+        "value": "Temperature, airflow distribution, blower speed, air conditioning, and air recirculation",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tableau de commande : Fonctionnement",
+            "url": "https://www.manuelmeg.org/tableau_de_commande_fonctionnement-412.html",
+            "locator": "La régulation ... gérée électroniquement par un calculateur intégré au tableau de commande.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove the center lower fascia and center fascia, then remove any fitted radio or navigation unit with the appropriate extraction tool."
+      },
+      {
+        "text": "Unclip the card-reader support as applicable, disconnect its connectors, and remove the HVAC panel fasteners and electrical plugs."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the electrical plugs and, on cable-operated systems, reconnect each cable to its corresponding control without bending it."
+      },
+      {
+        "text": "Secure the control panel, refit the fascia and fitted audio/navigation equipment, then restore the battery."
+      }
+    ],
+    "checks": [
+      "Check temperature, blower speed, recirculation, airflow distribution, and A/C controls."
+    ],
+    "faults": []
+  },
+  {
+    "id": "hvac-recirculation-flap-motor",
+    "name": "Air recirculation flap motor",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.55,
+      0.78,
+      -0.3
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Replace the recirculation actuator at the upper-right side of the HVAC case. Align the flap shaft indexing with the actuator before fitting.",
+    "safety": [
+      "Disconnect the battery negative terminal before unplugging the actuator.",
+      "Take care around the passenger-airbag inhibition switch and associated wiring."
+    ],
+    "tools": [
+      "Trim tools",
+      "Screwdrivers",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Recirculation flap actuator",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Recirculation flap actuator",
+            "url": "https://www.manuelmeg.org/moteur_de_recyclage-416.html",
+            "locator": "Le moteur de recyclage est situé en haut à droite du boîtier de climatisation",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "recirculation-actuator-fasteners",
+        "fastener": "Actuator mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The source provides no actuator screw torque."
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and remove the relevant footwell trim and passenger-side glovebox for access; LHD/RHD access differs."
+      },
+      {
+        "text": "Disconnect the actuator plug, remove the three fasteners, and lift the actuator from the HVAC case."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Turn the flap shaft as required to align its index with the actuator, then refit and connect the actuator."
+      },
+      {
+        "text": "Reassemble trim and restore the battery."
+      }
+    ],
+    "checks": [
+      "Confirm recirculation changes correctly and no clicking or binding is present."
+    ],
+    "faults": []
+  },
+  {
+    "id": "hvac-temperature-mix-flap-motor",
+    "name": "Air temperature-mix flap motor",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.55,
+      0.72,
+      -0.3
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Replace the temperature-mix actuator at the lower-left side of the HVAC case. The access path differs with steering position.",
+    "safety": [
+      "Disconnect the battery negative terminal before unplugging the actuator.",
+      "Move trim and reinforcement carefully to avoid damaging the HVAC case or wiring."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Temperature-mix flap actuator",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Temperature-mix flap actuator",
+            "url": "https://www.manuelmeg.org/moteur_de_mixage-417.html",
+            "locator": "Le moteur de mixage est situé en bas à gauche du boîtier de climatisation",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "mix-flap-cross-car-reinforcement",
+        "fastener": "Cross-car reinforcement fasteners (LHD access)",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Moteur de mixage",
+            "url": "https://www.manuelmeg.org/moteur_de_mixage-417.html",
+            "locator": "DIRECTION A GAUCHE; vis de fixation de la tôle de renfort de traverse 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "mix-flap-elastic-mount",
+        "fastener": "Elastic mount fastener (LHD access)",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 2,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Moteur de mixage",
+            "url": "https://www.manuelmeg.org/moteur_de_mixage-417.html",
+            "locator": "DIRECTION A GAUCHE; vis de fixation de plot élastique 0,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and remove the footwell trim and side panel; remove additional fascia or reinforcement items as required for steering position."
+      },
+      {
+        "text": "Disconnect the actuator connector, remove its three fasteners, and withdraw it."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Align the actuator index with the flap-shaft position, reconnect the plug, and reinstall the actuator."
+      },
+      {
+        "text": "Refit removed reinforcement, trim, and connectors; restore battery power."
+      }
+    ],
+    "checks": [
+      "Check that temperature changes from cold to warm smoothly without actuator noise."
+    ],
+    "faults": []
+  },
+  {
+    "id": "hvac-air-distribution-flap-motor",
+    "name": "Air distribution flap motor",
+    "system": "HVAC",
+    "subsystem": "Heating and ventilation",
+    "position": [
+      0.55,
+      0.78,
+      -0.26
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Replace the air-distribution actuator at the center-right of the HVAC case; some RHD configurations require dashboard and reinforcement removal.",
+    "safety": [
+      "Disconnect the battery negative terminal before unplugging the actuator.",
+      "If access involves airbag-area trim, follow the airbag ECU lockout procedure before dismantling."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Diagnostic tool where airbag-area work requires it"
+    ],
+    "parts": [
+      {
+        "name": "Air-distribution flap actuator",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Air-distribution flap actuator",
+            "url": "https://www.manuelmeg.org/moteur_de_distribution_-418.html",
+            "locator": "Le moteur de distribution est situé au milieu à droite du boîtier de climatisation",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "distribution-flap-actuator-fasteners",
+        "fastener": "Actuator mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The cited page does not specify a torque for the three actuator screws."
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and remove the relevant footwell trim and glovebox. For RHD access, remove the dashboard and reinforcement as specified by the source procedure."
+      },
+      {
+        "text": "Disconnect the actuator plug, remove its three fasteners, and withdraw the motor."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Align the actuator index with the flap shaft, reinstall the motor, and reconnect its plug."
+      },
+      {
+        "text": "Reassemble the dashboard-side trim and restore the battery; perform required learning procedures."
+      }
+    ],
+    "checks": [
+      "Test every airflow-distribution selection and confirm the flap moves without binding."
+    ],
+    "faults": []
+  },
+  {
+    "id": "cabin-uch",
+    "name": "UCH (cabin control unit)",
+    "system": "Electrical",
+    "subsystem": "Central electrics",
+    "position": [
+      0.48,
+      0.62,
+      -0.35
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Replace the cabin control unit only after saving its vehicle configuration and valve codes with a diagnostic tool. Configuration, key/badge, network-topology, and tyre-pressure-monitor learning are required after replacement.",
+    "safety": [
+      "Disconnect the battery before removing the UCH.",
+      "Use a diagnostic tool to record configuration and tyre-valve codes before replacement.",
+      "Do not pinch or strain the passenger-airbag harness when refitting passenger-side trim."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Trim tools",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "UCH cabin control unit",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "UCH cabin control unit",
+            "url": "https://www.manuelmeg.org/unit_eacute_centrale_habitacle-594.html",
+            "locator": "En cas de remplacement de l’unité centrale habitacle, relever ... les configurations et les codes des valves",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "uch-retaining-screw",
+        "fastener": "UCH retaining screw",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The source says to tighten this screw moderately but does not state a torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Programming",
+        "label": "Required post-replacement tasks",
+        "value": "Vehicle/badge code learning; configure vehicle options; set multiplex-network topology; learn tyre-pressure valves",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Unité centrale habitacle",
+            "url": "https://www.manuelmeg.org/unit_eacute_centrale_habitacle-594.html",
+            "locator": "Effectuer l’apprentissage du code du véhicule et des badges ... Configurer ... Renseigner la topologie ... Effectuer l’apprentissage des valves",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Record the UCH configuration and tyre-valve codes with the diagnostic tool, then disconnect the battery."
+      },
+      {
+        "text": "Remove the fuse access cover, dashboard side trim and footwell trim; release the fuse plate and UCH retaining screw and disengage its clips."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the replacement unit, secure its clips and harnesses, then refit the fuse plate and trim without trapping wiring."
+      },
+      {
+        "text": "Restore battery power and perform the required badge/code, vehicle configuration, network-topology, and tyre-valve learning with the diagnostic tool."
+      }
+    ],
+    "checks": [
+      "Confirm the vehicle starts and the fitted electrical options operate correctly.",
+      "Verify all diagnostic faults are cleared and tyre-pressure sensors are learned."
+    ],
+    "faults": []
+  },
+  {
+    "id": "steering-wheel-switch-assembly",
+    "name": "Steering-wheel switch assembly / rotary connector",
+    "system": "Electrical",
+    "subsystem": "Steering column",
+    "position": [
+      0.5,
+      1,
+      0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The lighting/wiper stalks and rotary connector are a single assembly and are not separately serviceable. The Renault procedure explicitly requires airbag-ECU lockout and replacement of the steering-wheel bolt after removal.",
+    "safety": [
+      "Lock the airbag ECU with the diagnostic tool before beginning.",
+      "Keep the front wheels straight and the rotary connector centered at its zero mark.",
+      "Do not pull or twist the airbag wiring; reconnect matching-color plugs and engage their safety locks.",
+      "After assembly, check the airbag ECU with a diagnostic tool before unlocking it."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Trim tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Combined steering-column switch and rotary connector",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Combined steering-column switch and rotary connector",
+            "url": "https://www.manuelmeg.org/ensemble_de_commandes_sous_volant-538.html",
+            "locator": "La manette d’éclairage, la manette d’essuyage et le contacteur tournant forment une seule pièce",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Steering-wheel bolt",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Steering-wheel bolt",
+            "url": "https://www.manuelmeg.org/ensemble_de_commandes_sous_volant-538.html",
+            "locator": "Remplacer impérativement la vis du volant après chaque démontage",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "steering-wheel-bolt",
+        "fastener": "Steering-wheel retaining bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble de commandes sous volant",
+            "url": "https://www.manuelmeg.org/ensemble_de_commandes_sous_volant-538.html",
+            "locator": "vis du volant 4,4 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replaceAfterUse": true
+      }
+    ],
+    "specs": [
+      {
+        "group": "Serviceability",
+        "label": "Stalks and rotary connector",
+        "value": "Combined as one assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble de commandes sous volant",
+            "url": "https://www.manuelmeg.org/ensemble_de_commandes_sous_volant-538.html",
+            "locator": "La manette d’éclairage, la manette d’essuyage et le contacteur tournant forment une seule pièce; il n’est pas possible de les dissocier.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Lock the airbag ECU using the diagnostic tool, position the front wheels straight, and remove the driver airbag using the specified release method."
+      },
+      {
+        "text": "Disconnect the airbag connectors, remove the steering-wheel bolt and wheel, then remove the column covers."
+      },
+      {
+        "text": "Confirm the rotary connector zero mark aligns with its index before disconnecting and removing the combined switch assembly."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Keep the wheels straight and verify the rotary connector remains centered at zero; reconnect its plugs and refit the column covers."
+      },
+      {
+        "text": "Install the steering wheel freely on its keyed splines with a new bolt, then tighten to the documented torque."
+      },
+      {
+        "text": "Reconnect airbag connectors by matching their colors and engaging their locks; run the airbag diagnostic check before unlocking the ECU."
+      }
+    ],
+    "checks": [
+      "Check steering-wheel controls, indicator and wiper stalks, and horn.",
+      "Verify there is no airbag warning and the diagnostic check passes."
+    ],
+    "faults": []
+  },
+  {
+    "id": "rain-light-sensor",
+    "name": "Rain and light sensor",
+    "system": "Electrical",
+    "subsystem": "Windscreen sensing",
+    "position": [
+      -0.3,
+      1.3,
+      0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 30,
+    "summary": "Remove the sensor from its interior-mirror cover and side clips. Refit only onto a clean windscreen mounting surface; contamination can cause malfunction.",
+    "safety": [
+      "Do not touch the sensor electronics.",
+      "Keep the sensor contact surface and windscreen mount completely clean."
+    ],
+    "tools": [
+      "Small screwdriver",
+      "Wooden scraper or non-marring trim tool"
+    ],
+    "parts": [
+      {
+        "name": "Rain/light sensor",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Rain/light sensor",
+            "url": "https://www.manuelmeg.org/d_eacute_tecteur_de_pluie_et_luminosit_eacute_-553.html",
+            "locator": "Déclipper les deux agrafes latérales du détecteur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "rain-light-sensor-fasteners",
+        "fastener": "Sensor mounting clips",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The source describes clips and adhesive base, not torque fasteners."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Installation",
+        "label": "Adhesive base when reusing sensor after windscreen replacement",
+        "value": "Replace the adhesive base",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Détecteur de pluie et luminosité",
+            "url": "https://www.manuelmeg.org/d_eacute_tecteur_de_pluie_et_luminosit_eacute_-553.html",
+            "locator": "remplacer impérativement l’embase collante du détecteur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the interior mirror cover, release the sensor side clips, and disconnect its electrical plug."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the windscreen mounting area with a non-contaminating tool; replace the adhesive base if the windscreen was changed."
+      },
+      {
+        "text": "Position and clip the sensor onto its mount, reconnect the plug, and reinstall the mirror cover."
+      }
+    ],
+    "checks": [
+      "Test automatic rain sensing and light activation, if equipped."
+    ],
+    "faults": []
+  },
+  {
+    "id": "front-power-window-regulator",
+    "name": "Front electric window regulator and motor",
+    "system": "Electrical",
+    "subsystem": "Door electrical systems",
+    "position": [
+      0.25,
+      0.62,
+      0.72
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The front window motor cannot be replaced separately from the regulator mechanism. Impulse-type units integrate an electronic module and require initialization to restore anti-pinch operation.",
+    "safety": [
+      "Keep hands clear of the glass and regulator while the mechanism is unsecured.",
+      "Initialize an impulse window after replacement to reactivate anti-pinch protection."
+    ],
+    "tools": [
+      "Door trim tools",
+      "Glass support",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Front window regulator and motor assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Front window regulator and motor assembly",
+            "url": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_avant-620.html",
+            "locator": "Le moteur ne peut pas être remplacé seul; son remplacement impose le remplacement du mécanisme complet",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-window-regulator-fasteners",
+        "fastener": "Front regulator fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The cited electrical-system page refers removal of the mechanism to the body repair procedure and gives no torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Window safety",
+        "label": "Impulse-type operation",
+        "value": "Anti-pinch requires motor initialization after replacement",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Moteur de lève-vitre avant",
+            "url": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_avant-620.html",
+            "locator": "Initialiser impérativement les moteurs des lève-vitres électriques impulsionnels pour réactiver la fonction antipincement",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the door trim using the applicable body repair procedure and support the glass before releasing the regulator."
+      },
+      {
+        "text": "Disconnect the motor connector and remove the regulator mechanism using the body repair procedure; do not attempt to separate the motor from the regulator."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the complete regulator/motor assembly and reconnect its plug; secure the glass before removing its support."
+      },
+      {
+        "text": "Initialize impulse-type motors using the vehicle learning procedure before testing one-touch operation."
+      }
+    ],
+    "checks": [
+      "Check smooth full-travel operation, anti-pinch function on impulse versions, and remote closure where fitted."
+    ],
+    "faults": []
+  },
+  {
+    "id": "rear-power-window-regulator",
+    "name": "Rear electric window regulator and motor",
+    "system": "Electrical",
+    "subsystem": "Door electrical systems",
+    "position": [
+      -0.45,
+      0.62,
+      -0.72
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Where fitted, the rear electric window motor is inseparable from the regulator mechanism. Impulse-type motors require initialization for anti-pinch operation; some rear doors use manual regulators instead.",
+    "safety": [
+      "Confirm whether the rear door has manual or electric window equipment before ordering parts.",
+      "Support the glass while the regulator is disconnected.",
+      "Initialize an impulse window after replacement to restore anti-pinch protection."
+    ],
+    "tools": [
+      "Door trim tools",
+      "Glass support",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Rear window regulator and motor assembly (electric versions only)",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Rear window regulator and motor assembly (electric versions only)",
+            "url": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_arri_egrave_re-622.html",
+            "locator": "Le moteur ne peut pas être remplacé seul; son remplacement impose le remplacement du mécanisme complet",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-window-regulator-fasteners",
+        "fastener": "Rear regulator fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The cited page refers removal to the body repair procedure and gives no torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Equipment variants",
+        "label": "Rear window mechanism",
+        "value": "Manual or impulse electric regulator, depending on equipment",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Moteur de lève-vitre arrière",
+            "url": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_arri_egrave_re-622.html",
+            "locator": "Deux types de lève-vitres à l’arrière ... manuel; électrique impulsionnel",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the rear-door trim and support the glass, following the body repair procedure for the fitted regulator type."
+      },
+      {
+        "text": "Disconnect the electric motor and remove the regulator assembly as a complete unit; the motor is not separately replaceable."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the complete regulator assembly and reconnect the motor where fitted."
+      },
+      {
+        "text": "Initialize impulse-type electric motors before testing the anti-pinch and one-touch functions."
+      }
+    ],
+    "checks": [
+      "Confirm smooth glass travel and verify the expected manual/electric operation for the vehicle."
+    ],
+    "faults": []
+  },
+  {
+    "id": "tailgate-lock-actuator",
+    "name": "Tailgate lock and central-locking actuator",
+    "system": "Body",
+    "subsystem": "Central locking",
+    "position": [
+      -2,
+      0.95,
+      0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 60,
+    "summary": "The tailgate lock can be released manually if electrical operation fails. Remove it through the tailgate trim after disconnecting the battery and electrical harness.",
+    "safety": [
+      "Disconnect the battery before unplugging the lock wiring.",
+      "Avoid forcing the tailgate trim or damaging its clips."
+    ],
+    "tools": [
+      "Trim tools",
+      "Screwdriver",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Tailgate lock assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Tailgate lock assembly",
+            "url": "https://www.manuelmeg.org/serrure_de_hayon-607.html",
+            "locator": "Déposer les deux vis de fixation de la serrure de hayon",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "tailgate-lock-fasteners",
+        "fastener": "Tailgate lock mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The source gives no tightening torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Emergency operation",
+        "label": "Manual release",
+        "value": "The lock may be opened manually during an electrical failure",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Serrure de hayon",
+            "url": "https://www.manuelmeg.org/serrure_de_hayon-607.html",
+            "locator": "Il est possible lors d’une défaillance électrique, d’ouvrir le hayon manuellement.",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "If electrical opening has failed, release the tailgate lock manually at its latch before removing the trim."
+      },
+      {
+        "text": "Disconnect the battery, remove the tailgate interior trim, remove the lock fasteners, release the lower clip, and disconnect the harness."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the harness, seat and fasten the lock, then reinstall the tailgate trim."
+      },
+      {
+        "text": "Restore battery power and complete any required learning procedures."
+      }
+    ],
+    "checks": [
+      "Test tailgate release using both central locking and the manual release method."
+    ],
+    "faults": []
+  },
+  {
+    "id": "cabin-dome-light",
+    "name": "Interior dome light",
+    "system": "Lighting",
+    "subsystem": "Interior lighting",
+    "position": [
+      -0.3,
+      1.28,
+      0
+    ],
+    "difficulty": 1,
+    "timeMinutes": 15,
+    "summary": "Remove the dome-light lens and release the retaining tabs to lower the lamp. The lamp configuration varies with trim and may include central lighting, one or two reading spots, or dimming.",
+    "safety": [
+      "Use a non-marring trim tool to avoid scratching the lens or headliner.",
+      "Avoid shorting the lamp terminals when handling the connector."
+    ],
+    "tools": [
+      "Non-marring trim tool"
+    ],
+    "parts": [
+      {
+        "name": "Interior dome-light assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Interior dome-light assembly",
+            "url": "https://www.manuelmeg.org/plafonnier-463.html",
+            "locator": "Déclipper le cache translucide avec l’outil Car.1597",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "dome-light-fasteners",
+        "fastener": "Dome-light retaining tabs",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The cited removal procedure uses clips and provides no torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Equipment variants",
+        "label": "Dome-light functions",
+        "value": "Central lamp switch; may include one or two reading spots and dimming, depending on trim",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Plafonnier : Généralités",
+            "url": "https://www.manuelmeg.org/plafonnier_g_eacute_n_eacute_ralit_eacute_s-462.html",
+            "locator": "Selon l’emplacement du plafonnier et l’équipement du véhicule",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Release the translucent lens from the specified side using a non-marring tool."
+      },
+      {
+        "text": "Pull the retaining tabs and rotate the lamp enough to access its connector."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the lamp and seat the retaining tabs; refit the translucent lens without forcing its edges."
+      }
+    ],
+    "checks": [
+      "Test the central lamp and reading-light switches available on the fitted unit."
+    ],
+    "faults": []
+  },
+  {
+    "id": "roof-aerial",
+    "name": "Roof radio / navigation aerial",
+    "system": "Electrical",
+    "subsystem": "Audio and communications",
+    "position": [
+      -0.8,
+      1.4,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "The aerial is mounted on the roof beneath the headliner. GPS aerial versions integrate the aerial, amplifier, and telephone aerial; equipment level determines the fitted aerial type.",
+    "safety": [
+      "Support the headliner locally to prevent creasing or tearing.",
+      "Protect the roof paint and electrical connectors while removing the aerial."
+    ],
+    "tools": [
+      "Headliner trim tools",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Roof aerial assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Roof aerial assembly",
+            "url": "https://www.manuelmeg.org/antenne-531.html",
+            "locator": "L’antenne est placée sur le pavillon",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "roof-aerial-retaining-nut",
+        "fastener": "Roof aerial retaining nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "No torque is stated on the fetched procedure."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Aerial equipment",
+        "label": "Integrated functions",
+        "value": "GPS version integrates the aerial, amplifier, and dual-band telephone aerial",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Antenne",
+            "url": "https://www.manuelmeg.org/antenne-531.html",
+            "locator": "L’antenne GPS intègre l’antenne, l’amplificateur et l’antenne téléphone (bi-bande).",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Lower the headliner locally, remove the aerial retaining nut, and disconnect the aerial connectors."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the aerial connectors, seat the aerial on the roof, and secure it with its nut."
+      },
+      {
+        "text": "Refit the headliner without pinching wiring or deforming the trim."
+      }
+    ],
+    "checks": [
+      "Check radio reception and navigation/telephone aerial functions fitted to the vehicle."
+    ],
+    "faults": []
+  },
+  {
+    "id": "radio-head-unit",
+    "name": "Radio head unit",
+    "system": "Electrical",
+    "subsystem": "Audio and communications",
+    "position": [
+      0.6,
+      1,
+      0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "Remove the radio through the center fascia using the extraction tool appropriate to the fitted radio/navigation system. Audio and navigation equipment varies by trim.",
+    "safety": [
+      "Disconnect the battery negative terminal before removing electrical connectors.",
+      "Use the matching radio extraction tool to prevent damage to the dashboard or unit."
+    ],
+    "tools": [
+      "Radio extraction tool matched to equipment",
+      "Trim tool"
+    ],
+    "parts": [
+      {
+        "name": "Radio or navigation unit",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Radio or navigation unit",
+            "url": "https://www.manuelmeg.org/tableau_de_commande-413.html",
+            "locator": "Déposer la radio à l’aide de l’outil (Ms. 1373) (si le véhicule en est équipé)",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "radio-retaining-fasteners",
+        "fastener": "Radio retaining clips/fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [],
+        "notes": "The source procedure uses an extraction tool and does not specify torque."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Equipment variants",
+        "label": "Audio/navigation system",
+        "value": "Fitted system may include radio, navigation, or CD changer; the control-panel procedure identifies optional equipment",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Tableau de commande",
+            "url": "https://www.manuelmeg.org/tableau_de_commande-413.html",
+            "locator": "radio ... changeur de disques compacts ... Carminat ... si le véhicule en est équipé",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove the center fascia as required, and extract the radio/navigation unit using its correct release tool."
+      },
+      {
+        "text": "Disconnect the unit harness connectors without pulling on the wiring."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect the radio connectors and fit the unit into its opening; reinstall the fascia and other center equipment."
+      },
+      {
+        "text": "Restore battery power and enter any required security code using the vehicle-specific procedure."
+      }
+    ],
+    "checks": [
+      "Check power, sound output, antenna reception, and any fitted navigation or changer functions."
+    ],
+    "faults": []
+  }
+]
