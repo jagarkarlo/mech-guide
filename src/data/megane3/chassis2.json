@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "brake-master-cylinder",
+    "name": "Brake master cylinder",
+    "system": "Brakes",
+    "subsystem": "Brake hydraulics",
+    "position": [
+      1.48,
+      0.82,
+      0.18
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "Replaces the tandem master cylinder and reservoir. The source procedure explicitly covers the K4M; brake lines must be bled after refitting.",
+    "safety": [
+      "Brake fluid damages paint and nearby components; contain spills and protect surrounding surfaces.",
+      "Use approved lifting/support equipment and keep the hydraulic circuit clean."
+    ],
+    "tools": [
+      "Two-post lift or approved vehicle supports",
+      "Brake-fluid syringe",
+      "Flare-nut spanners",
+      "Torque wrench",
+      "Brake bleeding equipment"
+    ],
+    "parts": [
+      {
+        "name": "Master-cylinder seals",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Maître-cylindre",
+            "url": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html",
+            "locator": "vis de fixation du réservoir 0,85 daN.m; écrous de fixation de maître-cylindre 5 daN.m; écrous de tuyau de frein 1,7 daN.m; procedure explicitement K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "reservoir-to-master-cylinder",
+        "fastener": "Master-cylinder reservoir retaining screw",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8.5,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Maître-cylindre",
+            "url": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html",
+            "locator": "vis de fixation du réservoir 0,85 daN.m; écrous de fixation de maître-cylindre 5 daN.m; écrous de tuyau de frein 1,7 daN.m; procedure explicitement K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "master-cylinder-to-servo",
+        "fastener": "Master-cylinder retaining nuts at brake servo",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 50,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Maître-cylindre",
+            "url": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html",
+            "locator": "vis de fixation du réservoir 0,85 daN.m; écrous de fixation de maître-cylindre 5 daN.m; écrous de tuyau de frein 1,7 daN.m; procedure explicitement K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "master-cylinder-brake-pipe-unions",
+        "fastener": "Brake-pipe union nuts at master cylinder",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Maître-cylindre",
+            "url": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html",
+            "locator": "vis de fixation du réservoir 0,85 daN.m; écrous de fixation de maître-cylindre 5 daN.m; écrous de tuyau de frein 1,7 daN.m; procedure explicitement K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Applicability",
+        "label": "Engine applicability",
+        "value": "K4J, K4M or K9K procedure; applies to K4M",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Maître-cylindre",
+            "url": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html",
+            "locator": "vis de fixation du réservoir 0,85 daN.m; écrous de fixation de maître-cylindre 5 daN.m; écrous de tuyau de frein 1,7 daN.m; procedure explicitement K4J ou K4M ou K9K",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal, remove the battery tray and required intake components, then remove the left-front wheel-arch liner for access."
+      },
+      {
+        "text": "Drain the reservoir with a syringe, unplug its level connector, and disconnect the clutch-feed hose and brake pipes while catching fluid."
+      },
+      {
+        "text": "Undo the servo mounting nuts and withdraw the master cylinder and reservoir together; separate the reservoir if it is being reused."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit new master-cylinder seals and seat the reservoir correctly. Align the master cylinder with the servo pushrod before tightening."
+      },
+      {
+        "text": "Reconnect the hydraulic pipes and clutch-feed hose, refit access parts, then bleed the brake circuit and check carefully for leaks."
+      }
+    ],
+    "checks": [
+      "Confirm the pedal is firm and the fluid level is correct after bleeding.",
+      "Check all pipe unions and the master-cylinder/servo interface for leakage."
+    ],
+    "faults": []
+  },
+  {
+    "id": "brake-servo",
+    "name": "Brake servo (vacuum booster)",
+    "system": "Brakes",
+    "subsystem": "Brake hydraulics",
+    "position": [
+      1.48,
+      0.83,
+      0.17
+    ],
+    "difficulty": 4,
+    "timeMinutes": 210,
+    "summary": "Removes and refits the brake booster. The source explicitly includes K4M and gives different pushrod reference dimensions by steering side.",
+    "safety": [
+      "Brake fluid can spill during master-cylinder removal; protect paint and electrical parts.",
+      "Do not dismantle the sealed booster or pull its pushrod apart."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Battery tools",
+      "Torque wrench",
+      "Brake bleeding equipment",
+      "Hand tools"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "brake-servo-mounting",
+        "fastener": "Brake-servo mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amplificateur de freinage",
+            "url": "https://www.manuelmeg.org/amplificateur_de_freinage-344.html",
+            "locator": "F4R ou K4J ou K4M ou K9K; vis de fixation de l’amplificateur 2,1 daN.m; direction à gauche X1 = 163,7 mm; direction à droite X1 = 133,2 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Installation reference",
+        "label": "Pushrod reference, left-hand drive",
+        "value": "163.7 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amplificateur de freinage",
+            "url": "https://www.manuelmeg.org/amplificateur_de_freinage-344.html",
+            "locator": "F4R ou K4J ou K4M ou K9K; vis de fixation de l’amplificateur 2,1 daN.m; direction à gauche X1 = 163,7 mm; direction à droite X1 = 133,2 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Installation reference",
+        "label": "Pushrod reference, right-hand drive",
+        "value": "133.2 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amplificateur de freinage",
+            "url": "https://www.manuelmeg.org/amplificateur_de_freinage-344.html",
+            "locator": "F4R ou K4J ou K4M ou K9K; vis de fixation de l’amplificateur 2,1 daN.m; direction à gauche X1 = 163,7 mm; direction à droite X1 = 133,2 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal and remove the master cylinder following its separate procedure."
+      },
+      {
+        "text": "Disconnect the brake-pedal clevis pin from the booster pushrod in the cabin. Remove the access cowl clips and booster mounting screws, then withdraw the booster."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Before installation, verify the pushrod reference dimension for the vehicle steering side. Refit in reverse order and tighten the booster screws to the sourced torque."
+      },
+      {
+        "text": "Refit the master cylinder, reconnect the battery and bleed the brake circuit."
+      }
+    ],
+    "checks": [
+      "Verify the pedal/booster linkage moves freely and the brake circuit is leak-free."
+    ],
+    "faults": []
+  },
+  {
+    "id": "abs-esp-hydraulic-unit",
+    "name": "ABS/ESP hydraulic control unit",
+    "system": "Brakes",
+    "subsystem": "ABS/ESP hydraulics",
+    "position": [
+      1.42,
+      0.72,
+      -0.16
+    ],
+    "difficulty": 5,
+    "timeMinutes": 360,
+    "summary": "K4M-specific hydraulic-unit removal/refit procedure for ABS variants 760 or 761. Access is extensive and requires diagnostic brake bleeding.",
+    "safety": [
+      "Brake fluid is corrosive to paint; cap open hydraulic connections immediately.",
+      "If air conditioning is fitted, refrigerant recovery and recharge require suitable service equipment; do not vent refrigerant.",
+      "Do not energize the ABS unit with hydraulic pipes disconnected."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Brake-pedal depressor",
+      "Refrigerant recovery/recharge station if equipped",
+      "Diagnostic tool",
+      "Brake bleeding equipment",
+      "Torque wrench"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "abs-unit-to-support",
+        "fastener": "Hydraulic unit to mounting support screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "abs-pipe-unions",
+        "fastener": "Brake-pipe screws at hydraulic unit",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "abs-support-to-body",
+        "fastener": "Hydraulic-unit support to body screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 65,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "air-distributor-to-engine",
+        "fastener": "Air-distributor mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 9,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ac-pipe-at-hydraulic-unit-access",
+        "fastener": "Air-conditioning pipe screws, if fitted",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "notes": "Conditional value from the K4M procedure for vehicles with air conditioning."
+      }
+    ],
+    "specs": [
+      {
+        "group": "Applicability",
+        "label": "K4M ABS variant",
+        "value": "760 or 761",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Groupe hydraulique",
+            "url": "https://www.manuelmeg.org/groupe_hydraulique-365.html",
+            "locator": "K4M, et 760 ou 761; vis de fixation du groupe hydraulique sur son support 0,8 daN.m; vis des tuyaux 1,7 daN.m; vis du support sur caisse 6,5 daN.m; vis du répartiteur d’air 0,9 daN.m; vis du tuyau de climatisation 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal and hold the brake pedal down with a suitable depressor to limit fluid loss."
+      },
+      {
+        "text": "Where fitted, recover the refrigerant with proper service equipment. Remove the right-front access parts and cowl/intake components required by the K4M procedure."
+      },
+      {
+        "text": "Disconnect the ABS controller connector and the hydraulic pipes, keeping the ports clean and capped. Remove the support assembly, then separate the hydraulic unit from its support."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Mount the hydraulic unit and support, reconnect the pipes and controller, and position the controller earth lead with its wires pointing downward."
+      },
+      {
+        "text": "Refit disturbed intake and air-conditioning parts with sound seals, reconnect the battery, and bleed the brakes using the diagnostic tool."
+      }
+    ],
+    "checks": [
+      "Run the diagnostic bleed routine and confirm the brake circuit is free of air and leaks.",
+      "Confirm the ABS/ESP controller communicates without relevant faults."
+    ],
+    "faults": []
+  },
+  {
+    "id": "rigid-brake-pipes",
+    "name": "Rigid brake pipes and unions",
+    "system": "Brakes",
+    "subsystem": "Brake hydraulics",
+    "position": [
+      1.1,
+      0.57,
+      0.42
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "Identifies the brake-pipe connection standard and replacement-parts restriction. The fetched reference page does not provide a pipe-replacement torque or a complete renewal procedure.",
+    "safety": [
+      "Do not improvise pipe fittings; an incorrect connection can cause brake failure.",
+      "Keep the hydraulic system clean and bleed it using the applicable service procedure after opening it."
+    ],
+    "tools": [
+      "Flare-nut spanners",
+      "Approved brake-pipe tools",
+      "Torque wrench",
+      "Brake bleeding equipment"
+    ],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Hydraulic connections",
+        "label": "Thread standard",
+        "value": "Metric threaded unions",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Raccords et canalisations du circuit de freinage",
+            "url": "https://www.manuelmeg.org/raccords_et_canalisations_du_circuit_de_freinage-293.html",
+            "locator": "raccords filetés au pas métrique; raccords (C) : 6 pans extérieurs de 11 mm; utiliser uniquement des pièces figurant au catalogue des pièces de rechange",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Hydraulic connections",
+        "label": "External hex size",
+        "value": "11 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Raccords et canalisations du circuit de freinage",
+            "url": "https://www.manuelmeg.org/raccords_et_canalisations_du_circuit_de_freinage-293.html",
+            "locator": "raccords filetés au pas métrique; raccords (C) : 6 pans extérieurs de 11 mm; utiliser uniquement des pièces figurant au catalogue des pièces de rechange",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Replacement parts",
+        "label": "Fitting selection",
+        "value": "Use only replacement parts listed for this vehicle",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Raccords et canalisations du circuit de freinage",
+            "url": "https://www.manuelmeg.org/raccords_et_canalisations_du_circuit_de_freinage-293.html",
+            "locator": "raccords filetés au pas métrique; raccords (C) : 6 pans extérieurs de 11 mm; utiliser uniquement des pièces figurant au catalogue des pièces de rechange",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Identify the pipe route and the exact vehicle-listed replacement before disconnecting a union. The source page does not specify a complete pipe-renewal sequence."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install only the matching catalogued pipe and unions, then bleed the opened hydraulic circuit using the applicable service procedure."
+      }
+    ],
+    "checks": [
+      "Inspect for leaks under brake pressure and confirm normal pedal feel."
+    ],
+    "faults": []
+  },
+  {
+    "id": "brake-pedal",
+    "name": "Brake pedal and bracket",
+    "system": "Brakes",
+    "subsystem": "Pedal controls",
+    "position": [
+      0.42,
+      0.46,
+      0.31
+    ],
+    "difficulty": 3,
+    "timeMinutes": 100,
+    "summary": "Pedal removal varies by steering side. Right-hand-drive work includes removal of the brake pedal box and explicit airbag-system precautions.",
+    "safety": [
+      "For right-hand-drive work involving the dashboard/column, lock the airbag control unit with the diagnostic tool before starting.",
+      "Never work on pyrotechnic restraints near heat or flame.",
+      "Do not strike the pedal crash-release feature; inspect the fuse plate and replace a deformed pedal box."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench",
+      "Diagnostic tool where specified"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "brake-pedal-clevis-bracket",
+        "fastener": "Brake-pedal clevis bracket retaining nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale de frein",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_de_frein-347.html",
+            "locator": "direction à gauche; écrous de fixation de la chape de pédale de frein 2,1 daN.m; direction à droite: verrouiller le calculateur airbag avec l’outil de diagnostic avant intervention",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Procedure variants",
+        "label": "Steering-side dependency",
+        "value": "Separate left-hand-drive and right-hand-drive procedures",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale de frein",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_de_frein-347.html",
+            "locator": "direction à gauche; écrous de fixation de la chape de pédale de frein 2,1 daN.m; direction à droite: verrouiller le calculateur airbag avec l’outil de diagnostic avant intervention",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Pedal safety",
+        "label": "Crash-release/fuse-plate inspection",
+        "value": "Replace the pedal box if its fuse plate is deformed",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale de frein",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_de_frein-347.html",
+            "locator": "direction à gauche; écrous de fixation de la chape de pédale de frein 2,1 daN.m; direction à droite: verrouiller le calculateur airbag avec l’outil de diagnostic avant intervention",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the driver-side lower trim and disconnect the brake-pedal position sensor. Separate the clevis pin from the booster pushrod and remove the pedal/bracket fasteners."
+      },
+      {
+        "text": "For right-hand-drive vehicles, follow the airbag-safe procedure: isolate the battery, lock the restraint controller with the diagnostic tool, and remove the column and pedal assemblies as specified."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Refit the pedal and linkage without disturbing the crash-release mechanism; tighten the clevis bracket fasteners to the sourced torque."
+      },
+      {
+        "text": "Refit and adjust the pedal-position sensor, restore the restraint system as prescribed, and reconnect the battery."
+      }
+    ],
+    "checks": [
+      "Confirm the pedal returns freely and the brake lamps operate.",
+      "On applicable right-hand-drive vehicles, verify the airbag controller is unlocked and has no new faults."
+    ],
+    "faults": []
+  },
+  {
+    "id": "brake-pedal-position-sensor",
+    "name": "Brake-pedal position sensor",
+    "system": "Brakes",
+    "subsystem": "Pedal controls",
+    "position": [
+      0.42,
+      0.49,
+      0.31
+    ],
+    "difficulty": 1,
+    "timeMinutes": 20,
+    "summary": "The brake-pedal position sensor is a quarter-turn fitting with automatic adjustment; the fetched procedure does not explicitly identify it as the stop-lamp switch.",
+    "safety": [
+      "Do not force the sensor body or its electrical connector."
+    ],
+    "tools": [
+      "None beyond basic trim access"
+    ],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Adjustment",
+        "label": "Sensor adjustment",
+        "value": "Self-adjusts to pedal position; pull the sensor end fully out before fitting",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de position de pédale de frein",
+            "url": "https://www.manuelmeg.org/capteur_de_position_de_p_eacute_dale_de_frein-349.html",
+            "locator": "tourner le capteur d’un quart de tour dans le sens antihoraire; tirer impérativement sur l’extrémité du capteur pour le positionner au minimum; réglage automatique adapté à la position de pédale",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the sensor electrical connector, rotate the sensor counter-clockwise to release it, then withdraw it from the pedal bracket."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Pull the sensor end fully out to its minimum position, fit it into the bracket and turn it clockwise to lock. Reconnect the plug."
+      }
+    ],
+    "checks": [
+      "Confirm the sensor is locked in its bracket and the connector is secure."
+    ],
+    "faults": []
+  },
+  {
+    "id": "parking-brake-cables",
+    "name": "Parking-brake cables",
+    "system": "Brakes",
+    "subsystem": "Parking brake",
+    "position": [
+      -1.05,
+      0.28,
+      0.12
+    ],
+    "difficulty": 3,
+    "timeMinutes": 120,
+    "summary": "Renews the mechanical parking-brake cables and sets cable adjustment by sheath-stop color; check that the rear wheels turn freely with the brake released.",
+    "safety": [
+      "Support the vehicle securely before working beneath it.",
+      "Release the parking brake before disconnecting the cables from the rear calipers."
+    ],
+    "tools": [
+      "Two-post lift or axle stands",
+      "Trim tools",
+      "Hand tools",
+      "Rule or caliper for cable adjustment"
+    ],
+    "parts": [
+      {
+        "name": "Parking-brake cable retaining nut",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "remplacer systématiquement l’écrou; cote X = 21 mm si la patte d’arrêt de gaine est noire et X = 16 mm si elle est dorée; jeu du levier d’armement 1 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Adjustment",
+        "label": "Cable sheath stop, black",
+        "value": "X = 21 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "remplacer systématiquement l’écrou; cote X = 21 mm si la patte d’arrêt de gaine est noire et X = 16 mm si elle est dorée; jeu du levier d’armement 1 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Adjustment",
+        "label": "Cable sheath stop, gold",
+        "value": "X = 16 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "remplacer systématiquement l’écrou; cote X = 21 mm si la patte d’arrêt de gaine est noire et X = 16 mm si elle est dorée; jeu du levier d’armement 1 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Adjustment",
+        "label": "Lever arm clearance at stop",
+        "value": "1 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "remplacer systématiquement l’écrou; cote X = 21 mm si la patte d’arrêt de gaine est noire et X = 16 mm si elle est dorée; jeu du levier d’armement 1 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the centre console, disconnect the cable adjuster nut, and free both cables at the lever and rear calipers. Note their original routing before withdrawing them."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Route the replacement cables correctly and engage their casing stops fully in the body and caliper brackets. Replace the retaining nut and set the specified dimension according to the stop color."
+      },
+      {
+        "text": "Cycle the parking-brake control to take up slack, then reinstall the centre console."
+      }
+    ],
+    "checks": [
+      "Confirm the parking-brake lever arm clears its stop by the specified amount.",
+      "With the brake released, verify the rear wheels rotate freely."
+    ],
+    "faults": []
+  },
+  {
+    "id": "parking-brake-lever",
+    "name": "Parking-brake lever and switch",
+    "system": "Brakes",
+    "subsystem": "Parking brake",
+    "position": [
+      0.18,
+      0.43,
+      0.24
+    ],
+    "difficulty": 2,
+    "timeMinutes": 75,
+    "summary": "Removes and reinstalls the cabin parking-brake lever and switch, including the cable adjustment connection.",
+    "safety": [
+      "Chock the vehicle and ensure it cannot roll before releasing or disconnecting the parking brake."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench",
+      "Rule or caliper for cable adjustment"
+    ],
+    "parts": [
+      {
+        "name": "Parking-brake cable adjuster nut",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Levier de frein de stationnement",
+            "url": "https://www.manuelmeg.org/levier_de_frein_de_stationnement-351.html",
+            "locator": "écrous de fixation de la commande de frein de parking 8 daN.m; remplacer systématiquement l’écrou de réglage",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "parking-brake-lever-mounting",
+        "fastener": "Parking-brake control mounting nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 80,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Levier de frein de stationnement",
+            "url": "https://www.manuelmeg.org/levier_de_frein_de_stationnement-351.html",
+            "locator": "écrous de fixation de la commande de frein de parking 8 daN.m; remplacer systématiquement l’écrou de réglage",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Adjustment",
+        "label": "Cable sheath stop, black",
+        "value": "X = 21 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "cote X = 21 mm si la patte d’arrêt de gaine est noire",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Adjustment",
+        "label": "Cable sheath stop, gold",
+        "value": "X = 16 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Câbles de frein de stationnement",
+            "url": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+            "locator": "cote X = 16 mm si la patte d’arrêt de gaine est dorée",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the centre console, disconnect the parking-brake cables from the lever, remove the mounting nuts, and unplug the switch."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Refit the lever, reconnect its switch and cables, and tighten the mounting nuts to the sourced torque. Replace the cable adjuster nut and set cable adjustment by sheath-stop color."
+      }
+    ],
+    "checks": [
+      "Check lever return and cable movement, and verify that the rear wheels turn freely with the brake released."
+    ],
+    "faults": []
+  },
+  {
+    "id": "steering-rack",
+    "name": "Steering rack assembly",
+    "system": "Steering",
+    "subsystem": "Steering gear",
+    "position": [
+      1.15,
+      0.48,
+      0.0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "The rack is removed with the front subframe. The source gives its mounting fastener torque and requires wheel/column centering and steering sensor calibration.",
+    "safety": [
+      "Secure the steering wheel in the straight-ahead position before disconnecting the intermediate shaft.",
+      "Disconnect the battery negative terminal before electrical work."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Steering-wheel lock",
+      "Diagnostic tool",
+      "Torque wrench",
+      "Front-subframe support"
+    ],
+    "parts": [
+      {
+        "name": "Rack, subframe and collapsible-yoke fasteners",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Boîtier de direction",
+            "url": "https://www.manuelmeg.org/bo_icirc_tier_de_direction-338.html",
+            "locator": "vis de fixation du boîtier de direction sur le berceau 10,5 N.m; remplacer impérativement les fixations de berceau, de bras de boîtier de direction et de chape rabattable",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "steering-rack-to-subframe",
+        "fastener": "Steering-rack mounting screws to subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10.5,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Boîtier de direction",
+            "url": "https://www.manuelmeg.org/bo_icirc_tier_de_direction-338.html",
+            "locator": "vis de fixation du boîtier de direction sur le berceau 10,5 N.m; remplacer impérativement les fixations de berceau, de bras de boîtier de direction et de chape rabattable",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Post-installation",
+        "label": "Required calibration",
+        "value": "Steering torque/angle sensor learning after alignment",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Boîtier de direction",
+            "url": "https://www.manuelmeg.org/bo_icirc_tier_de_direction-338.html",
+            "locator": "vis de fixation du boîtier de direction sur le berceau 10,5 N.m; remplacer impérativement les fixations de berceau, de bras de boîtier de direction et de chape rabattable",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Center the front wheels and steering wheel, fit the steering lock, then disconnect the battery negative terminal."
+      },
+      {
+        "text": "Remove the front subframe using its separate procedure, then remove the steering-rack mounting screws and withdraw the rack."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the rack with new specified subframe, rack-bracket and collapsible-yoke fasteners. Keep the wheels straight and center the steering column before reconnecting the yoke."
+      },
+      {
+        "text": "Refit the subframe, reconnect the battery, perform wheel alignment, and use diagnostic equipment to learn the steering torque and angle sensor."
+      }
+    ],
+    "checks": [
+      "Verify steering is centered and moves smoothly from lock to lock.",
+      "Initialize the xenon headlamp system if fitted."
+    ],
+    "faults": []
+  },
+  {
+    "id": "steering-column-assembly",
+    "name": "Steering column and intermediate shaft assembly",
+    "system": "Steering",
+    "subsystem": "Steering column",
+    "position": [
+      0.46,
+      0.77,
+      0.0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "The intermediate shaft, steering-wheel shaft and column form a non-dismantleable assembly. The source provides a length check, not a component overhaul procedure.",
+    "safety": [
+      "Never pull on the intermediate shaft after a collision.",
+      "Center and secure the steering wheel before separating the collapsible yoke. The fetched section does not provide a steering-wheel airbag removal procedure."
+    ],
+    "tools": [
+      "Steering-wheel lock",
+      "Measuring tool",
+      "Diagnostic tool for steering sensor calibration"
+    ],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Inspection",
+        "label": "Intermediate-shaft length",
+        "value": "269.35 ± 1 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Axe intermédiaire",
+            "url": "https://www.manuelmeg.org/axe_interm_eacute_diaire-339.html",
+            "locator": "ensemble axe intermédiaire - axe de volant - colonne de direction indémontable; contrôler L = 269,35 +/- 1 mm; ne jamais tirer sur l’axe intermédiaire après un choc",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Construction",
+        "label": "Serviceability",
+        "value": "Intermediate shaft, steering-wheel shaft and column are a non-dismantleable assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Axe intermédiaire",
+            "url": "https://www.manuelmeg.org/axe_interm_eacute_diaire-339.html",
+            "locator": "ensemble axe intermédiaire - axe de volant - colonne de direction indémontable; contrôler L = 269,35 +/- 1 mm; ne jamais tirer sur l’axe intermédiaire après un choc",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [],
+    "installation": [],
+    "checks": [
+      "If the shaft length is outside the sourced range, replace the complete steering-column assembly."
+    ],
+    "faults": []
+  },
+  {
+    "id": "electric-power-steering-unit",
+    "name": "Electric power-steering assembly",
+    "system": "Steering",
+    "subsystem": "Electric power steering",
+    "position": [
+      0.5,
+      0.78,
+      0.0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 240,
+    "summary": "The electric-assist controller, torque/angle sensor, stepper motor and reduction gear are described as one non-serviceable assembly; use diagnostics rather than dismantling internal components.",
+    "safety": [
+      "Do not dismantle or repair individual parts inside the electric steering assembly.",
+      "If two operators are needed for mechanical diagnosis, disconnect the battery as directed by the source."
+    ],
+    "tools": [
+      "Diagnostic tool"
+    ],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Architecture",
+        "label": "Integrated elements",
+        "value": "Control unit with torque/angle sensor; stepper motor with worm drive and reduction pinion",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Description de la direction assistée",
+            "url": "https://www.manuelmeg.org/description-337.html",
+            "locator": "calculateur de direction assistée électrique équipé d’un capteur de couple et d’angle; moteur électrique pas à pas avec vis sans fin; ne jamais intervenir sur les éléments constitutifs de l’ensemble",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Operation",
+        "label": "Assist characteristic",
+        "value": "Assistance varies with vehicle speed",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Description de la direction assistée",
+            "url": "https://www.manuelmeg.org/description-337.html",
+            "locator": "calculateur de direction assistée électrique équipé d’un capteur de couple et d’angle; moteur électrique pas à pas avec vis sans fin; ne jamais intervenir sur les éléments constitutifs de l’ensemble",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [],
+    "installation": [],
+    "checks": [
+      "Read steering-system faults and confirm the steering-angle/torque sensor calibration before condemning the assembly."
+    ],
+    "faults": [
+      {
+        "symptom": "Steering warning message",
+        "causes": "Electric steering system fault or uncalibrated steering angle, as identified by the vehicle diagnostics."
+      }
+    ]
+  },
+  {
+    "id": "front-subframe",
+    "name": "Front subframe and crossmember",
+    "system": "Suspension",
+    "subsystem": "Front subframe",
+    "position": [
+      1.2,
+      0.34,
+      0.0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "Removes the front subframe assembly. The procedure requires steering centering, a supported subframe, replacement fasteners and subsequent alignment/calibration.",
+    "safety": [
+      "Never support or lift the vehicle using a lower control arm.",
+      "Support the radiator and subframe before releasing their fasteners.",
+      "Lock the steering wheel before disconnecting its collapsible joint."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Steering-wheel lock",
+      "Powertrain/subframe support jack",
+      "Torque wrench",
+      "Diagnostic tool"
+    ],
+    "parts": [
+      {
+        "name": "Subframe and lower-arm fasteners",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-subframe-rear-crossmember",
+        "fastener": "Rear crossmember-to-subframe screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-lower-ball-joint-bolts",
+        "fastener": "Lower ball-joint bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-tie-rod",
+        "fastener": "Subframe tie-rod screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-torque-link-to-subframe",
+        "fastener": "Powertrain torque-link screws at subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-stabilizer-link-nuts",
+        "fastener": "Anti-roll-bar link ball-joint nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-track-rod-end-nuts",
+        "fastener": "Steering track-rod-end nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-radiator-support",
+        "fastener": "Front radiator-crossmember mountings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-side-reinforcement",
+        "fastener": "Side reinforcement screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-collapsible-yoke",
+        "fastener": "Collapsible steering-yoke screw",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 24,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-subframe-wheel-fasteners",
+        "fastener": "Wheel fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Installation",
+        "label": "Radiator-crossmember spacer",
+        "value": "10 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Berceau de train",
+            "url": "https://www.manuelmeg.org/berceau_de_train-314.html",
+            "locator": "vis de la traverse arrière sur le berceau 6,2 daN.m; vis du tirant de berceau 10,5 daN.m; écrous de rotule de direction 3,7 daN.m; cale de 10 mm entre traverse de radiateur et berceau",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Set the front wheels straight, center and lock the steering wheel, then disconnect the battery negative terminal. Support the radiator/crossmember and the subframe."
+      },
+      {
+        "text": "Remove the wheels and undertrays, disconnect wheel-speed sensor wiring and separate the steering tie rods, lower joints and anti-roll-bar links."
+      },
+      {
+        "text": "Support the subframe, release its crossmember and body attachments, and lower the assembly carefully."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Replace the specified subframe and arm fasteners, position the radiator crossmember with the sourced spacer thickness, and refit the assembly."
+      },
+      {
+        "text": "Tighten only the identified fasteners to their sourced values. Restore the battery, perform wheel alignment and steering sensor learning, and initialize xenon lamps if fitted."
+      }
+    ],
+    "checks": [
+      "Confirm all harnesses and sensor connectors are secured and not trapped.",
+      "Perform alignment and steering torque/angle calibration after the work."
+    ],
+    "faults": []
+  },
+  {
+    "id": "rear-axle-beam",
+    "name": "Rear axle beam assembly",
+    "system": "Suspension",
+    "subsystem": "Rear axle",
+    "position": [
+      -1.39,
+      0.3,
+      0.0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "Removes and refits the rear axle beam with springs and connected hardware. The vehicle must be secured to the lift and the axle supported during lowering.",
+    "safety": [
+      "Secure the vehicle to the lift with a safety strap to prevent imbalance.",
+      "Do not lift or support the vehicle by the rear axle beam.",
+      "Tighten lower shock fasteners only with the vehicle resting on its wheels."
+    ],
+    "tools": [
+      "Two-post lift",
+      "Vehicle safety strap",
+      "Axle support jack",
+      "Special rear axle support tool",
+      "Brake pedal depressor",
+      "Torque wrench"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "rear-axle-beam-pivot-mounts",
+        "fastener": "Rear axle beam pivot mounting screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-axle-beam-brake-hose-screws",
+        "fastener": "Brake-hose screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 14,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-axle-beam-shock-lower-mounts",
+        "fastener": "Lower shock absorber mountings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-axle-beam-undertray",
+        "fastener": "Rear axle protective shield screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-axle-beam-wheel-fasteners",
+        "fastener": "Wheel fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Installation geometry",
+        "label": "Shock-mount center distance while positioning the axle",
+        "value": "402 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ensemble du train arrière",
+            "url": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html",
+            "locator": "vis de fixation des paliers 6,2 daN.m; fixations inférieures des amortisseurs 10,5 daN.m; cote entre fixations d’amortisseur 402 mm; vis de flexibles 1,4 daN.m; fixation protection 0,8 daN.m; roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Secure the vehicle on the lift, place a brake-pedal depressor, remove the rear wheels and unclip the parking-brake cables. Disconnect the brake hoses and wheel-speed sensor connectors."
+      },
+      {
+        "text": "Support and strap the axle, release the lower shock mounts and springs as instructed, then lower the supported beam from its body pivots."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reinstall the beam and its components, route brake lines and parking-brake cables correctly, and reconnect the wheel-speed sensors."
+      },
+      {
+        "text": "Set the shock-mount center distance to the sourced installation dimension while positioning the axle. Tighten pivot mounts and brake-hose screws, then refit springs and shocks."
+      },
+      {
+        "text": "Lower the vehicle onto its wheels before tightening the lower shock mounts; reinstall the protective shield and wheels."
+      }
+    ],
+    "checks": [
+      "Bleed the brake circuit if it was opened and inspect for leaks.",
+      "Verify the parking-brake cables are fully seated and wheel-speed wiring is secured."
+    ],
+    "faults": []
+  },
+  {
+    "id": "tpms-sensor-valve",
+    "name": "Tyre-pressure monitoring sensor and valve",
+    "system": "Wheels",
+    "subsystem": "Tyre pressure monitoring",
+    "position": [
+      1.2,
+      0.32,
+      0.78
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "The wheel-mounted sensor measures pressure, temperature and acceleration and transmits its unique code to the body controller. The battery is integral and not serviceable.",
+    "safety": [
+      "Use suitable tyre equipment to avoid damaging the wheel sensor during tyre removal.",
+      "Do not interchange sensor positions; match the valve color marker to the specified wheel position."
+    ],
+    "tools": [
+      "Tyre machine",
+      "Torque wrench",
+      "Diagnostic tool for sensor learning"
+    ],
+    "parts": [
+      {
+        "name": "Sensor valve seal",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Réfection",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+            "locator": "écrou de maintien du capteur 0,8 daN.m; remplacer impérativement le joint, le mécanisme et le bouchon; positionner le capteur correctement sur la jante",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Valve mechanism/core",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Réfection",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+            "locator": "écrou de maintien du capteur 0,8 daN.m; remplacer impérativement le joint, le mécanisme et le bouchon; positionner le capteur correctement sur la jante",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Valve cap",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Réfection",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+            "locator": "écrou de maintien du capteur 0,8 daN.m; remplacer impérativement le joint, le mécanisme et le bouchon; positionner le capteur correctement sur la jante",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "name": "Sensor retaining nut",
+        "replace": "if-worn",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Réfection",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+            "locator": "écrou de maintien du capteur 0,8 daN.m; remplacer impérativement le joint, le mécanisme et le bouchon; positionner le capteur correctement sur la jante",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "tpms-sensor-retaining-nut",
+        "fastener": "TPMS sensor retaining nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Réfection",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+            "locator": "écrou de maintien du capteur 0,8 daN.m; remplacer impérativement le joint, le mécanisme et le bouchon; positionner le capteur correctement sur la jante",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Sensor construction",
+        "label": "Power source",
+        "value": "Integrated, non-removable battery",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Fonctionnement",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_fonctionnement-331.html",
+            "locator": "capteur composé d’une valve, capteur de pression/température/accélération, émetteur radiofréquence et pile indémontable; repères couleur avant gauche vert, avant droit jaune, arrière gauche rouge, arrière droit noir",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel position marker",
+        "label": "Front left",
+        "value": "Green",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Fonctionnement",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_fonctionnement-331.html",
+            "locator": "capteur composé d’une valve, capteur de pression/température/accélération, émetteur radiofréquence et pile indémontable; repères couleur avant gauche vert, avant droit jaune, arrière gauche rouge, arrière droit noir",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel position marker",
+        "label": "Front right",
+        "value": "Yellow",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Fonctionnement",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_fonctionnement-331.html",
+            "locator": "capteur composé d’une valve, capteur de pression/température/accélération, émetteur radiofréquence et pile indémontable; repères couleur avant gauche vert, avant droit jaune, arrière gauche rouge, arrière droit noir",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel position marker",
+        "label": "Rear left",
+        "value": "Red",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Fonctionnement",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_fonctionnement-331.html",
+            "locator": "capteur composé d’une valve, capteur de pression/température/accélération, émetteur radiofréquence et pile indémontable; repères couleur avant gauche vert, avant droit jaune, arrière gauche rouge, arrière droit noir",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel position marker",
+        "label": "Rear right",
+        "value": "Black",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Capteur de pression : Fonctionnement",
+            "url": "https://www.manuelmeg.org/capteur_de_pression_fonctionnement-331.html",
+            "locator": "capteur composé d’une valve, capteur de pression/température/accélération, émetteur radiofréquence et pile indémontable; repères couleur avant gauche vert, avant droit jaune, arrière gauche rouge, arrière droit noir",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Deflate and demount the tyre using suitable equipment, taking care not to strike the sensor. Remove the retaining nut and withdraw the sensor from the rim."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit a new seal, valve mechanism and cap. Position the sensor correctly at the rim opening, seat the seal around the full opening, and tighten the retaining nut to the sourced torque."
+      },
+      {
+        "text": "After sensor or valve replacement, perform the required sensor learning with diagnostic equipment and set the speed rating as directed."
+      }
+    ],
+    "checks": [
+      "Confirm the correct color-coded sensor is at each wheel position.",
+      "Confirm all four sensors are learned and the pressure-monitoring system reports correctly."
+    ],
+    "faults": []
+  },
+  {
+    "id": "wheel-tyre-specifications",
+    "name": "Wheel and tyre specifications",
+    "system": "Wheels",
+    "subsystem": "Wheels and tyres",
+    "position": [
+      1.25,
+      0.32,
+      0.78
+    ],
+    "difficulty": 1,
+    "timeMinutes": 20,
+    "summary": "Reference data for wheel fitment, runout and tyre pressures. Exact tyre-size and pressure chart values were not available in the fetched text, so they remain null.",
+    "safety": [
+      "Check tyre pressures cold and use the vehicle tyre placard for the exact fitment. Never deflate a hot tyre based on a hot reading."
+    ],
+    "tools": [
+      "Tyre-pressure gauge",
+      "Dial indicator for wheel runout"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "wheel-tyre-spec-wheel-fasteners",
+        "fastener": "Wheel fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Tyre fitment",
+        "label": "Vehicle-specific tyre sizes",
+        "value": null,
+        "notes": "The page contains an image/table not exposed in the fetched text; do not treat its generic example marking as a K4M fitment.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pneumatiques : Identification",
+            "url": "https://www.manuelmeg.org/pneumatiques_identification-325.html",
+            "locator": "exemple de marquage de pneumatique; image de tailles non disponible dans le texte extrait",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Tyre pressure",
+        "label": "Cold pressure, full load / motorway",
+        "value": null,
+        "notes": "Pressure chart is embedded as an image and the exact value was not readable in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Tyre pressure",
+        "label": "Hot-pressure increase above cold",
+        "value": "0.2–0.3 bar; do not deflate when hot",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel mounting",
+        "label": "Wheel bolt pattern",
+        "value": "100 mm PCD; four fixings",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Jante : Identification",
+            "url": "https://www.manuelmeg.org/jante_identification-326.html",
+            "locator": "vis de roues inscrites sur un diamètre de 100 mm (quatre fixations)",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel geometry",
+        "label": "Steel-wheel offset",
+        "value": "45 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel geometry",
+        "label": "Alloy-wheel offset",
+        "value": "49 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel runout",
+        "label": "Maximum outer-rim runout, steel",
+        "value": "0.8 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel runout",
+        "label": "Maximum outer-rim runout, alloy",
+        "value": "0.3 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Wheel runout",
+        "label": "Maximum runout on rim face",
+        "value": "0.7 mm",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Caractéristiques roues et pneumatiques",
+            "url": "https://www.manuelmeg.org/caract_eacute_ristiques-328.html",
+            "locator": "pression froide sous pleine charge/autoroute indiquée par tableau illustré; augmentation à chaud 0,2 à 0,3 bar; vis de roue 11 daN.m; voile jante tôle 0,8 mm, aluminium 0,3 mm; faux rond face 0,7 mm; déport 45 mm tôle, 49 mm aluminium",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [],
+    "installation": [],
+    "checks": [
+      "Confirm tyre pressure and fitment against the vehicle placard and wheel markings.",
+      "If tyre size changes, recalibrate the electric steering and tyre-pressure monitoring systems."
+    ],
+    "faults": []
+  },
+  {
+    "id": "wheel-alignment-geometry",
+    "name": "Wheel-alignment geometry",
+    "system": "Wheels",
+    "subsystem": "Alignment specifications",
+    "position": [
+      1.25,
+      0.32,
+      0.0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 60,
+    "summary": "K4M alignment reference. The prose identifies adjustable/non-adjustable angles, but numeric target values are embedded in figures that were not readable in the fetched text.",
+    "safety": [
+      "Use a calibrated alignment rig and the correct vehicle/body configuration.",
+      "After steering-system work or geometry adjustment, perform the required steering-angle/torque sensor learning."
+    ],
+    "tools": [
+      "Four-wheel alignment rig",
+      "Diagnostic tool"
+    ],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Front alignment",
+        "label": "Caster target value",
+        "value": null,
+        "notes": "Source prose says caster is not adjustable; numeric target is not present in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants avant",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_avant-301.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; chasse, carrossage et pivot non réglables; parallélisme réglable par rotation des manchons de biellette",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Front alignment",
+        "label": "Camber target value",
+        "value": null,
+        "notes": "Source prose says camber is not adjustable; numeric target is not present in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants avant",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_avant-301.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; chasse, carrossage et pivot non réglables; parallélisme réglable par rotation des manchons de biellette",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Front alignment",
+        "label": "Steering-axis inclination (pivot) target value",
+        "value": null,
+        "notes": "Source prose says pivot is not adjustable; numeric target is not present in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants avant",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_avant-301.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; chasse, carrossage et pivot non réglables; parallélisme réglable par rotation des manchons de biellette",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Front alignment",
+        "label": "Toe adjustment",
+        "value": "Adjustable by rotating the steering tie-rod sleeves; numeric target is in the unreadable figure",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants avant",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_avant-301.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; chasse, carrossage et pivot non réglables; parallélisme réglable par rotation des manchons de biellette",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Rear alignment",
+        "label": "Camber target value",
+        "value": null,
+        "notes": "Source prose says rear camber is not adjustable; numeric target is not present in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants arrière",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_arri_egrave_re-302.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; carrossage et parallélisme arrière non réglables",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Rear alignment",
+        "label": "Toe target value",
+        "value": null,
+        "notes": "Source prose says rear toe is not adjustable; numeric target is not present in the fetched text.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Valeurs et réglages des trains roulants arrière",
+            "url": "https://www.manuelmeg.org/valeurs_et_r_eacute_glages_des_trains_roulants_arri_egrave_re-302.html",
+            "locator": "F4R ou F9Q ou K4J ou K4M ou K9K; carrossage et parallélisme arrière non réglables",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [],
+    "installation": [],
+    "checks": [
+      "Use the vehicle-specific alignment display values from the readable Renault chart/diagnostic data; do not infer missing targets.",
+      "Perform steering torque/angle sensor learning after adjustment."
+    ],
+    "faults": []
+  },
+  {
+    "id": "clutch-pedal-assembly",
+    "name": "Clutch pedal assembly",
+    "system": "Transmission",
+    "subsystem": "Clutch",
+    "position": [
+      0.4,
+      0.43,
+      0.34
+    ],
+    "difficulty": 3,
+    "timeMinutes": 120,
+    "summary": "Removes and refits the clutch pedal assembly and its start/end-of-travel position switches. The source explicitly includes JR5 hydraulic-line handling in the right-hand-drive procedure.",
+    "safety": [
+      "Disconnect the battery negative terminal before removing the cabin electrical components.",
+      "Do not damage the clutch hydraulic lines; plug open hydraulic connections and bleed the clutch circuit if disconnected."
+    ],
+    "tools": [
+      "Trim tools",
+      "Hand tools",
+      "Torque wrench",
+      "Clutch bleeding equipment"
+    ],
+    "parts": [],
+    "torques": [
+      {
+        "id": "clutch-pedal-platform",
+        "fastener": "Clutch pedal platform retaining nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale d’embrayage",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_d_embrayage-355.html",
+            "locator": "direction à gauche: écrous de platine du pédalier d’embrayage 2,1 daN.m; contacteurs gris et vert auto-réglables; JR5 procedure included",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Pedal switches",
+        "label": "Position-switch adjustment",
+        "value": "Self-adjusting; pull each switch end to its minimum position before fitting",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale d’embrayage",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_d_embrayage-355.html",
+            "locator": "direction à gauche: écrous de platine du pédalier d’embrayage 2,1 daN.m; contacteurs gris et vert auto-réglables; JR5 procedure included",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Gearbox applicability",
+        "label": "Hydraulic-line procedure",
+        "value": "JH3 or JR5",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Pédale d’embrayage",
+            "url": "https://www.manuelmeg.org/p_eacute_dale_d_embrayage-355.html",
+            "locator": "direction à gauche: écrous de platine du pédalier d’embrayage 2,1 daN.m; contacteurs gris et vert auto-réglables; JR5 procedure included",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal and remove the lower trim, cabin fuse/control unit and left air duct as required for access."
+      },
+      {
+        "text": "Twist and disconnect the clutch start- and end-of-travel switches, detach the master-cylinder ball joint, remove the pedal-platform nuts and withdraw the pedal assembly."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Refit the pedal platform and tighten its retaining nuts to the sourced torque. Pull both switch plungers to their minimum position, fit them and rotate them clockwise to lock."
+      },
+      {
+        "text": "Reconnect all plugs and hydraulic connections; bleed the clutch circuit if it was opened, then reconnect the battery."
+      }
+    ],
+    "checks": [
+      "Confirm both pedal-position switches register and the clutch pedal returns smoothly.",
+      "Check for hydraulic leaks and verify clutch operation."
+    ],
+    "faults": []
+  }
+]
