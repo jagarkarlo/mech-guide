@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "k4m-timing-belt-kit",
+    "name": "Timing belt kit — belt, tensioner and idler",
+    "system": "Timing",
+    "position": [
+      1.48,
+      0.69,
+      -0.36
+    ],
+    "difficulty": 5,
+    "timeMinutes": 300,
+    "summary": "K4M timing service. Renault’s procedure requires replacing the belt, tensioner and idler together; exact timing tools and locking sequence are essential.",
+    "safety": [
+      "Support the engine securely before removing the right-side engine support or timing covers.",
+      "Do not rotate the engine backwards. Incorrect timing can cause severe engine damage.",
+      "Do not crank or start the engine with timing components removed."
+    ],
+    "tools": [
+      "Engine support beam",
+      "Timing locking pins and camshaft alignment tools",
+      "Torque wrench",
+      "Angle gauge",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Timing belt",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer la courroie »; procédure K4J ou K4M"
+          }
+        ]
+      },
+      {
+        "name": "Timing belt tensioner",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer ... les galets tendeur »; procédure K4J ou K4M"
+          }
+        ]
+      },
+      {
+        "name": "Timing belt idler roller",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« remplacer ... les galets ... enrouleur »; procédure K4J ou K4M"
+          }
+        ]
+      },
+      {
+        "name": "Crankshaft accessory-pulley bolt",
+        "replace": "if-worn",
+        "notes": "Reusable only if the measured under-head length satisfies the sourced limit; otherwise renew."
+      }
+    ],
+    "torques": [
+      {
+        "id": "idler-fastener",
+        "fastener": "Timing belt idler retaining bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 45,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation du galet enrouleur (4,5 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "crank-pulley-bolt",
+        "fastener": "Crankshaft accessory-pulley bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 40,
+            "unit": "Nm"
+          },
+          {
+            "kind": "angle",
+            "value": 115,
+            "unit": "deg"
+          }
+        ],
+        "instruction": "40 Nm + 115° ±15°",
+        "notes": "The source specifies 4 daN.m plus an angle of 115° ±15°; bolt must not be oiled when new. Reuse requires checking under-head length.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« 4 daN.m + 115 +/- 15 »; « longueur sous tête ne dépasse pas 49,1 mm »"
+          }
+        ]
+      },
+      {
+        "id": "tensioner-preset",
+        "fastener": "Timing belt eccentric tensioner nut — preset",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 7,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« Presserrer au couple l’écrou du galet tendeur (0,7 daN.m) »"
+          }
+        ]
+      },
+      {
+        "id": "tensioner-final",
+        "fastener": "Timing belt eccentric tensioner nut — final",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 27,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« Serrer au couple l’écrou de fixation du galet tendeur (2,7 daN.m) »"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Timing",
+        "label": "Tensioner indicator initial setting",
+        "value": "7–8 mm beyond the fixed index, first tensioner version",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« Faire dépasser l’index mobile ... de 7 à 8 mm »"
+          }
+        ]
+      },
+      {
+        "group": "Fastener reuse",
+        "label": "Crankshaft pulley bolt under-head length",
+        "value": "≤49.1 mm for reuse",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie de distribution (K4J ou K4M)",
+            "url": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+            "accessed": "2026-10-29",
+            "locator": "« longueur sous tête ne dépasse pas 49,1 mm »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove the right-front wheel and liner as needed, and support the engine before loosening its mount."
+      },
+      {
+        "text": "Remove the auxiliary belt and covers required to expose the timing drive; install the crankshaft and camshaft locking tools at the prescribed references."
+      },
+      {
+        "text": "Confirm the crankshaft is seated against its TDC pin and the camshaft grooves align with the locking tool before removing the old belt."
+      },
+      {
+        "text": "Replace the belt, tensioner and idler. Inspect sealing surfaces and keep oil or grease off the belt and timing drive."
+      },
+      {
+        "text": "Fit the belt in the specified order, set the tensioner indicator and tighten the idler, tensioner and crank pulley fasteners to their sourced stages."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Remove the locking tools only at the prescribed point, then rotate the crankshaft by hand in its normal direction for two complete revolutions."
+      },
+      {
+        "text": "Return to TDC without impact, recheck the timing marks and tensioner index, and repeat the setup if either is out of position."
+      },
+      {
+        "text": "Refit covers, mount, wheel and auxiliary belt; reconnect the battery only after all tools and fasteners are accounted for."
+      }
+    ],
+    "checks": [
+      "Timing locks fit without force at TDC.",
+      "Tensioner index remains aligned after hand-rotation and recheck.",
+      "No belt contamination, abnormal noise or warning lamp after reassembly."
+    ],
+    "faults": [
+      {
+        "symptom": "No-start or uneven running after belt work",
+        "causes": "Incorrect crank/cam timing, misplaced belt, or tension outside the specified indicator position."
+      },
+      {
+        "symptom": "Whine or belt-edge wear",
+        "causes": "Incorrect tension, pulley misalignment, or a worn roller."
+      }
+    ]
+  },
+  {
+    "id": "k4m-water-pump",
+    "name": "Water pump",
+    "system": "Cooling",
+    "position": [
+      1.48,
+      0.59,
+      -0.39
+    ],
+    "difficulty": 5,
+    "timeMinutes": 240,
+    "summary": "K4M pump access requires removal of both the accessory and timing belts; renew the pump sealing and restore coolant and timing correctly.",
+    "safety": [
+      "Work only with the engine cool enough to open the cooling circuit safely.",
+      "Support the engine before removing any engine support or timing covers.",
+      "Do not scrape or gouge the aluminum sealing face."
+    ],
+    "tools": [
+      "Engine support beam",
+      "Timing locking tools",
+      "Coolant drain pan",
+      "Torque wrench",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Water pump",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Water-pump sealant / seal",
+        "replace": "always",
+        "notes": "K4M procedure specifies a thin Loctite 518 sealing bead rather than a conventional gasket.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Pompe à eau (K4J/K4M)",
+            "url": "https://www.manuelmeg.org/pompe_agrave_eau-235.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « cordon de LOCTITE 518 »"
+          }
+        ]
+      },
+      {
+        "name": "Coolant",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "pump-m8-fasteners",
+        "fastener": "Water pump M8 retaining fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 22,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Pompe à eau (K4J/K4M)",
+            "url": "https://www.manuelmeg.org/pompe_agrave_eau-235.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation de la pompe à eau M8 ... 2,2 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "pump-m6-fasteners",
+        "fastener": "Water pump M6 retaining fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Pompe à eau (K4J/K4M)",
+            "url": "https://www.manuelmeg.org/pompe_agrave_eau-235.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation de la pompe à eau M6 ... 1 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Drain coolant through the lower radiator hose after the engine has cooled and protect electrical accessories from coolant."
+      },
+      {
+        "text": "Remove the accessory belt, then lock and remove the timing belt using the K4M timing procedure."
+      },
+      {
+        "text": "Remove the timing tensioner as needed for pump access, then remove the pump. Clean the aluminum mating face without scratching it."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Apply the specified Loctite 518 bead and limited thread-sealant drops only at the points described by the K4M procedure."
+      },
+      {
+        "text": "Install the pump and tighten the M6 and M8 fasteners in the prescribed order to their separate sourced torques."
+      },
+      {
+        "text": "Restore the tensioner and timing belt, refill and bleed the cooling circuit, and reconnect the battery after reassembly."
+      }
+    ],
+    "checks": [
+      "No coolant seepage at the pump joint.",
+      "Timing marks and belt tension remain correct after hand-rotation.",
+      "Coolant level and cabin heater operation are stable after bleeding."
+    ],
+    "faults": [
+      {
+        "symptom": "Coolant leak at pump joint",
+        "causes": "Damaged or contaminated mating face, incorrect sealant bead, or uneven tightening."
+      },
+      {
+        "symptom": "Timing noise after pump replacement",
+        "causes": "Incorrect belt routing, tensioner position, or timing alignment."
+      }
+    ]
+  },
+  {
+    "id": "k4m-accessory-belt",
+    "name": "Accessory (auxiliary) belt",
+    "system": "Engine",
+    "position": [
+      1.48,
+      0.66,
+      -0.5
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "K4M accessory-belt service. The fetched Renault procedure specifies an automatic tensioner for air-conditioned K4M applications and requires renewal of a removed belt.",
+    "safety": [
+      "Disconnect the battery before working near the alternator and rotating belt drive.",
+      "Never run the engine without the accessory belt; the source warns of crankshaft accessory-pulley damage.",
+      "Do not rotate the engine backwards."
+    ],
+    "tools": [
+      "Wheel chocks and axle stand",
+      "Socket set",
+      "Tensioner release tool"
+    ],
+    "parts": [
+      {
+        "name": "Accessory belt",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Courroie d’accessoires",
+            "url": "https://www.manuelmeg.org/courroie_d_accessoires-120.html",
+            "accessed": "2026-10-29",
+            "locator": "« Remplacer impérativement une courroie d’accessoires déposée »"
+          }
+        ]
+      },
+      {
+        "name": "Accessory belt tensioner",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "accessory-tensioner-fastener",
+        "fastener": "Accessory belt tensioner retaining fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M-with-air-conditioning tightening value was stated on the fetched procedure page.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery. Raise and support the right-front corner, then remove the wheel, wheel-arch liner and access braces as required."
+      },
+      {
+        "text": "Release the automatic tensioner in the direction specified for the K4M application and remove the belt."
+      },
+      {
+        "text": "Inspect pulley alignment and the tensioner for binding, noise or damaged surfaces."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Route a new belt over every pulley using the correct vehicle layout and maintain control of the tensioner while fitting it."
+      },
+      {
+        "text": "Release the tensioner gradually and check that every rib is seated. Refit the liner and wheel, then reconnect the battery."
+      },
+      {
+        "text": "Turn the engine by hand as appropriate and inspect belt tracking before starting."
+      }
+    ],
+    "checks": [
+      "Belt ribs are seated on all pulleys.",
+      "Tensioner moves smoothly and belt tracks centrally.",
+      "No belt squeal or charging warning after start."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-thermostat",
+    "name": "Thermostat / water outlet",
+    "system": "Cooling",
+    "position": [
+      1.52,
+      0.83,
+      -0.12
+    ],
+    "difficulty": 3,
+    "timeMinutes": 100,
+    "summary": "Thermostat replacement procedure and K4M-specific fastener data were not verified in the fetched sources; values are intentionally withheld.",
+    "safety": [
+      "Allow the engine and cooling system to cool fully before opening the system.",
+      "Never open the expansion tank or bleed screw while the engine is hot or running."
+    ],
+    "tools": [
+      "Coolant drain pan",
+      "Pliers for hose clips",
+      "Torque wrench",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Thermostat and housing seal",
+        "replace": "always"
+      },
+      {
+        "name": "Coolant",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "thermostat-housing-fasteners",
+        "fastener": "Thermostat housing fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M thermostat-housing torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Drain coolant safely and protect electrical connectors from spills."
+      },
+      {
+        "text": "Label and disconnect the hoses and electrical connector at the thermostat housing, then remove the housing without damaging its mating face."
+      },
+      {
+        "text": "Check the old seal and housing for corrosion, cracks or deposits."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct thermostat with a new seal and reconnect the hoses and connector without twisting them."
+      },
+      {
+        "text": "Refill and bleed using the K4M cooling-system procedure; inspect for leaks as the engine warms."
+      }
+    ],
+    "checks": [
+      "Cooling fan operation and cabin heat are normal.",
+      "No leaks at the housing or hose joints.",
+      "Coolant level is stable after cooling."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-radiator",
+    "name": "Radiator",
+    "system": "Cooling",
+    "position": [
+      2,
+      0.6,
+      0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "Radiator removal requires front-end access and draining coolant. The source cautions against damaging radiator, condenser or intercooler fins.",
+    "safety": [
+      "Work with a cool engine and collect coolant for proper disposal.",
+      "Avoid bending air-conditioning pipes or damaging heat-exchanger fins.",
+      "Disconnect the battery before removing front-end electrical connectors."
+    ],
+    "tools": [
+      "Coolant drain pan",
+      "Hose-clip pliers",
+      "Trim tools",
+      "Axle stands",
+      "Hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Radiator",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Coolant",
+        "replace": "always"
+      },
+      {
+        "name": "Hose clips / seals",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "radiator-mount-fasteners",
+        "fastener": "Radiator and front carrier fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M radiator fastener torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove front access panels and detach the front fascia and carrier as needed for the specific body configuration."
+      },
+      {
+        "text": "Drain coolant through the lower radiator hose, then disconnect radiator hoses and fan electrical connectors."
+      },
+      {
+        "text": "Release the radiator without straining air-conditioning lines; separate the fan assembly if needed."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the radiator and fan, reconnect hoses and electrical plugs, and secure the front carrier without crushing fins."
+      },
+      {
+        "text": "Refill and bleed the cooling system, reconnect the battery, and check for leaks and fan operation."
+      }
+    ],
+    "checks": [
+      "No leaks at hose joints or radiator seams.",
+      "Fan operates and airflow through the heat exchangers is unobstructed.",
+      "Cooling system is bled and coolant level remains stable."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-coolant-service",
+    "name": "Coolant drain, refill and bleed",
+    "system": "Cooling",
+    "position": [
+      1.56,
+      0.79,
+      -0.1
+    ],
+    "difficulty": 2,
+    "timeMinutes": 75,
+    "summary": "Renault’s fetched cooling procedure describes draining, refill through the expansion tank, bleeding, then an automatic degassing cycle.",
+    "safety": [
+      "Drain only with the engine warm-but-safe as specified; never rinse a hot engine.",
+      "Never open the expansion tank or bleed screws with the engine hot or running.",
+      "Keep coolant away from electrical parts and collect it for safe disposal."
+    ],
+    "tools": [
+      "Coolant collection pan",
+      "Correct coolant",
+      "Hose-clip pliers",
+      "Approved coolant protection tester"
+    ],
+    "parts": [
+      {
+        "name": "Engine coolant",
+        "replace": "always"
+      },
+      {
+        "name": "Hose clips",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Cooling",
+        "label": "Coolant flush temperature",
+        "value": "Drain with the engine warm; rinse and refill with the engine warm or cold",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Vidange - remplissage du circuit de refroidissement",
+            "url": "https://www.manuelmeg.org/vidange_remplissage_du_circuit_de_refroidissement-230.html",
+            "accessed": "2026-10-29",
+            "locator": "« La vidange doit être effectuée moteur tiède »; « rinçage et remplissage ... moteur tiède ou froid »"
+          }
+        ]
+      },
+      {
+        "group": "Cooling",
+        "label": "K4M bleed point",
+        "value": "Bleed screw on the water outlet / thermostat housing",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Vidange - remplissage du circuit de refroidissement",
+            "url": "https://www.manuelmeg.org/vidange_remplissage_du_circuit_de_refroidissement-230.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de purge sur le boîtier d’eau F4R, K4M, K4J »"
+          }
+        ]
+      },
+      {
+        "group": "Cooling",
+        "label": "Automatic degassing cycle",
+        "value": "2,500 rpm until up to three fan cycles",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Purge du circuit de refroidissement",
+            "url": "https://www.manuelmeg.org/purge_du_circuit_de_refroidissement-231.html",
+            "accessed": "2026-10-29",
+            "locator": "« 2500 tr/min, jusqu’à trois fonctionnements »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Protect electrical accessories and open the lower radiator hose and the identified bleed points to drain the circuit."
+      },
+      {
+        "text": "For flushing, close the bleed points, refill with clean water, drain again and restore the lower hose and clips."
+      },
+      {
+        "text": "Open the water-outlet and heater-hose bleed points, fill through the expansion tank, and close each bleed point when coolant flows continuously."
+      }
+    ],
+    "installation": [
+      {
+        "text": "With the engine stopped and air conditioning disabled, complete the fill and refit the expansion-tank cap."
+      },
+      {
+        "text": "Run the automatic degassing procedure without opening the hot system; top up only after observing the specified safe procedure."
+      },
+      {
+        "text": "Check for leaks, heater output and coolant freeze protection using an approved tester."
+      }
+    ],
+    "checks": [
+      "No air pockets or leaks.",
+      "Cabin heater works and radiator fan cycles normally.",
+      "Recheck coolant level only after the engine has cooled."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-sump-oil-pan",
+    "name": "Sump / oil pan",
+    "system": "Engine",
+    "position": [
+      1.47,
+      0.51,
+      0.02
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "K4M lower-sump removal requires underbody access and careful cleaning and sealing. The fetched Renault procedure specifies the pan fastener torque and staged tightening sequence.",
+    "safety": [
+      "Support the vehicle securely on rated stands or a lift.",
+      "Drain engine oil before removing the sump.",
+      "Use care around the aluminum sealing faces; excess sealant can contaminate the engine or cooling system."
+    ],
+    "tools": [
+      "Oil drain pan",
+      "Socket set",
+      "Plastic scraper",
+      "Torque wrench",
+      "Engine sealant"
+    ],
+    "parts": [
+      {
+        "name": "Sump sealant",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Carter inférieur (K4M)",
+            "url": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « quatre cordons de silicone 12F008 »"
+          }
+        ]
+      },
+      {
+        "name": "Engine oil",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "sump-fasteners",
+        "fastener": "Lower sump retaining bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 14,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Carter inférieur (K4M)",
+            "url": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation du carter inférieur (moteur K4J, K4M, K9K) 1,4 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Sealing",
+        "label": "K4M bead application",
+        "value": "Four 5 mm silicone beads and two 7 mm dabs at specified junctions",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Carter inférieur (K4M)",
+            "url": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html",
+            "accessed": "2026-10-29",
+            "locator": "« quatre cordons ... diamètre de 5 mm »; « deux points ... diamètre de 7 mm »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Drain the engine oil, remove the undertray and the required wheel-arch and lower crossmember supports."
+      },
+      {
+        "text": "Support or restrain the cooling assembly where required, then release the sump fasteners and remove the pan."
+      },
+      {
+        "text": "Clean both mating surfaces until dry and oil-free; keep debris out of the engine."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Apply sealant only at the documented K4M bead and junction locations, then position the pan and anti-slosh plate correctly."
+      },
+      {
+        "text": "Tighten the sump fasteners in the stated sequence, then reinstall removed braces and underbody panels."
+      },
+      {
+        "text": "Refill with the correct engine oil and inspect carefully for leaks."
+      }
+    ],
+    "checks": [
+      "No oil leak at the pan joint.",
+      "Oil level is correct after settling.",
+      "No sealant extrusion into the sump."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-sump-drain-plug",
+    "name": "Oil sump drain plug",
+    "system": "Engine",
+    "position": [
+      1.48,
+      0.48,
+      0.02
+    ],
+    "difficulty": 1,
+    "timeMinutes": 25,
+    "summary": "Oil drain plug torque and washer replacement policy were not verified in a fetched K4M-specific source; do not infer a value.",
+    "safety": [
+      "Use a stable, level work surface and support the vehicle securely.",
+      "Hot oil can cause burns; allow the oil to cool to a safe handling temperature."
+    ],
+    "tools": [
+      "Oil drain pan",
+      "Correct drain-plug tool",
+      "Torque wrench",
+      "Replacement sealing washer if required by the exact plug design"
+    ],
+    "parts": [
+      {
+        "name": "Drain-plug sealing washer",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "sump-drain-plug",
+        "fastener": "Engine sump drain plug",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M drain-plug torque was verified in fetched sources.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Position a drain pan and remove the plug carefully, avoiding contact with hot oil."
+      },
+      {
+        "text": "Inspect the plug threads and sealing face; replace a damaged washer or plug."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Refit the plug squarely and tighten only to a verified K4M specification; do not substitute a generic value."
+      },
+      {
+        "text": "Refill the engine, check the oil level and inspect the plug for seepage."
+      }
+    ],
+    "checks": [
+      "No leakage at the plug after refill.",
+      "Oil level is correct on level ground."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-camshaft-cover-gasket",
+    "name": "Camshaft / rocker cover gasket",
+    "system": "Engine",
+    "position": [
+      1.48,
+      0.9,
+      -0.05
+    ],
+    "difficulty": 3,
+    "timeMinutes": 100,
+    "summary": "K4M cover-gasket torque and the specific sealing procedure were not confirmed in fetched sources; the instructions avoid guessed values.",
+    "safety": [
+      "Work on a cool engine and keep dirt out of the exposed cylinder head.",
+      "Disconnect the battery before disturbing nearby electrical connectors."
+    ],
+    "tools": [
+      "Socket set",
+      "Plastic trim tools",
+      "Torque wrench",
+      "Correct cover gasket"
+    ],
+    "parts": [
+      {
+        "name": "Camshaft-cover gasket",
+        "replace": "always"
+      },
+      {
+        "name": "Spark-plug well seals",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "cam-cover-fasteners",
+        "fastener": "Camshaft cover fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M cover fastener torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove covers and components that obstruct access, labelling electrical plugs and hoses before disconnecting them."
+      },
+      {
+        "text": "Release the cover evenly and lift it without prying against sealing surfaces."
+      },
+      {
+        "text": "Remove old gasket material and inspect the cover for cracks, distortion and oil-filled plug wells."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the correct new gasket and any required well seals; apply sealant only where the vehicle-specific procedure specifies it."
+      },
+      {
+        "text": "Seat the cover evenly and tighten in the manufacturer sequence using a verified torque value before reconnecting hoses and wiring."
+      }
+    ],
+    "checks": [
+      "No oil seepage around the cover or plug wells.",
+      "Ignition connectors are secure and the engine idles normally."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-camshaft-dephaser",
+    "name": "Intake camshaft dephaser / VVT pulley",
+    "system": "Timing",
+    "position": [
+      1.48,
+      0.82,
+      -0.3
+    ],
+    "difficulty": 5,
+    "timeMinutes": 240,
+    "summary": "The K4M uses a continuously controlled intake camshaft dephaser. Its internal operation is described by the fetched source; removal and bolt torque must follow the exact timing procedure.",
+    "safety": [
+      "Treat this as a timing-critical repair; support and lock the engine using the K4M-specific tools.",
+      "Do not loosen the camshaft pulley or dephaser with the engine unrestrained.",
+      "Incorrect cam timing can cause severe engine damage."
+    ],
+    "tools": [
+      "Engine support beam",
+      "K4M timing locking tools",
+      "Torque wrench",
+      "Angle gauge",
+      "Diagnostic scan tool"
+    ],
+    "parts": [
+      {
+        "name": "Intake camshaft dephaser pulley",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Timing belt kit",
+        "replace": "always"
+      },
+      {
+        "name": "Camshaft fastener",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "dephaser-fastener",
+        "fastener": "Intake camshaft dephaser retaining fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "The fetched source describes K4M operation, not a component-removal torque.",
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Operation",
+        "label": "Dephasing range",
+        "value": "Continuously variable from 0 to 43 crankshaft degrees",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Déphaseur d’arbre à cames (K4M)",
+            "url": "https://www.manuelmeg.org/d_eacute_phaseur_d_arbre_agrave_cames-219.html",
+            "accessed": "2026-10-29",
+            "locator": "« Le déphasage varie en continu de 0 à 43 vilebrequin »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Diagnose the control solenoid, wiring and oil condition before dismantling timing components."
+      },
+      {
+        "text": "If mechanical access is required, use the complete K4M timing lock and support procedure; do not rely on paint marks alone."
+      },
+      {
+        "text": "Remove the timing belt and retain the correct relationship between crankshaft and camshaft before removing the dephaser."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct dephaser and any required new fasteners using the exact K4M tightening procedure; no unverified torque is supplied here."
+      },
+      {
+        "text": "Restore timing-belt tension, rotate the engine by hand and recheck timing alignment before starting."
+      },
+      {
+        "text": "Clear only relevant diagnostic codes and confirm commanded cam timing and idle quality with suitable diagnostic equipment."
+      }
+    ],
+    "checks": [
+      "No timing fault codes or unstable idle.",
+      "No abnormal mechanical noise.",
+      "Cam timing and belt tension are confirmed before first start."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-inlet-manifold",
+    "name": "Inlet manifold / intake distribution chamber",
+    "system": "Intake",
+    "position": [
+      1.52,
+      0.82,
+      0.02
+    ],
+    "difficulty": 3,
+    "timeMinutes": 100,
+    "summary": "The K4M intake chamber procedure requires releasing the throttle body, vacuum and fuel connections, wiring and all sealing joints.",
+    "safety": [
+      "Disconnect the battery before disturbing intake wiring.",
+      "Depressurize the fuel system and protect the alternator from fuel spills.",
+      "Do not damage the brake-booster vacuum outlet on the manifold."
+    ],
+    "tools": [
+      "Fuel-line release tool",
+      "Torque wrench",
+      "Socket set",
+      "New manifold seals"
+    ],
+    "parts": [
+      {
+        "name": "Inlet manifold seals",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Répartiteur d’admission (K4M)",
+            "url": "https://www.manuelmeg.org/r_eacute_partiteur_d_admission-130.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « Remplacer systématiquement tous les joints d’étanchéité »"
+          }
+        ]
+      },
+      {
+        "name": "Fuel-line seal",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "inlet-manifold-fasteners",
+        "fastener": "Inlet manifold retaining bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 9,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Répartiteur d’admission (K4M)",
+            "url": "https://www.manuelmeg.org/r_eacute_partiteur_d_admission-130.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du répartiteur d’admission ... 0,9 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "intake-throttle-fasteners",
+        "fastener": "Motorized throttle-body fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Répartiteur d’admission (K4M)",
+            "url": "https://www.manuelmeg.org/r_eacute_partiteur_d_admission-130.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis du boîtier papillon motorisé (1,3 daN.m) »"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de culasse, K4J/K4M",
+            "url": "https://www.manuelmeg.org/joint_de_culasse-122.html",
+            "locator": "« vis de fixation du boîtier papillon (1,5 daN.m) »",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "conflict": "Throttle-body and inlet-manifold pages say 1.3 daN·m (13 Nm); the K4J/K4M head-gasket refit section says 1.5 daN·m (15 Nm)."
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and remove the engine covers and intake duct."
+      },
+      {
+        "text": "Disconnect the throttle connector, brake-booster vacuum hose, vapor-recirculation hose and wiring harness; release the fuel feed carefully."
+      },
+      {
+        "text": "Remove the manifold fasteners in a controlled sequence and lift the intake chamber without forcing the vacuum outlet."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Replace all disturbed manifold seals and reinstall the chamber in the proper order."
+      },
+      {
+        "text": "Tighten manifold fasteners in the illustrated sequence; refit and tighten the motorized throttle body separately."
+      },
+      {
+        "text": "Reconnect fuel, vacuum, vapor and electrical connections, then reconnect the battery and perform required idle/throttle learning."
+      }
+    ],
+    "checks": [
+      "No intake or fuel leaks.",
+      "Brake-booster vacuum hose is fully seated.",
+      "Throttle adaptation completes and idle is stable."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-throttle-body",
+    "name": "Electronic throttle body",
+    "system": "Intake",
+    "position": [
+      1.57,
+      0.82,
+      -0.2
+    ],
+    "difficulty": 2,
+    "timeMinutes": 50,
+    "summary": "K4M throttle-body fastening torque and gasket replacement are documented in the fetched Renault reproduction; a diagnostic adaptation may be required after replacement.",
+    "safety": [
+      "Disconnect the battery before unplugging the throttle actuator.",
+      "Do not force the electronic throttle plate by hand."
+    ],
+    "tools": [
+      "Socket set",
+      "Torque wrench",
+      "Diagnostic scan tool",
+      "New throttle-body gasket"
+    ],
+    "parts": [
+      {
+        "name": "Throttle-body gasket",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîtier papillon (K4M)",
+            "url": "https://www.manuelmeg.org/bo_icirc_tier_papillon-129.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « Remplacer le joint du boîtier papillon à chaque démontage »"
+          }
+        ]
+      }
+    ],
+    "torques": [
+      {
+        "id": "throttle-body-fasteners",
+        "fastener": "Motorized throttle-body fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Boîtier papillon (K4M)",
+            "url": "https://www.manuelmeg.org/bo_icirc_tier_papillon-129.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation du boîtier papillon (1,3 daN.m) »"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Joint de culasse, K4J/K4M",
+            "url": "https://www.manuelmeg.org/joint_de_culasse-122.html",
+            "locator": "« vis de fixation du boîtier papillon (1,5 daN.m) »",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "conflict": "Throttle-body and inlet-manifold pages say 1.3 daN·m (13 Nm); the K4J/K4M head-gasket refit section says 1.5 daN·m (15 Nm)."
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove the intake duct and unplug the throttle-body connector and vapor hose."
+      },
+      {
+        "text": "Remove the throttle-body fasteners and lift the unit away without damaging the mating surface."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit a new gasket, position the throttle body and tighten its fasteners evenly to the sourced torque."
+      },
+      {
+        "text": "Reconnect hoses and wiring, reconnect the battery, and perform throttle-stop learning with a suitable diagnostic tool if required."
+      }
+    ],
+    "checks": [
+      "No intake leaks.",
+      "Throttle learns its end stops and responds smoothly.",
+      "No throttle-related warning or fault remains."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-injectors-fuel-rail",
+    "name": "Fuel rail and injectors",
+    "system": "Fuel",
+    "position": [
+      1.52,
+      0.77,
+      0.1
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The K4M fuel-rail procedure warns of fuel spray and requires new injector O-rings and retaining clips when injectors are removed.",
+    "safety": [
+      "Relieve fuel pressure before opening a fuel connection and protect the alternator from fuel spills.",
+      "Keep sparks, flames and hot work away from spilled fuel.",
+      "Maintain cleanliness; do not allow debris into open injectors or the fuel rail."
+    ],
+    "tools": [
+      "Fuel-pressure relief equipment",
+      "Fuel-line release tool",
+      "Torque wrench",
+      "Clean absorbent cloths"
+    ],
+    "parts": [
+      {
+        "name": "Injector O-rings",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Rampe d’injection - Injecteurs (K4M)",
+            "url": "https://www.manuelmeg.org/rampe_d_injection_injecteurs-146.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « Remplacer impérativement les joints toriques »"
+          }
+        ]
+      },
+      {
+        "name": "Injector retaining clips",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Rampe d’injection - Injecteurs (K4M)",
+            "url": "https://www.manuelmeg.org/rampe_d_injection_injecteurs-146.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « remplacer ... les agrafes de fixation des injecteurs »"
+          }
+        ]
+      },
+      {
+        "name": "Fuel rail",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Fuel injectors",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "fuel-rail-fasteners",
+        "fastener": "Fuel rail retaining bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 9,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Rampe d’injection - Injecteurs (K4M)",
+            "url": "https://www.manuelmeg.org/rampe_d_injection_injecteurs-146.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M « vis de fixation de la rampe d’injection 0,9 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery and relieve fuel pressure using the proper method before opening the fuel system."
+      },
+      {
+        "text": "Remove the intake manifold as required, unplug the injector harness, release the rail fasteners and withdraw the rail carefully."
+      },
+      {
+        "text": "On a clean work surface, release injector clips and remove injectors without damaging the bores."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit new injector O-rings and retaining clips; lubricate seals only with a fuel-compatible lubricant if the exact service instruction allows it."
+      },
+      {
+        "text": "Seat injectors and rail evenly, tighten rail fasteners to the sourced value, and reconnect the fuel and electrical connections."
+      },
+      {
+        "text": "Prime the system and inspect all joints for leaks before starting."
+      }
+    ],
+    "checks": [
+      "No fuel leaks at the rail or injector seals.",
+      "Engine starts and idles evenly.",
+      "No injector circuit faults remain."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-fuel-filter",
+    "name": "In-tank fuel filter / pump module",
+    "system": "Fuel",
+    "position": [
+      0.38,
+      0.22,
+      0.08
+    ],
+    "difficulty": 3,
+    "timeMinutes": 100,
+    "summary": "For the fetched K4M application, the petrol filter is integrated into the in-tank pump/gauge module and is not separately removable. Do not treat it as a routine inline-filter service.",
+    "safety": [
+      "Fuel vapour is flammable; work in a ventilated area with ignition sources removed.",
+      "Relieve fuel pressure and disconnect the battery before opening the fuel system.",
+      "Replace the complete pump/gauge assembly only when its diagnosis indicates failure."
+    ],
+    "tools": [
+      "Fuel-pressure test equipment",
+      "Fuel-line release tool",
+      "Approved tank access tools"
+    ],
+    "parts": [
+      {
+        "name": "Fuel pump / gauge module",
+        "replace": "if-worn",
+        "notes": "Source says the petrol filter is built into this module and is not dismantlable.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Filtre à essence (K4M)",
+            "url": "https://www.manuelmeg.org/filtre_agrave_essence-144.html",
+            "accessed": "2026-10-29",
+            "locator": "K4M: « intégré à l’ensemble pompe-jauge et n’est pas démontable »"
+          }
+        ]
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Fuel",
+        "label": "Serviceability",
+        "value": "Filter is integrated into the in-tank pump/gauge assembly and is not separately dismantlable",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Filtre à essence (K4M)",
+            "url": "https://www.manuelmeg.org/filtre_agrave_essence-144.html",
+            "accessed": "2026-10-29",
+            "locator": "« Le filtre à essence est situé dans le réservoir, il est intégré à l’ensemble pompe - jauge et n’est pas démontable »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Diagnose fuel pressure and pump delivery before opening the tank; the source directs diagnosis at the complete pump/gauge assembly."
+      },
+      {
+        "text": "If module replacement is justified, relieve pressure, disconnect the battery and open the tank access using vehicle-specific safety procedures."
+      },
+      {
+        "text": "Keep contaminants out of the tank and fuel lines."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct complete module and seal, reconnect fuel and electrical connections, and secure the access cover."
+      },
+      {
+        "text": "Prime the system and check for fuel leaks and correct operation."
+      }
+    ],
+    "checks": [
+      "No fuel leaks or fuel odour.",
+      "Fuel pressure and delivery meet the vehicle-specific diagnostic specification."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-exhaust-manifold-catalyst",
+    "name": "Exhaust manifold and catalytic converter",
+    "system": "Exhaust",
+    "position": [
+      1.48,
+      0.52,
+      -0.1
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "K4M is explicitly covered by the fetched manifold procedure. The diesel-only catalytic-converter procedure is not applied here; use the petrol K4M manifold and oxygen-sensor instructions.",
+    "safety": [
+      "Allow the exhaust to cool completely before work.",
+      "Support the exhaust line before releasing flanges or brackets.",
+      "Renew manifold and exhaust-flange gaskets and manifold nuts as specified."
+    ],
+    "tools": [
+      "Vehicle lift or rated axle stands",
+      "Oxygen-sensor socket",
+      "Torque wrench",
+      "Exhaust support"
+    ],
+    "parts": [
+      {
+        "name": "Exhaust manifold gasket set",
+        "replace": "always"
+      },
+      {
+        "name": "Exhaust flange gasket",
+        "replace": "always"
+      },
+      {
+        "name": "Exhaust manifold retaining nuts",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "exhaust-manifold-nuts",
+        "fastener": "K4M exhaust manifold nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 23,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Collecteur d’échappement (K4M)",
+            "url": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrous de collecteur (moteurs K4J et K4M) 2,3 +/- 0,3 daN.m »"
+          }
+        ],
+        "notes": "Published value includes a ±3 Nm tolerance."
+      },
+      {
+        "id": "exhaust-heat-shield",
+        "fastener": "Exhaust manifold heat-shield fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 10,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Collecteur d’échappement (K4M)",
+            "url": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de l’écran thermique 1 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "exhaust-support-body",
+        "fastener": "Exhaust line support fasteners to body",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Collecteur d’échappement (K4M)",
+            "url": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation des supports de la ligne d’échappement sur la caisse 2,1 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "exhaust-brace-manifold",
+        "fastener": "Exhaust support stay at manifold",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Collecteur d’échappement (K4M)",
+            "url": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de la béquille sur le collecteur d’échappement 0,8 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "exhaust-flange-nuts",
+        "fastener": "Exhaust flange nuts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 20,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Collecteur d’échappement (K4M)",
+            "url": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html",
+            "accessed": "2026-10-29",
+            "locator": "« écrous de la bride d’échappement 2 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise the vehicle securely, disconnect the battery and remove the intake distributor where required for K4M access."
+      },
+      {
+        "text": "Disconnect the downstream oxygen sensor, support the exhaust, release the flange and stay, then move the exhaust rearward."
+      },
+      {
+        "text": "Remove the upstream sensor with the correct tool, heat shields and manifold nuts; lift the manifold clear."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install new manifold and flange gaskets and new manifold nuts."
+      },
+      {
+        "text": "Tighten the K4M manifold nuts in the specified order, then refit heat shields, sensors, supports and exhaust flange."
+      },
+      {
+        "text": "Reconnect the battery and inspect heat shields, exhaust clearance and joints for leaks."
+      }
+    ],
+    "checks": [
+      "No exhaust leak or contact with the underbody.",
+      "Heat shields are secure.",
+      "Oxygen-sensor wiring is routed away from hot or moving parts."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-lambda-upstream",
+    "name": "Upstream oxygen (lambda) sensor",
+    "system": "Exhaust",
+    "position": [
+      1.46,
+      0.56,
+      -0.12
+    ],
+    "difficulty": 2,
+    "timeMinutes": 35,
+    "summary": "The upstream oxygen sensor is removed with a dedicated sensor socket and tightened to the shared sourced torque.",
+    "safety": [
+      "Work only when the exhaust is cool.",
+      "Avoid twisting or trapping the sensor wiring."
+    ],
+    "tools": [
+      "Oxygen-sensor socket",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Upstream oxygen sensor",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "upstream-lambda-sensor",
+        "fastener": "Upstream oxygen sensor",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 45,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Sondes à oxygène",
+            "url": "https://www.manuelmeg.org/sondes_agrave_oxyg_egrave_ne-204.html",
+            "accessed": "2026-10-29",
+            "locator": "« sonde à oxygène 4,5 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the sensor connector and release the sensor with the correct offset oxygen-sensor socket."
+      },
+      {
+        "text": "Inspect the threads and harness routing before fitting a replacement."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct sensor without contaminating its sensing tip; tighten to the sourced value."
+      },
+      {
+        "text": "Reconnect the plug and route the lead away from the exhaust."
+      }
+    ],
+    "checks": [
+      "No exhaust leak at the sensor boss.",
+      "Sensor connector is locked and diagnostic readings respond normally."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-lambda-downstream",
+    "name": "Downstream oxygen (lambda) sensor",
+    "system": "Exhaust",
+    "position": [
+      1.37,
+      0.49,
+      -0.1
+    ],
+    "difficulty": 2,
+    "timeMinutes": 35,
+    "summary": "The downstream oxygen sensor is removed with a dedicated sensor socket and tightened to the shared sourced torque.",
+    "safety": [
+      "Work only when the exhaust is cool.",
+      "Avoid twisting or trapping the sensor wiring."
+    ],
+    "tools": [
+      "Oxygen-sensor socket",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Downstream oxygen sensor",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "downstream-lambda-sensor",
+        "fastener": "Downstream oxygen sensor",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 45,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Sondes à oxygène",
+            "url": "https://www.manuelmeg.org/sondes_agrave_oxyg_egrave_ne-204.html",
+            "accessed": "2026-10-29",
+            "locator": "« sonde à oxygène 4,5 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the downstream sensor connector and release the sensor with the correct oxygen-sensor socket."
+      },
+      {
+        "text": "Inspect the harness clips and exhaust threads."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct replacement sensor and tighten to the sourced value."
+      },
+      {
+        "text": "Reconnect the plug, secure the lead away from heat and clear diagnostic codes only after the repair is verified."
+      }
+    ],
+    "checks": [
+      "No leak at the sensor boss.",
+      "Catalyst-monitor readings and warning status are checked with suitable diagnostics."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-rear-silencer",
+    "name": "Rear silencer / exhaust rear section",
+    "system": "Exhaust",
+    "position": [
+      0.22,
+      0.34,
+      -0.08
+    ],
+    "difficulty": 2,
+    "timeMinutes": 90,
+    "summary": "The Renault reproduction describes rear-silencer support fasteners, exhaust alignment and one-time use of the exhaust sleeve; confirm the body-style cut/join location before work.",
+    "safety": [
+      "Support the exhaust securely before releasing hangers or sleeves.",
+      "Work only when the exhaust is cool.",
+      "Do not reuse a used exhaust sleeve/manchon."
+    ],
+    "tools": [
+      "Vehicle lift or axle stands",
+      "Exhaust cutter if required",
+      "Exhaust hanger tool",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Rear silencer",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Exhaust sleeve / clamp",
+        "replace": "always",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Silencieux",
+            "url": "https://www.manuelmeg.org/silencieux-242.html",
+            "accessed": "2026-10-29",
+            "locator": "« Ne pas réutiliser un manchon usagé »"
+          }
+        ]
+      },
+      {
+        "name": "Exhaust hanger rubber",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "silencer-support-fastener",
+        "fastener": "Silencer-side hanger support fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Silencieux",
+            "url": "https://www.manuelmeg.org/silencieux-242.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de support de silentbloc sur le silencieux 0,8 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "silencer-body-support",
+        "fastener": "Body-side exhaust support fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Silencieux",
+            "url": "https://www.manuelmeg.org/silencieux-242.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de support de silentbloc sur la caisse 2,1 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise the vehicle safely, support the exhaust, and mark the hanger locations before releasing the rear section."
+      },
+      {
+        "text": "Cut or separate the pipe only at the vehicle-specific joint location; remove the silencer from its supports."
+      },
+      {
+        "text": "Inspect hangers, heat shields and pipe ends for damage or corrosion."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the silencer and a new sleeve, support the exhaust while aligning the complete line, then tighten the hanger supports."
+      },
+      {
+        "text": "Check all heat shields and confirm that the exhaust has no underbody contact before lowering the vehicle."
+      }
+    ],
+    "checks": [
+      "No exhaust leaks, rattles or underbody contact.",
+      "Silencer hangs without preload or strain.",
+      "Heat shields are secure."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-engine-mount-right",
+    "name": "Right-hand engine mount",
+    "system": "Engine",
+    "position": [
+      1.54,
+      0.91,
+      -0.46
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "Engine-mount torque is shown only in an image on the fetched K4M suspension-mount page and could not be read reliably; no numerical torque is supplied.",
+    "safety": [
+      "Support the engine with an approved support beam before loosening the mount.",
+      "Never work beneath an unsupported engine or vehicle."
+    ],
+    "tools": [
+      "Engine support beam",
+      "Torque wrench",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Right-hand engine mount",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Mount fasteners",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "right-engine-mount-fasteners",
+        "fastener": "Right-hand engine mount fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "The K4M/JR5 page displays torque charts as images; readable fastener values were unavailable.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Support the engine securely and remove covers or the belt drive needed for access."
+      },
+      {
+        "text": "Mark mount orientation, then release the body and engine-side fasteners without allowing the engine to shift."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Position the replacement mount in its original orientation and start all fasteners by hand."
+      },
+      {
+        "text": "Align the powertrain without stressing hoses or wiring; tighten only to a verified K4M/JR5 specification before removing the support."
+      }
+    ],
+    "checks": [
+      "Mount is seated without preload.",
+      "No abnormal vibration or contact after start."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-gearbox-mount",
+    "name": "Gearbox-side mount",
+    "system": "Transmission",
+    "position": [
+      1.4,
+      0.83,
+      0.42
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The K4M/JR5 suspension-mount page contains a torque chart as an image; a trustworthy numerical value was not available from its text extraction.",
+    "safety": [
+      "Support both the engine and gearbox before mount removal.",
+      "Do not allow the transaxle to hang from the driveshafts or wiring."
+    ],
+    "tools": [
+      "Engine and gearbox support equipment",
+      "Torque wrench",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Gearbox mount",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Mount fasteners",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "gearbox-mount-fasteners",
+        "fastener": "Gearbox mount fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "Torque chart is image-only in the fetched K4M/JR5 source; values are withheld.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Support the engine and gearbox at stable structural points, then remove access panels as required."
+      },
+      {
+        "text": "Release the mount fasteners and lift the mount clear without pulling on the driveshafts or hoses."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the replacement mount, start its fasteners by hand and align the powertrain before tightening."
+      },
+      {
+        "text": "Use the exact K4M/JR5 mounting values from the vehicle-specific service data before removing the supports."
+      }
+    ],
+    "checks": [
+      "No mount contact, drivetrain knock or excessive movement under load."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-torque-rod",
+    "name": "Lower torque rod / pendulum mount",
+    "system": "Engine",
+    "position": [
+      1.34,
+      0.57,
+      0.11
+    ],
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "summary": "K4M torque-rod values can be read in the lower-sump procedure, which distinguishes the engine-side and subframe-side fasteners.",
+    "safety": [
+      "Support the powertrain before removing the torque rod.",
+      "Do not use the mount fasteners to pull a misaligned powertrain into position."
+    ],
+    "tools": [
+      "Jack with broad support pad",
+      "Torque wrench",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Torque rod / pendulum mount",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "torque-rod-engine",
+        "fastener": "Torque-rod fastener at K4M engine",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Carter inférieur (K4M)",
+            "url": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html",
+            "accessed": "2026-10-29",
+            "locator": "« biellette de reprise de couple sur le moteur (K4J, K4M, K9K) 10,5 daN.m »"
+          }
+        ]
+      },
+      {
+        "id": "torque-rod-subframe",
+        "fastener": "Torque-rod fastener at subframe",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Carter inférieur (K4M)",
+            "url": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html",
+            "accessed": "2026-10-29",
+            "locator": "« biellette de reprise de couple sur le berceau 10,5 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Support the powertrain, remove the undertray and identify the engine-side and subframe-side torque-rod fasteners."
+      },
+      {
+        "text": "Remove the fasteners and inspect the rubber bushings for separation, cracking or fluid contamination."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the torque rod in its original orientation and start both fasteners by hand."
+      },
+      {
+        "text": "Align the powertrain without forcing the mount, then tighten engine-side and subframe-side fasteners to their separately sourced torques."
+      }
+    ],
+    "checks": [
+      "Powertrain rests without mount preload.",
+      "No excessive movement, clunk or vibration under acceleration."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-clutch-kit",
+    "name": "Clutch kit — friction disc and pressure plate",
+    "system": "Transmission",
+    "position": [
+      1.35,
+      0.66,
+      0.44
+    ],
+    "difficulty": 5,
+    "timeMinutes": 480,
+    "summary": "K4M clutch replacement requires gearbox removal, a flywheel-locking tool and an alignment mandrel. Tighten the pressure-plate fasteners progressively in a star pattern.",
+    "safety": [
+      "Use a suitable gearbox support; the transmission must not be allowed to fall.",
+      "The clutch disc and cover must be kept free of oil and grease.",
+      "This is a heavy drivetrain job; use an adequately rated lift and transmission jack."
+    ],
+    "tools": [
+      "Transmission jack",
+      "Engine support beam",
+      "Flywheel locking tool",
+      "Clutch alignment tool",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Clutch friction disc",
+        "replace": "always"
+      },
+      {
+        "name": "Pressure plate / mechanism",
+        "replace": "always"
+      },
+      {
+        "name": "Release bearing / concentric slave cylinder",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "clutch-pressure-plate",
+        "fastener": "K4M pressure-plate retaining bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 20,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Mécanisme - Disque (K4M)",
+            "url": "https://www.manuelmeg.org/m_eacute_canisme_disque-255.html",
+            "accessed": "2026-10-29",
+            "locator": "« vis de fixation du mécanisme (moteurs K4J et K4M) 2 daN.m »"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery, support the engine and gearbox, and remove the transmission using the correct JR5 removal procedure."
+      },
+      {
+        "text": "Lock the flywheel with the specified tool, remove the pressure-plate fasteners progressively and separate the disc and cover."
+      },
+      {
+        "text": "Inspect the flywheel and input-shaft splines; keep friction surfaces clean and dry."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the disc in the correct orientation and centre it with the alignment tool."
+      },
+      {
+        "text": "Fit the pressure plate and tighten its fasteners progressively in a star pattern to the K4M torque."
+      },
+      {
+        "text": "Remove the flywheel lock, install the release bearing/slave cylinder as applicable, and reinstall the gearbox without forcing the input shaft."
+      }
+    ],
+    "checks": [
+      "Clutch engages and releases smoothly.",
+      "No hydraulic leaks or abnormal release-bearing noise.",
+      "Gearbox is fully seated and all removed connections are restored."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-clutch-slave-cylinder",
+    "name": "Clutch hydraulic slave cylinder / release bearing",
+    "system": "Transmission",
+    "position": [
+      1.33,
+      0.67,
+      0.46
+    ],
+    "difficulty": 5,
+    "timeMinutes": 420,
+    "summary": "On JR5 installations the hydraulic release assembly is gearbox-accessed. No K4M/JR5 slave-cylinder fastener torque or bleeding sequence was verified in fetched source text.",
+    "safety": [
+      "Support the gearbox securely before removal.",
+      "Brake/clutch hydraulic fluid damages paint; protect painted surfaces and clean spills promptly.",
+      "Do not press the clutch pedal with the hydraulic circuit disconnected."
+    ],
+    "tools": [
+      "Transmission jack",
+      "Hydraulic line release tool",
+      "Bleed equipment",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Concentric clutch slave cylinder / release bearing",
+        "replace": "always"
+      },
+      {
+        "name": "Hydraulic fluid",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Hydraulic line seal",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "clutch-slave-cylinder-fasteners",
+        "fastener": "Concentric slave-cylinder retaining fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M/JR5 slave-cylinder torque was verified.",
+        "sources": []
+      },
+      {
+        "id": "clutch-hydraulic-line",
+        "fastener": "Slave-cylinder hydraulic connection",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M/JR5 hydraulic connection torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the gearbox using the correct JR5 procedure and support it on a transmission jack."
+      },
+      {
+        "text": "Clean around the hydraulic connection, disconnect it without contaminating the circuit, and remove the release assembly."
+      },
+      {
+        "text": "Inspect the clutch housing for fluid contamination and correct the leak source before refitting."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install a new slave-cylinder/release-bearing assembly and new hydraulic seals; connect the line without cross-threading."
+      },
+      {
+        "text": "Reinstall the gearbox without stressing the hydraulic pipe, then bleed using the exact vehicle-specific procedure."
+      },
+      {
+        "text": "Check pedal operation and inspect the bellhousing and line connection for leaks."
+      }
+    ],
+    "checks": [
+      "Pedal feel is consistent and clutch fully releases.",
+      "No fluid leak at the line or bellhousing.",
+      "No abnormal bearing noise."
+    ],
+    "faults": []
+  },
+  {
+    "id": "jr5-gearbox-oil",
+    "name": "JR5 gearbox oil level / change",
+    "system": "Transmission",
+    "position": [
+      1.38,
+      0.57,
+      0.44
+    ],
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "summary": "Fetched Renault data identifies Tranself TRJ 75W-80 for JH3/JR5 and directs level filling to the filler orifice. The charted gearbox capacity was not readable, so no fill volume is stated.",
+    "safety": [
+      "Support the vehicle level and securely before opening the gearbox.",
+      "Gear oil can be hot after driving; use suitable gloves and a catch pan.",
+      "Do not infer a fill volume from the amount drained; set the level by the specified opening procedure."
+    ],
+    "tools": [
+      "Level lift or axle stands",
+      "Drain pan",
+      "Correct gearbox oil",
+      "Filler pump",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "JR5 gearbox oil",
+        "replace": "always",
+        "notes": "Use the sourced quality/viscosity exactly as reproduced; no quantity is provided here.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Lubrifiants (JH3/JR5/ND0)",
+            "url": "https://www.manuelmeg.org/lubrifiants-259.html",
+            "accessed": "2026-10-29",
+            "locator": "JH3 or JR5: « TRANSELF TRJ 75 W80W »"
+          }
+        ]
+      },
+      {
+        "name": "Drain/fill plug seals",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "jr5-drain-plug",
+        "fastener": "JR5 gearbox drain plug",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No JR5 drain-plug torque was verified.",
+        "sources": []
+      },
+      {
+        "id": "jr5-fill-plug",
+        "fastener": "JR5 gearbox fill plug",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No JR5 fill-plug torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Transmission",
+        "label": "JR5 oil quality / viscosity",
+        "value": "Tranself TRJ 75 W80W",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Lubrifiants (JH3/JR5/ND0)",
+            "url": "https://www.manuelmeg.org/lubrifiants-259.html",
+            "accessed": "2026-10-29",
+            "locator": "« JH3 ou JR5 ... TRANSELF TRJ 75 W80W »"
+          }
+        ]
+      },
+      {
+        "group": "Transmission",
+        "label": "JR5 level check",
+        "value": "Fill to the level of the filler opening",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual: Lubrifiants (JH3/JR5/ND0)",
+            "url": "https://www.manuelmeg.org/lubrifiants-259.html",
+            "accessed": "2026-10-29",
+            "locator": "« Remplir jusqu’au niveau de l’orifice »"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Place the vehicle level and identify the JR5 fill and drain plugs before draining."
+      },
+      {
+        "text": "Open the fill plug first to confirm it can be removed; then drain the oil into a suitable pan."
+      },
+      {
+        "text": "Inspect the drained oil and plug seals for debris or damage."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Refit the drain plug using its correct seal and a verified JR5 torque value."
+      },
+      {
+        "text": "Fill with the sourced oil until the level reaches the filler opening, then refit the fill plug with its correct seal."
+      },
+      {
+        "text": "Clean the casing and verify there are no leaks after a road test."
+      }
+    ],
+    "checks": [
+      "Oil reaches the filler-opening level with the vehicle level.",
+      "No leaks at either plug.",
+      "Gear selection is normal after service."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-starter-motor",
+    "name": "Starter motor",
+    "system": "Electrical",
+    "position": [
+      1.56,
+      0.63,
+      0.31
+    ],
+    "difficulty": 3,
+    "timeMinutes": 120,
+    "summary": "A starter-specific K4M/JR5 removal sequence and terminal/fastener torques were not available from the fetched readable source text; no torque is guessed.",
+    "safety": [
+      "Disconnect the battery negative terminal before touching starter wiring.",
+      "The starter main terminal is battery-fed; prevent tools from bridging the terminal to ground.",
+      "Support the vehicle securely if access is from below."
+    ],
+    "tools": [
+      "Socket set",
+      "Insulated hand tools",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Starter motor",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Starter fasteners",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "starter-mount-fasteners",
+        "fastener": "Starter mounting fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M/JR5 starter mounting torque was verified.",
+        "sources": []
+      },
+      {
+        "id": "starter-terminal-fasteners",
+        "fastener": "Starter electrical terminal fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M/JR5 starter terminal torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal and remove obstructing intake or underbody parts as needed."
+      },
+      {
+        "text": "Label and disconnect the starter control wire and main battery cable, then support the starter while removing its fasteners."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Position the starter and start its mounting fasteners by hand; tighten only to verified K4M/JR5 data."
+      },
+      {
+        "text": "Reconnect the control and main cables with correct insulation and routing, refit access parts, then reconnect the battery."
+      }
+    ],
+    "checks": [
+      "Starter cranks consistently.",
+      "No hot cable, loose connection or abnormal engagement noise."
+    ],
+    "faults": []
+  },
+  {
+    "id": "k4m-alternator",
+    "name": "Alternator",
+    "system": "Electrical",
+    "position": [
+      1.52,
+      0.69,
+      -0.32
+    ],
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "summary": "The fetched Renault alternator procedure covers K4M but does not expose readable alternator fastener torque values. The engine is accessed through substantial front-end and belt removal.",
+    "safety": [
+      "Disconnect the battery before removing alternator wiring.",
+      "Do not short the alternator B+ cable to ground.",
+      "Support the front of the vehicle securely when removing wheel-arch parts."
+    ],
+    "tools": [
+      "Socket set",
+      "Belt tensioner tool",
+      "Torque wrench",
+      "Battery terminal tool"
+    ],
+    "parts": [
+      {
+        "name": "Alternator",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Accessory belt",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "alternator-mount-fasteners",
+        "fastener": "Alternator mounting fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "The fetched K4M removal page did not state readable alternator torques.",
+        "sources": []
+      },
+      {
+        "id": "alternator-terminal-fasteners",
+        "fastener": "Alternator electrical terminals",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No K4M alternator terminal torque was verified.",
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery, remove front access parts and release the accessory belt."
+      },
+      {
+        "text": "Disconnect alternator electrical connectors, then remove the mounting fasteners and withdraw the unit without stressing air-conditioning lines."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Compress the alternator mounting bushings as needed for fitment and reinstall the unit without forcing the bracket."
+      },
+      {
+        "text": "Reconnect wiring, refit and tension the accessory belt, reinstall front-end parts and reconnect the battery."
+      }
+    ],
+    "checks": [
+      "Charging voltage and warning lamp are normal.",
+      "No belt noise, misalignment or cable heating.",
+      "Alternator connectors and battery terminals are secure."
+    ],
+    "faults": []
+  }
+]
