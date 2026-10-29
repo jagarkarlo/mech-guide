@@ -1,0 +1,2740 @@
+[
+  {
+    "id": "rear-brake-pads",
+    "name": "Rear brake pads",
+    "system": "Brakes",
+    "position": [
+      -1.39,
+      0.32,
+      0.78
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "The rear brakes are disc brakes with cable-operated parking-brake levers on the calipers. Replace friction components in axle pairs.",
+    "safety": [
+      "Use axle stands on approved support points; never work under a jack-supported vehicle.",
+      "Release the parking brake before removing the rear calipers. Keep brake dust damp and do not blow it off with compressed air.",
+      "Do not press the brake pedal while a caliper is removed."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Wheel socket and torque wrench",
+      "Brake piston wind-back tool",
+      "Basic hand tools",
+      "Brake cleaner and catch tray"
+    ],
+    "parts": [
+      {
+        "name": "Rear brake pad set",
+        "qty": "Set for both sides",
+        "replace": "always",
+        "notes": "Replace pads on both sides of the axle together."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-pad-guide-bolts",
+        "fastener": "Rear caliper lower guide-pin bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "threadLock": true,
+        "notes": "Source specifies FRENBLOC-type thread locker.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Plaquettes de frein (rear)",
+            "url": "https://www.manuelmeg.org/plaquettes_de_frein-316.html",
+            "locator": "vis inférieures de colonnettes d'étrier 0,7 daN.m; enduire de FRENBLOC",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "vis de colonnettes 3,6 daN.m; enduire de FRENBLOC",
+            "accessed": "2026-10-29"
+          }
+        ],
+        "conflict": "the rear pad page lists 0.7 daN.m (7 Nm), while the rear caliper and rear disc pages list 3.6 daN.m (36 Nm) for the guide-pin bolts. Probably a typo in the reproduction. Confirm with official Renault data before tightening."
+      },
+      {
+        "id": "rear-pad-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Plaquettes de frein (rear)",
+            "url": "https://www.manuelmeg.org/plaquettes_de_frein-316.html",
+            "locator": "vis de fixations de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Brake configuration",
+        "label": "Rear brake type",
+        "value": "Disc brakes (not drums)",
+        "notes": "Rear-pad and rear-disc service procedures are provided; the rear disc assembly includes the bearing.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Plaquettes de frein (rear)",
+            "url": "https://www.manuelmeg.org/plaquettes_de_frein-316.html",
+            "locator": "rear calipers and rear brake pads removal/refit procedure",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "ensembles disque - roulement; rear disc removal and replacement",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Chock the front wheels, raise the rear safely, release the parking brake and remove the wheel.",
+        "detach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Unclip the parking-brake cable from its caliper lever and retain its routing. Remove the lower guide fasteners and pivot the caliper clear without straining the hose.",
+        "detach": [
+          "caliper",
+          "guide-pins"
+        ]
+      },
+      {
+        "text": "Lift out the pads and inspect the disc, caliper boots, sliding pins and parking-brake mechanism for damage or uneven wear.",
+        "detach": [
+          "pad-outer",
+          "pad-inner"
+        ]
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the pad abutments and caliper contact points. Wind the piston back with the correct tool while monitoring the reservoir level.",
+        "warning": "Do not force or twist the piston boot; confirm the piston is correctly oriented for the caliper design."
+      },
+      {
+        "text": "Fit the new pads, refit the caliper and apply the specified thread-locking compound to the guide fasteners.",
+        "torque": "rear-pad-guide-bolts",
+        "attach": [
+          "pad-inner",
+          "pad-outer",
+          "caliper",
+          "guide-pins"
+        ]
+      },
+      {
+        "text": "Reconnect the parking-brake cable, check it is fully seated, refit the wheel and tighten the wheel bolts to specification.",
+        "torque": "rear-pad-wheel-bolts",
+        "attach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Before moving the vehicle, pump the brake pedal until firm and operate the parking brake repeatedly to take up caliper clearance."
+      }
+    ],
+    "checks": [
+      "Check the brake-fluid level and ensure it is not overfilled after piston retraction.",
+      "Confirm a firm pedal, free wheel rotation with the parking brake released, and correct parking-brake operation.",
+      "Bed in the pads according to the pad maker's instructions."
+    ],
+    "faults": [
+      {
+        "symptom": "Parking brake does not hold",
+        "causes": "Cable not seated, caliper lever binding, or automatic clearance adjustment not reset."
+      },
+      {
+        "symptom": "Uneven rear pad wear",
+        "causes": "Seized guide pins, sticking piston, or damaged pad abutments."
+      }
+    ]
+  },
+  {
+    "id": "rear-brake-disc-bearing",
+    "name": "Rear brake disc and integrated bearing",
+    "system": "Brakes",
+    "position": [
+      -1.39,
+      0.32,
+      0.78
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "The rear brake disc is supplied as a disc-and-bearing assembly; service the paired discs together and transfer the caliper hardware carefully.",
+    "safety": [
+      "Support the vehicle securely and release the parking brake.",
+      "Do not hang the caliper from its hose.",
+      "Do not machine brake discs; replace discs with excessive wear or damage."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Wheel socket and torque wrench",
+      "Brake piston wind-back tool",
+      "Caliper support hook",
+      "Basic hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Rear disc with integrated wheel bearing",
+        "qty": "One per side",
+        "replace": "always",
+        "notes": "Replace the disc and pads on both sides of the axle together."
+      },
+      {
+        "name": "Hub nut and dust cap",
+        "replace": "always",
+        "notes": "Use new fastening parts if required by the replacement assembly instructions."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-disc-hub-nut",
+        "fastener": "Rear stub-axle nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "Rear-disc procedure specifies FRENBLOC on bearing-support and guide fasteners; do not apply thread locker to the hub nut unless the part instructions require it.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "écrous de fusées 28 daN.m; disques livrés avec les roulements montés",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-disc-carrier-bolts",
+        "fastener": "Rear caliper carrier bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "threadLock": true,
+        "notes": "Apply FRENBLOC-type thread locker.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "vis des supports des étriers 10,5 daN.m; enduire de FRENBLOC",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-disc-guide-bolts",
+        "fastener": "Rear caliper guide-pin bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 36,
+            "unit": "Nm"
+          }
+        ],
+        "threadLock": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "vis de colonnettes 3,6 daN.m; enduire de FRENBLOC",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-disc-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Assembly",
+        "label": "Rear hub bearing",
+        "value": "Integrated with the rear brake disc assembly",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "Les disques sont livrés avec les roulements montés",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Release the parking brake, remove the wheel, unclip the parking-brake cable and disconnect the caliper without twisting the hose.",
+        "detach": [
+          "wheel",
+          "caliper"
+        ]
+      },
+      {
+        "text": "Support the caliper, remove the carrier, hub dust cap and stub-axle nut, then withdraw the disc-and-bearing assembly.",
+        "detach": [
+          "carrier",
+          "disc"
+        ]
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the hub seating area and install the new disc-and-bearing assembly. Refit the dust cap and carrier using the specified thread-locking compound where called for.",
+        "torque": "rear-disc-hub-nut",
+        "attach": [
+          "disc",
+          "carrier"
+        ]
+      },
+      {
+        "text": "Refit the caliper and wheel; apply the prescribed torques to each fastener and the wheel bolts.",
+        "torque": "rear-disc-wheel-bolts",
+        "attach": [
+          "caliper",
+          "wheel"
+        ]
+      },
+      {
+        "text": "Pump the brake pedal to seat the pads, then cycle the parking brake to confirm automatic adjustment."
+      }
+    ],
+    "checks": [
+      "Inspect both discs and pads as an axle pair.",
+      "Verify no brake-hose twist, correct cable routing, a firm pedal and normal wheel rotation."
+    ],
+    "faults": [
+      {
+        "symptom": "Rear-wheel rumble or looseness",
+        "causes": "Worn integrated bearing or incorrectly seated disc assembly."
+      },
+      {
+        "symptom": "Brake judder",
+        "causes": "Disc runout, contamination at the hub face, or uneven pad deposits."
+      }
+    ]
+  },
+  {
+    "id": "rear-caliper-parking-brake",
+    "name": "Rear caliper and parking-brake mechanism",
+    "system": "Brakes",
+    "position": [
+      -1.39,
+      0.32,
+      0.78
+    ],
+    "difficulty": 4,
+    "timeMinutes": 90,
+    "summary": "The rear caliper includes a mechanical parking-brake lever and an automatic clearance-adjustment function.",
+    "safety": [
+      "Never allow the caliper to hang by the brake hose.",
+      "If the hydraulic circuit is opened, use the specified bleeding procedure and verify the pedal before driving."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Brake line flare-nut tools",
+      "Piston wind-back tool",
+      "Brake bleeder",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Rear brake caliper",
+        "replace": "if-worn",
+        "notes": "Replacement calipers may be supplied prefilled; verify the part-specific instructions."
+      },
+      {
+        "name": "Caliper guide fasteners",
+        "replace": "optional",
+        "notes": "Use thread-locking compound as specified."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-caliper-guide-bolts",
+        "fastener": "Rear caliper guide-pin bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 36,
+            "unit": "Nm"
+          }
+        ],
+        "threadLock": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (rear)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-317.html",
+            "locator": "vis de colonnettes 3,6 daN.m; enduire de FRENBLOC",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-caliper-hose",
+        "fastener": "Brake hose to rear caliper",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (rear)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-317.html",
+            "locator": "flexible de frein 1,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-caliper-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (rear)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-317.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Release the parking brake and note the cable route and lever position. Disconnect the cable, protect the hose opening if it is detached, then remove the guide fasteners and caliper.",
+        "detach": [
+          "caliper",
+          "guide-pins"
+        ]
+      }
+    ],
+    "installation": [
+      {
+        "text": "Wind the piston back using the correct tool, refit the caliper with the specified thread-locker and reconnect the parking-brake cable, ensuring its stop is seated.",
+        "torque": "rear-caliper-guide-bolts",
+        "attach": [
+          "caliper",
+          "guide-pins"
+        ]
+      },
+      {
+        "text": "If the hydraulic joint was opened, bleed the circuit, restore the reservoir level and check for leaks. Cycle the parking-brake control to activate adjustment."
+      }
+    ],
+    "checks": [
+      "Confirm the parking-brake cable stop is seated and the lever returns freely.",
+      "Check for leaks, firm pedal travel, and correct parking-brake holding."
+    ],
+    "faults": [
+      {
+        "symptom": "Parking brake lever stays applied",
+        "causes": "Corroded cable, sticking caliper lever or seized caliper mechanism."
+      },
+      {
+        "symptom": "Fluid leak",
+        "causes": "Damaged hose connection, seal or caliper body."
+      }
+    ]
+  },
+  {
+    "id": "brake-fluid-change-bleed",
+    "name": "Brake fluid change and bleeding",
+    "system": "Brakes",
+    "position": [
+      0.55,
+      0.58,
+      0
+    ],
+    "difficulty": 4,
+    "timeMinutes": 90,
+    "summary": "Use the specified compatible fluid and pressure-bleeding method. ABS hydraulic-unit bleeding requires a diagnostic tool if the circuit-regulation procedure is triggered.",
+    "safety": [
+      "Brake fluid damages paint and irritates skin; use protective equipment and clean spills promptly.",
+      "Keep the reservoir and bleeder equipment supplied with fluid throughout the operation.",
+      "Do not drive with a soft or abnormal brake pedal."
+    ],
+    "tools": [
+      "Renault-approved brake pressure bleeder",
+      "Diagnostic tool capable of activating ABS hydraulic-unit bleed",
+      "Catch bottles and clear hose",
+      "Correct brake fluid",
+      "Protective gloves and eye protection"
+    ],
+    "parts": [
+      {
+        "name": "Brake fluid conforming to SAE J1703 / DOT 4",
+        "replace": "always",
+        "notes": "Use fluid approved for the exact vehicle; follow the service booklet for replacement timing."
+      }
+    ],
+    "torques": [
+      {
+        "id": "brake-bleed-screw",
+        "fastener": "Brake bleed screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No bleed-screw torque value was verified in the fetched source pages; use the vehicle-specific repair data, do not guess.",
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Fluid",
+        "label": "Approved brake-fluid specification",
+        "value": "SAE J1703 / DOT 4",
+        "notes": "Renault recommends low cold-viscosity fluid; replacement interval is in the service booklet.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Liquide de frein",
+            "url": "https://www.manuelmeg.org/liquide_de_frein-294.html",
+            "locator": "liquides conformes à la norme SAE J 1703 - DOT4; périodicité: voir carnet d'entretien",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Service interval",
+        "label": "Fluid replacement interval",
+        "value": null,
+        "notes": "The repair source refers to the vehicle service booklet; no numeric interval is stated here.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Confirm the hydraulic and electrical brake-control systems have no faults. Attach the approved pressure bleeder and collection bottles before opening any bleed points.",
+        "warning": "The standard bleed procedure requires the ignition off so ABS solenoids are not inadvertently activated."
+      },
+      {
+        "text": "Flush each wheel circuit in the specified order, closing each bleed point before moving to the next: rear right, front left, rear left, then front right.",
+        "warning": "Keep the master-cylinder reservoir and bleeder supply from running dry."
+      }
+    ],
+    "installation": [
+      {
+        "text": "If the pedal travel remains abnormal after the base bleed and a road test activates regulation, connect the diagnostic tool and run the ABS hydraulic-unit and circuit bleed routine as directed by the tool."
+      },
+      {
+        "text": "Disconnect the bleeder, restore the reservoir to the correct level, refit bleed-point caps and inspect for leaks."
+      }
+    ],
+    "checks": [
+      "With the engine off, verify correct pedal travel; repeat bleeding if necessary.",
+      "Road-test cautiously in a safe area and confirm normal braking and pedal feel.",
+      "If ABS regulation causes abnormal pedal travel, perform the diagnostic-controlled hydraulic bleed."
+    ],
+    "faults": [
+      {
+        "symptom": "Spongy brake pedal",
+        "causes": "Air in the hydraulic circuit, low fluid or a leak; ABS unit may require diagnostic bleeding."
+      },
+      {
+        "symptom": "Brake warning or low fluid",
+        "causes": "Leak, excessive pad wear or incorrect fluid level."
+      }
+    ]
+  },
+  {
+    "id": "front-brake-caliper",
+    "name": "Front brake caliper",
+    "system": "Brakes",
+    "position": [
+      1.25,
+      0.32,
+      0.78
+    ],
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "summary": "Remove and refit the front floating caliper without twisting the flexible hose; a hydraulic opening requires bleeding and a level check.",
+    "safety": [
+      "Support the caliper independently; never suspend it from the hose.",
+      "Do not allow the brake reservoir to empty.",
+      "Pump the brake pedal to seat pads before moving the car."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Piston retraction tool",
+      "Flare-nut wrench if hose is removed",
+      "Torque wrench",
+      "Brake bleeder"
+    ],
+    "parts": [
+      {
+        "name": "Front caliper",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Brake pads",
+        "replace": "if-worn",
+        "notes": "Replace pad sets on both sides of the axle together."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-caliper-guide-bolts",
+        "fastener": "Front caliper guide-pin bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 32,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (front)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-305.html",
+            "locator": "vis de colonnette 3,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-caliper-hose",
+        "fastener": "Brake hose to front caliper",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (front)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-305.html",
+            "locator": "flexible de frein 1,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-caliper-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Etrier de frein (front)",
+            "url": "https://www.manuelmeg.org/etrier_de_frein-305.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Raise and support the front safely. Secure a pedal restraint if disconnecting the hose, then remove the wheel and unclip the hose and wheel-speed-sensor wiring from the strut.",
+        "detach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Remove the caliper guide fastener, lift off the caliper and remove the pads. If replacing the caliper, disconnect and cap the hose without contaminating the hydraulic system.",
+        "detach": [
+          "caliper",
+          "guide-pins",
+          "pad-inner",
+          "pad-outer"
+        ]
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the caliper and pad supports, retract the piston with the correct tool, and install the pads and caliper. Do not twist the flexible hose.",
+        "torque": "front-caliper-guide-bolts",
+        "attach": [
+          "pad-inner",
+          "pad-outer",
+          "caliper",
+          "guide-pins"
+        ]
+      },
+      {
+        "text": "If opened, reconnect the hose, bleed the hydraulic circuit and check fluid level; refit the wheel and tighten its bolts to specification.",
+        "torque": "front-caliper-wheel-bolts",
+        "attach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Pump the brake pedal several times to bring the pads into contact with the disc."
+      }
+    ],
+    "checks": [
+      "Check hose and unions for leaks, confirm the hose is not twisted and verify wiring clips are secured.",
+      "Confirm firm pedal, correct fluid level and free wheel rotation."
+    ],
+    "faults": [
+      {
+        "symptom": "Brake drag or uneven pad wear",
+        "causes": "Sticking piston, seized guide pins or contaminated pad supports."
+      },
+      {
+        "symptom": "Soft pedal after caliper work",
+        "causes": "Air introduced during hose disconnection or incomplete bleeding."
+      }
+    ]
+  },
+  {
+    "id": "brake-flexible-hoses",
+    "name": "Brake flexible hoses",
+    "system": "Brakes",
+    "position": [
+      1.15,
+      0.31,
+      0.78
+    ],
+    "difficulty": 4,
+    "timeMinutes": 75,
+    "summary": "Replace a flexible hose only with the correct application and route it without twist or contact against nearby parts.",
+    "safety": [
+      "Brake fluid is corrosive to paint; protect bodywork and collect fluid safely.",
+      "After opening the hydraulic system, bleed and check the complete circuit before driving."
+    ],
+    "tools": [
+      "Flare-nut wrench",
+      "Line plugs",
+      "Brake bleeder",
+      "Torque wrench",
+      "Protective gloves and eye protection"
+    ],
+    "parts": [
+      {
+        "name": "Correct front or rear flexible brake hose",
+        "replace": "if-worn",
+        "notes": "Confirm axle, side and fitting variant against the vehicle."
+      }
+    ],
+    "torques": [
+      {
+        "id": "brake-hose-caliper-end",
+        "fastener": "Flexible hose to caliper",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Flexible de frein (front)",
+            "url": "https://www.manuelmeg.org/flexible_de_frein-307.html",
+            "locator": "flexible de frein sur l'étrier 1,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "brake-hose-pipe-end",
+        "fastener": "Flexible hose to rigid brake pipe union",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 17,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Flexible de frein (front)",
+            "url": "https://www.manuelmeg.org/flexible_de_frein-307.html",
+            "locator": "flexible de frein sur le raccord 1,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Restrain fluid loss using the approved method. Loosen the rigid-pipe union, then disconnect the hose at the caliper and remove its support clips."
+      },
+      {
+        "text": "Remove the hose while noting its bracket orientation and natural routing."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Connect the hose at the caliper and rigid-line union. Seat the hose end fully in its support and ensure it is not twisted while tightening.",
+        "torque": "brake-hose-caliper-end"
+      },
+      {
+        "text": "Restore all retaining clips, bleed the brake circuit and inspect the hose through steering and suspension travel for contact or tension."
+      }
+    ],
+    "checks": [
+      "Check for leaks under pressure and verify the hose has no twist, kink, rubbing or stretch.",
+      "Confirm firm pedal feel and full wheel movement without hose contact."
+    ],
+    "faults": [
+      {
+        "symptom": "Cracked, swollen or wet hose",
+        "causes": "Ageing, mechanical abrasion or fluid leakage; replace the affected hose."
+      },
+      {
+        "symptom": "Brake pulls to one side",
+        "causes": "Restricted or damaged hose causing unequal hydraulic pressure."
+      }
+    ]
+  },
+  {
+    "id": "abs-wheel-speed-sensor",
+    "name": "ABS wheel-speed sensors and wiring",
+    "system": "Brakes",
+    "position": [
+      1.25,
+      0.25,
+      0.78
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "Inspect the wheel-speed sensor lead, connectors and tone/encoder target at the wheel hub. Keep the magnetic encoder and sensor surfaces clean and undamaged.",
+    "safety": [
+      "Switch off the ignition before disconnecting sensor connectors.",
+      "Do not pull on sensor wiring or damage the encoded bearing target."
+    ],
+    "tools": [
+      "Jack and axle stands",
+      "Trim-clip tool",
+      "Diagnostic scan tool",
+      "Electrical contact cleaner"
+    ],
+    "parts": [
+      {
+        "name": "Wheel-speed sensor",
+        "replace": "if-worn",
+        "notes": "Confirm whether the exact vehicle uses a separately replaceable sensor or an integrated bearing encoder before ordering."
+      }
+    ],
+    "torques": [
+      {
+        "id": "abs-sensor-fastener",
+        "fastener": "Wheel-speed sensor retaining fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No applicable sensor-retaining torque was found in the fetched pages; verify the VIN-specific workshop procedure.",
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Service note",
+        "label": "Front hub encoder handling",
+        "value": "Avoid marking the wheel-speed sensor target while servicing the instrumented bearing.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "Le roulement est instrumenté; veiller à ne pas marquer la cible du capteur de vitesse de roue",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Trace the sensor lead from the wheel carrier to its connector. Release each harness clip before disconnecting the connector; do not pull the cable itself."
+      },
+      {
+        "text": "If sensor removal is necessary, clean the area and remove the retaining fastener using the vehicle-specific service instruction. Avoid levering against the encoder surface."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the sensor seat, inspect the connector seal and route the lead through every original retainer without tension."
+      },
+      {
+        "text": "Clear the ABS fault memory and confirm live wheel-speed readings agree during a controlled low-speed check."
+      }
+    ],
+    "checks": [
+      "Inspect the lead for chafing, breaks and loose clips.",
+      "Check that the bearing encoder is clean and not damaged.",
+      "Confirm the ABS warning lamp goes out and diagnostic data is plausible."
+    ],
+    "faults": [
+      {
+        "symptom": "ABS warning lamp",
+        "causes": "Damaged sensor lead, connector fault, sensor failure or damaged bearing encoder."
+      },
+      {
+        "symptom": "Erratic wheel-speed readings",
+        "causes": "Contamination, excessive sensor gap, damaged encoder or wiring interference."
+      }
+    ]
+  },
+  {
+    "id": "front-strut-spring",
+    "name": "Front shock absorber strut and coil spring",
+    "system": "Suspension",
+    "position": [
+      1.25,
+      0.56,
+      0.78
+    ],
+    "difficulty": 5,
+    "timeMinutes": 180,
+    "summary": "The front spring and damper form a strut assembly. The spring must be controlled with suitable compressor jaws before disassembly.",
+    "safety": [
+      "A compressed coil spring stores lethal energy. Use an inspected, correctly sized spring compressor and follow its instructions.",
+      "Never loosen the strut-rod nut until the spring is securely compressed and unloaded from its seats.",
+      "Support the steering knuckle when separating it from the strut."
+    ],
+    "tools": [
+      "Vehicle lift or jack and axle stands",
+      "Approved spring compressor",
+      "Strut-rod nut tool",
+      "Ball-joint separator",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Front damper",
+        "replace": "always",
+        "notes": "Replace dampers as a left/right axle pair."
+      },
+      {
+        "name": "Coil spring",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Strut top mount and bearing",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Strut-rod nut",
+        "replace": "always",
+        "notes": "The repair source explicitly requires this nut to be renewed."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-strut-rod-nut",
+        "fastener": "Front strut piston-rod nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "replaceAfterUse": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "écrou de tige d'amortisseur 6,2 daN.m; remplacer impérativement l'écrou",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-strut-top-mount-bolts",
+        "fastener": "Front strut tower mounting bolts",
+        "qty": 3,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "vis de chapelle d'amortisseur 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-strut-knuckle-bolt",
+        "fastener": "Front strut-to-knuckle bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "vis de pied d'amortisseur 10,5 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-strut-drop-link-nut",
+        "fastener": "Anti-roll-bar link nut at strut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "écrou de rotule de biellette de renvoi de barre stabilisatrice 4,4 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-strut-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Disconnect the battery negative terminal, remove the wheel and unclip the brake hose and wheel-speed-sensor lead from the strut. Remove access trim as needed to reach the tower fasteners.",
+        "detach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Disconnect the anti-roll-bar link, remove the strut-to-knuckle fastener and support the knuckle. Remove the upper tower fasteners and lift out the strut assembly.",
+        "detach": [
+          "caliper"
+        ]
+      },
+      {
+        "text": "Secure the spring in an approved compressor, compress it until clear of both seats, then remove the strut-rod nut and separate the assembly."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Position the spring ends correctly in their seats and assemble the damper, bearing and mount in the specified order and orientation. Install a new strut-rod nut while the spring remains controlled.",
+        "torque": "front-strut-rod-nut"
+      },
+      {
+        "text": "Install the completed strut, reconnect the knuckle and anti-roll-bar link, and tighten the upper mount fasteners to their specified torques.",
+        "torque": "front-strut-top-mount-bolts"
+      },
+      {
+        "text": "Secure the brake hose and sensor wiring in the original clips without twisting the hose. Reconnect the battery and complete any required vehicle initialization.",
+        "attach": [
+          "wheel"
+        ]
+      }
+    ],
+    "checks": [
+      "Confirm spring ends sit correctly in both seats and the mount/bearing orientation is correct.",
+      "Check that hose and sensor wiring are clipped safely and do not bind through steering movement.",
+      "Arrange a wheel-alignment check after suspension work."
+    ],
+    "faults": [
+      {
+        "symptom": "Knocking over bumps",
+        "causes": "Worn strut mount, spring seat, damper or loose suspension fastener."
+      },
+      {
+        "symptom": "Oil on strut body or poor damping",
+        "causes": "Damper leakage or internal wear."
+      }
+    ]
+  },
+  {
+    "id": "front-strut-top-mount",
+    "name": "Front strut top mount and bearing",
+    "system": "Suspension",
+    "position": [
+      1.25,
+      0.88,
+      0.55
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "The strut mount and rotating bearing support the top of the front suspension strut. Replacement requires removing and safely compressing the strut spring assembly.",
+    "safety": [
+      "Do not remove the strut-rod nut until the coil spring is secured in a suitable compressor.",
+      "Support the vehicle and steering knuckle independently."
+    ],
+    "tools": [
+      "Spring compressor",
+      "Strut-rod nut tool",
+      "Vehicle lift or axle stands",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Front strut top mount and bearing",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Strut-rod nut",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-top-mount-tower-bolts",
+        "fastener": "Strut tower mounting bolts",
+        "qty": 3,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "vis de chapelle d'amortisseur 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-top-mount-stem-nut",
+        "fastener": "Strut piston-rod nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "replaceAfterUse": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort et amortisseur (front)",
+            "url": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html",
+            "locator": "écrou de tige d'amortisseur 6,2 daN.m; remplacer impérativement l'écrou",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the strut assembly following the complete front strut procedure. Compress the spring in an approved compressor before removing the centre nut."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Replace the mount and bearing in the documented order and orientation. Refit with a new centre nut, release spring tension only after confirming both ends are seated."
+      }
+    ],
+    "checks": [
+      "Check bearing rotation is smooth and mount rubber is free of cracks or separation.",
+      "Confirm correct upper mount orientation and no spring contact with adjacent parts."
+    ],
+    "faults": [
+      {
+        "symptom": "Creaking or steering bind",
+        "causes": "Worn or seized upper bearing."
+      },
+      {
+        "symptom": "Knocking from upper suspension",
+        "causes": "Separated mount rubber or loose mount fasteners."
+      }
+    ]
+  },
+  {
+    "id": "front-lower-wishbone",
+    "name": "Front lower wishbone (control arm)",
+    "system": "Suspension",
+    "position": [
+      1.13,
+      0.24,
+      0.65
+    ],
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "summary": "The lower arm connects the front subframe to the wheel carrier through inner bushes and the lower ball joint. Position the arm correctly before final tightening.",
+    "safety": [
+      "Never lift or support the vehicle by the lower arm.",
+      "Support the radiator crossmember and adjacent structure if the factory removal procedure requires their removal.",
+      "Renew the arm/subframe fasteners where specified."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Subframe support",
+      "Ball-joint separator",
+      "Torque wrench",
+      "Diagnostic tool if steering calibration is required"
+    ],
+    "parts": [
+      {
+        "name": "Front lower control arm",
+        "replace": "if-worn"
+      },
+      {
+        "name": "Control-arm and subframe fasteners",
+        "replace": "always",
+        "notes": "Repair source calls for new arm/subframe fasteners."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-wishbone-inner-bolts",
+        "fastener": "Wishbone-to-subframe bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 70,
+            "unit": "Nm"
+          }
+        ],
+        "replaceAfterUse": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "boulons de fixation du bras inférieur sur le berceau 7 daN.m; remplacer les fixations",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-wishbone-ball-joint",
+        "fastener": "Lower ball-joint fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "boulon de la rotule inférieure 6,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-wishbone-link-nut",
+        "fastener": "Anti-roll-bar link ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "écrou de rotule de biellette de renvoi de barre stabilisatrice 4,4 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-wishbone-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Installation",
+        "label": "Arm position reference",
+        "value": "H = 14 mm between the lower-ball-joint plane and rear-subframe mounting bolt head",
+        "notes": "Use the original repair illustration and setup context; this is not a ride-height value.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "différence de hauteur ... (H = 14 mm)",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Raise the vehicle on a lift. Remove the wheel and access panels as required; disconnect and unclip the wheel-speed-sensor harness before moving the arm.",
+        "detach": [
+          "wheel"
+        ]
+      },
+      {
+        "text": "Separate the lower ball joint and anti-roll-bar link, remove the control-arm inner fasteners and withdraw the arm. Do not use the arm as a lift point."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Position the new arm to the specified height reference before tightening its inner fasteners. Renew the specified arm and subframe fasteners.",
+        "torque": "front-wishbone-inner-bolts"
+      },
+      {
+        "text": "Reconnect the ball joint and anti-roll-bar link, reinstall removed structures and tighten all applicable fasteners to their cited specifications.",
+        "torque": "front-wishbone-ball-joint"
+      },
+      {
+        "text": "Reconnect the sensor wiring, refit the wheel and arrange front wheel alignment; perform steering sensor calibration if required."
+      }
+    ],
+    "checks": [
+      "Inspect both control-arm bushes for separation and the ball joint for play or damaged dust boot.",
+      "Check wheel alignment after the repair and perform any specified steering-angle/torque-sensor initialization."
+    ],
+    "faults": [
+      {
+        "symptom": "Clunk over bumps or braking",
+        "causes": "Worn arm bushes, loose fasteners or ball-joint play."
+      },
+      {
+        "symptom": "Unstable steering or tyre wear",
+        "causes": "Damaged control-arm bush, displaced arm or incorrect alignment."
+      }
+    ]
+  },
+  {
+    "id": "front-lower-ball-joint",
+    "name": "Front lower ball joint",
+    "system": "Suspension",
+    "position": [
+      1.16,
+      0.24,
+      0.7
+    ],
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "summary": "The front lower ball joint is part of the lower control-arm-to-wheel-carrier connection; confirm whether it is separately replaceable on the fitted arm.",
+    "safety": [
+      "Support the vehicle and steering knuckle securely.",
+      "Do not damage the ball-joint boot or sensor wiring during separation."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Ball-joint separator",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Lower ball joint or complete control arm, according to fitted design",
+        "replace": "if-worn",
+        "notes": "Check the vehicle-specific parts configuration before ordering."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-ball-joint-fastener",
+        "fastener": "Lower ball-joint fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "boulon de la rotule inférieure 6,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-ball-joint-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the wheel, release the ball-joint fastener and separate the taper using a suitable separator. Do not lever against the sensor lead or damage the joint boot."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Seat the joint taper cleanly, refit the specified fastener and tighten to the cited value. Refit the wheel and check alignment."
+      }
+    ],
+    "checks": [
+      "Check joint for play, roughness and torn boot before replacement.",
+      "Confirm the taper is seated and alignment is checked."
+    ],
+    "faults": [
+      {
+        "symptom": "Knock or looseness at the front wheel",
+        "causes": "Ball-joint wear or a loose taper connection."
+      },
+      {
+        "symptom": "Grease around joint",
+        "causes": "Split dust boot allowing contamination and accelerated wear."
+      }
+    ]
+  },
+  {
+    "id": "front-anti-roll-bar-drop-link",
+    "name": "Front anti-roll-bar drop link",
+    "system": "Suspension",
+    "position": [
+      1.24,
+      0.43,
+      0.78
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "The drop link joins the front anti-roll bar to the suspension strut/control assembly. Inspect the joints and boots for play or damage.",
+    "safety": [
+      "Support the vehicle securely and avoid loading the link with the suspension hanging unevenly."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Combination spanners and hex/torx counter-hold",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Front anti-roll-bar drop link",
+        "qty": "Pair",
+        "replace": "always",
+        "notes": "Renew as a pair when worn."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-drop-link-ball-joint-nut",
+        "fastener": "Drop-link ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 44,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "écrou de rotule de biellette de renvoi de barre stabilisatrice 4,4 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-drop-link-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the wheel and hold the link stud with its counter-hold while releasing the nut at the strut and anti-roll-bar ends."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the replacement link in the original orientation, counter-hold the stud and tighten each joint nut to the cited specification. Refit the wheel."
+      }
+    ],
+    "checks": [
+      "Check both joints for play and boots for splits.",
+      "Road-test for reduced knocking over uneven surfaces."
+    ],
+    "faults": [
+      {
+        "symptom": "Rattle over small bumps",
+        "causes": "Worn drop-link ball joints or loose fasteners."
+      }
+    ]
+  },
+  {
+    "id": "front-anti-roll-bar-bushes",
+    "name": "Front anti-roll-bar bushes",
+    "system": "Suspension",
+    "position": [
+      1.22,
+      0.3,
+      0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 210,
+    "summary": "The front stabilizer bar is mounted to the subframe. The documented replacement route requires removal of the subframe and steering gear; this is not a simple clamp-only service operation.",
+    "safety": [
+      "Use a suitable support for the subframe and steering gear before loosening mounts.",
+      "Lock the steering wheel and follow the specified steering-sensor calibration after subframe work."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Subframe support",
+      "Steering-wheel lock",
+      "Torque wrench",
+      "Diagnostic tool"
+    ],
+    "parts": [
+      {
+        "name": "Anti-roll-bar bushes",
+        "replace": "if-worn",
+        "notes": "Confirm availability and bar design; the repair procedure addresses the complete bar assembly."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-stabilizer-bush-clamp-bolts",
+        "fastener": "Stabilizer bar-to-subframe clamp bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 21,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Barre stabilisatrice",
+            "url": "https://www.manuelmeg.org/barre_stabilisatrice-313.html",
+            "locator": "vis de fixation de la barre stabilisatrice sur le berceau 2,1 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-stabilizer-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Barre stabilisatrice",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Support the vehicle, lock the steering wheel and safely support the subframe. Remove the subframe/steering-gear assembly as required by the repair procedure before releasing the stabilizer bar clamps."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Position the bar clamp locating tabs correctly in their subframe holes, then tighten the clamp fasteners to specification. Refit the subframe and steering gear using their applicable procedures."
+      }
+    ],
+    "checks": [
+      "Confirm bar locating tabs are correctly engaged and bushes are seated without twist.",
+      "Perform required steering-angle and torque-sensor initialization and wheel alignment."
+    ],
+    "faults": [
+      {
+        "symptom": "Front-end knock or excessive body roll",
+        "causes": "Worn anti-roll-bar bushes, damaged link joints or loose mounting hardware."
+      }
+    ]
+  },
+  {
+    "id": "front-track-rod-end",
+    "name": "Front track-rod end",
+    "system": "Steering",
+    "position": [
+      1.32,
+      0.31,
+      0.72
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "The outer track-rod end connects the steering rack linkage to the front steering knuckle. Wheel alignment is required after replacement.",
+    "safety": [
+      "Support the vehicle securely and avoid damaging the steering-angle sensor wiring.",
+      "Do not rely on counting turns alone to set final toe; obtain an alignment check."
+    ],
+    "tools": [
+      "Jack and axle stands",
+      "Ball-joint separator",
+      "Spanners",
+      "Torque wrench",
+      "Alignment equipment"
+    ],
+    "parts": [
+      {
+        "name": "Outer track-rod end",
+        "replace": "if-worn",
+        "notes": "Verify side and thread variant against the vehicle."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-track-rod-end-nut",
+        "fastener": "Track-rod-end ball-joint nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "écrou de rotule de direction 3,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-track-rod-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Record the initial linkage position as an assembly aid, loosen the locknut and remove the wheel. Separate the outer joint taper without striking the steering arm."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the replacement joint, seat its taper and tighten the nut to the cited value. Secure the locknut and arrange a professional wheel alignment."
+      }
+    ],
+    "checks": [
+      "Inspect the joint boot, taper and inner linkage for play or damage.",
+      "Verify steering is centred and front toe is set with alignment equipment."
+    ],
+    "faults": [
+      {
+        "symptom": "Steering play or clunk",
+        "causes": "Worn track-rod-end ball joint or loose taper nut."
+      },
+      {
+        "symptom": "Uneven front tyre wear",
+        "causes": "Incorrect toe or damaged steering linkage."
+      }
+    ]
+  },
+  {
+    "id": "front-wheel-bearing-hub",
+    "name": "Front wheel bearing and hub",
+    "system": "Wheels",
+    "position": [
+      1.25,
+      0.32,
+      0.78
+    ],
+    "difficulty": 5,
+    "timeMinutes": 180,
+    "summary": "The instrumented front bearing is pressed into the steering knuckle. Protect the wheel-speed sensor target and use press tools that load the correct bearing race.",
+    "safety": [
+      "Use a hydraulic press and appropriate support sleeves; bearing press forces are substantial.",
+      "Do not mark or contaminate the magnetic wheel-speed target.",
+      "Support the vehicle and steering knuckle securely."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Hub holder",
+      "Ball-joint separator",
+      "Hydraulic press and bearing sleeves",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Front wheel bearing",
+        "replace": "always",
+        "notes": "Renew bearing retaining circlip if damaged; inspect hub and knuckle surfaces."
+      },
+      {
+        "name": "Hub nut",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-hub-axle-nut",
+        "fastener": "Front driveshaft/hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "écrou de transmission 28 daN.m; procedure explicitly covers F4R, K4J or K4M",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-lower-ball-joint",
+        "fastener": "Lower ball-joint fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "boulon de rotule inférieure 6,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-track-rod-end",
+        "fastener": "Track-rod-end nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "écrou de rotule de direction 3,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-strut-bolt",
+        "fastener": "Strut-to-knuckle bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "vis de pied d'amortisseur 10,5 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-disc-bolts",
+        "fastener": "Brake disc retaining bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 15,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "vis de fixation de disque 1,5 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-caliper-carrier",
+        "fastener": "Brake caliper carrier bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "threadLock": true,
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "vis de support d'étrier 10,5 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-hub-wheel-bolts",
+        "fastener": "Front wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Bearing fit",
+        "label": "Front bearing is instrumented",
+        "value": "Protect the wheel-speed-sensor target during removal and installation.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "Le roulement est instrumenté; veiller à ne pas marquer la cible du capteur",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the front brake assembly and disconnect the wheel-speed-sensor wiring. Separate the lower ball joint, track-rod end and strut connection, then remove the steering knuckle with the hub."
+      },
+      {
+        "text": "Press the hub out while supporting the correct race, then press the bearing from the knuckle. Do not load the magnetic encoder or damage the bearing seat."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean and inspect hub and knuckle seating surfaces. Press the new bearing into the knuckle using force on its outer race, fit the retaining circlip, then press the hub using support on the inner race."
+      },
+      {
+        "text": "Reassemble the knuckle and brake components, protect and reconnect the sensor lead, and tighten each fastener to its listed specification."
+      }
+    ],
+    "checks": [
+      "Confirm the bearing turns smoothly and has no play or noise.",
+      "Check that the encoder target and sensor wiring remain undamaged.",
+      "Check brake hose routing, wheel alignment and ABS diagnostics."
+    ],
+    "faults": [
+      {
+        "symptom": "Hum that changes with road speed",
+        "causes": "Worn wheel bearing."
+      },
+      {
+        "symptom": "ABS fault after bearing repair",
+        "causes": "Damaged magnetic encoder target, incorrect bearing orientation or sensor wiring issue."
+      }
+    ]
+  },
+  {
+    "id": "rear-shock-absorber",
+    "name": "Rear shock absorber",
+    "system": "Suspension",
+    "position": [
+      -1.39,
+      0.52,
+      0.78
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "The rear dampers are mounted separately from the coil springs. Tighten their mounting fasteners only with the suspension at normal ride position.",
+    "safety": [
+      "Never support the vehicle by the rear axle beam.",
+      "Replace rear dampers as a left/right pair.",
+      "Final-tighten suspension mounts only with the wheels on the ground."
+    ],
+    "tools": [
+      "Vehicle lift or axle stands",
+      "Support jack for suspension",
+      "Socket set",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Rear shock absorber",
+        "qty": "Pair",
+        "replace": "always",
+        "notes": "The repair source requires paired replacement."
+      },
+      {
+        "name": "Upper and lower mount hardware",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-shock-upper-bolt",
+        "fastener": "Rear shock upper mounting bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 62,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amortisseur (rear)",
+            "url": "https://www.manuelmeg.org/amortisseur-321.html",
+            "locator": "vis supérieures de fixation des amortisseurs 6,2 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-shock-lower-bolt",
+        "fastener": "Rear shock lower mounting bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amortisseur (rear)",
+            "url": "https://www.manuelmeg.org/amortisseur-321.html",
+            "locator": "vis inférieures de fixation des amortisseurs 10,5 daN.m; tighten with wheels on ground",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-shock-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Amortisseur (rear)",
+            "url": "https://www.manuelmeg.org/amortisseur-321.html",
+            "locator": "rear shock procedure refits rear wheels; wheel torque also stated in rear spring page: 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the luggage-compartment trim to access the upper mount. Remove its fastener, raise the vehicle and release the lower mount, then remove the damper."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the damper and loosely fit its lower mount. Position the upper mount correctly, lower the vehicle until the suspension is at normal ride height, then tighten both mounts to specification."
+      }
+    ],
+    "checks": [
+      "Inspect both dampers for leakage and compare rebound behavior side to side.",
+      "Reinstall trim and confirm no hose, cable or suspension part is trapped."
+    ],
+    "faults": [
+      {
+        "symptom": "Rear-end bouncing or poor damping",
+        "causes": "Worn or leaking shock absorber."
+      },
+      {
+        "symptom": "Knock from rear suspension",
+        "causes": "Damaged damper bushes or loose mounts."
+      }
+    ]
+  },
+  {
+    "id": "rear-coil-spring",
+    "name": "Rear coil spring and spring seats",
+    "system": "Suspension",
+    "position": [
+      -1.39,
+      0.35,
+      0.78
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Rear coil springs sit between the body and rear axle beam, with upper and lower spring seats. Preserve the spring and damper identification markings when selecting replacements.",
+    "safety": [
+      "Support the axle beam with a suitable jack before releasing the shock absorber lower mount.",
+      "Never support the vehicle by the rear axle beam.",
+      "Replace a dislodged upper spring seat if it no longer clips securely."
+    ],
+    "tools": [
+      "Vehicle lift or axle stands",
+      "Support jack",
+      "Trim clip tool",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Rear coil springs",
+        "qty": "Pair",
+        "replace": "always",
+        "notes": "Match the spring identification marks and replace as a pair."
+      },
+      {
+        "name": "Spring seats",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-spring-shock-lower-bolt",
+        "fastener": "Rear shock lower mounting bolt",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 105,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort (rear)",
+            "url": "https://www.manuelmeg.org/ressort-320.html",
+            "locator": "vis de fixation inférieure d'amortisseurs 10,5 daN.m; final tightening with wheels on ground",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-spring-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort (rear)",
+            "url": "https://www.manuelmeg.org/ressort-320.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-spring-undertray-bolts",
+        "fastener": "Rear axle protective cover bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 8,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Ressort (rear)",
+            "url": "https://www.manuelmeg.org/ressort-320.html",
+            "locator": "vis de fixation de la protection sous le train arrière 0,8 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Remove the rear wheel and axle protective cover as needed. Support the spring seat with a jack, release the lower damper mount and lower the axle beam in a controlled manner to remove the spring and lower seat."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the spring seats and orient each spring to its original position. Raise the axle beam and loosely refit the damper lower mount; final-tighten it only after the wheels are on the ground."
+      }
+    ],
+    "checks": [
+      "Check spring markings and compare left/right parts before installation.",
+      "Confirm each spring end is correctly located and the upper seat is clipped in place."
+    ],
+    "faults": [
+      {
+        "symptom": "Vehicle sits low at one rear corner",
+        "causes": "Broken or incorrect spring, displaced spring seat or unequal part specification."
+      },
+      {
+        "symptom": "Rear suspension clunk",
+        "causes": "Dislodged spring seat, damaged spring or loose damper mount."
+      }
+    ]
+  },
+  {
+    "id": "rear-hub-bearing",
+    "name": "Rear hub bearing (integrated with brake disc)",
+    "system": "Wheels",
+    "position": [
+      -1.39,
+      0.32,
+      0.78
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "The fetched repair data describes the rear wheel bearing as supplied already mounted in the rear brake disc. Replace the disc-and-bearing assembly rather than treating it as a separate press-in rear bearing.",
+    "safety": [
+      "Use a replacement assembly matched to the vehicle and ABS configuration.",
+      "Do not damage the bearing encoder or contaminate the brake friction surfaces."
+    ],
+    "tools": [
+      "Jack and axle stands or lift",
+      "Hub nut socket",
+      "Torque wrench",
+      "Brake piston wind-back tool"
+    ],
+    "parts": [
+      {
+        "name": "Rear brake disc with integrated wheel bearing",
+        "replace": "always",
+        "notes": "The fetched manual states the discs are supplied with bearings fitted."
+      },
+      {
+        "name": "Hub dust cap and axle nut",
+        "replace": "always",
+        "notes": "Renew if damaged or specified by the replacement part instructions."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-hub-axle-nut",
+        "fastener": "Rear stub-axle nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "écrous de fusées 28 daN.m; discs supplied with bearings mounted",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "rear-hub-wheel-bolts",
+        "fastener": "Rear wheel bolts",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 110,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "vis de fixation de roue 11 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Construction",
+        "label": "Bearing service format",
+        "value": "Bearing supplied installed in the rear brake disc",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Disque de frein (rear)",
+            "url": "https://www.manuelmeg.org/disque_de_frein-319.html",
+            "locator": "Les disques sont livrés avec les roulements montés",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Remove the wheel, unclip the parking-brake cable, remove the caliper and carrier, then remove the dust cap and stub-axle nut to withdraw the disc-and-bearing assembly."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install a new integrated disc-bearing assembly, fit the hub nut and dust cap, then reinstall carrier, caliper and parking-brake cable using their applicable procedures."
+      },
+      {
+        "text": "Pump the brake pedal and cycle the parking brake before driving."
+      }
+    ],
+    "checks": [
+      "Check bearing play and noise and confirm the ABS encoder remains clean and undamaged.",
+      "Inspect the disc and pads as an axle pair."
+    ],
+    "faults": [
+      {
+        "symptom": "Rear-wheel hum or play",
+        "causes": "Worn integrated bearing; replace the rear disc-bearing assembly described by the repair data."
+      }
+    ]
+  },
+  {
+    "id": "front-driveshaft-cv-boots",
+    "name": "Front drive shafts and CV boots",
+    "system": "Transmission",
+    "position": [
+      1.23,
+      0.3,
+      0.42
+    ],
+    "difficulty": 5,
+    "timeMinutes": 180,
+    "summary": "Inspect the inner and outer constant-velocity joint boots for splits, grease loss and loose clamps. Exact boot-replacement steps depend on the shaft/joint design; no K4M-specific boot procedure was verified in the fetched pages.",
+    "safety": [
+      "Support the vehicle securely and protect the gearbox output seal from shaft damage.",
+      "Do not allow the driveshaft to hang from the inner joint."
+    ],
+    "tools": [
+      "Vehicle lift",
+      "Hub nut socket",
+      "Ball-joint separator",
+      "CV boot clamp pliers",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "CV boot kit and clamps",
+        "replace": "if-worn",
+        "notes": "Confirm inner/outer joint type and boot kit against the VIN."
+      },
+      {
+        "name": "Driveshaft nut",
+        "replace": "always",
+        "notes": "Use the part maker's replacement instruction."
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-driveshaft-hub-nut",
+        "fastener": "Front driveshaft-to-hub nut",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 280,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Roulement de porte-moyeu",
+            "url": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html",
+            "locator": "écrou de transmission 28 daN.m; K4M is explicitly included",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "front-cv-boot-clamps",
+        "fastener": "CV boot clamps",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No clamp torque was found for this K4M application in the fetched pages; use the boot-kit manufacturer's tool and instructions.",
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Service coverage",
+        "label": "CV boot-specific dimensions and torque data",
+        "value": null,
+        "notes": "Not found in the fetched K4M-specific sources; do not infer from another Renault engine or joint design.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Inspect both inner and outer boots for tears, grease spray or loose clamps. For shaft removal, separate the hub/knuckle connection using the vehicle-specific driveshaft procedure and support the shaft at the inner joint."
+      },
+      {
+        "text": "Remove the shaft and joint only with the correct model-specific procedure; retain joint components in order and avoid contaminating the grease."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Pack the joint with the specified grease, fit the correct boot and clamps with dedicated clamp tooling, and reassemble without twisting or pinching the boot."
+      },
+      {
+        "text": "Refit the shaft using the vehicle-specific axle-nut and gearbox-seal instructions; verify no fluid leak or boot contact through suspension travel."
+      }
+    ],
+    "checks": [
+      "Check for grease leakage and confirm the boot folds do not bind at full steering lock or suspension travel.",
+      "After road-testing, inspect the gearbox seal and hub joint for leaks or noise."
+    ],
+    "faults": [
+      {
+        "symptom": "Clicking on tight turns",
+        "causes": "Worn outer CV joint, often after boot damage and grease loss."
+      },
+      {
+        "symptom": "Grease around wheel arch or subframe",
+        "causes": "Split CV boot or failed clamp."
+      }
+    ]
+  },
+  {
+    "id": "steering-rack-gaiter",
+    "name": "Steering rack gaiter",
+    "system": "Steering",
+    "position": [
+      1.02,
+      0.27,
+      0.2
+    ],
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "summary": "The rack gaiter protects the inner steering joint and rack from water and dirt. K4M-specific replacement torque data and a verified repair procedure were not found in the fetched sources.",
+    "safety": [
+      "Support the vehicle securely and keep dirt away from the exposed rack shaft.",
+      "Wheel alignment must be checked after disturbing steering linkage length."
+    ],
+    "tools": [
+      "Vehicle lift or axle stands",
+      "Track-rod-end separator",
+      "Steering-rack boot clamp tools",
+      "Torque wrench",
+      "Alignment equipment"
+    ],
+    "parts": [
+      {
+        "name": "Steering rack gaiter and clamps",
+        "replace": "if-worn",
+        "notes": "Match the boot and clamp design to the rack fitted to the vehicle."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rack-gaiter-clamps",
+        "fastener": "Steering-rack gaiter clamps",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "notes": "No verified torque value found; use the rack/boot maker's fitting method.",
+        "sources": []
+      },
+      {
+        "id": "rack-gaiter-track-rod-end",
+        "fastener": "Track-rod-end nut if removed",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 37,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Bras inférieur",
+            "url": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html",
+            "locator": "écrou de rotule de direction 3,7 daN.m",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Service coverage",
+        "label": "Rack gaiter-specific procedure",
+        "value": null,
+        "notes": "No exact rack-gaiter procedure or boot dimensions were verified for this vehicle in fetched pages.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Clean the steering linkage before opening the boot. Remove the outer track-rod end only if needed for access, recording the initial position as an assembly aid."
+      },
+      {
+        "text": "Release the gaiter clamps and slide the old boot off without scratching the rack shaft or allowing dirt into the rack."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Inspect the rack shaft and inner joint, install the matching boot and clamps using the component maker's fitting instructions, and ensure the boot is not twisted."
+      },
+      {
+        "text": "Refit any removed steering joint, tighten to the verified applicable specification and obtain a wheel-alignment check."
+      }
+    ],
+    "checks": [
+      "Inspect gaiter for splits, loose ends and trapped moisture.",
+      "Turn the steering lock-to-lock and confirm the boot flexes without twisting or pulling off."
+    ],
+    "faults": [
+      {
+        "symptom": "Grease or moisture inside gaiter",
+        "causes": "Torn gaiter allowing contamination or rack fluid leak."
+      },
+      {
+        "symptom": "Steering noise or play",
+        "causes": "Inner joint, rack or bearing damage after gaiter failure."
+      }
+    ]
+  },
+  {
+    "id": "rear-axle-beam-bushes",
+    "name": "Rear axle beam bushes (elastic mountings)",
+    "system": "Suspension",
+    "position": [
+      -1.37,
+      0.36,
+      0
+    ],
+    "difficulty": 5,
+    "timeMinutes": 240,
+    "summary": "Renault repair data documents replacement of the rear axle beam elastic mountings. The procedure applies to body variants B84, C84 or S84; verify the vehicle code before use.",
+    "safety": [
+      "The rear axle is heavy and can destabilize the vehicle; strap the vehicle securely to the lift and support the axle beam with dedicated equipment.",
+      "Never support or lift the vehicle by the rear axle beam.",
+      "Keep the axle at the specified installation position while tightening the bushes."
+    ],
+    "tools": [
+      "Two-post lift and safety straps",
+      "Rear axle support fixture",
+      "Hydraulic/organ jack",
+      "Press suitable for the mounting bushes",
+      "Torque wrench"
+    ],
+    "parts": [
+      {
+        "name": "Rear axle beam elastic mountings",
+        "qty": "Pair",
+        "replace": "always",
+        "notes": "Confirm B84/C84/S84 body applicability and mount orientation."
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-axle-beam-bush-bolts",
+        "fastener": "Rear axle beam mounting bolts",
+        "qty": 2,
+        "stages": [
+          {
+            "kind": "torque",
+            "value": 125,
+            "unit": "Nm"
+          }
+        ],
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Articulation élastique (rear axle)",
+            "url": "https://www.manuelmeg.org/articulation_eacute_lastique-323.html",
+            "locator": "B84 ou C84 ou S84; vis de fixation des articulations 12,5 daN.m; target damper mounting spacing 402 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "group": "Applicability",
+        "label": "Documented body codes",
+        "value": "B84, C84 or S84",
+        "notes": "Check the car's exact body/type identifier before applying this procedure.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Articulation élastique (rear axle)",
+            "url": "https://www.manuelmeg.org/articulation_eacute_lastique-323.html",
+            "locator": "B84 ou C84 ou S84",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Installation position",
+        "label": "Distance between body-side and axle-side shock mounting points",
+        "value": "402 mm",
+        "notes": "Set using the specified support fixture before tightening the elastic mounting fasteners.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual — Articulation élastique (rear axle)",
+            "url": "https://www.manuelmeg.org/articulation_eacute_lastique-323.html",
+            "locator": "entraxe des points de fixation d'amortisseur ... longueur de 402 mm",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Secure the vehicle to the lift with safety straps and support the rear axle beam using the specified fixture. Remove the lower damper mountings as required to position the axle assembly."
+      },
+      {
+        "text": "Release the elastic-mounting fasteners and lower or reposition the axle beam only enough to remove the mountings, preserving their orientation."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the new mountings in the correct orientation. Set the distance between the body-side and axle-side damper mounting points to the documented setup dimension before tightening the mounting bolts.",
+        "torque": "rear-axle-beam-bush-bolts"
+      },
+      {
+        "text": "Restore the brake hoses, ABS connectors, parking-brake cables and dampers according to their respective procedures; check alignment and brake operation."
+      }
+    ],
+    "checks": [
+      "Confirm vehicle body code is within the stated applicability.",
+      "Verify mounting centring and specified axle position before final tightening.",
+      "Inspect brake pipes, ABS wiring, spring seats and damper mounts after assembly."
+    ],
+    "faults": [
+      {
+        "symptom": "Rear axle clunk or lateral movement",
+        "causes": "Deteriorated elastic mountings or loose axle fasteners."
+      },
+      {
+        "symptom": "Rear alignment or tyre wear issue",
+        "causes": "Damaged axle mounting, bent beam or incorrect reinstallation position."
+      }
+    ]
+  }
+]
