@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "cabin-filter",
+    "name": "Cabin (pollen) filter",
+    "system": "HVAC",
+    "position": [
+      -0.15,
+      0.62,
+      0.1
+    ],
+    "difficulty": 2,
+    "timeMinutes": 25,
+    "summary": "Replace the cabin-air filter and verify airflow. Renault directs the owner to the vehicle maintenance schedule for filter intervals.",
+    "interval": "Follow the vehicle maintenance document; exact interval not stated in the fetched handbook page.",
+    "safety": [
+      "Do not force brittle trim or cover clips."
+    ],
+    "tools": [
+      "Trim tool",
+      "Work light"
+    ],
+    "parts": [
+      {
+        "name": "Cabin filter",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "filter-cover-fasteners",
+        "fastener": "Cabin-filter cover fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Service",
+        "label": "Replacement interval",
+        "value": null,
+        "notes": "Use the maintenance schedule for this vehicle and market. Mégane III handbook value removed; Mégane II value not yet sourced.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Switch off the ignition and identify the cabin-filter access panel for this dashboard and left-/right-hand-drive configuration."
+      },
+      {
+        "text": "Release the access cover without bending its tabs, then withdraw the old filter while noting its airflow direction."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean loose debris from the housing without pushing dirt into the HVAC duct."
+      },
+      {
+        "text": "Fit the correct filter in the marked airflow direction, secure the cover, and test blower operation."
+      }
+    ],
+    "checks": [
+      "Confirm the cover is fully seated and there is no bypass gap.",
+      "Check airflow and listen for debris in the blower."
+    ],
+    "faults": []
+  },
+  {
+    "id": "wiper-blades",
+    "name": "Wiper blades",
+    "system": "Body",
+    "position": [
+      1.35,
+      1.15,
+      0.2
+    ],
+    "difficulty": 2,
+    "timeMinutes": 10,
+    "summary": "Renew blades that no longer clear the glass cleanly. The owner handbook gives a replacement method and an approximate annual interval, but not blade lengths.",
+    "interval": "About every year, or sooner if wiping effectiveness declines.",
+    "safety": [
+      "Never let a bare wiper arm fall onto the glass.",
+      "Do not run blades on a dry windscreen."
+    ],
+    "tools": [
+      "Soft glass protection cloth"
+    ],
+    "parts": [
+      {
+        "name": "Front wiper blades",
+        "replace": "always"
+      },
+      {
+        "name": "Rear wiper blade",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Dimensions",
+        "label": "Front and rear blade lengths",
+        "value": null,
+        "notes": "Not specified in the fetched handbook page; verify by VIN/body style and existing connector.",
+        "sources": []
+      },
+      {
+        "group": "Service",
+        "label": "Replacement interval",
+        "value": null,
+        "sources": [],
+        "notes": "Mégane III handbook value removed; Mégane II value not yet sourced."
+      }
+    ],
+    "removal": [
+      {
+        "text": "With the ignition on and engine stopped, place the front wipers in the service position using the stalk; switch off the ignition."
+      },
+      {
+        "text": "Lift an arm, release its blade latch and slide the blade off. For the rear blade, pivot it away from the glass and release its latch as fitted.",
+        "warning": "Protect the glass and hold each arm; an unloaded arm can strike and crack the glass."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Slide each correctly matched blade onto its arm until the latch engages."
+      },
+      {
+        "text": "Lower the arms gently and test the wipe on a wet screen; confirm each blade locks and parks correctly."
+      }
+    ],
+    "checks": [
+      "Check for streaking, chatter, missed areas and secure end locks."
+    ],
+    "faults": []
+  },
+  {
+    "id": "wiper-motor",
+    "name": "Wiper motor and linkage",
+    "system": "Electrical",
+    "position": [
+      1.45,
+      1.18,
+      0.15
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "Diagnose the fuse, supply, linkage and motor before replacement. Access and linkage indexing vary by body and equipment; use the VIN-specific service method.",
+    "safety": [
+      "Keep hands clear of linkage while powered.",
+      "Disconnect the battery before disturbing motor wiring."
+    ],
+    "tools": [
+      "Trim tools",
+      "Socket set",
+      "Multimeter"
+    ],
+    "parts": [
+      {
+        "name": "Wiper motor or linkage assembly",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "wiper-linkage-fixings",
+        "fastener": "Wiper motor and linkage fixings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Park the wipers, switch off the ignition and disconnect the battery using the vehicle electrical procedure."
+      },
+      {
+        "text": "Remove the cowl trim and wiper arms as required, keeping track of clips and drain seals."
+      },
+      {
+        "text": "Unplug the motor and separate the linkage only as required; note its parked orientation before removal."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the linkage and motor in their parked position; route the harness clear of moving arms."
+      },
+      {
+        "text": "Reconnect the battery and test a full wipe cycle before reinstalling the cowl and arms."
+      }
+    ],
+    "checks": [
+      "Confirm correct park position, sweep, speed settings and washer coordination.",
+      "Check that the cowl drains and seals are restored."
+    ],
+    "faults": [
+      {
+        "symptom": "Wipers do not move",
+        "causes": "Check power supply, fuse, connector, seized linkage and motor before replacing parts."
+      }
+    ]
+  },
+  {
+    "id": "washer-pump",
+    "name": "Windscreen washer pump",
+    "system": "Electrical",
+    "position": [
+      1.45,
+      0.28,
+      0.68
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "Check fluid, blocked jets, hose routing and pump power before replacing the washer pump.",
+    "safety": [
+      "Avoid spilling washer fluid onto paint or electrical connectors."
+    ],
+    "tools": [
+      "Trim tools",
+      "Catch container",
+      "Multimeter"
+    ],
+    "parts": [
+      {
+        "name": "Washer pump and seal",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "washer-pump-fixings",
+        "fastener": "Washer pump or reservoir fixings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Switch off the ignition and identify the reservoir and pump access for the exact body style."
+      },
+      {
+        "text": "Protect paintwork, disconnect the pump connector and hose, and catch fluid before releasing the pump."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit a sound seal and pump, reconnect hose and electrical plug, then refill with suitable washer fluid."
+      },
+      {
+        "text": "Operate the washer briefly and confirm spray direction and leak-free connections."
+      }
+    ],
+    "checks": [
+      "Check both front and rear washer circuits where fitted.",
+      "Clear blocked jets without enlarging their orifices."
+    ],
+    "faults": [
+      {
+        "symptom": "No washer spray",
+        "causes": "Empty reservoir, frozen fluid, blocked jets, split hose, fuse, wiring or pump failure."
+      }
+    ]
+  },
+  {
+    "id": "headlamp-bulbs",
+    "name": "Headlamp bulbs",
+    "system": "Lighting",
+    "position": [
+      1.88,
+      0.83,
+      0.68
+    ],
+    "difficulty": 2,
+    "timeMinutes": 25,
+    "summary": "The repair manual lists halogen bulb designations, but access differs by engine and may use the wheel-arch flap, engine bay or headlamp removal. Confirm the fitted lamp by VIN.",
+    "safety": [
+      "Never energise a lamp outside its housing.",
+      "For xenon equipment, do not handle the high-voltage lamp/ballast; use the dedicated procedure and qualified service."
+    ],
+    "tools": [
+      "Gloves",
+      "Work light"
+    ],
+    "parts": [
+      {
+        "name": "Replacement bulb matching the fitted headlamp",
+        "replace": "always"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Halogen bulbs",
+        "label": "Main beam",
+        "value": "H1",
+        "notes": "Use only an approved bulb; equipment varies by vehicle.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/lampes_halog_egrave_nes_remplacement-438.html",
+            "locator": "High beam H1; position W5W; low beam H7; direction indicator PY21W",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Halogen bulbs",
+        "label": "Dipped beam",
+        "value": "H7",
+        "notes": "Not applicable to xenon-equipped headlamps.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/lampes_halog_egrave_nes_remplacement-438.html",
+            "locator": "High beam H1; position W5W; low beam H7; direction indicator PY21W",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Halogen bulbs",
+        "label": "Position lamp",
+        "value": "W5W",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/lampes_halog_egrave_nes_remplacement-438.html",
+            "locator": "High beam H1; position W5W; low beam H7; direction indicator PY21W",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Halogen bulbs",
+        "label": "Direction indicator",
+        "value": "PY21W",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/lampes_halog_egrave_nes_remplacement-438.html",
+            "locator": "High beam H1; position W5W; low beam H7; direction indicator PY21W",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Identify whether the car has halogen or xenon lamps and find the access route for the fitted engine and headlamp."
+      },
+      {
+        "text": "Switch off the lights, remove the appropriate rear cover and release the bulb connector and retainer."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the matching approved bulb without touching its glass, secure the retainer and refit the cover."
+      },
+      {
+        "text": "Test the lamp and confirm the beam aim has not shifted."
+      }
+    ],
+    "checks": [
+      "Verify left/right operation and correct high/low beam function.",
+      "Have headlamp aim checked after disturbing the lamp assembly."
+    ],
+    "faults": []
+  },
+  {
+    "id": "headlamp-unit",
+    "name": "Headlamp unit",
+    "system": "Lighting",
+    "position": [
+      2.03,
+      0.83,
+      0.68
+    ],
+    "difficulty": 4,
+    "timeMinutes": 100,
+    "summary": "Headlamp assemblies differ by halogen/xenon and trim. Xenon-equipped systems require special precautions and system initialisation after replacement.",
+    "safety": [
+      "Disconnect the battery before headlamp work.",
+      "Xenon ignition is hazardous; never energise a removed lamp and do not dismantle a hot ballast."
+    ],
+    "tools": [
+      "Trim tools",
+      "Socket set",
+      "Diagnostic tool for xenon variants"
+    ],
+    "parts": [
+      {
+        "name": "Headlamp assembly matched to VIN and lighting option",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "headlamp-fixings",
+        "fastener": "Headlamp mounting fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Variant",
+        "label": "Lamp technology and actuator serviceability",
+        "value": "Halogen and xenon variants exist; xenon levelling actuator is not separately removable from the projector.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/projecteurs_description-445.html",
+            "locator": "Xenon system safety, battery disconnection, cool ballast; actuator is not separately removable",
+            "accessed": "2026-10-29"
+          },
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/projecteurs-446.html",
+            "locator": "Xenon and halogen headlamp removal methods are identical; initialise and aim xenon system after fitting",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Disconnect the battery and allow any xenon ballast assembly to cool before work."
+      },
+      {
+        "text": "Remove the required front trim or bumper access pieces, unplug the lamp connectors and release the unit fixings."
+      },
+      {
+        "text": "Withdraw the lamp without loading its wiring or damaging adjacent bodywork."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the matching assembly, connect the harness and restore all seals and trim."
+      },
+      {
+        "text": "For xenon variants, initialise the system and adjust headlamp aim after installation."
+      }
+    ],
+    "checks": [
+      "Test all functions, levelling and warning indicators.",
+      "Check beam alignment and water ingress."
+    ],
+    "faults": []
+  },
+  {
+    "id": "rear-lamp-bulbs",
+    "name": "Rear lamp bulbs",
+    "system": "Lighting",
+    "position": [
+      -2,
+      0.8,
+      0.68
+    ],
+    "difficulty": 2,
+    "timeMinutes": 25,
+    "summary": "Rear lamp bulb type depends on body style and lamp equipment. Confirm the marked bulb or VIN catalogue before replacement.",
+    "safety": [
+      "Use the correct bulb type and wattage for the installed unit."
+    ],
+    "tools": [
+      "Trim tool",
+      "Gloves"
+    ],
+    "parts": [
+      {
+        "name": "Rear lamp bulb matched to the installed unit",
+        "replace": "always"
+      }
+    ],
+    "torques": [
+      {
+        "id": "rear-lamp-fasteners",
+        "fastener": "Rear lamp-unit fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Bulbs",
+        "label": "Rear lamp bulb designations",
+        "value": null,
+        "notes": "Not verified for every Mégane II body and lamp option.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Switch off the exterior lights and open the relevant luggage-compartment access."
+      },
+      {
+        "text": "Release the lamp carrier or service cover according to the installed unit; do not pull on wiring."
+      },
+      {
+        "text": "Remove the failed bulb using its carrier lock and note its orientation."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the exact matching bulb and lock the carrier into the lamp."
+      },
+      {
+        "text": "Reconnect and test tail, stop, indicator and reversing functions as applicable."
+      }
+    ],
+    "checks": [
+      "Check all rear lamp functions and that the lens seal is correctly seated."
+    ],
+    "faults": []
+  },
+  {
+    "id": "number-plate-lamp",
+    "name": "Number-plate lamp",
+    "system": "Lighting",
+    "position": [
+      -2.1,
+      0.45,
+      0
+    ],
+    "difficulty": 2,
+    "timeMinutes": 15,
+    "summary": "Inspect the lens, connector and bulb type before replacement; equipment varies by market and body style.",
+    "safety": [
+      "Avoid levering against painted surfaces with a bare metal tool."
+    ],
+    "tools": [
+      "Small trim tool",
+      "Gloves"
+    ],
+    "parts": [
+      {
+        "name": "Number-plate lamp bulb or lamp assembly matched to vehicle",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "plate-lamp-fixings",
+        "fastener": "Number-plate lamp fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Bulbs",
+        "label": "Bulb designation",
+        "value": null,
+        "notes": "Not confirmed for the full model/body range.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Switch off the exterior lights and protect the paint around the lens."
+      },
+      {
+        "text": "Release the lens or lamp with a suitable trim tool and disconnect the bulb holder."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the matching bulb or assembly, reconnect it and seat the lens seal evenly."
+      },
+      {
+        "text": "Switch on the lamps and verify the plate is illuminated."
+      }
+    ],
+    "checks": [
+      "Confirm the lens is secure, dry and evenly illuminated."
+    ],
+    "faults": []
+  },
+  {
+    "id": "fog-lamps",
+    "name": "Front fog lamps",
+    "system": "Lighting",
+    "position": [
+      1.97,
+      0.42,
+      0.7
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "The workshop-manual method removes the front bumper to access the fog lamps, then removes their fixings; refit and adjust the beam afterward.",
+    "safety": [
+      "Support the bumper during removal to avoid damaging paint or wiring."
+    ],
+    "tools": [
+      "Trim tools",
+      "Screwdriver",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Fog lamp matched to vehicle equipment",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "fog-lamp-fixings",
+        "fastener": "Front fog-lamp fixing screws",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Adjustment",
+        "label": "Post-installation adjustment",
+        "value": "Adjust the fog-lamp beam after refitting.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/feux_antibrouillard-439.html",
+            "locator": "Remove front bumper and fog-lamp fixing screws; refit in reverse and adjust with screwdriver",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Protect the bumper finish and remove it using the body-specific service procedure."
+      },
+      {
+        "text": "Remove the fog-lamp fixing screws and withdraw the lamp; disconnect its connector if needed."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect and secure the lamp, then refit the bumper in reverse order."
+      },
+      {
+        "text": "Adjust the fog-lamp beam with a screwdriver and verify operation."
+      }
+    ],
+    "checks": [
+      "Check lamp operation, beam direction and bumper fastener engagement."
+    ],
+    "faults": []
+  },
+  {
+    "id": "fuse-boxes",
+    "name": "Fuse boxes and fuse identification",
+    "system": "Electrical",
+    "position": [
+      0.55,
+      0.9,
+      0.48
+    ],
+    "difficulty": 1,
+    "timeMinutes": 15,
+    "summary": "Fuse assignments and box locations vary with equipment and production version. Use the vehicle-specific handbook or fuse-card markings; no complete K4M fuse map was verified.",
+    "safety": [
+      "Never bridge a fuse or fit a higher rating.",
+      "Disconnect the battery before working on exposed wiring."
+    ],
+    "tools": [
+      "Vehicle handbook",
+      "Fuse puller"
+    ],
+    "parts": [
+      {
+        "name": "Replacement fuse of the exact specified rating",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Location",
+        "label": "Fuse-box locations and circuit map",
+        "value": null,
+        "notes": "Verify against the exact vehicle handbook and fuse-card; not confirmed in this research.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Switch off the affected circuit and ignition, then consult the fuse-card or vehicle handbook for the correct fuse."
+      },
+      {
+        "text": "Remove the fuse with the puller and inspect it; do not substitute a different rating."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install only a fuse matching the specified rating and refit the cover securely."
+      },
+      {
+        "text": "Test the circuit; if the replacement fuse opens again, stop and diagnose the fault."
+      }
+    ],
+    "checks": [
+      "Confirm the repaired circuit works and the fuse does not open again."
+    ],
+    "faults": []
+  },
+  {
+    "id": "horn",
+    "name": "Horn",
+    "system": "Electrical",
+    "position": [
+      1.82,
+      0.45,
+      0.58
+    ],
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "summary": "Check the fuse, relay/control path, wiring and horn unit before replacing the horn. Access may require front bumper removal.",
+    "safety": [
+      "Do not work near the steering-wheel airbag or its wiring during horn diagnosis."
+    ],
+    "tools": [
+      "Multimeter",
+      "Trim tools",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Horn unit matched to vehicle",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "horn-fixings",
+        "fastener": "Horn mounting fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Switch off the ignition and disconnect the battery before accessing the front harness."
+      },
+      {
+        "text": "Locate the horn, unplug its connector and inspect for corrosion, water ingress or damaged wiring."
+      },
+      {
+        "text": "Release the mounting fastener and remove the horn if testing confirms failure."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct horn, reconnect the connector and secure the harness away from moving or hot parts."
+      },
+      {
+        "text": "Reconnect the battery and test the horn."
+      }
+    ],
+    "checks": [
+      "Check horn operation and that its sound is not obstructed."
+    ],
+    "faults": []
+  },
+  {
+    "id": "door-mirror-glass",
+    "name": "Door mirror glass",
+    "system": "Body",
+    "position": [
+      0.5,
+      1.13,
+      0.92
+    ],
+    "difficulty": 2,
+    "timeMinutes": 25,
+    "summary": "Mirror glass can include heating or blind-spot equipment. Match replacement glass to the installed option and use a body-specific removal method.",
+    "safety": [
+      "Wear eye protection and gloves when handling broken mirror glass."
+    ],
+    "tools": [
+      "Plastic trim tool",
+      "Protective gloves"
+    ],
+    "parts": [
+      {
+        "name": "Mirror glass matched to vehicle options",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Equipment",
+        "label": "Heating and monitoring options",
+        "value": null,
+        "notes": "Confirm against the VIN and existing mirror connector.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Position the mirror for access, protect the housing and release the glass evenly with a plastic tool."
+      },
+      {
+        "text": "Disconnect any heater or monitoring connectors without pulling their wires."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect option-specific terminals and align the glass with the backing plate."
+      },
+      {
+        "text": "Press evenly around the centre until retained, then test adjustment and heating if fitted."
+      }
+    ],
+    "checks": [
+      "Check glass retention, adjustment, heating and warning-system operation if fitted."
+    ],
+    "faults": []
+  },
+  {
+    "id": "crankshaft-position-sensor",
+    "name": "Crankshaft position sensor",
+    "system": "Engine",
+    "position": [
+      1.25,
+      0.62,
+      0.25
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "Diagnose the sensor circuit and connector before replacement. Access, sensor configuration and fastener data must be checked against the engine/VIN-specific repair information.",
+    "safety": [
+      "Keep hands and leads clear of belts and rotating components."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Multimeter",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Crankshaft position sensor and seal, as applicable",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "crankshaft-sensor-fastener",
+        "fastener": "Crankshaft position sensor fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Allow the engine to cool, switch off the ignition and disconnect the battery."
+      },
+      {
+        "text": "Locate the sensor using K4M-specific service data, release its connector and inspect the harness."
+      },
+      {
+        "text": "Remove the retaining fastener and withdraw the sensor without damaging its seating face."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Clean the seating area, fit the correct sensor and seal, and secure it using the verified K4M procedure."
+      },
+      {
+        "text": "Reconnect the harness, clear codes if required and verify starting and engine-speed signal."
+      }
+    ],
+    "checks": [
+      "Check for stored engine-speed signal faults and confirm reliable hot/cold starting."
+    ],
+    "faults": [
+      {
+        "symptom": "Intermittent no-start or stalling",
+        "causes": "Possible sensor, connector, wiring, supply or related engine-management fault; confirm with diagnosis."
+      }
+    ]
+  },
+  {
+    "id": "coolant-temperature-sensor",
+    "name": "Coolant temperature sensor",
+    "system": "Engine",
+    "position": [
+      1.45,
+      0.76,
+      0.15
+    ],
+    "difficulty": 3,
+    "timeMinutes": 45,
+    "summary": "Identify the K4M sensor by VIN and diagnostic data. Replacement may open the cooling system, so use a cold-engine procedure and restore coolant level and bleeding.",
+    "safety": [
+      "Never open the cooling system hot.",
+      "Keep coolant away from children and animals."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Catch container",
+      "Basic hand tools"
+    ],
+    "parts": [
+      {
+        "name": "Coolant temperature sensor and seal, as applicable",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "coolant-sensor-fastener",
+        "fastener": "Coolant temperature sensor fastener",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Cooling",
+        "label": "Coolant capacity",
+        "value": null,
+        "notes": "Not established for this K4M vehicle configuration.",
+        "sources": []
+      },
+      {
+        "group": "Coolant",
+        "label": "Protection guidance",
+        "value": "−20 °C ±2 for cold/temperate countries",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/vidange_remplissage_du_circuit_de_refroidissement-230.html",
+            "locator": "K4M listed for the water-box bleed point; cold/temperate coolant protection shown as −20 C ±2",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Let the engine cool completely and relieve system pressure only when safe."
+      },
+      {
+        "text": "Identify the sensor from K4M-specific information, protect nearby electrical parts and catch escaping coolant."
+      },
+      {
+        "text": "Disconnect the plug and remove the sensor without damaging its port."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit the correct seal and sensor, refill as required, then bleed the cooling system using the vehicle-specific method."
+      },
+      {
+        "text": "Reconnect the sensor and check live temperature data, leaks and coolant level after cooling."
+      }
+    ],
+    "checks": [
+      "Confirm stable temperature reading and no leaks.",
+      "Recheck the coolant level after a complete cool-down."
+    ],
+    "faults": []
+  },
+  {
+    "id": "oil-pressure-switch",
+    "name": "Oil pressure switch",
+    "system": "Engine",
+    "position": [
+      1.4,
+      0.62,
+      -0.15
+    ],
+    "difficulty": 2,
+    "timeMinutes": 35,
+    "summary": "An oil-pressure warning can indicate a real lubrication failure; check oil level and pressure before condemning the switch.",
+    "safety": [
+      "Do not continue driving with a genuine low-oil-pressure warning."
+    ],
+    "tools": [
+      "Oil-pressure test gauge",
+      "Basic hand tools",
+      "Catch cloth"
+    ],
+    "parts": [
+      {
+        "name": "Oil pressure switch and sealing washer, as fitted",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "oil-pressure-switch-fastener",
+        "fastener": "Oil pressure switch or sender",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "If the oil-pressure warning is on with the engine running, stop the engine and check oil level before further operation."
+      },
+      {
+        "text": "Switch off, allow hot parts to cool, disconnect the switch connector and verify the fault with suitable pressure testing."
+      },
+      {
+        "text": "Remove the switch while preventing dirt from entering the oil passage."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Install the correct switch and seal using verified K4M service data; reconnect the plug."
+      },
+      {
+        "text": "Start only after checking oil level, then verify the warning extinguishes and inspect for leaks."
+      }
+    ],
+    "checks": [
+      "Confirm actual oil pressure when a warning or pressure fault is present.",
+      "Check switch connector and sealing for oil leaks."
+    ],
+    "faults": []
+  },
+  {
+    "id": "key-card-battery",
+    "name": "Ignition key/card battery",
+    "system": "Electrical",
+    "position": [
+      0.52,
+      0.92,
+      0
+    ],
+    "difficulty": 1,
+    "timeMinutes": 10,
+    "summary": "Card/key battery type and opening method vary by key-card generation. Confirm the marking and replace without damaging the case or circuit board.",
+    "safety": [
+      "Keep coin cells away from children; do not short or swallow a battery."
+    ],
+    "tools": [
+      "Small plastic pry tool"
+    ],
+    "parts": [
+      {
+        "name": "Key-card battery matching the fitted card",
+        "replace": "always"
+      }
+    ],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Battery",
+        "label": "Battery type and orientation",
+        "value": null,
+        "notes": "Not verified for the different Mégane II card generations; read the fitted battery marking.",
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Work on a clean, dry surface and identify the exact key-card version."
+      },
+      {
+        "text": "Open the case at its intended seam and note the battery polarity before removal."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Fit a fresh battery of the identical type with matching polarity, then close the case without pinching the seal."
+      },
+      {
+        "text": "Test remote locking and starting; follow the owner handbook if re-synchronisation is needed."
+      }
+    ],
+    "checks": [
+      "Check button response and passive start/recognition where equipped."
+    ],
+    "faults": []
+  },
+  {
+    "id": "air-conditioning",
+    "name": "Air-conditioning system service",
+    "system": "HVAC",
+    "position": [
+      1.42,
+      0.75,
+      -0.1
+    ],
+    "difficulty": 5,
+    "timeMinutes": 120,
+    "summary": "Refrigerant type, charge mass and compressor oil quantity must be read from the vehicle label or VIN-specific service data; none was confirmed here. Refrigerant recovery and charging require qualified equipment.",
+    "safety": [
+      "Do not vent refrigerant or open a charged system.",
+      "Use trained personnel and appropriate eye/skin protection."
+    ],
+    "tools": [
+      "Approved refrigerant recovery/charging station",
+      "Leak detector",
+      "Diagnostic tool"
+    ],
+    "parts": [
+      {
+        "name": "Refrigerant and compressor oil as specified on vehicle label",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "ac-line-fasteners",
+        "fastener": "Air-conditioning line connections",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Refrigerant",
+        "label": "Refrigerant type",
+        "value": null,
+        "notes": "Verify on the vehicle label; do not assume by model year.",
+        "sources": []
+      },
+      {
+        "group": "Refrigerant",
+        "label": "Charge quantity",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "Compressor",
+        "label": "Oil specification and quantity",
+        "value": null,
+        "sources": []
+      }
+    ],
+    "removal": [
+      {
+        "text": "Inspect the system and identify the refrigerant label before connecting service equipment."
+      },
+      {
+        "text": "Recover refrigerant with approved equipment; do not vent it or loosen a charged line."
+      },
+      {
+        "text": "Only disconnect components after recovery and follow the specified oil balancing procedure."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Replace seals as required, evacuate and charge only to the vehicle-label specification."
+      },
+      {
+        "text": "Check for leaks, compressor operation, vent temperature and diagnostic faults."
+      }
+    ],
+    "checks": [
+      "Confirm no leaks and stable system operation.",
+      "Record recovered and charged amounts against the label specification."
+    ],
+    "faults": []
+  },
+  {
+    "id": "radiator-fan",
+    "name": "Radiator cooling fan",
+    "system": "Cooling",
+    "position": [
+      1.8,
+      0.5,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "summary": "The cooling fan may start unexpectedly. Diagnose fan supply, control and wiring before removal; access and control strategy vary by equipment.",
+    "safety": [
+      "The fan can start without warning; keep hands clear even with the ignition off.",
+      "Protect radiator fins from tools."
+    ],
+    "tools": [
+      "Diagnostic tool",
+      "Multimeter",
+      "Socket set"
+    ],
+    "parts": [
+      {
+        "name": "Cooling fan or fan assembly matched to vehicle",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "radiator-fan-fixings",
+        "fastener": "Radiator-fan assembly fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Switch off ignition, allow the engine to cool and isolate the battery before working near the fan."
+      },
+      {
+        "text": "Unplug the fan, release the shroud and wiring retainers, then remove the assembly without damaging the radiator."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Seat the fan and shroud correctly, secure the harness away from blades and reconnect the plug."
+      },
+      {
+        "text": "Reconnect the battery and confirm fan operation using a safe diagnostic activation or controlled operating check."
+      }
+    ],
+    "checks": [
+      "Check fan clearance, connector security and cooling performance."
+    ],
+    "faults": []
+  },
+  {
+    "id": "front-bumper",
+    "name": "Front bumper removal",
+    "system": "Body",
+    "position": [
+      2.08,
+      0.52,
+      0
+    ],
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "summary": "Bumper removal is required by the workshop-manual fog-lamp procedure. Fastener layout differs by trim and body, so confirm the correct body-specific method before pulling the cover.",
+    "safety": [
+      "Use a second person to support the bumper.",
+      "Do not pull against connected wiring."
+    ],
+    "tools": [
+      "Trim tools",
+      "Socket set",
+      "Protective covers"
+    ],
+    "parts": [
+      {
+        "name": "Replacement bumper clips, if damaged",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "front-bumper-fasteners",
+        "fastener": "Front bumper fixings",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [
+      {
+        "group": "Access",
+        "label": "Fog-lamp access",
+        "value": "Remove the front bumper to access the front fog lamps.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/feux_antibrouillard-439.html",
+            "locator": "Remove front bumper and fog-lamp fixing screws; refit in reverse and adjust with screwdriver",
+            "accessed": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "removal": [
+      {
+        "text": "Protect painted edges and disconnect the battery if unplugging powered lighting or sensor equipment."
+      },
+      {
+        "text": "Release wheel-arch, lower-edge and upper-edge retainers using the body/trim-specific procedure."
+      },
+      {
+        "text": "With an assistant supporting the cover, disconnect fog lamps or other fitted harnesses and remove the bumper without forcing it."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect all lamps and sensors, align the bumper guides and engage retainers without trapping wiring."
+      },
+      {
+        "text": "Check all joints, clips and electrical functions; adjust fog lamps if disturbed."
+      }
+    ],
+    "checks": [
+      "Confirm bumper gaps are even and all retainers engage.",
+      "Test fog lamps and any fitted front sensors."
+    ],
+    "faults": []
+  },
+  {
+    "id": "door-trim",
+    "name": "Door trim panel",
+    "system": "Body",
+    "position": [
+      0.25,
+      0.8,
+      0.82
+    ],
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "summary": "Door-trim fasteners and clips depend on door and equipment. Protect trim and isolate the battery before working near side-airbag wiring or powered equipment.",
+    "safety": [
+      "Do not probe or disturb airbag connectors.",
+      "Use non-marring tools to avoid damaging clips and trim."
+    ],
+    "tools": [
+      "Plastic trim tools",
+      "Torx/socket set"
+    ],
+    "parts": [
+      {
+        "name": "Door-panel clips, replace if damaged",
+        "replace": "if-worn"
+      }
+    ],
+    "torques": [
+      {
+        "id": "door-trim-fasteners",
+        "fastener": "Door-trim fasteners",
+        "stages": [
+          {
+            "kind": "torque",
+            "value": null,
+            "unit": "Nm"
+          }
+        ],
+        "sources": []
+      }
+    ],
+    "specs": [],
+    "removal": [
+      {
+        "text": "Switch off ignition and disconnect the battery if the work involves airbag or electrical connectors; follow the restraint-system wait and handling procedure."
+      },
+      {
+        "text": "Remove the trim caps and fasteners appropriate to the exact door, then release the panel clips progressively."
+      },
+      {
+        "text": "Lift the panel clear and disconnect handles, switches and speakers without pulling on wires."
+      }
+    ],
+    "installation": [
+      {
+        "text": "Reconnect components and verify switch operation before aligning the panel."
+      },
+      {
+        "text": "Engage the clips evenly, reinstall fasteners and confirm the moisture barrier remains sealed."
+      }
+    ],
+    "checks": [
+      "Check door lock, window switch, speaker and handle operation.",
+      "Confirm the trim is flush and the moisture barrier is intact."
+    ],
+    "faults": []
+  },
+  {
+    "id": "vehicle-data",
+    "name": "Vehicle fluids & capacities",
+    "system": "Body",
+    "position": [
+      1.4,
+      0.8,
+      0
+    ],
+    "difficulty": 1,
+    "timeMinutes": 0,
+    "summary": "Shared reference data for the Mégane II 1.6 16V K4M with manual JR5. Several values vary by VIN, body, market or equipment; null means not verified from the fetched sources.",
+    "safety": [
+      "Use the vehicle identification plate, handbook, service booklet and under-bonnet labels where a value is vehicle-specific."
+    ],
+    "tools": [],
+    "parts": [],
+    "torques": [],
+    "specs": [
+      {
+        "group": "Fluids",
+        "label": "Engine oil capacity with filter",
+        "value": null,
+        "notes": "Finish filling by dipstick, not by capacity alone. Mégane III handbook value removed; Mégane II value not yet sourced.",
+        "sources": []
+      },
+      {
+        "group": "Fluids",
+        "label": "Engine oil approval/specification",
+        "value": null,
+        "notes": "Exact Renault approval grade is not verified; consult the vehicle maintenance document.",
+        "sources": []
+      },
+      {
+        "group": "Fluids",
+        "label": "Coolant capacity",
+        "value": null,
+        "notes": "Not established for this exact configuration.",
+        "sources": []
+      },
+      {
+        "group": "Fluids",
+        "label": "Coolant protection guidance",
+        "value": "−20 °C ±2 (cold/temperate countries)",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/vidange_remplissage_du_circuit_de_refroidissement-230.html",
+            "locator": "K4M listed for the water-box bleed point; cold/temperate coolant protection shown as −20 C ±2",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Fluids",
+        "label": "JR5 gearbox oil type",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "Fluids",
+        "label": "JR5 gearbox oil capacity",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "Service intervals",
+        "label": "Brake-fluid change interval",
+        "value": null,
+        "notes": "The service booklet governs; fetched technical page does not give a time/distance interval.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/liquide_de_frein-294.html",
+            "locator": "Approved fluid conforms to SAE J1703-DOT4; replacement interval: see service booklet",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Fluids",
+        "label": "Brake-fluid type",
+        "value": "SAE J1703 / DOT 4",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/liquide_de_frein-294.html",
+            "locator": "Approved fluid conforms to SAE J1703-DOT4; replacement interval: see service booklet",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Tyres",
+        "label": "Tyre sizes",
+        "value": null,
+        "notes": "Read the vehicle-specific label on the edge of the driver door. Mégane III handbook value removed; Mégane II value not yet sourced.",
+        "sources": []
+      },
+      {
+        "group": "Tyres",
+        "label": "Tyre pressures",
+        "value": null,
+        "notes": "Use the vehicle label; it differentiates normal/highway and loaded use. Mégane III handbook value removed; Mégane II value not yet sourced.",
+        "sources": []
+      },
+      {
+        "group": "HVAC",
+        "label": "A/C refrigerant type",
+        "value": null,
+        "notes": "Read the under-bonnet refrigerant label; do not infer from model year.",
+        "sources": []
+      },
+      {
+        "group": "HVAC",
+        "label": "A/C refrigerant charge quantity",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "HVAC",
+        "label": "Compressor oil type and quantity",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "Wipers",
+        "label": "Front wiper blade sizes",
+        "value": null,
+        "notes": "Check by VIN/body style and the fitted connector.",
+        "sources": []
+      },
+      {
+        "group": "Wipers",
+        "label": "Rear wiper blade size",
+        "value": null,
+        "sources": []
+      },
+      {
+        "group": "Lighting",
+        "label": "Halogen headlamp bulbs",
+        "value": "Main beam H1; dipped beam H7; position W5W; direction indicator PY21W",
+        "notes": "Bulb fitment depends on headlamp equipment; xenon variants differ.",
+        "sources": [
+          {
+            "tier": "secondary",
+            "title": "Renault Mégane II workshop manual (manuelmeg.org)— manuelmeg.org reproduction",
+            "url": "https://www.manuelmeg.org/lampes_halog_egrave_nes_remplacement-438.html",
+            "locator": "High beam H1; position W5W; low beam H7; direction indicator PY21W",
+            "accessed": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "group": "Lighting",
+        "label": "Rear and number-plate bulb types",
+        "value": null,
+        "notes": "Not verified across body style and lamp options.",
+        "sources": []
+      }
+    ],
+    "removal": [],
+    "installation": [],
+    "checks": [
+      "Confirm all vehicle-specific values against the VIN, owner handbook, service booklet or identification labels before servicing."
+    ],
+    "faults": []
+  }
+]
