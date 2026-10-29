@@ -1,0 +1,5475 @@
+[
+  {
+    "system": "Wheels",
+    "subsystem": "Road wheels & tyres",
+    "parts": [
+      {
+        "name": "Wheel rim",
+        "fr": "Jante",
+        "note": "Scope: Mégane II (X84) 1.6 16V K4M petrol with JR5 manual. Built from the Mégane II workshop-manual page list plus a generic catalogue category tree; some catalogue items depend on trim, body, market or build date — confirm by VIN."
+      },
+      {
+        "name": "Road tyre",
+        "fr": "Pneumatique"
+      },
+      {
+        "name": "Tyre inflation valve",
+        "fr": "Valve de gonflage"
+      },
+      {
+        "name": "Tyre valve core",
+        "fr": "Obus de valve"
+      },
+      {
+        "name": "Tyre valve cap",
+        "fr": "Bouchon de valve"
+      },
+      {
+        "name": "Wheel balance weight",
+        "fr": "Masse d'équilibrage"
+      },
+      {
+        "name": "Wheel bolt",
+        "fr": "Vis de roue"
+      },
+      {
+        "name": "Locking wheel bolt",
+        "fr": "Vis antivol de roue"
+      },
+      {
+        "name": "Wheel centre cap",
+        "fr": "Cache-moyeu"
+      },
+      {
+        "name": "Wheel trim",
+        "fr": "Enjoliveur de roue"
+      },
+      {
+        "name": "Spare wheel",
+        "fr": "Roue de secours",
+        "note": "Full-size or space-saver according to equipment; tyre and rim types are listed above."
+      },
+      {
+        "name": "Spare-wheel retaining screw",
+        "fr": "Vis de fixation de roue de secours"
+      },
+      {
+        "name": "Tyre mobility-kit compressor",
+        "fr": "Compresseur de gonflage",
+        "note": "If supplied instead of a spare wheel."
+      },
+      {
+        "name": "Tyre repair sealant bottle",
+        "fr": "Flacon de produit de réparation",
+        "note": "If equipped with a tyre mobility kit."
+      },
+      {
+        "name": "Vehicle jack",
+        "fr": "Cric"
+      },
+      {
+        "name": "Wheel brace",
+        "fr": "Clé de roue"
+      },
+      {
+        "name": "Towing eye",
+        "fr": "Anneau de remorquage"
+      }
+    ]
+  },
+  {
+    "system": "Wheels",
+    "subsystem": "Hubs & wheel bearings",
+    "parts": [
+      {
+        "name": "Front wheel hub",
+        "fr": "Moyeu avant"
+      },
+      {
+        "name": "Front wheel bearing",
+        "fr": "Roulement de porte-moyeu",
+        "manualPage": "https://www.manuelmeg.org/roulement_de_porte_moyeu-310.html"
+      },
+      {
+        "name": "Front wheel-bearing circlip",
+        "fr": "Jonc d'arrêt de roulement"
+      },
+      {
+        "name": "Rear wheel bearing",
+        "fr": "Roulement de roue arrière",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-319.html",
+        "note": "Bearing is incorporated in the rear brake disc assembly; check whether separately serviceable for the fitted disc."
+      },
+      {
+        "name": "Rear hub-bearing retaining nut",
+        "fr": "Écrou de moyeu arrière",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-319.html"
+      },
+      {
+        "name": "Rear hub dust cap",
+        "fr": "Bouchon de moyeu",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-319.html"
+      }
+    ]
+  },
+  {
+    "system": "Wheels",
+    "subsystem": "Tyre pressure monitoring",
+    "parts": [
+      {
+        "name": "Tyre pressure sensor",
+        "fr": "Capteur de pression de pneumatique",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html",
+        "note": "Direct TPMS only; indirect systems do not have wheel-mounted sensors."
+      },
+      {
+        "name": "TPMS valve seal and retaining hardware",
+        "fr": "Kit de valve de capteur de pression",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_pression_r_eacute_fection-332.html"
+      },
+      {
+        "name": "Tyre pressure monitoring receiver",
+        "fr": "Récepteur de surveillance de pression",
+        "note": "If separately fitted; implementation depends on equipment."
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Front disc brakes",
+    "parts": [
+      {
+        "name": "Front brake disc",
+        "fr": "Disque de frein avant",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-308.html"
+      },
+      {
+        "name": "Front brake disc retaining screw",
+        "fr": "Vis de disque avant",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-308.html"
+      },
+      {
+        "name": "Front brake pad set",
+        "fr": "Plaquettes de frein avant",
+        "manualPage": "https://www.manuelmeg.org/plaquettes_de_frein-304.html"
+      },
+      {
+        "name": "Front brake pad retaining spring",
+        "fr": "Ressort de maintien de plaquettes"
+      },
+      {
+        "name": "Front brake pad abutment clip",
+        "fr": "Agrafe de plaquette"
+      },
+      {
+        "name": "Front brake caliper assembly",
+        "fr": "Étrier de frein avant",
+        "manualPage": "https://www.manuelmeg.org/etrier_de_frein-305.html"
+      },
+      {
+        "name": "Front brake caliper carrier",
+        "fr": "Support d'étrier avant",
+        "manualPage": "https://www.manuelmeg.org/support_d_eacute_trier_de_frein-306.html"
+      },
+      {
+        "name": "Front brake caliper piston",
+        "fr": "Piston d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper piston seal",
+        "fr": "Joint de piston d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper piston dust boot",
+        "fr": "Soufflet de piston d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper guide pin",
+        "fr": "Colonnette d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper guide-pin boot",
+        "fr": "Soufflet de colonnette avant"
+      },
+      {
+        "name": "Front brake caliper bleed screw",
+        "fr": "Vis de purge d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper bleed-screw cap",
+        "fr": "Capuchon de vis de purge avant"
+      },
+      {
+        "name": "Front brake caliper carrier bolt",
+        "fr": "Vis de support d'étrier avant"
+      },
+      {
+        "name": "Front brake caliper guide-pin bolt",
+        "fr": "Vis de colonnette avant"
+      },
+      {
+        "name": "Front brake disc splash shield",
+        "fr": "Flasque de protection de disque avant"
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Rear disc brakes",
+    "parts": [
+      {
+        "name": "Rear brake disc assembly",
+        "fr": "Disque de frein arrière",
+        "manualPage": "https://www.manuelmeg.org/disque_de_frein-319.html",
+        "note": "Includes the bearing and ABS encoder on applicable assemblies; constituent bearing and encoder are listed separately, not additional fitted assemblies."
+      },
+      {
+        "name": "Rear brake pad set",
+        "fr": "Plaquettes de frein arrière",
+        "manualPage": "https://www.manuelmeg.org/plaquettes_de_frein-316.html"
+      },
+      {
+        "name": "Rear brake pad abutment clip",
+        "fr": "Agrafe de plaquette arrière"
+      },
+      {
+        "name": "Rear brake pad retaining spring",
+        "fr": "Ressort de maintien de plaquettes arrière"
+      },
+      {
+        "name": "Rear brake caliper assembly",
+        "fr": "Étrier de frein arrière",
+        "manualPage": "https://www.manuelmeg.org/etrier_de_frein-317.html"
+      },
+      {
+        "name": "Rear brake caliper carrier",
+        "fr": "Support d'étrier arrière",
+        "manualPage": "https://www.manuelmeg.org/support_d_eacute_trier_de_frein-318.html"
+      },
+      {
+        "name": "Rear brake caliper piston",
+        "fr": "Piston d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper piston seal",
+        "fr": "Joint de piston d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper piston dust boot",
+        "fr": "Soufflet de piston d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper guide pin",
+        "fr": "Colonnette d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper guide-pin boot",
+        "fr": "Soufflet de colonnette arrière"
+      },
+      {
+        "name": "Rear brake caliper bleed screw",
+        "fr": "Vis de purge d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper bleed-screw cap",
+        "fr": "Capuchon de vis de purge arrière"
+      },
+      {
+        "name": "Rear brake caliper carrier bolt",
+        "fr": "Vis de support d'étrier arrière"
+      },
+      {
+        "name": "Rear brake caliper guide-pin bolt",
+        "fr": "Vis de colonnette arrière"
+      },
+      {
+        "name": "Rear brake disc splash shield",
+        "fr": "Flasque de protection de disque arrière"
+      },
+      {
+        "name": "Rear caliper parking-brake lever and return spring",
+        "fr": "Levier et ressort de frein de stationnement",
+        "note": "For cable-operated calipers; often supplied with the caliper."
+      },
+      {
+        "name": "Rear caliper parking-brake mechanism seals",
+        "fr": "Joints de mécanisme de frein de stationnement",
+        "note": "Specialist caliper rebuild parts; availability depends on caliper type."
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Brake hydraulics",
+    "parts": [
+      {
+        "name": "Brake master cylinder",
+        "fr": "Maître-cylindre de frein",
+        "manualPage": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html"
+      },
+      {
+        "name": "Brake fluid reservoir",
+        "fr": "Réservoir de liquide de frein",
+        "manualPage": "https://www.manuelmeg.org/ma_icirc_tre_cylindre-343.html"
+      },
+      {
+        "name": "Brake fluid reservoir cap",
+        "fr": "Bouchon de réservoir de liquide de frein"
+      },
+      {
+        "name": "Brake fluid reservoir mounting seals",
+        "fr": "Joints de réservoir de liquide de frein"
+      },
+      {
+        "name": "Brake fluid level sensor",
+        "fr": "Contacteur de niveau de liquide de frein",
+        "note": "May be integral with reservoir or cap."
+      },
+      {
+        "name": "Front flexible brake hose",
+        "fr": "Flexible de frein avant",
+        "manualPage": "https://www.manuelmeg.org/flexible_de_frein-307.html"
+      },
+      {
+        "name": "Rear flexible brake hose",
+        "fr": "Flexible de frein arrière"
+      },
+      {
+        "name": "Front rigid brake pipe",
+        "fr": "Canalisation rigide de frein avant"
+      },
+      {
+        "name": "Rear rigid brake pipe",
+        "fr": "Canalisation rigide de frein arrière"
+      },
+      {
+        "name": "Master-cylinder to ABS hydraulic pipe",
+        "fr": "Canalisation maître-cylindre - bloc ABS"
+      },
+      {
+        "name": "Brake pipe union",
+        "fr": "Raccord de canalisation de frein"
+      },
+      {
+        "name": "Brake pipe retaining clip",
+        "fr": "Agrafe de canalisation de frein"
+      },
+      {
+        "name": "Brake hose retaining clip",
+        "fr": "Agrafe de flexible de frein"
+      },
+      {
+        "name": "Brake and clutch hydraulic fluid",
+        "fr": "Liquide de frein",
+        "manualPage": "https://www.manuelmeg.org/purge_du_circuit_de_freinage-296.html",
+        "note": "Common reservoir/fluid service for braking and hydraulic clutch; not duplicated under Transmission."
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Brake assistance & pedals",
+    "parts": [
+      {
+        "name": "Brake servo",
+        "fr": "Amplificateur de freinage",
+        "manualPage": "https://www.manuelmeg.org/amplificateur_de_freinage-344.html"
+      },
+      {
+        "name": "Brake servo non-return valve",
+        "fr": "Clapet de retenue",
+        "manualPage": "https://www.manuelmeg.org/clapet_de_retenue_d_amplificateur_de_freinage-345.html"
+      },
+      {
+        "name": "Brake servo vacuum hose",
+        "fr": "Tuyau de dépression de servofrein"
+      },
+      {
+        "name": "Brake servo vacuum grommet",
+        "fr": "Joint de clapet de servofrein"
+      },
+      {
+        "name": "Brake pedal",
+        "fr": "Pédale de frein",
+        "manualPage": "https://www.manuelmeg.org/p_eacute_dale_de_frein-347.html"
+      },
+      {
+        "name": "Brake pedal pivot bush",
+        "fr": "Bague de pédale de frein"
+      },
+      {
+        "name": "Brake pedal return spring",
+        "fr": "Ressort de rappel de pédale de frein"
+      },
+      {
+        "name": "Brake pedal rubber pad",
+        "fr": "Patin de pédale de frein"
+      },
+      {
+        "name": "Brake pedal position and stop-lamp switch",
+        "fr": "Contacteur de pédale de frein",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_position_de_p_eacute_dale_de_frein-349.html"
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "ABS & stability control",
+    "parts": [
+      {
+        "name": "ABS hydraulic modulator",
+        "fr": "Groupe hydraulique ABS",
+        "manualPage": "https://www.manuelmeg.org/groupe_hydraulique-365.html"
+      },
+      {
+        "name": "ABS control unit",
+        "fr": "Calculateur ABS",
+        "note": "May be serviced with the hydraulic modulator."
+      },
+      {
+        "name": "ABS pump motor",
+        "fr": "Moteur de pompe ABS",
+        "note": "Specialist rebuild item; not necessarily supplied separately by Renault."
+      },
+      {
+        "name": "ABS modulator mounting bracket and bushes",
+        "fr": "Support et silentblocs de bloc ABS"
+      },
+      {
+        "name": "Front ABS wheel-speed sensor",
+        "fr": "Capteur ABS avant"
+      },
+      {
+        "name": "Rear ABS wheel-speed sensor",
+        "fr": "Capteur ABS arrière"
+      },
+      {
+        "name": "Front wheel-bearing magnetic encoder",
+        "fr": "Codeur magnétique de roulement avant",
+        "note": "Normally supplied as part of the bearing seal."
+      },
+      {
+        "name": "Rear wheel-bearing magnetic encoder",
+        "fr": "Codeur magnétique de roulement arrière",
+        "note": "Normally supplied with the rear disc-bearing assembly."
+      },
+      {
+        "name": "Yaw-rate and lateral-acceleration sensor",
+        "fr": "Capteur de vitesse de lacet et d'accélération transversale",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_vitesse_de_lacet_et_d_acc_eacute_l_eacute_ration_transversale-367.html",
+        "note": "ESP-equipped vehicles; may be a combined unit."
+      },
+      {
+        "name": "Brake pressure sensor",
+        "fr": "Capteur de pression de freinage",
+        "note": "If fitted; may be integral with the ABS/ESP hydraulic unit."
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Parking brake",
+    "parts": [
+      {
+        "name": "Handbrake lever assembly",
+        "fr": "Levier de frein de stationnement",
+        "manualPage": "https://www.manuelmeg.org/levier_de_frein_de_stationnement-351.html",
+        "note": "Manual parking-brake version."
+      },
+      {
+        "name": "Handbrake lever grip and gaiter",
+        "fr": "Poignée et soufflet de frein à main"
+      },
+      {
+        "name": "Parking-brake warning switch",
+        "fr": "Contacteur de frein de stationnement"
+      },
+      {
+        "name": "Parking-brake cable",
+        "fr": "Câble de frein de stationnement",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_bles_de_frein_de_stationnement-350.html",
+        "note": "Front and rear cable sections as fitted; not electric-motor wiring."
+      },
+      {
+        "name": "Parking-brake cable equaliser",
+        "fr": "Palonnier de frein de stationnement"
+      },
+      {
+        "name": "Parking-brake cable guide and clip",
+        "fr": "Guide et agrafe de câble de frein"
+      },
+      {
+        "name": "Electric parking-brake actuator",
+        "fr": "Actionneur de frein de parking assisté",
+        "note": "If equipped; architecture and cable arrangement must match VIN."
+      },
+      {
+        "name": "Electric parking-brake control switch",
+        "fr": "Commande de frein de parking assisté",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Brakes",
+    "subsystem": "Service lubricants",
+    "parts": [
+      {
+        "name": "Brake caliper sliding-surface grease",
+        "fr": "Graisse pour colonnettes",
+        "note": "Service consumable, not hydraulic fluid; compatibility is component-specific."
+      }
+    ]
+  },
+  {
+    "system": "Suspension",
+    "subsystem": "Front struts & springs",
+    "parts": [
+      {
+        "name": "Front suspension strut",
+        "fr": "Amortisseur avant",
+        "manualPage": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html"
+      },
+      {
+        "name": "Front coil spring",
+        "fr": "Ressort avant",
+        "manualPage": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html"
+      },
+      {
+        "name": "Front strut top mount",
+        "fr": "Coupelle supérieure d'amortisseur",
+        "manualPage": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html"
+      },
+      {
+        "name": "Front strut top bearing",
+        "fr": "Roulement de butée d'amortisseur",
+        "manualPage": "https://www.manuelmeg.org/ressort_et_amortisseur-311.html"
+      },
+      {
+        "name": "Front spring seat isolator",
+        "fr": "Isolant de coupelle de ressort"
+      },
+      {
+        "name": "Front strut bump stop",
+        "fr": "Butée de choc d'amortisseur avant"
+      },
+      {
+        "name": "Front strut dust boot",
+        "fr": "Soufflet d'amortisseur avant"
+      },
+      {
+        "name": "Front strut piston-rod nut",
+        "fr": "Écrou de tige d'amortisseur avant"
+      },
+      {
+        "name": "Front strut-to-knuckle bolt",
+        "fr": "Vis de fixation amortisseur - porte-fusée"
+      }
+    ]
+  },
+  {
+    "system": "Suspension",
+    "subsystem": "Front arms & anti-roll bar",
+    "parts": [
+      {
+        "name": "Front lower control arm",
+        "fr": "Bras inférieur",
+        "manualPage": "https://www.manuelmeg.org/bras_inf_eacute_rieur-312.html"
+      },
+      {
+        "name": "Front control-arm front bush",
+        "fr": "Silentbloc avant de bras inférieur"
+      },
+      {
+        "name": "Front control-arm rear bush",
+        "fr": "Silentbloc arrière de bras inférieur"
+      },
+      {
+        "name": "Front lower ball joint",
+        "fr": "Rotule de suspension"
+      },
+      {
+        "name": "Front lower ball-joint dust boot",
+        "fr": "Soufflet de rotule de suspension",
+        "note": "If available separately for the fitted ball joint."
+      },
+      {
+        "name": "Front anti-roll bar",
+        "fr": "Barre stabilisatrice",
+        "manualPage": "https://www.manuelmeg.org/barre_stabilisatrice-313.html"
+      },
+      {
+        "name": "Front anti-roll bar mounting bush",
+        "fr": "Palier de barre stabilisatrice"
+      },
+      {
+        "name": "Front anti-roll bar mounting clamp",
+        "fr": "Bride de palier de barre stabilisatrice"
+      },
+      {
+        "name": "Front anti-roll bar drop link",
+        "fr": "Biellette de barre stabilisatrice"
+      },
+      {
+        "name": "Front suspension arm mounting bolt and nut",
+        "fr": "Vis et écrou de bras inférieur"
+      }
+    ]
+  },
+  {
+    "system": "Suspension",
+    "subsystem": "Subframes & uprights",
+    "parts": [
+      {
+        "name": "Front subframe",
+        "fr": "Berceau de train avant",
+        "manualPage": "https://www.manuelmeg.org/berceau_de_train-314.html"
+      },
+      {
+        "name": "Front subframe reinforcement",
+        "fr": "Renfort de berceau"
+      },
+      {
+        "name": "Front subframe mounting bolt",
+        "fr": "Vis de berceau avant"
+      },
+      {
+        "name": "Front steering knuckle",
+        "fr": "Porte-moyeu",
+        "manualPage": "https://www.manuelmeg.org/porte_moyeu-309.html"
+      }
+    ]
+  },
+  {
+    "system": "Suspension",
+    "subsystem": "Rear axle & springs",
+    "parts": [
+      {
+        "name": "Rear torsion-beam axle",
+        "fr": "Ensemble du train arrière",
+        "manualPage": "https://www.manuelmeg.org/ensemble_du_train_arri_egrave_re-322.html"
+      },
+      {
+        "name": "Rear axle pivot bush",
+        "fr": "Articulation élastique de train arrière"
+      },
+      {
+        "name": "Rear axle mounting bracket",
+        "fr": "Support de fixation de train arrière"
+      },
+      {
+        "name": "Rear axle pivot bolt and nut",
+        "fr": "Vis et écrou d'articulation de train arrière"
+      },
+      {
+        "name": "Rear stub axle",
+        "fr": "Fusée arrière",
+        "note": "Separate service part only on axle versions permitting replacement; otherwise part of the axle beam."
+      },
+      {
+        "name": "Rear coil spring",
+        "fr": "Ressort arrière",
+        "manualPage": "https://www.manuelmeg.org/ressort-320.html"
+      },
+      {
+        "name": "Rear upper spring isolator",
+        "fr": "Cale supérieure de ressort arrière"
+      },
+      {
+        "name": "Rear lower spring isolator",
+        "fr": "Cale inférieure de ressort arrière"
+      },
+      {
+        "name": "Rear shock absorber",
+        "fr": "Amortisseur arrière",
+        "manualPage": "https://www.manuelmeg.org/amortisseur-321.html"
+      },
+      {
+        "name": "Rear shock absorber mounting bush",
+        "fr": "Silentbloc d'amortisseur arrière",
+        "note": "May be supplied with the shock absorber."
+      },
+      {
+        "name": "Rear shock absorber mounting bolt",
+        "fr": "Vis d'amortisseur arrière"
+      },
+      {
+        "name": "Rear suspension bump stop",
+        "fr": "Butée de choc arrière"
+      },
+      {
+        "name": "Rear shock absorber dust cover",
+        "fr": "Cache-poussière d'amortisseur arrière"
+      }
+    ]
+  },
+  {
+    "system": "Steering",
+    "subsystem": "Rack & linkage",
+    "parts": [
+      {
+        "name": "Steering rack assembly",
+        "fr": "Boîtier de direction",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_de_direction-338.html",
+        "note": "Electric assistance; no hydraulic steering pump, reservoir or steering fluid."
+      },
+      {
+        "name": "Inner track rod",
+        "fr": "Rotule axiale de direction"
+      },
+      {
+        "name": "Outer track-rod end",
+        "fr": "Rotule de direction"
+      },
+      {
+        "name": "Track-rod end locknut",
+        "fr": "Contre-écrou de rotule de direction"
+      },
+      {
+        "name": "Steering rack gaiter",
+        "fr": "Soufflet de direction"
+      },
+      {
+        "name": "Steering rack gaiter clamp",
+        "fr": "Collier de soufflet de direction"
+      },
+      {
+        "name": "Steering rack mounting bush",
+        "fr": "Silentbloc de crémaillère",
+        "note": "Where separately serviceable."
+      },
+      {
+        "name": "Steering rack mounting bolt",
+        "fr": "Vis de fixation de boîtier de direction"
+      },
+      {
+        "name": "Steering rack guide bush",
+        "fr": "Bague de guidage de crémaillère",
+        "note": "Specialist rack rebuild item."
+      },
+      {
+        "name": "Steering rack pinion bearing",
+        "fr": "Roulement de pignon de crémaillère",
+        "note": "Specialist rack rebuild item."
+      }
+    ]
+  },
+  {
+    "system": "Steering",
+    "subsystem": "Column & electric assistance",
+    "parts": [
+      {
+        "name": "Steering column assembly",
+        "fr": "Colonne de direction",
+        "manualPage": "https://www.manuelmeg.org/direction_assist_eacute_e-336.html"
+      },
+      {
+        "name": "Electric power-steering motor",
+        "fr": "Moteur d'assistance électrique",
+        "note": "May be supplied only with the column assembly."
+      },
+      {
+        "name": "Electric power-steering control unit",
+        "fr": "Calculateur de direction assistée",
+        "note": "May be integral with the column assembly."
+      },
+      {
+        "name": "Steering torque sensor",
+        "fr": "Capteur de couple de direction",
+        "note": "Integral/specialist rebuild item on some columns."
+      },
+      {
+        "name": "Steering angle sensor",
+        "fr": "Capteur d'angle de volant",
+        "note": "May be integrated with the column switch/rotary connector module."
+      },
+      {
+        "name": "Steering column intermediate shaft",
+        "fr": "Axe intermédiaire",
+        "manualPage": "https://www.manuelmeg.org/axe_interm_eacute_diaire-339.html"
+      },
+      {
+        "name": "Steering column universal joint",
+        "fr": "Cardan de colonne de direction",
+        "note": "May be integral with the intermediate shaft."
+      },
+      {
+        "name": "Steering column bulkhead seal",
+        "fr": "Joint de tablier",
+        "manualPage": "https://www.manuelmeg.org/joint_de_tablier-340.html"
+      },
+      {
+        "name": "Steering column adjustment lever",
+        "fr": "Poignée de réglage de colonne",
+        "manualPage": "https://www.manuelmeg.org/poign_eacute_e_de_r_eacute_glage_de_colonne_de_direction_remplacement-341.html"
+      },
+      {
+        "name": "Steering column lower pinch bolt",
+        "fr": "Vis de chape de direction"
+      },
+      {
+        "name": "Steering wheel",
+        "fr": "Volant de direction"
+      },
+      {
+        "name": "Steering wheel retaining bolt",
+        "fr": "Vis de volant"
+      },
+      {
+        "name": "Steering wheel trim",
+        "fr": "Garniture de volant"
+      },
+      {
+        "name": "Steering wheel control switch",
+        "fr": "Commande au volant",
+        "note": "If equipped."
+      },
+      {
+        "name": "Steering column electronic lock",
+        "fr": "Verrou de colonne de direction",
+        "manualPage": "https://www.manuelmeg.org/verrou_de_colonne_de_direction-479.html"
+      }
+    ]
+  },
+  {
+    "system": "Engine",
+    "subsystem": "Complete engine & mountings",
+    "parts": [
+      {
+        "name": "Complete engine assembly",
+        "fr": "Moteur complet",
+        "note": "K4M naturally aspirated petrol only. Parts requiring machining or specialist rebuilding are included; not every internal is available separately from Renault. Manuelmeg's technical material identifies Mégane II, not III: https://www.manuelmeg.org/pr_eacute_liminaires-1076.html. Linked pages are component references, not verified Mégane procedures."
+      },
+      {
+        "name": "Short engine assembly",
+        "fr": "Bas moteur assemblé",
+        "note": "Assembly alternative to individual crank-train parts, not an additional fitted engine."
+      },
+      {
+        "name": "Right-hand engine mounting",
+        "fr": "Support moteur droit",
+        "manualPage": "https://www.manuelmeg.org/ensemble_moteur_bo_icirc_te_de_vitesses-115.html"
+      },
+      {
+        "name": "Left-hand gearbox mounting",
+        "fr": "Support de boîte de vitesses",
+        "manualPage": "https://www.manuelmeg.org/ensemble_moteur_bo_icirc_te_de_vitesses-115.html"
+      },
+      {
+        "name": "Lower engine torque link",
+        "fr": "Biellette de reprise de couple",
+        "manualPage": "https://www.manuelmeg.org/ensemble_moteur_bo_icirc_te_de_vitesses-115.html"
+      },
+      {
+        "name": "Engine mounting bracket",
+        "fr": "Coiffe de suspension pendulaire",
+        "manualPage": "https://www.manuelmeg.org/ensemble_moteur_bo_icirc_te_de_vitesses-115.html"
+      },
+      {
+        "name": "Gearbox mounting bracket",
+        "fr": "Support pendulaire de boîte",
+        "manualPage": "https://www.manuelmeg.org/ensemble_moteur_bo_icirc_te_de_vitesses-115.html"
+      },
+      {
+        "name": "Engine mounting bolt and nut",
+        "fr": "Vis et écrou de suspension moteur"
+      },
+      {
+        "name": "Multifunction accessory bracket",
+        "fr": "Support multifonction",
+        "manualPage": "https://www.manuelmeg.org/support_multifonction-117.html"
+      },
+      {
+        "name": "Engine lifting eye",
+        "fr": "Anneau de levage moteur"
+      },
+      {
+        "name": "Engine decorative cover",
+        "fr": "Cache moteur"
+      },
+      {
+        "name": "Engine cover rubber mounting",
+        "fr": "Plot de cache moteur"
+      }
+    ]
+  },
+  {
+    "system": "Engine",
+    "subsystem": "Crankcase & crank train",
+    "parts": [
+      {
+        "name": "Cylinder block",
+        "fr": "Bloc-cylindres"
+      },
+      {
+        "name": "Crankshaft",
+        "fr": "Vilebrequin"
+      },
+      {
+        "name": "Crankshaft main bearing shells",
+        "fr": "Coussinets de paliers de vilebrequin"
+      },
+      {
+        "name": "Crankshaft thrust washers",
+        "fr": "Cales de jeu latéral de vilebrequin"
+      },
+      {
+        "name": "Crankshaft main bearing cap",
+        "fr": "Chapeau de palier de vilebrequin",
+        "note": "Matched/line-bored to the block; generally supplied with a matched block rather than interchangeable individually."
+      },
+      {
+        "name": "Crankshaft main bearing cap bolt",
+        "fr": "Vis de chapeau de palier"
+      },
+      {
+        "name": "Connecting rod",
+        "fr": "Bielle"
+      },
+      {
+        "name": "Connecting-rod bearing shells",
+        "fr": "Coussinets de bielle"
+      },
+      {
+        "name": "Connecting-rod cap",
+        "fr": "Chapeau de bielle",
+        "note": "Matched to its connecting rod; replace as a matched rod assembly where required."
+      },
+      {
+        "name": "Connecting-rod bolt",
+        "fr": "Vis de bielle"
+      },
+      {
+        "name": "Piston",
+        "fr": "Piston"
+      },
+      {
+        "name": "Piston top compression ring",
+        "fr": "Segment de feu"
+      },
+      {
+        "name": "Piston second compression ring",
+        "fr": "Segment d'étanchéité"
+      },
+      {
+        "name": "Piston oil-control ring assembly",
+        "fr": "Segment racleur"
+      },
+      {
+        "name": "Piston pin",
+        "fr": "Axe de piston"
+      },
+      {
+        "name": "Piston pin retaining clip",
+        "fr": "Jonc d'arrêt d'axe de piston",
+        "note": "Only on piston/rod assemblies using circlip-retained pins; check K4M suffix and piston supplier."
+      },
+      {
+        "name": "Front crankshaft oil seal",
+        "fr": "Joint de vilebrequin côté distribution"
+      },
+      {
+        "name": "Rear crankshaft oil seal",
+        "fr": "Joint de vilebrequin côté volant moteur"
+      },
+      {
+        "name": "Rear crankshaft seal carrier",
+        "fr": "Porte-joint arrière de vilebrequin",
+        "note": "Where supplied separately for the engine suffix."
+      },
+      {
+        "name": "Cylinder-block core plug",
+        "fr": "Pastille de dessablage"
+      },
+      {
+        "name": "Cylinder-block oil-gallery plug",
+        "fr": "Bouchon de canalisation d'huile"
+      },
+      {
+        "name": "Engine-to-gearbox locating dowel",
+        "fr": "Douille de centrage moteur - boîte"
+      },
+      {
+        "name": "Cylinder repair sleeve",
+        "fr": "Chemise de réparation de cylindre",
+        "note": "Specialist dry repair sleeve for a damaged integral cylinder bore; not a factory removable wet liner or liner O-ring."
+      },
+      {
+        "name": "Piston cooling oil jet",
+        "fr": "Gicleur de refroidissement de piston",
+        "note": "Only where fitted to the exact K4M block suffix; confirm the block parts breakdown."
+      }
+    ]
+  },
+  {
+    "system": "Engine",
+    "subsystem": "Cylinder head",
+    "parts": [
+      {
+        "name": "Cylinder head",
+        "fr": "Culasse",
+        "manualPage": "https://www.manuelmeg.org/joint_de_culasse-122.html"
+      },
+      {
+        "name": "Cylinder head gasket",
+        "fr": "Joint de culasse",
+        "manualPage": "https://www.manuelmeg.org/joint_de_culasse-122.html"
+      },
+      {
+        "name": "Cylinder head bolt",
+        "fr": "Vis de culasse",
+        "manualPage": "https://www.manuelmeg.org/joint_de_culasse-122.html"
+      },
+      {
+        "name": "Cylinder head locating dowel",
+        "fr": "Douille de centrage de culasse"
+      },
+      {
+        "name": "Inlet camshaft",
+        "fr": "Arbre à cames d'admission"
+      },
+      {
+        "name": "Exhaust camshaft",
+        "fr": "Arbre à cames d'échappement"
+      },
+      {
+        "name": "Camshaft bearing ladder and cover",
+        "fr": "Couvre-culasse porte-paliers",
+        "note": "K4M camshaft bearing bores are matched to the head; assess as a matched assembly, not generic bolt-on bearing caps."
+      },
+      {
+        "name": "Camshaft cover anaerobic sealant",
+        "fr": "Produit d'étanchéité de couvre-culasse",
+        "note": "K4M camshaft carrier joint uses specified sealant, not a generic rubber perimeter gasket."
+      },
+      {
+        "name": "Camshaft cover bolt",
+        "fr": "Vis de couvre-culasse"
+      },
+      {
+        "name": "Front camshaft oil seal",
+        "fr": "Joint d'étanchéité d'arbre à cames"
+      },
+      {
+        "name": "Rear camshaft end plug",
+        "fr": "Bouchon d'arbre à cames",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Inlet valve",
+        "fr": "Soupape d'admission"
+      },
+      {
+        "name": "Exhaust valve",
+        "fr": "Soupape d'échappement"
+      },
+      {
+        "name": "Valve guide",
+        "fr": "Guide de soupape",
+        "note": "Cylinder-head machine-shop replacement item."
+      },
+      {
+        "name": "Valve seat insert",
+        "fr": "Siège de soupape",
+        "note": "Cylinder-head machine-shop replacement item."
+      },
+      {
+        "name": "Valve spring",
+        "fr": "Ressort de soupape"
+      },
+      {
+        "name": "Valve spring lower seat",
+        "fr": "Coupelle inférieure de ressort de soupape"
+      },
+      {
+        "name": "Valve spring retainer",
+        "fr": "Coupelle supérieure de ressort de soupape"
+      },
+      {
+        "name": "Valve collet",
+        "fr": "Demi-clavette de soupape"
+      },
+      {
+        "name": "Valve stem oil seal",
+        "fr": "Joint de queue de soupape"
+      },
+      {
+        "name": "Hydraulic tappet / lash adjuster",
+        "fr": "Butée hydraulique",
+        "note": "K4M hydraulic lash-adjuster element; distinct from the roller finger follower."
+      },
+      {
+        "name": "Roller finger follower",
+        "fr": "Linguet à rouleau"
+      },
+      {
+        "name": "Cylinder-head coolant gallery plug",
+        "fr": "Bouchon de galerie d’eau de culasse"
+      }
+    ]
+  },
+  {
+    "system": "Engine",
+    "subsystem": "Lubrication",
+    "parts": [
+      {
+        "name": "Engine oil",
+        "fr": "Huile moteur"
+      },
+      {
+        "name": "Engine oil filter",
+        "fr": "Filtre à huile"
+      },
+      {
+        "name": "Oil filter sealing ring",
+        "fr": "Joint de filtre à huile",
+        "note": "Usually supplied captive on the spin-on oil filter."
+      },
+      {
+        "name": "Oil filter mounting spigot",
+        "fr": "Mamelon de filtre à huile"
+      },
+      {
+        "name": "Oil pump assembly",
+        "fr": "Pompe à huile",
+        "manualPage": "https://www.manuelmeg.org/pompe_agrave_huile-118.html"
+      },
+      {
+        "name": "Oil pump drive chain",
+        "fr": "Chaîne de pompe à huile",
+        "note": "Oil-pump chain only; K4M camshafts are timing-belt driven."
+      },
+      {
+        "name": "Oil pump driven sprocket",
+        "fr": "Pignon de pompe à huile",
+        "note": "May be supplied with the pump."
+      },
+      {
+        "name": "Crankshaft oil-pump drive sprocket",
+        "fr": "Pignon d'entraînement de pompe à huile"
+      },
+      {
+        "name": "Oil pump pressure-relief valve",
+        "fr": "Clapet de décharge de pompe à huile",
+        "note": "May be serviced only with the oil pump."
+      },
+      {
+        "name": "Oil pump pressure-relief spring",
+        "fr": "Ressort de clapet de décharge",
+        "note": "May be serviced only with the oil pump."
+      },
+      {
+        "name": "Oil pickup pipe and strainer",
+        "fr": "Crépine d'aspiration d'huile",
+        "manualPage": "https://www.manuelmeg.org/pompe_agrave_huile-118.html",
+        "note": "May be integral with the pump; not a routine replaceable cartridge filter."
+      },
+      {
+        "name": "Oil pickup connection seal",
+        "fr": "Joint de crépine",
+        "note": "Only where the pickup connection is separately sealed; verify pump design."
+      },
+      {
+        "name": "Oil pump mounting bolt",
+        "fr": "Vis de pompe à huile"
+      },
+      {
+        "name": "Oil sump",
+        "fr": "Carter inférieur",
+        "manualPage": "https://www.manuelmeg.org/carter_inf_eacute_rieur-116.html"
+      },
+      {
+        "name": "Oil sump joint sealant",
+        "fr": "Produit d'étanchéité de carter inférieur",
+        "note": "Joint material depends on sump/engine suffix; not an assumed separate rubber gasket."
+      },
+      {
+        "name": "Oil sump bolt",
+        "fr": "Vis de carter inférieur"
+      },
+      {
+        "name": "Engine oil drain plug",
+        "fr": "Bouchon de vidange moteur"
+      },
+      {
+        "name": "Engine oil drain-plug washer",
+        "fr": "Joint de bouchon de vidange moteur"
+      },
+      {
+        "name": "Oil dipstick",
+        "fr": "Jauge d'huile"
+      },
+      {
+        "name": "Oil dipstick guide tube",
+        "fr": "Tube de jauge d'huile"
+      },
+      {
+        "name": "Oil dipstick tube seal",
+        "fr": "Joint de tube de jauge"
+      },
+      {
+        "name": "Oil filler cap",
+        "fr": "Bouchon de remplissage d'huile"
+      },
+      {
+        "name": "Oil filler-cap seal",
+        "fr": "Joint de bouchon de remplissage d'huile"
+      },
+      {
+        "name": "Oil pressure switch",
+        "fr": "Contacteur de pression d'huile"
+      },
+      {
+        "name": "Oil level sensor",
+        "fr": "Détecteur de niveau d'huile"
+      },
+      {
+        "name": "Oil level sensor seal",
+        "fr": "Joint de détecteur de niveau d'huile"
+      },
+      {
+        "name": "Oil sump baffle / windage plate",
+        "fr": "Cloison anti-déjaugeage de carter",
+        "note": "If separately fitted; some sumps incorporate the baffle."
+      }
+    ]
+  },
+  {
+    "system": "Engine",
+    "subsystem": "Crankcase ventilation",
+    "parts": [
+      {
+        "name": "Crankcase oil separator / breather housing",
+        "fr": "Décanteur d'huile",
+        "note": "K4M breather/oil separation assembly; serviceability depends on cover design."
+      },
+      {
+        "name": "Crankcase breather hose",
+        "fr": "Tuyau de réaspiration des vapeurs d'huile"
+      },
+      {
+        "name": "Crankcase breather calibrated restriction",
+        "fr": "Orifice calibré de réaspiration",
+        "note": "Often integral with a hose or manifold; do not assume a separate conventional PCV valve."
+      },
+      {
+        "name": "Crankcase breather housing seal",
+        "fr": "Joint de décanteur d'huile"
+      },
+      {
+        "name": "Crankcase breather hose connector",
+        "fr": "Raccord de tuyau de réaspiration"
+      }
+    ]
+  },
+  {
+    "system": "Timing",
+    "subsystem": "Camshaft belt drive",
+    "parts": [
+      {
+        "name": "Timing belt",
+        "fr": "Courroie de distribution",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Timing belt tensioner",
+        "fr": "Galet tendeur de distribution",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Timing belt idler pulley",
+        "fr": "Galet enrouleur de distribution",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Timing belt tensioner retaining nut",
+        "fr": "Écrou de galet tendeur",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Timing belt idler retaining bolt",
+        "fr": "Vis de galet enrouleur",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Crankshaft timing sprocket",
+        "fr": "Pignon de vilebrequin",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Exhaust camshaft sprocket",
+        "fr": "Poulie d'arbre à cames d'échappement",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Inlet camshaft dephaser pulley",
+        "fr": "Déphaseur d'arbre à cames",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html",
+        "note": "VVT-equipped K4M suffixes; do not duplicate as a separate inlet sprocket."
+      },
+      {
+        "name": "Camshaft dephaser control solenoid",
+        "fr": "Électrovanne de déphaseur"
+      },
+      {
+        "name": "Camshaft dephaser solenoid seal",
+        "fr": "Joint d'électrovanne de déphaseur"
+      },
+      {
+        "name": "Camshaft dephaser blanking plug",
+        "fr": "Bouchon de poulie de déphaseur",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Camshaft sprocket retaining bolt or nut",
+        "fr": "Vis ou écrou de poulie d'arbre à cames",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Upper timing cover",
+        "fr": "Carter supérieur de distribution",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Lower timing cover",
+        "fr": "Carter inférieur de distribution",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Timing cover mounting bolt and clip",
+        "fr": "Vis et agrafe de carter de distribution"
+      },
+      {
+        "name": "Crankshaft timing-pin access plug",
+        "fr": "Bouchon de pige de point mort haut",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      },
+      {
+        "name": "Crankshaft timing sprocket key",
+        "fr": "Clavette de pignon de vilebrequin",
+        "note": "Keyed sprocket variants only; do not assume all K4M crankshaft timing joints use a key."
+      },
+      {
+        "name": "Camshaft dephaser plug seal",
+        "fr": "Joint de bouchon de déphaseur",
+        "note": "If separately supplied rather than captive on the blanking plug."
+      }
+    ]
+  },
+  {
+    "system": "Timing",
+    "subsystem": "Accessory belt drive",
+    "parts": [
+      {
+        "name": "Accessory drive belt",
+        "fr": "Courroie d'accessoires",
+        "manualPage": "https://www.manuelmeg.org/courroie_d_accessoires-120.html"
+      },
+      {
+        "name": "Accessory belt tensioner assembly",
+        "fr": "Tendeur de courroie d'accessoires",
+        "manualPage": "https://www.manuelmeg.org/courroie_d_accessoires-120.html"
+      },
+      {
+        "name": "Accessory belt tensioner pulley",
+        "fr": "Galet tendeur d'accessoires",
+        "note": "Constituent pulley where available separately from the tensioner assembly."
+      },
+      {
+        "name": "Accessory belt idler pulley",
+        "fr": "Galet enrouleur d'accessoires"
+      },
+      {
+        "name": "Crankshaft accessory pulley / damper",
+        "fr": "Poulie d'accessoires de vilebrequin",
+        "manualPage": "https://www.manuelmeg.org/courroie_d_accessoires-120.html"
+      },
+      {
+        "name": "Crankshaft pulley retaining bolt",
+        "fr": "Vis de poulie de vilebrequin",
+        "manualPage": "https://www.manuelmeg.org/courroie_de_distribution-121.html"
+      }
+    ]
+  },
+  {
+    "system": "Intake",
+    "subsystem": "Air filtration & ducting",
+    "parts": [
+      {
+        "name": "Engine air filter element",
+        "fr": "Filtre à air",
+        "manualPage": "https://www.manuelmeg.org/filtre_agrave_air-126.html"
+      },
+      {
+        "name": "Air filter housing",
+        "fr": "Boîtier de filtre à air",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_de_filtre_agrave_air-127.html"
+      },
+      {
+        "name": "Air filter housing lid",
+        "fr": "Couvercle de boîtier de filtre à air"
+      },
+      {
+        "name": "Air filter housing mounting grommet",
+        "fr": "Plot de boîtier de filtre à air"
+      },
+      {
+        "name": "Air filter housing retaining clip",
+        "fr": "Agrafe de boîtier de filtre à air"
+      },
+      {
+        "name": "Fresh-air intake duct",
+        "fr": "Conduit d'admission d'air"
+      },
+      {
+        "name": "Intake resonator",
+        "fr": "Résonateur d'admission"
+      },
+      {
+        "name": "Airbox-to-throttle intake hose",
+        "fr": "Manchon d'admission d'air"
+      },
+      {
+        "name": "Intake hose clamp",
+        "fr": "Collier de conduit d'admission"
+      }
+    ]
+  },
+  {
+    "system": "Intake",
+    "subsystem": "Throttle & manifold",
+    "parts": [
+      {
+        "name": "Electronic throttle body",
+        "fr": "Boîtier papillon",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_papillon-129.html",
+        "note": "Throttle motor and redundant position sensors may be integral; not assumed separate service parts."
+      },
+      {
+        "name": "Throttle body sealing ring",
+        "fr": "Joint de boîtier papillon"
+      },
+      {
+        "name": "Inlet manifold",
+        "fr": "Répartiteur d'admission",
+        "manualPage": "https://www.manuelmeg.org/r_eacute_partiteur_d_admission-130.html"
+      },
+      {
+        "name": "Inlet manifold runner seal",
+        "fr": "Joint de répartiteur d'admission"
+      },
+      {
+        "name": "Lower inlet manifold / injector carrier",
+        "fr": "Cale porte-injecteurs",
+        "manualPage": "https://www.manuelmeg.org/cale_porte_injecteurs-131.html"
+      },
+      {
+        "name": "Lower inlet manifold gasket",
+        "fr": "Joint de cale porte-injecteurs"
+      },
+      {
+        "name": "Inlet manifold mounting bolt",
+        "fr": "Vis de répartiteur d'admission"
+      },
+      {
+        "name": "Manifold absolute-pressure sensor",
+        "fr": "Capteur de pression d'admission"
+      },
+      {
+        "name": "Manifold pressure sensor seal",
+        "fr": "Joint de capteur de pression d'admission"
+      },
+      {
+        "name": "Intake air temperature sensor",
+        "fr": "Capteur de température d'air d'admission",
+        "note": "May be incorporated in the pressure sensor, depending on engine-management version."
+      },
+      {
+        "name": "Intake air temperature sensor seal",
+        "fr": "Joint de sonde de température d'air",
+        "note": "Where a separate sensor is fitted."
+      }
+    ]
+  },
+  {
+    "system": "Intake",
+    "subsystem": "Vacuum connections",
+    "parts": [
+      {
+        "name": "Inlet manifold vacuum hose",
+        "fr": "Tuyau de dépression d'admission",
+        "note": "Excludes the separately listed brake-servo vacuum hose and fuel-vapour purge pipe."
+      },
+      {
+        "name": "Vacuum hose connector and blanking cap",
+        "fr": "Raccord et bouchon de dépression"
+      }
+    ]
+  },
+  {
+    "system": "Fuel",
+    "subsystem": "Tank & filler",
+    "parts": [
+      {
+        "name": "Fuel tank",
+        "fr": "Réservoir à carburant",
+        "manualPage": "https://www.manuelmeg.org/r_eacute_servoir_agrave_carburant-245.html"
+      },
+      {
+        "name": "Fuel tank retaining strap",
+        "fr": "Sangle de réservoir"
+      },
+      {
+        "name": "Fuel tank support bracket",
+        "fr": "Support de fixation de réservoir"
+      },
+      {
+        "name": "Fuel filler neck",
+        "fr": "Goulotte de remplissage",
+        "manualPage": "https://www.manuelmeg.org/goulotte_de_remplissage-247.html"
+      },
+      {
+        "name": "Fuel filler hose",
+        "fr": "Durite de remplissage"
+      },
+      {
+        "name": "Fuel filler hose clamp",
+        "fr": "Collier de durite de remplissage"
+      },
+      {
+        "name": "Fuel filler cap",
+        "fr": "Bouchon de réservoir"
+      },
+      {
+        "name": "Fuel filler-cap seal",
+        "fr": "Joint de bouchon de réservoir"
+      },
+      {
+        "name": "Fuel filler vent hose",
+        "fr": "Tuyau de mise à l'air du réservoir"
+      },
+      {
+        "name": "Fuel filler body grommet",
+        "fr": "Joint de goulotte"
+      },
+      {
+        "name": "Fuel tank rollover / vent valve",
+        "fr": "Clapet de mise à l'air du réservoir",
+        "note": "May be integral with tank or filler assembly."
+      },
+      {
+        "name": "Fuel tank access cover",
+        "fr": "Trappe d'accès de pompe à carburant"
+      }
+    ]
+  },
+  {
+    "system": "Fuel",
+    "subsystem": "Pump & filtration",
+    "parts": [
+      {
+        "name": "In-tank fuel pump and sender module",
+        "fr": "Pompe jauge-filtre",
+        "manualPage": "https://www.manuelmeg.org/pompe_jauge_filtre-249.html"
+      },
+      {
+        "name": "Electric fuel pump insert",
+        "fr": "Pompe électrique à carburant",
+        "note": "Constituent of the in-tank module; separate availability depends on supplier."
+      },
+      {
+        "name": "Fuel level sender",
+        "fr": "Jauge à carburant",
+        "manualPage": "https://www.manuelmeg.org/jauge-248.html",
+        "note": "Often supplied with the in-tank pump module."
+      },
+      {
+        "name": "Fuel pump inlet strainer",
+        "fr": "Préfiltre de pompe à carburant",
+        "note": "Constituent of the in-tank module."
+      },
+      {
+        "name": "Petrol fuel filter",
+        "fr": "Filtre à essence",
+        "manualPage": "https://www.manuelmeg.org/pompe_jauge_filtre-249.html",
+        "note": "Integrated in the pump/sender/filter module on the documented configuration; not an assumed external service filter."
+      },
+      {
+        "name": "Fuel pressure regulator",
+        "fr": "Régulateur de pression d'essence",
+        "note": "Usually part of the returnless in-tank module; check engine suffix."
+      },
+      {
+        "name": "Fuel pump module locking ring",
+        "fr": "Bague de fixation de pompe jauge"
+      },
+      {
+        "name": "Fuel pump module tank seal",
+        "fr": "Joint de pompe jauge"
+      }
+    ]
+  },
+  {
+    "system": "Fuel",
+    "subsystem": "Fuel lines & injection",
+    "parts": [
+      {
+        "name": "Fuel supply pipe",
+        "fr": "Canalisation d'alimentation en essence"
+      },
+      {
+        "name": "Flexible fuel supply hose",
+        "fr": "Tuyau souple d'alimentation en essence"
+      },
+      {
+        "name": "Fuel line quick connector",
+        "fr": "Raccord rapide de carburant"
+      },
+      {
+        "name": "Fuel line retaining clip",
+        "fr": "Agrafe de canalisation de carburant"
+      },
+      {
+        "name": "Fuel rail",
+        "fr": "Rampe d'injection",
+        "manualPage": "https://www.manuelmeg.org/rampe_d_injection_injecteurs-146.html"
+      },
+      {
+        "name": "Petrol injector",
+        "fr": "Injecteur essence",
+        "manualPage": "https://www.manuelmeg.org/rampe_d_injection_injecteurs-146.html"
+      },
+      {
+        "name": "Injector upper O-ring",
+        "fr": "Joint supérieur d'injecteur"
+      },
+      {
+        "name": "Injector lower O-ring",
+        "fr": "Joint inférieur d'injecteur"
+      },
+      {
+        "name": "Injector retaining clip",
+        "fr": "Agrafe d'injecteur"
+      },
+      {
+        "name": "Fuel rail mounting bolt",
+        "fr": "Vis de rampe d'injection"
+      },
+      {
+        "name": "Petrol fuel",
+        "fr": "Essence",
+        "note": "Service fluid; not a separate component."
+      },
+      {
+        "name": "Fuel line connector sealing ring",
+        "fr": "Joint de raccord de carburant",
+        "note": "Use only a fuel-compatible seal approved for the connector; some connectors require complete pipe replacement."
+      }
+    ]
+  },
+  {
+    "system": "Fuel",
+    "subsystem": "Evaporative emissions",
+    "parts": [
+      {
+        "name": "Activated-carbon canister",
+        "fr": "Absorbeur de vapeurs d'essence"
+      },
+      {
+        "name": "Fuel-vapour purge solenoid",
+        "fr": "Électrovanne de purge de l'absorbeur"
+      },
+      {
+        "name": "Fuel tank vapour pipe",
+        "fr": "Canalisation de vapeurs de carburant"
+      },
+      {
+        "name": "Canister-to-manifold purge hose",
+        "fr": "Tuyau de purge de l'absorbeur"
+      },
+      {
+        "name": "Carbon canister mounting bracket",
+        "fr": "Support d'absorbeur de vapeurs d'essence"
+      }
+    ]
+  },
+  {
+    "system": "Cooling",
+    "subsystem": "Pump & thermostat",
+    "parts": [
+      {
+        "name": "Water pump",
+        "fr": "Pompe à eau",
+        "manualPage": "https://www.manuelmeg.org/pompe_agrave_eau-235.html"
+      },
+      {
+        "name": "Water pump gasket",
+        "fr": "Joint de pompe à eau",
+        "manualPage": "https://www.manuelmeg.org/pompe_agrave_eau-235.html"
+      },
+      {
+        "name": "Water pump retaining bolt",
+        "fr": "Vis de pompe à eau"
+      },
+      {
+        "name": "Thermostat",
+        "fr": "Thermostat"
+      },
+      {
+        "name": "Thermostat housing / coolant outlet",
+        "fr": "Boîtier d'eau"
+      },
+      {
+        "name": "Thermostat seal",
+        "fr": "Joint de thermostat"
+      },
+      {
+        "name": "Coolant outlet housing gasket",
+        "fr": "Joint de boîtier d'eau"
+      },
+      {
+        "name": "Coolant temperature sensor",
+        "fr": "Sonde de température d'eau"
+      },
+      {
+        "name": "Coolant temperature sensor seal",
+        "fr": "Joint de sonde de température d'eau"
+      },
+      {
+        "name": "Coolant temperature sensor retaining clip",
+        "fr": "Agrafe de sonde de température d'eau",
+        "note": "Where a clip-retained sensor is fitted."
+      }
+    ]
+  },
+  {
+    "system": "Cooling",
+    "subsystem": "Radiator & expansion tank",
+    "parts": [
+      {
+        "name": "Engine coolant radiator",
+        "fr": "Radiateur de refroidissement",
+        "manualPage": "https://www.manuelmeg.org/radiateur-232.html"
+      },
+      {
+        "name": "Radiator upper mounting",
+        "fr": "Support supérieur de radiateur"
+      },
+      {
+        "name": "Radiator lower mounting rubber",
+        "fr": "Plot inférieur de radiateur"
+      },
+      {
+        "name": "Radiator air guide / seal",
+        "fr": "Déflecteur et joint de radiateur"
+      },
+      {
+        "name": "Coolant expansion tank",
+        "fr": "Vase d'expansion"
+      },
+      {
+        "name": "Expansion tank pressure cap",
+        "fr": "Bouchon de vase d'expansion"
+      },
+      {
+        "name": "Expansion tank mounting bracket",
+        "fr": "Support de vase d'expansion"
+      }
+    ]
+  },
+  {
+    "system": "Cooling",
+    "subsystem": "Fan & controls",
+    "parts": [
+      {
+        "name": "Radiator fan motor",
+        "fr": "Motoventilateur de refroidissement"
+      },
+      {
+        "name": "Radiator fan blade",
+        "fr": "Hélice de motoventilateur",
+        "note": "May be supplied only with the fan assembly."
+      },
+      {
+        "name": "Radiator fan shroud",
+        "fr": "Carénage de motoventilateur"
+      },
+      {
+        "name": "Radiator fan resistor / speed module",
+        "fr": "Résistance ou module de motoventilateur",
+        "note": "According to fan-control version."
+      },
+      {
+        "name": "Radiator fan relay",
+        "fr": "Relais de motoventilateur"
+      }
+    ]
+  },
+  {
+    "system": "Cooling",
+    "subsystem": "Hoses pipes & coolant",
+    "parts": [
+      {
+        "name": "Upper radiator hose",
+        "fr": "Durite supérieure de radiateur"
+      },
+      {
+        "name": "Lower radiator hose",
+        "fr": "Durite inférieure de radiateur"
+      },
+      {
+        "name": "Engine coolant transfer pipe",
+        "fr": "Tube d'eau moteur"
+      },
+      {
+        "name": "Coolant transfer-pipe seal",
+        "fr": "Joint de tube d'eau"
+      },
+      {
+        "name": "Coolant bypass hose",
+        "fr": "Durite de dérivation de refroidissement"
+      },
+      {
+        "name": "Expansion tank feed hose",
+        "fr": "Durite d'alimentation de vase d'expansion"
+      },
+      {
+        "name": "Coolant degassing / return hose",
+        "fr": "Durite de dégazage"
+      },
+      {
+        "name": "Heater matrix inlet hose",
+        "fr": "Durite d'entrée de radiateur de chauffage"
+      },
+      {
+        "name": "Heater matrix outlet hose",
+        "fr": "Durite de sortie de radiateur de chauffage"
+      },
+      {
+        "name": "Coolant hose quick connector",
+        "fr": "Raccord rapide de durite"
+      },
+      {
+        "name": "Coolant hose clamp",
+        "fr": "Collier de durite de refroidissement"
+      },
+      {
+        "name": "Cooling circuit bleed screw",
+        "fr": "Vis de purge de refroidissement"
+      },
+      {
+        "name": "Engine coolant / antifreeze",
+        "fr": "Liquide de refroidissement"
+      }
+    ]
+  },
+  {
+    "system": "Exhaust",
+    "subsystem": "Manifold & catalyst",
+    "parts": [
+      {
+        "name": "Exhaust manifold",
+        "fr": "Collecteur d'échappement",
+        "manualPage": "https://www.manuelmeg.org/collecteur_d_eacute_chappement-133.html"
+      },
+      {
+        "name": "Exhaust manifold gasket",
+        "fr": "Joint de collecteur d'échappement"
+      },
+      {
+        "name": "Exhaust manifold stud",
+        "fr": "Goujon de collecteur d'échappement"
+      },
+      {
+        "name": "Exhaust manifold retaining nut",
+        "fr": "Écrou de collecteur d'échappement"
+      },
+      {
+        "name": "Exhaust manifold heat shield",
+        "fr": "Écran thermique de collecteur"
+      },
+      {
+        "name": "Catalytic converter",
+        "fr": "Catalyseur",
+        "manualPage": "https://www.manuelmeg.org/catalyseur-239.html",
+        "note": "May be integrated with the manifold/front pipe, depending on engine suffix and emissions version."
+      },
+      {
+        "name": "Catalyst support bracket",
+        "fr": "Support de catalyseur"
+      },
+      {
+        "name": "Upstream oxygen sensor",
+        "fr": "Sonde à oxygène amont",
+        "manualPage": "https://www.manuelmeg.org/sondes_agrave_oxyg_egrave_ne-204.html"
+      },
+      {
+        "name": "Downstream oxygen sensor",
+        "fr": "Sonde à oxygène aval",
+        "manualPage": "https://www.manuelmeg.org/sondes_agrave_oxyg_egrave_ne-204.html"
+      }
+    ]
+  },
+  {
+    "system": "Exhaust",
+    "subsystem": "Pipes silencers & mountings",
+    "parts": [
+      {
+        "name": "Exhaust front pipe",
+        "fr": "Tube avant d'échappement"
+      },
+      {
+        "name": "Exhaust flexible joint",
+        "fr": "Flexible d'échappement",
+        "note": "May be integral with a pipe assembly; repair section where available."
+      },
+      {
+        "name": "Exhaust flange gasket",
+        "fr": "Joint de bride d'échappement"
+      },
+      {
+        "name": "Exhaust flange spring and bolt",
+        "fr": "Ressort et vis de bride d'échappement"
+      },
+      {
+        "name": "Intermediate exhaust pipe",
+        "fr": "Tube intermédiaire",
+        "manualPage": "https://www.manuelmeg.org/tube_interm_eacute_diaire-241.html"
+      },
+      {
+        "name": "Centre silencer / resonator",
+        "fr": "Pot de détente",
+        "manualPage": "https://www.manuelmeg.org/pot_de_d_eacute_tente-240.html",
+        "note": "Where fitted for the body/engine variant."
+      },
+      {
+        "name": "Rear silencer",
+        "fr": "Silencieux arrière",
+        "manualPage": "https://www.manuelmeg.org/silencieux-242.html"
+      },
+      {
+        "name": "Exhaust tailpipe trim",
+        "fr": "Embout d'échappement",
+        "note": "If equipped."
+      },
+      {
+        "name": "Exhaust sleeve connector",
+        "fr": "Manchon de raccordement d'échappement"
+      },
+      {
+        "name": "Exhaust pipe clamp",
+        "fr": "Collier d'échappement"
+      },
+      {
+        "name": "Exhaust rubber hanger",
+        "fr": "Silentbloc d'échappement"
+      },
+      {
+        "name": "Exhaust body mounting bracket",
+        "fr": "Support de fixation échappement",
+        "manualPage": "https://www.manuelmeg.org/support_de_fixation_eacute_chappement-738.html"
+      },
+      {
+        "name": "Underbody exhaust heat shield",
+        "fr": "Écran thermique sous caisse"
+      },
+      {
+        "name": "Exhaust heat-shield retaining washer",
+        "fr": "Rondelle de fixation d'écran thermique"
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Complete gearbox & casing",
+    "parts": [
+      {
+        "name": "JR5 manual gearbox assembly",
+        "fr": "Boîte de vitesses mécanique JR5",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_te_de_vitesses_m_eacute_canique_d_eacute_pose_repose-264.html",
+        "note": "Five forward ratios and reverse; exact suffix controls ratios, bearing and synchroniser design. Integral gears/casing features may require their parent assembly rather than standalone replacement."
+      },
+      {
+        "name": "Clutch bellhousing",
+        "fr": "Carter d'embrayage"
+      },
+      {
+        "name": "Gearbox main casing",
+        "fr": "Carter de mécanisme"
+      },
+      {
+        "name": "Fifth-gear end cover",
+        "fr": "Carter de cinquième"
+      },
+      {
+        "name": "Fifth-gear cover seal",
+        "fr": "Joint de carter de cinquième"
+      },
+      {
+        "name": "Gearbox casing joint sealant",
+        "fr": "Produit d'étanchéité de carters de boîte"
+      },
+      {
+        "name": "Gearbox casing bolt",
+        "fr": "Vis de carters de boîte"
+      },
+      {
+        "name": "Gearbox locating dowel",
+        "fr": "Douille de centrage de carters"
+      },
+      {
+        "name": "Gearbox breather",
+        "fr": "Reniflard de boîte de vitesses"
+      },
+      {
+        "name": "Gearbox breather hose",
+        "fr": "Tuyau de mise à l'air de boîte",
+        "note": "Where fitted."
+      },
+      {
+        "name": "Gearbox drain plug",
+        "fr": "Bouchon de vidange de boîte"
+      },
+      {
+        "name": "Gearbox drain-plug sealing washer",
+        "fr": "Joint de bouchon de vidange de boîte"
+      },
+      {
+        "name": "Gearbox filler / level plug",
+        "fr": "Bouchon de remplissage et niveau de boîte"
+      },
+      {
+        "name": "Gearbox filler-plug seal",
+        "fr": "Joint de bouchon de remplissage de boîte",
+        "note": "Where separately fitted."
+      },
+      {
+        "name": "Manual gearbox oil",
+        "fr": "Huile de boîte de vitesses",
+        "note": "Also lubricates the integral differential; no separate differential fluid or automatic transmission fluid."
+      },
+      {
+        "name": "Gearbox-to-engine bolt",
+        "fr": "Vis de fixation boîte - moteur"
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Gearbox internals",
+    "parts": [
+      {
+        "name": "JR5 input shaft",
+        "fr": "Arbre primaire"
+      },
+      {
+        "name": "JR5 output shaft",
+        "fr": "Arbre secondaire"
+      },
+      {
+        "name": "First-gear driving pinion",
+        "fr": "Pignon menant de première",
+        "note": "Input-shaft gear; may be integral with the shaft and replaced only with that shaft."
+      },
+      {
+        "name": "First-gear driven gear",
+        "fr": "Pignon mené de première"
+      },
+      {
+        "name": "Second-gear driving pinion",
+        "fr": "Pignon menant de deuxième",
+        "note": "Input-shaft gear; may be integral with the shaft and replaced only with that shaft."
+      },
+      {
+        "name": "Second-gear driven gear",
+        "fr": "Pignon mené de deuxième"
+      },
+      {
+        "name": "Third-gear driving pinion",
+        "fr": "Pignon menant de troisième",
+        "note": "Separate or integral according to JR5 shaft design/suffix; verify parts breakdown."
+      },
+      {
+        "name": "Third-gear driven gear",
+        "fr": "Pignon mené de troisième"
+      },
+      {
+        "name": "Fourth-gear driving pinion",
+        "fr": "Pignon menant de quatrième",
+        "note": "Separate or integral according to JR5 shaft design/suffix; verify parts breakdown."
+      },
+      {
+        "name": "Fourth-gear driven gear",
+        "fr": "Pignon mené de quatrième"
+      },
+      {
+        "name": "Fifth-gear driving pinion",
+        "fr": "Pignon menant de cinquième"
+      },
+      {
+        "name": "Fifth-gear driven gear",
+        "fr": "Pignon mené de cinquième"
+      },
+      {
+        "name": "Reverse driving gear",
+        "fr": "Pignon menant de marche arrière",
+        "note": "May be integral with the input shaft."
+      },
+      {
+        "name": "Reverse idler gear",
+        "fr": "Pignon de renvoi de marche arrière"
+      },
+      {
+        "name": "Reverse driven gear",
+        "fr": "Pignon mené de marche arrière",
+        "note": "May be integral with the first/second synchroniser sleeve or associated assembly; verify JR5 suffix."
+      },
+      {
+        "name": "Reverse idler shaft",
+        "fr": "Axe de renvoi de marche arrière"
+      },
+      {
+        "name": "Reverse idler bearing / bush",
+        "fr": "Roulement ou bague de pignon de marche arrière",
+        "note": "Construction depends on JR5 suffix."
+      },
+      {
+        "name": "First-gear synchroniser ring",
+        "fr": "Anneau de synchronisation de première"
+      },
+      {
+        "name": "Second-gear synchroniser ring",
+        "fr": "Anneau de synchronisation de deuxième"
+      },
+      {
+        "name": "Third-gear synchroniser ring",
+        "fr": "Anneau de synchronisation de troisième"
+      },
+      {
+        "name": "Fourth-gear synchroniser ring",
+        "fr": "Anneau de synchronisation de quatrième"
+      },
+      {
+        "name": "Fifth-gear synchroniser ring",
+        "fr": "Anneau de synchronisation de cinquième"
+      },
+      {
+        "name": "First/second synchroniser hub",
+        "fr": "Moyeu de synchroniseur première-deuxième"
+      },
+      {
+        "name": "First/second synchroniser sliding sleeve",
+        "fr": "Baladeur de synchroniseur première-deuxième"
+      },
+      {
+        "name": "Third/fourth synchroniser hub",
+        "fr": "Moyeu de synchroniseur troisième-quatrième"
+      },
+      {
+        "name": "Third/fourth synchroniser sliding sleeve",
+        "fr": "Baladeur de synchroniseur troisième-quatrième"
+      },
+      {
+        "name": "Fifth-gear synchroniser hub",
+        "fr": "Moyeu de synchroniseur de cinquième"
+      },
+      {
+        "name": "Fifth-gear synchroniser sliding sleeve",
+        "fr": "Baladeur de synchroniseur de cinquième"
+      },
+      {
+        "name": "Synchroniser key / strut",
+        "fr": "Clavette de synchroniseur"
+      },
+      {
+        "name": "Synchroniser spring",
+        "fr": "Ressort de synchroniseur"
+      },
+      {
+        "name": "Synchroniser intermediate cone",
+        "fr": "Cône intermédiaire de synchronisation",
+        "note": "Multi-cone synchronisers only; ratio/suffix-specific. Reverse is not assumed to have a separate synchroniser."
+      },
+      {
+        "name": "Input-shaft clutch-end bearing",
+        "fr": "Roulement d'arbre primaire côté embrayage"
+      },
+      {
+        "name": "Input-shaft end-cover bearing",
+        "fr": "Roulement d'arbre primaire côté cinquième"
+      },
+      {
+        "name": "Output-shaft clutch-end bearing",
+        "fr": "Roulement d'arbre secondaire côté différentiel"
+      },
+      {
+        "name": "Output-shaft end-cover bearing",
+        "fr": "Roulement d'arbre secondaire côté cinquième"
+      },
+      {
+        "name": "First-gear needle bearing / bush",
+        "fr": "Cage à aiguilles ou bague de première",
+        "note": "Where the gear is free-running; exact support construction depends on shaft version."
+      },
+      {
+        "name": "Second-gear needle bearing / bush",
+        "fr": "Cage à aiguilles ou bague de deuxième",
+        "note": "Where separately fitted."
+      },
+      {
+        "name": "Third-gear needle bearing / bush",
+        "fr": "Cage à aiguilles ou bague de troisième",
+        "note": "Where separately fitted."
+      },
+      {
+        "name": "Fourth-gear needle bearing / bush",
+        "fr": "Cage à aiguilles ou bague de quatrième",
+        "note": "Where separately fitted."
+      },
+      {
+        "name": "Fifth-gear needle bearing / bush",
+        "fr": "Cage à aiguilles ou bague de cinquième",
+        "note": "Where separately fitted."
+      },
+      {
+        "name": "Gearbox shaft bearing outer race",
+        "fr": "Bague extérieure de roulement de boîte",
+        "note": "Matched bearing constituent where separately supplied; not an extra bearing."
+      },
+      {
+        "name": "Gearbox shaft bearing retaining plate",
+        "fr": "Plaque de maintien de roulement"
+      },
+      {
+        "name": "Gearbox shaft circlip",
+        "fr": "Jonc d'arrêt d'arbre de boîte"
+      },
+      {
+        "name": "Gearbox shaft thrust washer",
+        "fr": "Rondelle de butée d'arbre de boîte"
+      },
+      {
+        "name": "Gearbox shaft spacer",
+        "fr": "Entretoise d'arbre de boîte"
+      },
+      {
+        "name": "Gearbox shaft end-play shim",
+        "fr": "Cale de réglage d'arbre de boîte",
+        "note": "Only where used in the fitted JR5 suffix."
+      },
+      {
+        "name": "Fifth-gear retaining nut / bolt",
+        "fr": "Écrou ou vis de fixation de cinquième",
+        "note": "Fastener style depends on shaft version."
+      },
+      {
+        "name": "Gearbox internal oil guide",
+        "fr": "Goulotte de lubrification"
+      },
+      {
+        "name": "Gearbox magnetic debris collector",
+        "fr": "Aimant de boîte de vitesses"
+      },
+      {
+        "name": "Input-shaft oil seal",
+        "fr": "Joint à lèvre d'arbre d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/joint_agrave_l_egrave_vre_d_arbre_d_embrayage-262.html"
+      },
+      {
+        "name": "Input-shaft seal guide sleeve",
+        "fr": "Guide de butée / porte-joint d'arbre primaire",
+        "note": "Where supplied separately for the JR5 suffix; distinguish from the hydraulic release bearing."
+      },
+      {
+        "name": "Reverse idler thrust washer",
+        "fr": "Rondelle de butée de pignon de marche arrière"
+      },
+      {
+        "name": "Reverse idler retaining circlip",
+        "fr": "Jonc de maintien de renvoi de marche arrière",
+        "note": "Where used by the JR5 suffix."
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Gear selection internals",
+    "parts": [
+      {
+        "name": "First/second selector fork",
+        "fr": "Fourchette de première-deuxième"
+      },
+      {
+        "name": "Third/fourth selector fork",
+        "fr": "Fourchette de troisième-quatrième"
+      },
+      {
+        "name": "Fifth-gear selector fork",
+        "fr": "Fourchette de cinquième"
+      },
+      {
+        "name": "Reverse selector fork / lever",
+        "fr": "Fourchette ou levier de marche arrière"
+      },
+      {
+        "name": "First/second selector rail",
+        "fr": "Axe de fourchette de première-deuxième"
+      },
+      {
+        "name": "Third/fourth selector rail",
+        "fr": "Axe de fourchette de troisième-quatrième"
+      },
+      {
+        "name": "Fifth/reverse selector rail",
+        "fr": "Axe de sélection cinquième / marche arrière",
+        "note": "Exact rail arrangement depends on JR5 suffix."
+      },
+      {
+        "name": "Selector fork wear pad",
+        "fr": "Patin de fourchette",
+        "note": "Where separately replaceable rather than integral with the fork."
+      },
+      {
+        "name": "Selector fork retaining roll pin",
+        "fr": "Goupille de fourchette"
+      },
+      {
+        "name": "Gearbox selector shaft",
+        "fr": "Axe de commande de boîte"
+      },
+      {
+        "name": "Gearbox selector finger",
+        "fr": "Doigt de sélection"
+      },
+      {
+        "name": "Selector-shaft bush",
+        "fr": "Bague d'axe de sélection"
+      },
+      {
+        "name": "Selector-shaft oil seal",
+        "fr": "Joint d'axe de sélection"
+      },
+      {
+        "name": "Selector-shaft dust boot",
+        "fr": "Soufflet d'axe de sélection",
+        "note": "Where fitted externally."
+      },
+      {
+        "name": "Selector detent ball",
+        "fr": "Bille de verrouillage"
+      },
+      {
+        "name": "Selector detent spring",
+        "fr": "Ressort de verrouillage"
+      },
+      {
+        "name": "Selector detent plug",
+        "fr": "Bouchon de verrouillage"
+      },
+      {
+        "name": "Selector interlock plunger",
+        "fr": "Bonhomme d'interdiction"
+      },
+      {
+        "name": "Gear-selector return spring",
+        "fr": "Ressort de rappel de sélection"
+      },
+      {
+        "name": "Reverse inhibitor / stop",
+        "fr": "Verrou de marche arrière",
+        "note": "Construction and separate serviceability depend on JR5 suffix."
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Differential",
+    "parts": [
+      {
+        "name": "Differential assembly",
+        "fr": "Différentiel",
+        "note": "Integral open differential inside the JR5; constituent parts below are rebuild items, not an additional axle assembly."
+      },
+      {
+        "name": "Differential carrier casing",
+        "fr": "Boîtier de différentiel"
+      },
+      {
+        "name": "Final-drive crown wheel",
+        "fr": "Couronne de différentiel",
+        "note": "May be supplied with the differential carrier; fastening method depends on JR5 suffix."
+      },
+      {
+        "name": "Final-drive pinion",
+        "fr": "Pignon d'attaque",
+        "note": "Normally part of the output shaft; not assumed separately detachable."
+      },
+      {
+        "name": "Differential side gear",
+        "fr": "Planétaire de différentiel"
+      },
+      {
+        "name": "Differential planet / spider gear",
+        "fr": "Satellite de différentiel"
+      },
+      {
+        "name": "Differential planet pin",
+        "fr": "Axe de satellites"
+      },
+      {
+        "name": "Differential planet-pin retaining pin",
+        "fr": "Goupille d'axe de satellites"
+      },
+      {
+        "name": "Differential side-gear thrust washer",
+        "fr": "Rondelle de butée de planétaire"
+      },
+      {
+        "name": "Differential planet-gear thrust washer",
+        "fr": "Rondelle de butée de satellite"
+      },
+      {
+        "name": "Differential left support bearing",
+        "fr": "Roulement gauche de différentiel"
+      },
+      {
+        "name": "Differential right support bearing",
+        "fr": "Roulement droit de différentiel"
+      },
+      {
+        "name": "Differential bearing retaining ring",
+        "fr": "Jonc de maintien de roulement de différentiel"
+      },
+      {
+        "name": "Differential bearing shim / spacer",
+        "fr": "Cale ou entretoise de différentiel",
+        "note": "Only where used by the fitted differential/bearing design."
+      },
+      {
+        "name": "Left differential output oil seal",
+        "fr": "Joint de sortie gauche de différentiel",
+        "manualPage": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html"
+      },
+      {
+        "name": "Right differential output oil seal",
+        "fr": "Joint de sortie droit de différentiel",
+        "manualPage": "https://www.manuelmeg.org/joint_de_sortie_de_diff_eacute_rentiel-263.html"
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Clutch & flywheel",
+    "parts": [
+      {
+        "name": "Clutch driven plate",
+        "fr": "Disque d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/m_eacute_canisme_disque-255.html"
+      },
+      {
+        "name": "Clutch pressure plate",
+        "fr": "Mécanisme d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/m_eacute_canisme_disque-255.html"
+      },
+      {
+        "name": "Concentric clutch slave cylinder and release bearing",
+        "fr": "Butée hydraulique d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/but_eacute_e_d_embrayage-256.html",
+        "note": "Combined concentric slave cylinder/release bearing; not duplicated as separate fitted units."
+      },
+      {
+        "name": "Flywheel",
+        "fr": "Volant moteur",
+        "manualPage": "https://www.manuelmeg.org/volant_moteur-257.html",
+        "note": "Verify flywheel construction by VIN; do not assume a diesel-style dual-mass flywheel."
+      },
+      {
+        "name": "Flywheel ring gear",
+        "fr": "Couronne de démarreur",
+        "note": "May be available only with the flywheel."
+      },
+      {
+        "name": "Flywheel retaining bolt",
+        "fr": "Vis de volant moteur"
+      },
+      {
+        "name": "Clutch pressure-plate bolt",
+        "fr": "Vis de mécanisme d'embrayage"
+      },
+      {
+        "name": "Clutch master cylinder",
+        "fr": "Cylindre émetteur d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/cylindre_eacute_metteur_d_embrayage-354.html"
+      },
+      {
+        "name": "Clutch fluid supply hose",
+        "fr": "Tuyau d'alimentation d'émetteur d'embrayage"
+      },
+      {
+        "name": "Clutch hydraulic pressure pipe",
+        "fr": "Canalisation de commande d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/canalisation_de_commande_d_embrayage-356.html"
+      },
+      {
+        "name": "Clutch hydraulic quick-connector seal",
+        "fr": "Joint de raccord hydraulique d'embrayage"
+      },
+      {
+        "name": "Clutch hydraulic connector retaining clip",
+        "fr": "Agrafe de raccord d'embrayage"
+      },
+      {
+        "name": "Clutch hydraulic bleed fitting",
+        "fr": "Raccord de purge d'embrayage"
+      },
+      {
+        "name": "Clutch pedal",
+        "fr": "Pédale d'embrayage",
+        "manualPage": "https://www.manuelmeg.org/p_eacute_dale_d_embrayage-355.html"
+      },
+      {
+        "name": "Clutch pedal pivot bush",
+        "fr": "Bague de pédale d'embrayage"
+      },
+      {
+        "name": "Clutch pedal assist / return spring",
+        "fr": "Ressort de pédale d'embrayage"
+      },
+      {
+        "name": "Clutch pedal rubber pad",
+        "fr": "Patin de pédale d'embrayage"
+      },
+      {
+        "name": "Clutch pedal position switch",
+        "fr": "Contacteur de pédale d'embrayage"
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "External gear controls",
+    "parts": [
+      {
+        "name": "Gear lever and housing",
+        "fr": "Boîtier de commande des vitesses",
+        "manualPage": "https://www.manuelmeg.org/ensemble_bo_icirc_tier_de_commande_des_vitesses-361.html"
+      },
+      {
+        "name": "Gear lever knob",
+        "fr": "Pommeau de levier de vitesses"
+      },
+      {
+        "name": "Gear lever gaiter",
+        "fr": "Soufflet de levier de vitesses"
+      },
+      {
+        "name": "Gear lever pivot bush",
+        "fr": "Bague de levier de vitesses"
+      },
+      {
+        "name": "Gear selection cable",
+        "fr": "Câble de sélection des vitesses",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_ble_de_commande_externe_des_vitesses-360.html"
+      },
+      {
+        "name": "Gear engagement cable",
+        "fr": "Câble de passage des vitesses",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_ble_de_commande_externe_des_vitesses-360.html"
+      },
+      {
+        "name": "Gear-control cable end bush",
+        "fr": "Bague d'embout de câble de vitesses"
+      },
+      {
+        "name": "Gear-control cable retaining clip",
+        "fr": "Agrafe de câble de vitesses"
+      },
+      {
+        "name": "Gear-control cable mounting bracket",
+        "fr": "Support de câbles de commande"
+      },
+      {
+        "name": "Gear-control cable bulkhead grommet",
+        "fr": "Passe-câbles de commande de vitesses"
+      }
+    ]
+  },
+  {
+    "system": "Transmission",
+    "subsystem": "Driveshafts & CV joints",
+    "parts": [
+      {
+        "name": "Left driveshaft assembly",
+        "fr": "Transmission avant gauche",
+        "manualPage": "https://www.manuelmeg.org/transmission_avant_gauche-288.html"
+      },
+      {
+        "name": "Right driveshaft assembly",
+        "fr": "Transmission avant droite",
+        "manualPage": "https://www.manuelmeg.org/transmission_avant_droite-289.html"
+      },
+      {
+        "name": "Outer constant-velocity joint",
+        "fr": "Joint homocinétique côté roue"
+      },
+      {
+        "name": "Inner plunge / tripod joint",
+        "fr": "Joint coulissant côté boîte"
+      },
+      {
+        "name": "Inner joint tulip housing",
+        "fr": "Tulipe de transmission"
+      },
+      {
+        "name": "Tripod spider and rollers",
+        "fr": "Tripode de transmission",
+        "note": "Constituents of the inner joint; supplier-dependent separate availability."
+      },
+      {
+        "name": "Outer CV joint boot",
+        "fr": "Soufflet de transmission côté roue"
+      },
+      {
+        "name": "Inner CV joint boot",
+        "fr": "Soufflet de transmission côté boîte"
+      },
+      {
+        "name": "CV boot retaining clamp",
+        "fr": "Collier de soufflet de transmission"
+      },
+      {
+        "name": "CV joint retaining circlip",
+        "fr": "Jonc d'arrêt de joint de transmission"
+      },
+      {
+        "name": "Driveshaft hub retaining nut",
+        "fr": "Écrou de transmission"
+      },
+      {
+        "name": "Right driveshaft intermediate support bearing",
+        "fr": "Roulement de palier de transmission",
+        "note": "If fitted to the driveshaft version."
+      },
+      {
+        "name": "Right driveshaft support bracket",
+        "fr": "Palier relais de transmission",
+        "note": "If fitted."
+      },
+      {
+        "name": "CV joint grease",
+        "fr": "Graisse de joint homocinétique",
+        "note": "Joint-specific grease, not gearbox oil."
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Ignition & engine management",
+    "parts": [
+      {
+        "name": "Spark plug",
+        "fr": "Bougie d'allumage",
+        "manualPage": "https://www.manuelmeg.org/bougies-201.html"
+      },
+      {
+        "name": "Pencil ignition coil",
+        "fr": "Bobine d'allumage",
+        "manualPage": "https://www.manuelmeg.org/bobines-200.html"
+      },
+      {
+        "name": "Ignition coil rubber boot",
+        "fr": "Manchon de bobine",
+        "note": "Where supplied separately from the coil."
+      },
+      {
+        "name": "Engine control unit",
+        "fr": "Calculateur d'injection essence",
+        "note": "VIN/immobiliser coding-dependent replacement."
+      },
+      {
+        "name": "Engine control unit bracket",
+        "fr": "Support de calculateur d'injection"
+      },
+      {
+        "name": "Engine wiring harness",
+        "fr": "Faisceau moteur"
+      },
+      {
+        "name": "Injector wiring sub-harness",
+        "fr": "Faisceau d'injecteurs",
+        "note": "Where separate from the main engine harness."
+      },
+      {
+        "name": "Crankshaft position sensor",
+        "fr": "Capteur de régime et de position vilebrequin"
+      },
+      {
+        "name": "Camshaft position sensor",
+        "fr": "Capteur de position d'arbre à cames",
+        "note": "If fitted to the K4M management version."
+      },
+      {
+        "name": "Knock sensor",
+        "fr": "Capteur de cliquetis"
+      },
+      {
+        "name": "Accelerator pedal and position sensor",
+        "fr": "Pédale d'accélérateur avec potentiomètre",
+        "note": "Sensor normally supplied with pedal; no mechanical throttle cable."
+      },
+      {
+        "name": "Reverse-light switch",
+        "fr": "Contacteur de feux de recul",
+        "note": "JR5-mounted; no automatic gearbox multifunction switch."
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Battery & charging",
+    "parts": [
+      {
+        "name": "Starter battery",
+        "fr": "Batterie",
+        "manualPage": "https://www.manuelmeg.org/batterie_d_eacute_pose_repose-430.html"
+      },
+      {
+        "name": "Battery positive terminal clamp",
+        "fr": "Cosse positive de batterie"
+      },
+      {
+        "name": "Battery negative terminal clamp",
+        "fr": "Cosse négative de batterie"
+      },
+      {
+        "name": "Battery hold-down clamp",
+        "fr": "Bride de fixation de batterie"
+      },
+      {
+        "name": "Battery hold-down bolt",
+        "fr": "Vis de bride de batterie"
+      },
+      {
+        "name": "Battery tray",
+        "fr": "Bac à batterie"
+      },
+      {
+        "name": "Battery thermal cover",
+        "fr": "Cache de batterie"
+      },
+      {
+        "name": "Battery positive cable",
+        "fr": "Câble positif de batterie"
+      },
+      {
+        "name": "Battery negative cable",
+        "fr": "Câble négatif de batterie"
+      },
+      {
+        "name": "Engine-to-body earth strap",
+        "fr": "Tresse de masse moteur"
+      },
+      {
+        "name": "Battery terminal protective cap",
+        "fr": "Capuchon de cosse de batterie"
+      },
+      {
+        "name": "Battery current sensor",
+        "fr": "Capteur de courant de batterie",
+        "note": "Only if fitted to the specific charging/energy-management version."
+      },
+      {
+        "name": "Alternator assembly",
+        "fr": "Alternateur",
+        "manualPage": "https://www.manuelmeg.org/alternateur-196.html"
+      },
+      {
+        "name": "Alternator voltage regulator and brush holder",
+        "fr": "Régulateur et porte-balais d'alternateur"
+      },
+      {
+        "name": "Alternator rectifier diode bridge",
+        "fr": "Pont de diodes d'alternateur"
+      },
+      {
+        "name": "Alternator rotor",
+        "fr": "Rotor d'alternateur"
+      },
+      {
+        "name": "Alternator stator",
+        "fr": "Stator d'alternateur"
+      },
+      {
+        "name": "Alternator front bearing",
+        "fr": "Roulement avant d'alternateur"
+      },
+      {
+        "name": "Alternator rear bearing",
+        "fr": "Roulement arrière d'alternateur"
+      },
+      {
+        "name": "Alternator pulley",
+        "fr": "Poulie d'alternateur",
+        "note": "Solid or overrunning type according to alternator; not automatically a freewheel pulley."
+      },
+      {
+        "name": "Alternator mounting bolt",
+        "fr": "Vis de fixation d'alternateur"
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Starting",
+    "parts": [
+      {
+        "name": "Starter motor assembly",
+        "fr": "Démarreur",
+        "manualPage": "https://www.manuelmeg.org/d_eacute_marreur-198.html"
+      },
+      {
+        "name": "Starter solenoid",
+        "fr": "Solénoïde de démarreur"
+      },
+      {
+        "name": "Starter pinion and overrunning clutch",
+        "fr": "Lanceur de démarreur"
+      },
+      {
+        "name": "Starter brush holder and brushes",
+        "fr": "Porte-balais et balais de démarreur"
+      },
+      {
+        "name": "Starter armature",
+        "fr": "Induit de démarreur"
+      },
+      {
+        "name": "Starter bearing / bush",
+        "fr": "Palier de démarreur"
+      },
+      {
+        "name": "Starter mounting bolt",
+        "fr": "Vis de fixation de démarreur"
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Power distribution & wiring",
+    "parts": [
+      {
+        "name": "Passenger-compartment fuse and relay box",
+        "fr": "Boîtier fusibles relais habitacle"
+      },
+      {
+        "name": "Engine-compartment fuse and relay box",
+        "fr": "Boîtier fusibles relais moteur",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_fusibles_relais_compartiment_moteur-470.html"
+      },
+      {
+        "name": "Battery positive fuse carrier",
+        "fr": "Boîtier fusibles de protection batterie"
+      },
+      {
+        "name": "Blade fuse",
+        "fr": "Fusible enfichable"
+      },
+      {
+        "name": "High-current strip fuse",
+        "fr": "Maxi-fusible de puissance"
+      },
+      {
+        "name": "Electrical relay",
+        "fr": "Relais électrique",
+        "note": "General distribution relays; dedicated fan relay is separately named under Cooling."
+      },
+      {
+        "name": "Fuse-box cover",
+        "fr": "Couvercle de boîte à fusibles"
+      },
+      {
+        "name": "Body control module / UCH",
+        "fr": "Unité centrale habitacle",
+        "manualPage": "https://www.manuelmeg.org/unit_eacute_centrale_habitacle-594.html"
+      },
+      {
+        "name": "Engine-bay protection and switching unit / UPC",
+        "fr": "Unité de protection et de commutation",
+        "manualPage": "https://www.manuelmeg.org/unit_eacute_de_protection_et_de_commutation-631.html",
+        "note": "May share its enclosure with the engine-compartment fuse box; electronics versus passive enclosure."
+      },
+      {
+        "name": "Dashboard wiring harness",
+        "fr": "Faisceau de planche de bord"
+      },
+      {
+        "name": "Cabin floor wiring harness",
+        "fr": "Faisceau habitacle"
+      },
+      {
+        "name": "Front door wiring harness",
+        "fr": "Faisceau de porte avant"
+      },
+      {
+        "name": "Rear door wiring harness",
+        "fr": "Faisceau de porte arrière",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Tailgate wiring harness",
+        "fr": "Faisceau de hayon"
+      },
+      {
+        "name": "Roof wiring harness",
+        "fr": "Faisceau de pavillon",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_blage_de_la_garniture_de_pavillon-636.html"
+      },
+      {
+        "name": "Rear body wiring harness",
+        "fr": "Faisceau arrière"
+      },
+      {
+        "name": "Bumper wiring harness",
+        "fr": "Faisceau de bouclier",
+        "note": "Parking sensors, lamps and options according to equipment."
+      },
+      {
+        "name": "Wiring connector housing",
+        "fr": "Boîtier de connecteur"
+      },
+      {
+        "name": "Wiring repair terminal",
+        "fr": "Cosse de réparation de faisceau"
+      },
+      {
+        "name": "Wiring connector seal",
+        "fr": "Joint de connecteur"
+      },
+      {
+        "name": "Harness retaining clip",
+        "fr": "Agrafe de faisceau"
+      },
+      {
+        "name": "Harness bulkhead grommet",
+        "fr": "Passe-fil de tablier"
+      },
+      {
+        "name": "Body earth stud and eyelet",
+        "fr": "Point et cosse de masse"
+      },
+      {
+        "name": "Diagnostic socket",
+        "fr": "Prise diagnostic",
+        "manualPage": "https://www.manuelmeg.org/prise_diagnostic-634.html"
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Access immobiliser & switches",
+    "parts": [
+      {
+        "name": "Remote key card",
+        "fr": "Carte Renault"
+      },
+      {
+        "name": "Key-card coin-cell battery",
+        "fr": "Pile de carte Renault"
+      },
+      {
+        "name": "Key-card reader",
+        "fr": "Lecteur de carte"
+      },
+      {
+        "name": "Start/stop push button",
+        "fr": "Bouton poussoir de démarrage",
+        "manualPage": "https://www.manuelmeg.org/bouton_poussoir_de_d_eacute_marrage-481.html"
+      },
+      {
+        "name": "Hands-free starting antenna",
+        "fr": "Antenne de démarrage",
+        "manualPage": "https://www.manuelmeg.org/antennes_de_d_eacute_marrage-484.html"
+      },
+      {
+        "name": "Hands-free exterior access antenna",
+        "fr": "Antenne d'ouverture",
+        "manualPage": "https://www.manuelmeg.org/antennes_d_ouverture-602.html"
+      },
+      {
+        "name": "Door-handle access sensor",
+        "fr": "Capteur de poignée mains libres",
+        "note": "Hands-free option; may be integral with the handle."
+      },
+      {
+        "name": "Central locking switch",
+        "fr": "Contacteur de centralisation des portes",
+        "manualPage": "https://www.manuelmeg.org/contacteur_de_feux_de_d_eacute_tresse_et_centralisation_des_portes-541.html"
+      },
+      {
+        "name": "Door mirror adjustment switch",
+        "fr": "Commande de rétroviseurs"
+      },
+      {
+        "name": "Driver window master switch",
+        "fr": "Contacteurs de lève-vitres conducteur",
+        "manualPage": "https://www.manuelmeg.org/contacteurs_de_l_egrave_ve_vitres_avant_sur_porte_conducteur-613.html"
+      },
+      {
+        "name": "Front passenger window switch",
+        "fr": "Contacteur de lève-vitre passager",
+        "manualPage": "https://www.manuelmeg.org/contacteur_de_l_egrave_ve_vitre_avant_sur_porte_passager-615.html"
+      },
+      {
+        "name": "Rear window switch",
+        "fr": "Contacteur de lève-vitre arrière",
+        "manualPage": "https://www.manuelmeg.org/contacteurs_de_l_egrave_ve_vitres_arri_egrave_re_sur_porte_arri_egrave_re-617.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Rear child-lock switch",
+        "fr": "Contacteur sécurité enfant",
+        "manualPage": "https://www.manuelmeg.org/contacteurs_s_eacute_curit_eacute_enfant-619.html",
+        "note": "Where electric child locking is fitted."
+      },
+      {
+        "name": "Cruise-control / speed-limiter master switch",
+        "fr": "Commande de régulateur-limiteur"
+      },
+      {
+        "name": "Cruise-control steering-wheel switch",
+        "fr": "Contacteur de régulateur au volant"
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Column controls & horn",
+    "parts": [
+      {
+        "name": "Column switch module",
+        "fr": "Ensemble de commandes sous volant",
+        "manualPage": "https://www.manuelmeg.org/ensemble_de_commandes_sous_volant-538.html"
+      },
+      {
+        "name": "Indicator and lighting stalk",
+        "fr": "Manette d'éclairage et clignotants"
+      },
+      {
+        "name": "Wiper control stalk",
+        "fr": "Manette d'essuie-vitres"
+      },
+      {
+        "name": "Steering wheel rotary connector / clock spring",
+        "fr": "Contact tournant"
+      },
+      {
+        "name": "Hazard-warning switch",
+        "fr": "Contacteur de feux de détresse",
+        "manualPage": "https://www.manuelmeg.org/contacteur_de_feux_de_d_eacute_tresse_et_centralisation_des_portes-541.html"
+      },
+      {
+        "name": "Instrument illumination dimmer switch",
+        "fr": "Rhéostat d'éclairage"
+      },
+      {
+        "name": "Horn",
+        "fr": "Avertisseur sonore"
+      },
+      {
+        "name": "Horn mounting bracket",
+        "fr": "Support d'avertisseur"
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Instruments audio & navigation",
+    "parts": [
+      {
+        "name": "Instrument cluster",
+        "fr": "Tableau de bord"
+      },
+      {
+        "name": "Instrument cluster lens",
+        "fr": "Vitre de combiné",
+        "note": "Where available separately."
+      },
+      {
+        "name": "Radio / audio head unit",
+        "fr": "Autoradio"
+      },
+      {
+        "name": "Audio display",
+        "fr": "Afficheur radio"
+      },
+      {
+        "name": "Navigation display",
+        "fr": "Écran de navigation",
+        "manualPage": "https://www.manuelmeg.org/navigation_ecran-511.html",
+        "note": "Navigation-equipped versions; reference system may differ from Mégane equipment."
+      },
+      {
+        "name": "Navigation control unit",
+        "fr": "Calculateur de navigation",
+        "note": "If separate from the head unit."
+      },
+      {
+        "name": "Navigation control panel",
+        "fr": "Commande de navigation"
+      },
+      {
+        "name": "Audio amplifier",
+        "fr": "Ampli-tuner",
+        "note": "If equipped."
+      },
+      {
+        "name": "Front door loudspeaker",
+        "fr": "Haut-parleur avant",
+        "manualPage": "https://www.manuelmeg.org/haut_parleurs_avant-587.html"
+      },
+      {
+        "name": "Rear loudspeaker",
+        "fr": "Haut-parleur arrière",
+        "manualPage": "https://www.manuelmeg.org/haut_parleurs_arri_egrave_re-588.html"
+      },
+      {
+        "name": "Dashboard tweeter",
+        "fr": "Tweeter",
+        "manualPage": "https://www.manuelmeg.org/tweeter-586.html"
+      },
+      {
+        "name": "Radio antenna mast",
+        "fr": "Brin d'antenne"
+      },
+      {
+        "name": "Radio antenna base",
+        "fr": "Embase d'antenne",
+        "manualPage": "https://www.manuelmeg.org/antenne-591.html"
+      },
+      {
+        "name": "Radio antenna coaxial cable",
+        "fr": "Câble d'antenne"
+      },
+      {
+        "name": "Antenna amplifier",
+        "fr": "Amplificateur d'antenne",
+        "note": "If fitted."
+      },
+      {
+        "name": "GPS antenna",
+        "fr": "Antenne GPS"
+      },
+      {
+        "name": "Hands-free microphone",
+        "fr": "Microphone mains libres"
+      },
+      {
+        "name": "Steering-column audio remote",
+        "fr": "Satellite de commande radio"
+      },
+      {
+        "name": "USB / auxiliary input socket",
+        "fr": "Prise USB / auxiliaire",
+        "note": "According to audio equipment."
+      },
+      {
+        "name": "Accessory power socket",
+        "fr": "Prise accessoires"
+      },
+      {
+        "name": "Cigarette lighter insert",
+        "fr": "Allume-cigare",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Wipers & washers",
+    "parts": [
+      {
+        "name": "Front wiper blade",
+        "fr": "Balai d'essuie-vitre avant"
+      },
+      {
+        "name": "Rear wiper blade",
+        "fr": "Balai d'essuie-vitre arrière"
+      },
+      {
+        "name": "Front wiper arm",
+        "fr": "Bras d'essuie-vitre avant",
+        "manualPage": "https://www.manuelmeg.org/essuie_vitre_avant-555.html"
+      },
+      {
+        "name": "Rear wiper arm",
+        "fr": "Bras d'essuie-vitre arrière"
+      },
+      {
+        "name": "Front wiper motor",
+        "fr": "Moteur d'essuie-vitre avant",
+        "manualPage": "https://www.manuelmeg.org/moteur_d_essuie_vitre_avant-556.html"
+      },
+      {
+        "name": "Rear wiper motor",
+        "fr": "Moteur d'essuie-vitre arrière",
+        "manualPage": "https://www.manuelmeg.org/moteur_d_essuie_vitre_arri_egrave_re-558.html"
+      },
+      {
+        "name": "Front wiper linkage",
+        "fr": "Mécanisme d'essuie-vitre avant"
+      },
+      {
+        "name": "Wiper spindle bearing / bush",
+        "fr": "Palier d'axe d'essuie-vitre",
+        "note": "Specialist linkage rebuild item where available."
+      },
+      {
+        "name": "Wiper arm retaining nut and cap",
+        "fr": "Écrou et cache de bras d'essuie-vitre"
+      },
+      {
+        "name": "Washer reservoir",
+        "fr": "Réservoir de lave-vitre"
+      },
+      {
+        "name": "Washer reservoir filler neck",
+        "fr": "Goulotte de réservoir de lave-vitre"
+      },
+      {
+        "name": "Washer reservoir cap",
+        "fr": "Bouchon de réservoir de lave-vitre"
+      },
+      {
+        "name": "Windscreen / rear-window washer pump",
+        "fr": "Pompe de lave-vitre",
+        "manualPage": "https://www.manuelmeg.org/pompe_de_lave_vitre-563.html"
+      },
+      {
+        "name": "Washer pump sealing grommet",
+        "fr": "Joint de pompe de lave-vitre"
+      },
+      {
+        "name": "Washer pump inlet strainer",
+        "fr": "Filtre de pompe de lave-vitre",
+        "note": "If fitted separately, otherwise part of the grommet/pump."
+      },
+      {
+        "name": "Front washer nozzle",
+        "fr": "Gicleur de lave-vitre avant"
+      },
+      {
+        "name": "Rear washer nozzle",
+        "fr": "Gicleur de lave-vitre arrière"
+      },
+      {
+        "name": "Washer fluid hose",
+        "fr": "Tuyau de lave-vitre"
+      },
+      {
+        "name": "Washer hose union and non-return valve",
+        "fr": "Raccord et clapet de lave-vitre"
+      },
+      {
+        "name": "Headlamp washer pump",
+        "fr": "Pompe de lave-projecteurs",
+        "note": "If equipped."
+      },
+      {
+        "name": "Headlamp washer telescopic nozzle",
+        "fr": "Gicleur de lave-projecteur",
+        "manualPage": "https://www.manuelmeg.org/gicleur_de_lave_projecteur-561.html",
+        "note": "If equipped."
+      },
+      {
+        "name": "Headlamp washer hose",
+        "fr": "Tuyau de lave-projecteurs",
+        "note": "If equipped."
+      },
+      {
+        "name": "Headlamp washer nozzle cover",
+        "fr": "Cache de lave-projecteur",
+        "note": "If equipped."
+      },
+      {
+        "name": "Rain and ambient-light sensor",
+        "fr": "Détecteur de pluie et luminosité",
+        "manualPage": "https://www.manuelmeg.org/d_eacute_tecteur_de_pluie_et_luminosit_eacute_-553.html"
+      },
+      {
+        "name": "Rain sensor optical coupling pad",
+        "fr": "Gel de détecteur de pluie"
+      },
+      {
+        "name": "Windscreen washer fluid",
+        "fr": "Liquide de lave-vitre"
+      },
+      {
+        "name": "Wiper blade rubber refill",
+        "fr": "Raclette de balai d’essuie-vitre",
+        "note": "Only on blade designs accepting replaceable rubber inserts."
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Parking assistance & alarm",
+    "parts": [
+      {
+        "name": "Parking distance sensor",
+        "fr": "Capteur d'aide au stationnement",
+        "note": "Front/rear as equipped."
+      },
+      {
+        "name": "Parking assistance control unit",
+        "fr": "Calculateur d'aide au stationnement"
+      },
+      {
+        "name": "Parking assistance buzzer",
+        "fr": "Avertisseur d'aide au stationnement"
+      },
+      {
+        "name": "Parking assistance switch",
+        "fr": "Contacteur d'aide au stationnement"
+      },
+      {
+        "name": "Parking sensor mounting holder",
+        "fr": "Support de capteur de stationnement"
+      },
+      {
+        "name": "Reversing camera",
+        "fr": "Caméra de recul",
+        "note": "If equipped."
+      },
+      {
+        "name": "Alarm siren",
+        "fr": "Sirène d'alarme",
+        "note": "If equipped."
+      },
+      {
+        "name": "Alarm interior movement sensor",
+        "fr": "Capteur volumétrique d'alarme",
+        "note": "If equipped."
+      },
+      {
+        "name": "Bonnet alarm switch",
+        "fr": "Contacteur de capot",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Electrical",
+    "subsystem": "Airbags & restraint electronics",
+    "parts": [
+      {
+        "name": "Airbag control unit",
+        "fr": "Calculateur d'airbag",
+        "manualPage": "https://www.manuelmeg.org/calculateur_d_airbag-647.html"
+      },
+      {
+        "name": "Side-impact sensor",
+        "fr": "Capteur de choc latéral",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_chocs_lat_eacute_raux-650.html"
+      },
+      {
+        "name": "Front-impact sensor",
+        "fr": "Capteur de choc frontal",
+        "note": "Where fitted separately from the airbag control unit."
+      },
+      {
+        "name": "Driver frontal airbag",
+        "fr": "Airbag frontal conducteur",
+        "manualPage": "https://www.manuelmeg.org/airbag_frontal_conducteur-659.html"
+      },
+      {
+        "name": "Passenger frontal airbag",
+        "fr": "Airbag passager",
+        "manualPage": "https://www.manuelmeg.org/airbag_passager-660.html"
+      },
+      {
+        "name": "Front seat thorax airbag",
+        "fr": "Airbag latéral thorax avant",
+        "manualPage": "https://www.manuelmeg.org/airbag_lat_eacute_ral_thorax_avant-661.html"
+      },
+      {
+        "name": "Curtain airbag",
+        "fr": "Airbag rideau",
+        "manualPage": "https://www.manuelmeg.org/airbag_lat_eacute_ral_rideau-663.html",
+        "note": "Body-style dependent; not assumed present on Coupé-Cabriolet."
+      },
+      {
+        "name": "Seat anti-submarining airbag",
+        "fr": "Airbag anti-glissement",
+        "manualPage": "https://www.manuelmeg.org/airbag_anti_glissement-658.html",
+        "note": "Only where equipped; body-style and seat specification dependent."
+      },
+      {
+        "name": "Passenger airbag deactivation switch",
+        "fr": "Contacteur d'inhibition d'airbag",
+        "manualPage": "https://www.manuelmeg.org/contacteur_d_inhibition-653.html"
+      },
+      {
+        "name": "Passenger airbag status indicator",
+        "fr": "Témoin d'inhibition d'airbag"
+      },
+      {
+        "name": "Seat position sensor",
+        "fr": "Capteur de position de siège"
+      },
+      {
+        "name": "Passenger occupancy sensor",
+        "fr": "Capteur de présence passager",
+        "note": "If fitted; may be integrated into the seat cushion."
+      },
+      {
+        "name": "Seat belt buckle switch",
+        "fr": "Contacteur de boucle de ceinture"
+      },
+      {
+        "name": "Airbag wiring repair connector",
+        "fr": "Connecteur de faisceau d'airbag",
+        "note": "Only an approved replacement harness/connector where permitted; not a generic splice item."
+      }
+    ]
+  },
+  {
+    "system": "Lighting",
+    "subsystem": "Front lighting",
+    "parts": [
+      {
+        "name": "Halogen headlamp assembly",
+        "fr": "Projecteur halogène",
+        "manualPage": "https://www.manuelmeg.org/projecteur_halog_egrave_ne_ou_x_eacute_non-435.html"
+      },
+      {
+        "name": "Xenon headlamp assembly",
+        "fr": "Projecteur au xénon",
+        "manualPage": "https://www.manuelmeg.org/projecteur_halog_egrave_ne_ou_x_eacute_non-435.html",
+        "note": "Factory xenon option only; alternative to halogen, not an additional headlamp."
+      },
+      {
+        "name": "Dipped-beam bulb",
+        "fr": "Lampe de feu de croisement",
+        "manualPage": "https://www.manuelmeg.org/allumage_automatique_des_feux-434.html"
+      },
+      {
+        "name": "Main-beam bulb",
+        "fr": "Lampe de feu de route",
+        "manualPage": "https://www.manuelmeg.org/allumage_automatique_des_feux-434.html"
+      },
+      {
+        "name": "Front position-lamp bulb",
+        "fr": "Lampe de feu de position avant",
+        "manualPage": "https://www.manuelmeg.org/allumage_automatique_des_feux-434.html"
+      },
+      {
+        "name": "Front indicator bulb",
+        "fr": "Lampe de clignotant avant",
+        "manualPage": "https://www.manuelmeg.org/allumage_automatique_des_feux-434.html"
+      },
+      {
+        "name": "Daytime-running lamp assembly",
+        "fr": "Feu de jour",
+        "note": "According to facelift and lighting option."
+      },
+      {
+        "name": "Daytime-running lamp bulb / LED module",
+        "fr": "Lampe ou module LED de feu de jour",
+        "note": "Bulb or integral LED version according to equipment."
+      },
+      {
+        "name": "Front fog-lamp assembly",
+        "fr": "Feu antibrouillard avant",
+        "manualPage": "https://www.manuelmeg.org/feux_antibrouillard-439.html"
+      },
+      {
+        "name": "Front fog-lamp bulb",
+        "fr": "Lampe antibrouillard avant"
+      },
+      {
+        "name": "Headlamp rear dust cover",
+        "fr": "Cache arrière de projecteur"
+      },
+      {
+        "name": "Headlamp bulb holder",
+        "fr": "Porte-lampe de projecteur"
+      },
+      {
+        "name": "Headlamp mounting bracket / repair tab",
+        "fr": "Patte de fixation de projecteur"
+      },
+      {
+        "name": "Headlamp manual levelling motor",
+        "fr": "Moteur de réglage en site"
+      },
+      {
+        "name": "Headlamp levelling dashboard control",
+        "fr": "Commande de réglage en site",
+        "manualPage": "https://www.manuelmeg.org/commande_de_r_eacute_glage_en_site-440.html"
+      },
+      {
+        "name": "Xenon discharge bulb",
+        "fr": "Lampe au xénon",
+        "manualPage": "https://www.manuelmeg.org/lampe_au_x_eacute_non_remplacement-448.html",
+        "note": "Xenon option only."
+      },
+      {
+        "name": "Xenon ballast / control unit",
+        "fr": "Calculateur de lampe au xénon",
+        "manualPage": "https://www.manuelmeg.org/calculateur_de_lampe_au_x_eacute_non-449.html"
+      },
+      {
+        "name": "Xenon igniter",
+        "fr": "Allumeur de lampe au xénon",
+        "note": "If separate from bulb/ballast."
+      },
+      {
+        "name": "Front headlamp levelling sensor",
+        "fr": "Capteur de hauteur avant",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_hauteur_avant-450.html",
+        "note": "Automatic levelling option."
+      },
+      {
+        "name": "Rear headlamp levelling sensor",
+        "fr": "Capteur de hauteur arrière",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_hauteur_arri_egrave_re-452.html",
+        "note": "Automatic levelling option."
+      },
+      {
+        "name": "Headlamp levelling sensor link rod",
+        "fr": "Biellette de capteur de hauteur"
+      }
+    ]
+  },
+  {
+    "system": "Lighting",
+    "subsystem": "Rear & exterior lighting",
+    "parts": [
+      {
+        "name": "Rear lamp assembly",
+        "fr": "Feu arrière",
+        "manualPage": "https://www.manuelmeg.org/feu_arri_egrave_re-457.html"
+      },
+      {
+        "name": "Tailgate-mounted rear lamp assembly",
+        "fr": "Feu arrière de hayon",
+        "note": "If split lamp arrangement is fitted."
+      },
+      {
+        "name": "Rear position-lamp bulb",
+        "fr": "Lampe de feu arrière"
+      },
+      {
+        "name": "Brake-lamp bulb",
+        "fr": "Lampe de feu stop"
+      },
+      {
+        "name": "Rear indicator bulb",
+        "fr": "Lampe de clignotant arrière"
+      },
+      {
+        "name": "Reversing-lamp bulb",
+        "fr": "Lampe de recul"
+      },
+      {
+        "name": "Rear fog-lamp bulb",
+        "fr": "Lampe de feu de brouillard arrière"
+      },
+      {
+        "name": "Rear lamp bulb carrier",
+        "fr": "Platine porte-lampes de feu arrière"
+      },
+      {
+        "name": "Rear lamp sealing gasket",
+        "fr": "Joint de feu arrière"
+      },
+      {
+        "name": "High-level brake lamp",
+        "fr": "Feu de stop surélevé",
+        "manualPage": "https://www.manuelmeg.org/feu_de_stop_sur_eacute_lev_eacute_-456.html"
+      },
+      {
+        "name": "Number-plate lamp assembly",
+        "fr": "Éclaireur de plaque d'immatriculation"
+      },
+      {
+        "name": "Number-plate lamp bulb",
+        "fr": "Lampe d'éclairage de plaque"
+      },
+      {
+        "name": "Side repeater lamp",
+        "fr": "Répétiteur latéral",
+        "note": "Wing- or mirror-mounted according to body/version."
+      }
+    ]
+  },
+  {
+    "system": "Lighting",
+    "subsystem": "Interior & luggage lighting",
+    "parts": [
+      {
+        "name": "Front interior roof lamp",
+        "fr": "Plafonnier avant",
+        "manualPage": "https://www.manuelmeg.org/plafonnier-463.html"
+      },
+      {
+        "name": "Rear interior roof lamp",
+        "fr": "Plafonnier arrière"
+      },
+      {
+        "name": "Interior reading lamp",
+        "fr": "Liseuse"
+      },
+      {
+        "name": "Interior courtesy bulb",
+        "fr": "Lampe de plafonnier"
+      },
+      {
+        "name": "Vanity mirror lamp",
+        "fr": "Éclaireur de courtoisie",
+        "manualPage": "https://www.manuelmeg.org/eclaireur_de_courtoisie-465.html"
+      },
+      {
+        "name": "Door courtesy lamp",
+        "fr": "Éclaireur inférieur de porte",
+        "manualPage": "https://www.manuelmeg.org/eclaireur_inf_eacute_rieur_de_porte-466.html"
+      },
+      {
+        "name": "Luggage compartment lamp",
+        "fr": "Éclaireur de coffre"
+      },
+      {
+        "name": "Glovebox lamp",
+        "fr": "Éclaireur de boîte à gants"
+      },
+      {
+        "name": "Interior lamp switch",
+        "fr": "Contacteur de plafonnier",
+        "note": "Where separately serviceable."
+      }
+    ]
+  },
+  {
+    "system": "HVAC",
+    "subsystem": "Cabin air filtration & distribution",
+    "parts": [
+      {
+        "name": "Cabin pollen filter",
+        "fr": "Filtre habitacle",
+        "manualPage": "https://www.manuelmeg.org/filtre_habitacle-397.html",
+        "note": "Standard or activated-carbon replacement; not two separate fitted filters."
+      },
+      {
+        "name": "Cabin filter access cover",
+        "fr": "Trappe de filtre habitacle"
+      },
+      {
+        "name": "Heater / air-conditioning housing",
+        "fr": "Boîtier répartiteur d'air",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_r_eacute_partiteur_d_air-382.html"
+      },
+      {
+        "name": "Dashboard air vent",
+        "fr": "Aérateur de planche de bord"
+      },
+      {
+        "name": "Front air distribution duct",
+        "fr": "Conduit de distribution d'air avant",
+        "manualPage": "https://www.manuelmeg.org/conduit_de_distribution_d_air_avant-373.html"
+      },
+      {
+        "name": "Centre tunnel air duct",
+        "fr": "Conduit de distribution d'air intermédiaire",
+        "manualPage": "https://www.manuelmeg.org/conduit_de_distribution_d_air_interm_eacute_diaire-374.html"
+      },
+      {
+        "name": "Rear passenger air duct",
+        "fr": "Conduit de distribution d'air arrière",
+        "manualPage": "https://www.manuelmeg.org/conduit_de_distribution_d_air_arri_egrave_re-375.html"
+      },
+      {
+        "name": "Windscreen demister duct",
+        "fr": "Conduit de désembuage de pare-brise"
+      },
+      {
+        "name": "Air duct foam seal",
+        "fr": "Joint mousse de conduit d'air"
+      },
+      {
+        "name": "Fresh-air intake grille",
+        "fr": "Grille d'entrée d'air de chauffage"
+      },
+      {
+        "name": "Cabin pressure-relief vent",
+        "fr": "Extracteur d'air habitacle"
+      }
+    ]
+  },
+  {
+    "system": "HVAC",
+    "subsystem": "Blower & heating",
+    "parts": [
+      {
+        "name": "Cabin blower motor and impeller",
+        "fr": "Groupe motoventilateur habitacle",
+        "manualPage": "https://www.manuelmeg.org/groupe_motoventilateur_habitacle-384.html"
+      },
+      {
+        "name": "Cabin blower resistor pack",
+        "fr": "Bloc de résistances de chauffage",
+        "manualPage": "https://www.manuelmeg.org/bloc_de_r_eacute_sistances_de_chauffage-387.html",
+        "note": "Manual-control version."
+      },
+      {
+        "name": "Cabin blower electronic power module",
+        "fr": "Module de puissance",
+        "manualPage": "https://www.manuelmeg.org/module_de_puissance-415.html",
+        "note": "Automatic climate-control version; alternative to the resistor pack."
+      },
+      {
+        "name": "Heater matrix",
+        "fr": "Radiateur de chauffage",
+        "manualPage": "https://www.manuelmeg.org/radiateur_de_chauffage-383.html"
+      },
+      {
+        "name": "Heater matrix connection pipe",
+        "fr": "Tuyau de radiateur de chauffage"
+      },
+      {
+        "name": "Heater matrix pipe seal",
+        "fr": "Joint de tuyau de radiateur de chauffage"
+      },
+      {
+        "name": "Heater matrix pipe retaining clip",
+        "fr": "Agrafe de tuyau de radiateur de chauffage"
+      },
+      {
+        "name": "Heater control panel",
+        "fr": "Tableau de commande de chauffage",
+        "manualPage": "https://www.manuelmeg.org/tableau_de_commande-377.html",
+        "note": "Manual heater/air-conditioning version."
+      },
+      {
+        "name": "Climate control panel / ECU",
+        "fr": "Tableau de commande de climatisation régulée",
+        "manualPage": "https://www.manuelmeg.org/tableau_de_commande-413.html",
+        "note": "Automatic climate-control option; ECU may be integrated."
+      },
+      {
+        "name": "Air recirculation flap motor",
+        "fr": "Moteur de recyclage",
+        "manualPage": "https://www.manuelmeg.org/moteur_de_recyclage-416.html"
+      },
+      {
+        "name": "Air-mix flap motor",
+        "fr": "Moteur de mixage",
+        "manualPage": "https://www.manuelmeg.org/moteur_de_mixage-417.html"
+      },
+      {
+        "name": "Air-distribution flap motor",
+        "fr": "Moteur de distribution",
+        "manualPage": "https://www.manuelmeg.org/moteur_de_distribution_-418.html"
+      },
+      {
+        "name": "Heater recirculation control cable",
+        "fr": "Câble de commande de recyclage",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_ble_de_commande_de_recyclage_d_air-379.html",
+        "note": "Cable-controlled version only."
+      },
+      {
+        "name": "Heater distribution control cable",
+        "fr": "Câble de commande de distribution",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_ble_de_commande_de_distribution_d_air-380.html",
+        "note": "Cable-controlled version only."
+      },
+      {
+        "name": "Heater air-mix control cable",
+        "fr": "Câble de commande de mixage",
+        "manualPage": "https://www.manuelmeg.org/c_acirc_ble_de_commande_de_mixage_d_air-381.html",
+        "note": "Cable-controlled version only."
+      },
+      {
+        "name": "Heater flap and spindle",
+        "fr": "Volet de chauffage",
+        "note": "Housing/rebuild constituent; individual availability varies."
+      },
+      {
+        "name": "Heater flap linkage",
+        "fr": "Biellette de volet de chauffage"
+      }
+    ]
+  },
+  {
+    "system": "HVAC",
+    "subsystem": "Air conditioning refrigerant circuit",
+    "parts": [
+      {
+        "name": "Air-conditioning compressor",
+        "fr": "Compresseur de climatisation",
+        "manualPage": "https://www.manuelmeg.org/compresseur-400.html"
+      },
+      {
+        "name": "Air-conditioning compressor clutch",
+        "fr": "Embrayage de compresseur",
+        "note": "Only on compressors with an electromagnetic clutch; often a specialist rebuild item."
+      },
+      {
+        "name": "Air-conditioning compressor pulley bearing",
+        "fr": "Roulement de poulie de compresseur"
+      },
+      {
+        "name": "Air-conditioning compressor control valve",
+        "fr": "Électrovanne de compresseur",
+        "note": "Variable-displacement compressor versions where separately supplied."
+      },
+      {
+        "name": "Air-conditioning condenser",
+        "fr": "Condenseur",
+        "manualPage": "https://www.manuelmeg.org/condenseur-398.html"
+      },
+      {
+        "name": "Receiver-drier / desiccant cartridge",
+        "fr": "Bouteille déshydratante",
+        "manualPage": "https://www.manuelmeg.org/bouteille_d_eacute_shydratante-399.html",
+        "note": "May be integrated into the condenser; filtration and moisture-absorption item."
+      },
+      {
+        "name": "Air-conditioning evaporator",
+        "fr": "Évaporateur",
+        "manualPage": "https://www.manuelmeg.org/evaporateur-403.html"
+      },
+      {
+        "name": "Air-conditioning expansion valve",
+        "fr": "Détendeur de climatisation",
+        "note": "Verify Mégane circuit; do not copy the Mégane II fixed-orifice/accumulator arrangement automatically."
+      },
+      {
+        "name": "Compressor-to-condenser refrigerant pipe",
+        "fr": "Tuyau compresseur - condenseur",
+        "manualPage": "https://www.manuelmeg.org/tuyau_compresseur_condenseur-404.html"
+      },
+      {
+        "name": "Condenser-to-expansion-valve refrigerant pipe",
+        "fr": "Tuyau condenseur - détendeur"
+      },
+      {
+        "name": "Evaporator-to-compressor refrigerant pipe",
+        "fr": "Tuyau évaporateur - compresseur"
+      },
+      {
+        "name": "Refrigerant pipe sealing O-ring",
+        "fr": "Joint torique de canalisation de climatisation"
+      },
+      {
+        "name": "Refrigerant pipe retaining bracket",
+        "fr": "Bride de canalisation de climatisation"
+      },
+      {
+        "name": "Refrigerant service-port valve core",
+        "fr": "Valve de raccord de service de climatisation"
+      },
+      {
+        "name": "Refrigerant service-port cap",
+        "fr": "Bouchon de raccord de service de climatisation"
+      },
+      {
+        "name": "Evaporator condensate drain hose",
+        "fr": "Tuyau d'évacuation des condensats"
+      },
+      {
+        "name": "Air-conditioning refrigerant",
+        "fr": "Fluide réfrigérant",
+        "note": "Use the vehicle label to identify the refrigerant; no capacity or refrigerant type is inferred here."
+      },
+      {
+        "name": "Air-conditioning compressor oil",
+        "fr": "Huile de compresseur",
+        "note": "Lubricant must match the installed compressor and refrigerant."
+      }
+    ]
+  },
+  {
+    "system": "HVAC",
+    "subsystem": "Climate sensors",
+    "parts": [
+      {
+        "name": "Refrigerant pressure sensor",
+        "fr": "Capteur de pression de climatisation",
+        "manualPage": "https://www.manuelmeg.org/capteur_de_pression-408.html"
+      },
+      {
+        "name": "Cabin temperature sensor",
+        "fr": "Sonde de température habitacle",
+        "manualPage": "https://www.manuelmeg.org/sonde_de_temp_eacute_rature_habitacle-419.html"
+      },
+      {
+        "name": "Outside air temperature sensor",
+        "fr": "Sonde de température extérieure",
+        "manualPage": "https://www.manuelmeg.org/sonde_de_temp_eacute_rature_ext_eacute_rieure-420.html"
+      },
+      {
+        "name": "Sunload sensor",
+        "fr": "Détecteur d'ensoleillement",
+        "manualPage": "https://www.manuelmeg.org/d_eacute_tecteur_d_ensoleillement-422.html"
+      },
+      {
+        "name": "Cabin humidity sensor",
+        "fr": "Détecteur d'humidité",
+        "manualPage": "https://www.manuelmeg.org/d_eacute_tecteur_d_humidit_eacute_-421.html",
+        "note": "If equipped."
+      },
+      {
+        "name": "Evaporator temperature sensor",
+        "fr": "Sonde de température d'évaporateur"
+      },
+      {
+        "name": "Air outlet temperature sensor",
+        "fr": "Sonde de température d'air soufflé",
+        "note": "If fitted to the automatic climate version."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Exterior panels",
+    "parts": [
+      {
+        "name": "Bonnet",
+        "fr": "Capot avant",
+        "manualPage": "https://www.manuelmeg.org/capot_avant-805.html"
+      },
+      {
+        "name": "Bonnet hinge",
+        "fr": "Charnière de capot"
+      },
+      {
+        "name": "Bonnet support stay",
+        "fr": "Béquille de capot"
+      },
+      {
+        "name": "Bonnet stay retaining clip",
+        "fr": "Agrafe de béquille de capot"
+      },
+      {
+        "name": "Bonnet gas strut",
+        "fr": "Vérin de capot",
+        "note": "Only if fitted; alternative to support stay."
+      },
+      {
+        "name": "Bonnet bump stop",
+        "fr": "Butée de capot"
+      },
+      {
+        "name": "Front wing",
+        "fr": "Aile avant",
+        "manualPage": "https://www.manuelmeg.org/aile_avant-743.html"
+      },
+      {
+        "name": "Front wing upper support bracket",
+        "fr": "Support supérieur d'aile avant",
+        "manualPage": "https://www.manuelmeg.org/support_de_fixation_sup_eacute_rieure_d_aile_avant-744.html"
+      },
+      {
+        "name": "Rear quarter outer panel",
+        "fr": "Panneau d'aile arrière",
+        "manualPage": "https://www.manuelmeg.org/panneau_d_aile_arri_egrave_re-775.html"
+      },
+      {
+        "name": "Roof outer panel",
+        "fr": "Pavillon",
+        "manualPage": "https://www.manuelmeg.org/pavillon-792.html",
+        "note": "Fixed-roof versions; roof construction depends on body style."
+      },
+      {
+        "name": "Roof crossmember",
+        "fr": "Traverse de pavillon",
+        "manualPage": "https://www.manuelmeg.org/traverse_avant_de_pavillon-795.html",
+        "note": "Front, centre and rear members; positions are variants of this part family."
+      },
+      {
+        "name": "Roof side rail",
+        "fr": "Brancard de pavillon"
+      },
+      {
+        "name": "Roof ditch moulding",
+        "fr": "Enjoliveur de pavillon"
+      },
+      {
+        "name": "Fuel filler flap",
+        "fr": "Trappe à carburant",
+        "manualPage": "https://www.manuelmeg.org/trappe_agrave_carburant-803.html"
+      },
+      {
+        "name": "Fuel filler flap hinge",
+        "fr": "Charnière de trappe à carburant"
+      },
+      {
+        "name": "Fuel filler flap locking actuator",
+        "fr": "Actionneur de trappe à carburant"
+      },
+      {
+        "name": "Fuel filler flap spring / catch",
+        "fr": "Ressort et butée de trappe à carburant"
+      },
+      {
+        "name": "Bonnet release handle",
+        "fr": "Poignée d’ouverture de capot"
+      },
+      {
+        "name": "Bonnet release cable",
+        "fr": "Câble d’ouverture de capot"
+      },
+      {
+        "name": "Bonnet lock and safety catch",
+        "fr": "Serrure et crochet de sécurité de capot"
+      },
+      {
+        "name": "Bonnet lock striker",
+        "fr": "Gâche de capot"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Bumpers grilles & exterior trim",
+    "parts": [
+      {
+        "name": "Front bumper cover",
+        "fr": "Bouclier avant"
+      },
+      {
+        "name": "Rear bumper cover",
+        "fr": "Bouclier arrière"
+      },
+      {
+        "name": "Front bumper upper grille",
+        "fr": "Calandre"
+      },
+      {
+        "name": "Front bumper lower grille",
+        "fr": "Grille inférieure de bouclier"
+      },
+      {
+        "name": "Front bumper fog-lamp surround",
+        "fr": "Enjoliveur d'antibrouillard"
+      },
+      {
+        "name": "Front bumper lower spoiler",
+        "fr": "Déflecteur inférieur avant"
+      },
+      {
+        "name": "Rear bumper lower valance",
+        "fr": "Jupe inférieure de bouclier arrière"
+      },
+      {
+        "name": "Front bumper side guide bracket",
+        "fr": "Guide latéral de bouclier avant"
+      },
+      {
+        "name": "Rear bumper side guide bracket",
+        "fr": "Guide latéral de bouclier arrière"
+      },
+      {
+        "name": "Bumper energy absorber",
+        "fr": "Absorbeur de choc de bouclier"
+      },
+      {
+        "name": "Front towing-eye cover",
+        "fr": "Cache d'anneau de remorquage avant"
+      },
+      {
+        "name": "Rear towing-eye cover",
+        "fr": "Cache d'anneau de remorquage arrière"
+      },
+      {
+        "name": "Exterior body moulding",
+        "fr": "Baguette de protection de carrosserie"
+      },
+      {
+        "name": "Side sill trim",
+        "fr": "Enjoliveur de bas de caisse"
+      },
+      {
+        "name": "Exterior badge / emblem",
+        "fr": "Monogramme et emblème"
+      },
+      {
+        "name": "Number-plate mounting bracket",
+        "fr": "Support de plaque d'immatriculation"
+      },
+      {
+        "name": "Body trim retaining clip",
+        "fr": "Agrafe de garniture de carrosserie"
+      },
+      {
+        "name": "Body panel captive nut",
+        "fr": "Écrou prisonnier de carrosserie"
+      },
+      {
+        "name": "Rear spoiler",
+        "fr": "Becquet arrière",
+        "note": "According to body/trim."
+      },
+      {
+        "name": "Roof rail",
+        "fr": "Barre longitudinale de toit",
+        "note": "Estate/roof-rail-equipped versions only."
+      },
+      {
+        "name": "Roof rail end cap and mounting seal",
+        "fr": "Cache et joint de barre de toit",
+        "note": "If roof rails fitted."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Front structure",
+    "parts": [
+      {
+        "name": "Front crash crossmember",
+        "fr": "Traverse de choc avant",
+        "manualPage": "https://www.manuelmeg.org/traverse_de_choc_avant-705.html"
+      },
+      {
+        "name": "Radiator support crossmember",
+        "fr": "Traverse support radiateur",
+        "manualPage": "https://www.manuelmeg.org/traverse_support_radiateur-706.html"
+      },
+      {
+        "name": "Radiator crossmember support",
+        "fr": "Support de traverse radiateur",
+        "manualPage": "https://www.manuelmeg.org/support_de_traverse_radiateur-707.html"
+      },
+      {
+        "name": "Front end panel / lock carrier",
+        "fr": "Façade avant",
+        "manualPage": "https://www.manuelmeg.org/fa_ccedil_ade_avant-745.html"
+      },
+      {
+        "name": "Front chassis leg",
+        "fr": "Longeron avant",
+        "manualPage": "https://www.manuelmeg.org/longeron_avant-710.html"
+      },
+      {
+        "name": "Front chassis leg closing panel",
+        "fr": "Fermeture de longeron avant",
+        "manualPage": "https://www.manuelmeg.org/fermeture_de_longeron_avant_partie_avant-709.html"
+      },
+      {
+        "name": "Front chassis leg reinforcement",
+        "fr": "Renfort de longeron avant"
+      },
+      {
+        "name": "Front subframe mounting box",
+        "fr": "Boîtier de fixation avant de berceau",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_de_fixation_avant_de_berceau_avant-708.html"
+      },
+      {
+        "name": "Rear mounting box for front subframe",
+        "fr": "Boîtier arrière de berceau avant",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_arri_egrave_re_de_berceau_avant-713.html"
+      },
+      {
+        "name": "Front suspension turret",
+        "fr": "Chapelle d'amortisseur",
+        "note": "Welded structural repair component; body-specific replacement section."
+      },
+      {
+        "name": "Front inner wheelhouse",
+        "fr": "Passage de roue avant",
+        "manualPage": "https://www.manuelmeg.org/passage_de_roue_avant-749.html"
+      },
+      {
+        "name": "Battery tray body support",
+        "fr": "Support de bac à batterie",
+        "manualPage": "https://www.manuelmeg.org/support_de_bac_agrave_batterie-712.html"
+      },
+      {
+        "name": "Bulkhead panel",
+        "fr": "Tablier",
+        "manualPage": "https://www.manuelmeg.org/tablier-753.html"
+      },
+      {
+        "name": "Bulkhead reinforcement",
+        "fr": "Renfort de tablier",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_tablier-754.html"
+      },
+      {
+        "name": "Heater bulkhead panel",
+        "fr": "Cloison de chauffage",
+        "manualPage": "https://www.manuelmeg.org/cloison_de_chauffage-750.html"
+      },
+      {
+        "name": "Lower windscreen scuttle crossmember",
+        "fr": "Traverse inférieure de baie",
+        "manualPage": "https://www.manuelmeg.org/traverse_inf_eacute_rieure_de_baie-751.html"
+      },
+      {
+        "name": "Scuttle side panel",
+        "fr": "Côté d'auvent",
+        "manualPage": "https://www.manuelmeg.org/c_ocirc_t_eacute_d_auvent-746.html"
+      },
+      {
+        "name": "Scuttle side reinforcement",
+        "fr": "Renfort supérieur de côté d'auvent",
+        "manualPage": "https://www.manuelmeg.org/renfort_sup_eacute_rieur_de_c_ocirc_t_eacute_d_auvent-747.html"
+      },
+      {
+        "name": "Dashboard support crossmember",
+        "fr": "Traverse de planche de bord",
+        "manualPage": "https://www.manuelmeg.org/traverse_de_planche_de_bord-758.html"
+      },
+      {
+        "name": "Wiper mounting support panel",
+        "fr": "Support d'essuie-vitre",
+        "manualPage": "https://www.manuelmeg.org/support_d_essuie_vitre-760.html"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Floor sills & pillars",
+    "parts": [
+      {
+        "name": "Central floor panel",
+        "fr": "Plancher central",
+        "manualPage": "https://www.manuelmeg.org/plancher_central_partie_lat_eacute_rale-716.html"
+      },
+      {
+        "name": "Transmission tunnel panel",
+        "fr": "Tunnel",
+        "manualPage": "https://www.manuelmeg.org/tunnel-718.html"
+      },
+      {
+        "name": "Front floor crossmember",
+        "fr": "Traverse latérale avant de plancher central",
+        "manualPage": "https://www.manuelmeg.org/traverse_lat_eacute_rale_avant_de_plancher_central-717.html"
+      },
+      {
+        "name": "Front seat mounting crossmember",
+        "fr": "Traverse avant sous siège avant",
+        "manualPage": "https://www.manuelmeg.org/traverse_avant_sous_si_egrave_ge_avant-719.html"
+      },
+      {
+        "name": "Front seat outer mounting box",
+        "fr": "Boîtier extérieur de fixation de siège",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_ext_eacute_rieur_de_fixation_arri_egrave_re_de_si_egrave_ge_avant-720.html"
+      },
+      {
+        "name": "Front seat inner mounting box",
+        "fr": "Boîtier intérieur de fixation de siège",
+        "manualPage": "https://www.manuelmeg.org/bo_icirc_tier_int_eacute_rieur_de_fixation_arri_egrave_re_de_si_egrave_ge_avant-721.html"
+      },
+      {
+        "name": "Outer sill panel",
+        "fr": "Bas de caisse",
+        "manualPage": "https://www.manuelmeg.org/bas_de_caisse-723.html"
+      },
+      {
+        "name": "Sill reinforcement",
+        "fr": "Renfort de bas de caisse",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_bas_de_caisse-724.html"
+      },
+      {
+        "name": "Sill closing panel",
+        "fr": "Fermeture arrière de bas de caisse",
+        "manualPage": "https://www.manuelmeg.org/fermeture_arri_egrave_re_de_bas_de_caisse-725.html"
+      },
+      {
+        "name": "Rear sill reinforcement",
+        "fr": "Renfort arrière de bas de caisse",
+        "manualPage": "https://www.manuelmeg.org/renfort_arri_egrave_re_de_bas_de_caisse-726.html"
+      },
+      {
+        "name": "Jacking point reinforcement",
+        "fr": "Appui de cric",
+        "manualPage": "https://www.manuelmeg.org/appui_de_cric_avant-727.html"
+      },
+      {
+        "name": "Front A-pillar panel",
+        "fr": "Pied avant",
+        "manualPage": "https://www.manuelmeg.org/pied_avant-762.html"
+      },
+      {
+        "name": "A-pillar reinforcement",
+        "fr": "Renfort de pied avant",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_pied_avant-763.html"
+      },
+      {
+        "name": "Windscreen pillar inner panel",
+        "fr": "Doublure de montant de baie",
+        "manualPage": "https://www.manuelmeg.org/doublure_de_montant_de_baie_de_pare_brise-764.html"
+      },
+      {
+        "name": "Centre B-pillar panel",
+        "fr": "Pied milieu",
+        "manualPage": "https://www.manuelmeg.org/pied_milieu-765.html"
+      },
+      {
+        "name": "B-pillar reinforcement",
+        "fr": "Renfort de pied milieu",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_pied_milieu-766.html"
+      },
+      {
+        "name": "B-pillar inner panel",
+        "fr": "Doublure de pied milieu",
+        "manualPage": "https://www.manuelmeg.org/doublure_de_pied_milieu-770.html"
+      },
+      {
+        "name": "Upper body-side panel",
+        "fr": "Haut de caisse",
+        "manualPage": "https://www.manuelmeg.org/haut_de_caisse-771.html"
+      },
+      {
+        "name": "Floor body plug",
+        "fr": "Obturateur de plancher"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Rear structure",
+    "parts": [
+      {
+        "name": "Rear crash crossmember",
+        "fr": "Traverse de choc arrière",
+        "manualPage": "https://www.manuelmeg.org/traverse_de_choc_arri_egrave_re-730.html"
+      },
+      {
+        "name": "Rear crash crossmember mounting reinforcement",
+        "fr": "Renfort de fixation de traverse de choc arrière",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_fixation_de_traverse_de_choc_arri_egrave_re-731.html"
+      },
+      {
+        "name": "Rear chassis leg",
+        "fr": "Longeron arrière",
+        "manualPage": "https://www.manuelmeg.org/longeron_arri_egrave_re-735.html"
+      },
+      {
+        "name": "Rear chassis leg closing panel",
+        "fr": "Fermeture de longeron arrière",
+        "manualPage": "https://www.manuelmeg.org/fermeture_de_longeron_arri_egrave_re_partie_arri_egrave_re-736.html"
+      },
+      {
+        "name": "Rear floor front section",
+        "fr": "Plancher arrière partie avant",
+        "manualPage": "https://www.manuelmeg.org/plancher_arri_egrave_re_partie_avant-737.html"
+      },
+      {
+        "name": "Rear floor rear section / spare-wheel well",
+        "fr": "Plancher arrière partie arrière",
+        "manualPage": "https://www.manuelmeg.org/plancher_arri_egrave_re_partie_arri_egrave_re-732.html"
+      },
+      {
+        "name": "Rear floor front crossmember",
+        "fr": "Traverse avant de plancher arrière",
+        "manualPage": "https://www.manuelmeg.org/traverse_avant_de_plancher_arri_egrave_re_partie_centrale-740.html"
+      },
+      {
+        "name": "Rear floor centre crossmember",
+        "fr": "Traverse centrale de plancher arrière",
+        "manualPage": "https://www.manuelmeg.org/traverse_centrale_de_plancher_arri_egrave_re-741.html"
+      },
+      {
+        "name": "Rear lower crossmember",
+        "fr": "Traverse inférieure extrême arrière",
+        "manualPage": "https://www.manuelmeg.org/traverse_inf_eacute_rieure_extr_ecirc_me_arri_egrave_re_partie_lat_eacute_rale-733.html"
+      },
+      {
+        "name": "Rear outer wheelhouse",
+        "fr": "Passage de roue arrière extérieur",
+        "manualPage": "https://www.manuelmeg.org/passage_de_roue_arri_egrave_re_ext_eacute_rieur-779.html"
+      },
+      {
+        "name": "Rear inner wheelhouse",
+        "fr": "Passage de roue arrière intérieur",
+        "manualPage": "https://www.manuelmeg.org/passage_de_roue_arri_egrave_re_int_eacute_rieur-782.html"
+      },
+      {
+        "name": "Rear wheelhouse closing panel",
+        "fr": "Fermeture de passage de roue arrière",
+        "manualPage": "https://www.manuelmeg.org/fermeture_de_passage_de_roue_arri_egrave_re-780.html"
+      },
+      {
+        "name": "Rear quarter inner panel",
+        "fr": "Doublure de custode",
+        "manualPage": "https://www.manuelmeg.org/doublure_de_custode-783.html"
+      },
+      {
+        "name": "Rear quarter reinforcement",
+        "fr": "Renfort de custode",
+        "manualPage": "https://www.manuelmeg.org/renfort_de_custode-786.html"
+      },
+      {
+        "name": "Rear quarter rain gutter",
+        "fr": "Gouttière de panneau d'aile arrière",
+        "manualPage": "https://www.manuelmeg.org/goutti_egrave_re_de_panneau_d_aile_arri_egrave_re-776.html"
+      },
+      {
+        "name": "Rear lamp mounting panel",
+        "fr": "Support de feu arrière",
+        "manualPage": "https://www.manuelmeg.org/support_de_feu_arri_egrave_re-777.html"
+      },
+      {
+        "name": "Rear lamp mounting inner panel",
+        "fr": "Doublure de support de feu",
+        "manualPage": "https://www.manuelmeg.org/doublure_de_support_de_feu-778.html"
+      },
+      {
+        "name": "Rear body closing panel",
+        "fr": "Jupe arrière",
+        "manualPage": "https://www.manuelmeg.org/jupe_arri_egrave_re-788.html"
+      },
+      {
+        "name": "Rear body closing panel inner section",
+        "fr": "Doublure de jupe arrière",
+        "manualPage": "https://www.manuelmeg.org/doublure_lat_eacute_rale_de_jupe_arri_egrave_re-790.html"
+      },
+      {
+        "name": "Fuel tank body mounting support",
+        "fr": "Support de fixation réservoir",
+        "manualPage": "https://www.manuelmeg.org/support_de_fixation_r_eacute_servoir-739.html"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Doors",
+    "parts": [
+      {
+        "name": "Front door shell",
+        "fr": "Porte latérale avant",
+        "manualPage": "https://www.manuelmeg.org/porte_lat_eacute_rale_avant-799.html",
+        "note": "Door length and shell differ between three-door coupé and five-door/estate bodies."
+      },
+      {
+        "name": "Front door outer skin",
+        "fr": "Panneau de porte avant",
+        "manualPage": "https://www.manuelmeg.org/panneau_de_porte_lat_eacute_rale_avant-800.html"
+      },
+      {
+        "name": "Rear door shell",
+        "fr": "Porte latérale arrière",
+        "manualPage": "https://www.manuelmeg.org/porte_lat_eacute_rale_arri_egrave_re-801.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Rear door outer skin",
+        "fr": "Panneau de porte arrière",
+        "manualPage": "https://www.manuelmeg.org/panneau_de_porte_lat_eacute_rale_arri_egrave_re-802.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Door hinge",
+        "fr": "Charnière de porte"
+      },
+      {
+        "name": "Door hinge pin and bush",
+        "fr": "Axe et bague de charnière",
+        "note": "Where a separate repair kit is available."
+      },
+      {
+        "name": "Door check strap",
+        "fr": "Tirant de porte"
+      },
+      {
+        "name": "Door lock and central-locking actuator",
+        "fr": "Serrure de porte",
+        "note": "Actuator usually forms part of lock assembly."
+      },
+      {
+        "name": "Door lock striker",
+        "fr": "Gâche de porte"
+      },
+      {
+        "name": "Exterior door handle",
+        "fr": "Poignée extérieure de porte"
+      },
+      {
+        "name": "Exterior door-handle carrier",
+        "fr": "Support de poignée extérieure"
+      },
+      {
+        "name": "Interior door handle",
+        "fr": "Poignée intérieure de porte"
+      },
+      {
+        "name": "Interior door release cable",
+        "fr": "Câble de commande intérieure"
+      },
+      {
+        "name": "Exterior door release cable / linkage",
+        "fr": "Câble ou tringle de commande extérieure"
+      },
+      {
+        "name": "Door lock barrel",
+        "fr": "Barillet de serrure"
+      },
+      {
+        "name": "Door lock barrel cover",
+        "fr": "Cache de barillet"
+      },
+      {
+        "name": "Door latch mounting screw",
+        "fr": "Vis de serrure"
+      },
+      {
+        "name": "Door wiring conduit boot",
+        "fr": "Soufflet de passage de faisceau de porte"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Tailgate & luggage closure",
+    "parts": [
+      {
+        "name": "Tailgate shell",
+        "fr": "Hayon",
+        "manualPage": "https://www.manuelmeg.org/hayon-806.html"
+      },
+      {
+        "name": "Tailgate hinge",
+        "fr": "Charnière de hayon"
+      },
+      {
+        "name": "Tailgate gas strut",
+        "fr": "Vérin de hayon"
+      },
+      {
+        "name": "Tailgate latch and locking actuator",
+        "fr": "Serrure de hayon",
+        "manualPage": "https://www.manuelmeg.org/serrure_de_hayon-607.html"
+      },
+      {
+        "name": "Tailgate striker",
+        "fr": "Gâche de hayon"
+      },
+      {
+        "name": "Tailgate exterior release switch",
+        "fr": "Commande d'ouverture de hayon",
+        "manualPage": "https://www.manuelmeg.org/commande_d_ouverture_ext_eacute_rieure_de_hayon-604.html"
+      },
+      {
+        "name": "Tailgate bump stop",
+        "fr": "Butée de hayon"
+      },
+      {
+        "name": "Boot lid shell",
+        "fr": "Couvercle de coffre",
+        "note": "Coupé-Cabriolet or other boot-lid body version only; alternative to a hatch/estate tailgate."
+      },
+      {
+        "name": "Boot lid hinge and lift mechanism",
+        "fr": "Charnière et mécanisme de coffre",
+        "note": "Body-style dependent."
+      },
+      {
+        "name": "Load-bay tie-down ring",
+        "fr": "Anneau d'arrimage de coffre"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Glass",
+    "parts": [
+      {
+        "name": "Windscreen",
+        "fr": "Pare-brise"
+      },
+      {
+        "name": "Heated rear window glass",
+        "fr": "Lunette arrière chauffante",
+        "note": "Heater grid normally integral with glass; not a separate replacement rear window heater."
+      },
+      {
+        "name": "Front door window glass",
+        "fr": "Vitre de porte avant"
+      },
+      {
+        "name": "Rear door window glass",
+        "fr": "Vitre de porte arrière",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Fixed rear quarter glass",
+        "fr": "Vitre de custode",
+        "note": "According to body style; not the movable CC rear side window."
+      },
+      {
+        "name": "Rear door fixed quarter glass",
+        "fr": "Vitre fixe de porte arrière",
+        "note": "If fitted to the body style."
+      },
+      {
+        "name": "Front window regulator mechanism",
+        "fr": "Mécanisme de lève-vitre avant"
+      },
+      {
+        "name": "Rear window regulator mechanism",
+        "fr": "Mécanisme de lève-vitre arrière",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Front window regulator motor",
+        "fr": "Moteur de lève-vitre avant",
+        "manualPage": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_avant-620.html"
+      },
+      {
+        "name": "Rear window regulator motor",
+        "fr": "Moteur de lève-vitre arrière",
+        "manualPage": "https://www.manuelmeg.org/moteur_de_l_egrave_ve_vitre_arri_egrave_re-622.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Window regulator cable and slider",
+        "fr": "Câble et coulisseau de lève-vitre",
+        "note": "Regulator rebuild constituents; availability depends on mechanism."
+      },
+      {
+        "name": "Window glass mounting clip",
+        "fr": "Agrafe de fixation de vitre"
+      },
+      {
+        "name": "Window guide channel",
+        "fr": "Coulisse de vitre"
+      },
+      {
+        "name": "Glass bonding adhesive",
+        "fr": "Colle à vitrage",
+        "note": "Service consumable, not a mechanical seal."
+      },
+      {
+        "name": "Windscreen peripheral moulding",
+        "fr": "Enjoliveur de pare-brise"
+      },
+      {
+        "name": "Windscreen sensor / mirror mounting bracket",
+        "fr": "Support de capteur ou rétroviseur de pare-brise",
+        "note": "May be supplied bonded to the replacement glass."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Mirrors",
+    "parts": [
+      {
+        "name": "Exterior mirror assembly",
+        "fr": "Rétroviseur extérieur"
+      },
+      {
+        "name": "Exterior mirror glass",
+        "fr": "Glace de rétroviseur"
+      },
+      {
+        "name": "Exterior mirror glass heater",
+        "fr": "Élément chauffant de rétroviseur",
+        "note": "Usually bonded to and supplied with the glass."
+      },
+      {
+        "name": "Exterior mirror adjustment motor",
+        "fr": "Moteur de réglage de rétroviseur"
+      },
+      {
+        "name": "Exterior mirror folding motor / mechanism",
+        "fr": "Mécanisme de rabattement de rétroviseur",
+        "note": "Electric-fold option only; may require complete mirror replacement."
+      },
+      {
+        "name": "Exterior mirror painted cover",
+        "fr": "Coque de rétroviseur"
+      },
+      {
+        "name": "Exterior mirror mounting gasket",
+        "fr": "Joint d'embase de rétroviseur"
+      },
+      {
+        "name": "Interior rear-view mirror",
+        "fr": "Rétroviseur intérieur",
+        "note": "Manual or electrochromic type according to equipment."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Weather seals & sound insulation",
+    "parts": [
+      {
+        "name": "Front door aperture seal",
+        "fr": "Joint d'encadrement de porte avant",
+        "manualPage": "https://www.manuelmeg.org/joint_d_encadrement_de_porte_avant-809.html"
+      },
+      {
+        "name": "Rear door aperture seal",
+        "fr": "Joint d'encadrement de porte arrière",
+        "manualPage": "https://www.manuelmeg.org/joint_d_encadrement_de_porte_arri_egrave_re-810.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Front door outer waist seal",
+        "fr": "Lécheur extérieur de porte avant",
+        "manualPage": "https://www.manuelmeg.org/l_eacute_cheur_ext_eacute_rieur_de_porte_avant-812.html"
+      },
+      {
+        "name": "Rear door outer waist seal",
+        "fr": "Lécheur extérieur de porte arrière",
+        "manualPage": "https://www.manuelmeg.org/l_eacute_cheur_ext_eacute_rieur_de_porte_arri_egrave_re-813.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Door inner waist seal",
+        "fr": "Lécheur intérieur de porte"
+      },
+      {
+        "name": "Door glass run seal",
+        "fr": "Joint de coulisse de vitre"
+      },
+      {
+        "name": "Tailgate aperture seal",
+        "fr": "Joint de hayon"
+      },
+      {
+        "name": "Bonnet rear seal",
+        "fr": "Joint arrière de capot"
+      },
+      {
+        "name": "Door vapour / water barrier",
+        "fr": "Écran d'étanchéité de porte"
+      },
+      {
+        "name": "Door water-barrier adhesive bead",
+        "fr": "Mastic d'étanchéité de porte"
+      },
+      {
+        "name": "Body seam sealer",
+        "fr": "Mastic de joint de carrosserie"
+      },
+      {
+        "name": "Body cavity foam insert",
+        "fr": "Insert gonflant de caisse"
+      },
+      {
+        "name": "Floor sound deadening pad",
+        "fr": "Insonorisant de plancher"
+      },
+      {
+        "name": "Bulkhead sound insulation",
+        "fr": "Insonorisant de tablier"
+      },
+      {
+        "name": "Bonnet insulation pad",
+        "fr": "Insonorisant de capot",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_capot-839.html"
+      },
+      {
+        "name": "Roof sound insulation",
+        "fr": "Insonorisant de pavillon"
+      },
+      {
+        "name": "Wheelhouse sound insulation",
+        "fr": "Insonorisant de passage de roue"
+      },
+      {
+        "name": "Underbody protective coating",
+        "fr": "Protection antigravillonnage",
+        "note": "Renewable body-repair consumable."
+      },
+      {
+        "name": "Cavity corrosion-protection wax",
+        "fr": "Cire pour corps creux",
+        "note": "Renewable body-repair consumable."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Undertrays & wheel arch liners",
+    "parts": [
+      {
+        "name": "Engine undertray",
+        "fr": "Protecteur sous moteur"
+      },
+      {
+        "name": "Front wheel arch liner",
+        "fr": "Pare-boue avant"
+      },
+      {
+        "name": "Rear wheel arch liner",
+        "fr": "Pare-boue arrière"
+      },
+      {
+        "name": "Underfloor aerodynamic panel",
+        "fr": "Écran sous caisse"
+      },
+      {
+        "name": "Scuttle grille / windscreen lower trim",
+        "fr": "Grille d'auvent"
+      },
+      {
+        "name": "Scuttle water deflector",
+        "fr": "Déflecteur d'eau d'auvent"
+      },
+      {
+        "name": "Undertray retaining screw and clip",
+        "fr": "Vis et agrafe de protecteur sous caisse"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Dashboard & console trim",
+    "parts": [
+      {
+        "name": "Dashboard fascia",
+        "fr": "Planche de bord",
+        "manualPage": "https://www.manuelmeg.org/planche_de_bord-488.html"
+      },
+      {
+        "name": "Dashboard upper trim panel",
+        "fr": "Garniture supérieure de planche de bord"
+      },
+      {
+        "name": "Lower dashboard trim panel",
+        "fr": "Garniture inférieure de planche de bord"
+      },
+      {
+        "name": "Steering column shroud",
+        "fr": "Coquille de colonne de direction"
+      },
+      {
+        "name": "Instrument cluster surround",
+        "fr": "Enjoliveur de combiné"
+      },
+      {
+        "name": "Centre console",
+        "fr": "Console centrale"
+      },
+      {
+        "name": "Centre console side trim",
+        "fr": "Garniture latérale de console"
+      },
+      {
+        "name": "Gear-lever console surround",
+        "fr": "Enjoliveur de commande de vitesses"
+      },
+      {
+        "name": "Glovebox assembly",
+        "fr": "Boîte à gants"
+      },
+      {
+        "name": "Glovebox lid",
+        "fr": "Portillon de boîte à gants"
+      },
+      {
+        "name": "Glovebox hinge",
+        "fr": "Charnière de boîte à gants"
+      },
+      {
+        "name": "Glovebox latch",
+        "fr": "Serrure de boîte à gants"
+      },
+      {
+        "name": "Glovebox damper",
+        "fr": "Amortisseur de boîte à gants",
+        "note": "If equipped."
+      },
+      {
+        "name": "Storage compartment lid",
+        "fr": "Couvercle de rangement"
+      },
+      {
+        "name": "Cup holder insert",
+        "fr": "Porte-gobelet"
+      },
+      {
+        "name": "Dashboard decorative strip",
+        "fr": "Bandeau décoratif de planche de bord"
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Interior trims & carpets",
+    "parts": [
+      {
+        "name": "Front door trim panel",
+        "fr": "Garniture de porte avant",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_porte_avant-834.html"
+      },
+      {
+        "name": "Rear door trim panel",
+        "fr": "Garniture de porte arrière",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_porte_arri_egrave_re-836.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Door trim access cover",
+        "fr": "Trappe de porte",
+        "manualPage": "https://www.manuelmeg.org/trappe_de_porte_avant-835.html"
+      },
+      {
+        "name": "Door pull handle",
+        "fr": "Poignée de tirage de porte"
+      },
+      {
+        "name": "Door armrest trim",
+        "fr": "Garniture d'accoudoir de porte"
+      },
+      {
+        "name": "A-pillar interior trim",
+        "fr": "Garniture de montant de pare-brise",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_montant_de_pare_brise-816.html"
+      },
+      {
+        "name": "B-pillar upper trim",
+        "fr": "Garniture supérieure de pied milieu",
+        "manualPage": "https://www.manuelmeg.org/garniture_sup_eacute_rieure_de_pied_milieu-818.html"
+      },
+      {
+        "name": "B-pillar lower trim",
+        "fr": "Garniture inférieure de pied milieu",
+        "manualPage": "https://www.manuelmeg.org/garniture_inf_eacute_rieure_de_pied_milieu-817.html"
+      },
+      {
+        "name": "Rear quarter interior trim",
+        "fr": "Garniture de custode",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_custode_version_5_portes_-823.html",
+        "note": "Body-style dependent."
+      },
+      {
+        "name": "Front sill scuff plate",
+        "fr": "Garniture de bas de marche avant",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_bas_de_marche_avant-819.html"
+      },
+      {
+        "name": "Rear sill scuff plate",
+        "fr": "Garniture de bas de marche arrière",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_bas_de_marche_arri_egrave_re-820.html",
+        "note": "Five-door/estate bodies only."
+      },
+      {
+        "name": "Headlining",
+        "fr": "Garniture de pavillon",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_pavillon_version_5_portes_-827.html",
+        "note": "Fixed-roof versions; three-door, five-door and estate differ."
+      },
+      {
+        "name": "Sun visor",
+        "fr": "Pare-soleil"
+      },
+      {
+        "name": "Sun visor retaining clip",
+        "fr": "Agrafe de pare-soleil"
+      },
+      {
+        "name": "Vanity mirror and cover",
+        "fr": "Miroir et volet de courtoisie"
+      },
+      {
+        "name": "Interior grab handle",
+        "fr": "Poignée de maintien"
+      },
+      {
+        "name": "Coat hook",
+        "fr": "Crochet porte-vêtement"
+      },
+      {
+        "name": "Cabin moulded carpet",
+        "fr": "Tapis habitacle",
+        "manualPage": "https://www.manuelmeg.org/tapis_version_5_portes_-830.html"
+      },
+      {
+        "name": "Removable floor mat",
+        "fr": "Surtapis"
+      },
+      {
+        "name": "Floor mat retaining clip",
+        "fr": "Fixation de surtapis"
+      },
+      {
+        "name": "Interior trim fixing clip",
+        "fr": "Agrafe de garniture intérieure"
+      },
+      {
+        "name": "Tailgate interior trim",
+        "fr": "Garniture de hayon",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_hayon-840.html"
+      },
+      {
+        "name": "Boot floor carpet",
+        "fr": "Tapis de coffre",
+        "manualPage": "https://www.manuelmeg.org/tapis_de_coffre-829.html"
+      },
+      {
+        "name": "Boot side trim",
+        "fr": "Garniture latérale de coffre",
+        "manualPage": "https://www.manuelmeg.org/garniture_d_aile_arri_egrave_re-822.html"
+      },
+      {
+        "name": "Rear wheel arch interior trim",
+        "fr": "Garniture de passage de roue",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_passage_de_roue-826.html"
+      },
+      {
+        "name": "Boot sill trim",
+        "fr": "Garniture de jupe arrière",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_jupe_arri_egrave_re-825.html"
+      },
+      {
+        "name": "Parcel shelf",
+        "fr": "Tablette arrière",
+        "note": "Hatch/coupé versions; not estate roller cover."
+      },
+      {
+        "name": "Parcel shelf cord",
+        "fr": "Cordon de tablette arrière"
+      },
+      {
+        "name": "Luggage roller cover",
+        "fr": "Cache-bagages",
+        "manualPage": "https://www.manuelmeg.org/cache_bagages-832.html",
+        "note": "Estate or other roller-cover-equipped versions."
+      },
+      {
+        "name": "Boot false-floor panel",
+        "fr": "Plancher mobile de coffre",
+        "note": "If equipped."
+      },
+      {
+        "name": "Boot tool tray",
+        "fr": "Bac de rangement d'outillage"
+      },
+      {
+        "name": "Luggage partition net",
+        "fr": "Filet de séparation",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Front seats",
+    "parts": [
+      {
+        "name": "Front seat complete assembly",
+        "fr": "Siège avant complet",
+        "manualPage": "https://www.manuelmeg.org/si_egrave_ge_complet-842.html",
+        "note": "Assembly alternative; frame, foam and trim constituents are listed below."
+      },
+      {
+        "name": "Front seat base frame",
+        "fr": "Armature d'assise avant",
+        "manualPage": "https://www.manuelmeg.org/armature_de_si_egrave_ge_avant-843.html"
+      },
+      {
+        "name": "Front seat backrest frame",
+        "fr": "Armature de dossier avant",
+        "manualPage": "https://www.manuelmeg.org/armature_de_si_egrave_ge_avant-843.html"
+      },
+      {
+        "name": "Front seat runner",
+        "fr": "Glissière de siège",
+        "manualPage": "https://www.manuelmeg.org/glissi_egrave_res_de_si_egrave_ge-844.html"
+      },
+      {
+        "name": "Front seat runner locking mechanism",
+        "fr": "Verrou de glissière"
+      },
+      {
+        "name": "Front seat recliner mechanism",
+        "fr": "Mécanisme d'inclinaison de dossier"
+      },
+      {
+        "name": "Front seat height adjuster",
+        "fr": "Mécanisme de réglage en hauteur"
+      },
+      {
+        "name": "Front seat lumbar adjuster",
+        "fr": "Mécanisme de réglage lombaire",
+        "note": "If equipped."
+      },
+      {
+        "name": "Front seat adjustment handle",
+        "fr": "Poignée de réglage de siège"
+      },
+      {
+        "name": "Front seat easy-entry release cable",
+        "fr": "Câble de basculement de siège",
+        "note": "Three-door/coupé/CC easy-entry seats only."
+      },
+      {
+        "name": "Front seat cushion foam",
+        "fr": "Mousse d'assise avant"
+      },
+      {
+        "name": "Front seat backrest foam",
+        "fr": "Mousse de dossier avant"
+      },
+      {
+        "name": "Front seat cushion upholstery",
+        "fr": "Garniture d'assise avant",
+        "manualPage": "https://www.manuelmeg.org/garniture_d_assise-852.html"
+      },
+      {
+        "name": "Front seat backrest upholstery",
+        "fr": "Garniture de dossier avant",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_dossier-851.html"
+      },
+      {
+        "name": "Front seat cushion suspension mat",
+        "fr": "Nappe de suspension d'assise"
+      },
+      {
+        "name": "Front seat heating pad",
+        "fr": "Nappe chauffante de siège",
+        "note": "Heated-seat option only; cushion and backrest variants."
+      },
+      {
+        "name": "Seat heating switch",
+        "fr": "Contacteur de siège chauffant",
+        "note": "If equipped."
+      },
+      {
+        "name": "Seat heating control module",
+        "fr": "Module de siège chauffant",
+        "note": "If fitted separately."
+      },
+      {
+        "name": "Electric seat adjustment motor",
+        "fr": "Moteur de réglage de siège",
+        "note": "Electric-seat option only; motor varies by adjustment axis."
+      },
+      {
+        "name": "Front head restraint",
+        "fr": "Appui-tête avant"
+      },
+      {
+        "name": "Front head-restraint guide",
+        "fr": "Guide d'appui-tête avant"
+      },
+      {
+        "name": "Front seat side trim",
+        "fr": "Carter latéral de siège"
+      },
+      {
+        "name": "Front seat mounting bolt",
+        "fr": "Vis de fixation de siège avant"
+      },
+      {
+        "name": "Seat armrest assembly",
+        "fr": "Accoudoir de siège",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Rear seats",
+    "parts": [
+      {
+        "name": "Rear seat cushion assembly",
+        "fr": "Assise arrière complète",
+        "manualPage": "https://www.manuelmeg.org/assise_compl_egrave_te_1_3_2_3-848.html"
+      },
+      {
+        "name": "Rear seat cushion foam",
+        "fr": "Mousse d'assise arrière"
+      },
+      {
+        "name": "Rear seat cushion upholstery",
+        "fr": "Garniture d'assise arrière",
+        "manualPage": "https://www.manuelmeg.org/garniture_d_assise_2_3_1_3-855.html"
+      },
+      {
+        "name": "Rear seat backrest frame",
+        "fr": "Armature de dossier arrière",
+        "manualPage": "https://www.manuelmeg.org/armature_de_dossier-849.html"
+      },
+      {
+        "name": "Rear seat backrest foam",
+        "fr": "Mousse de dossier arrière"
+      },
+      {
+        "name": "Rear seat backrest upholstery",
+        "fr": "Garniture de dossier arrière",
+        "manualPage": "https://www.manuelmeg.org/garniture_de_dossier_2_3_1_3-854.html"
+      },
+      {
+        "name": "Rear seat backrest hinge",
+        "fr": "Charnière de dossier arrière"
+      },
+      {
+        "name": "Rear seat backrest latch",
+        "fr": "Verrouillage de dossier",
+        "manualPage": "https://www.manuelmeg.org/verrouillage_de_dossier-847.html"
+      },
+      {
+        "name": "Rear seat backrest release handle / cable",
+        "fr": "Poignée et câble de déverrouillage de dossier"
+      },
+      {
+        "name": "Rear seat cushion retaining clip",
+        "fr": "Agrafe d'assise arrière"
+      },
+      {
+        "name": "Rear head restraint",
+        "fr": "Appui-tête arrière"
+      },
+      {
+        "name": "Rear head-restraint guide",
+        "fr": "Guide d'appui-tête arrière"
+      },
+      {
+        "name": "Rear centre armrest",
+        "fr": "Accoudoir central arrière",
+        "note": "If equipped."
+      },
+      {
+        "name": "Ski hatch",
+        "fr": "Trappe à skis",
+        "note": "If equipped."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Seat belts & restraint hardware",
+    "parts": [
+      {
+        "name": "Front seat belt and retractor",
+        "fr": "Ceinture avant avec enrouleur"
+      },
+      {
+        "name": "Front seat belt buckle",
+        "fr": "Boucle de ceinture avant"
+      },
+      {
+        "name": "Front seat belt height adjuster",
+        "fr": "Réglage de hauteur de ceinture avant"
+      },
+      {
+        "name": "Front buckle pretensioner",
+        "fr": "Prétensionneur de boucle avant",
+        "manualPage": "https://www.manuelmeg.org/pr_eacute_tensionneur_de_boucle_avant-654.html",
+        "note": "Pyrotechnic component; may be supplied as buckle/pretensioner assembly."
+      },
+      {
+        "name": "Front lap-belt pretensioner",
+        "fr": "Prétensionneur ventral avant",
+        "manualPage": "https://www.manuelmeg.org/pr_eacute_tensionneur_ventral_avant-657.html",
+        "note": "Only where fitted."
+      },
+      {
+        "name": "Rear outer seat belt and retractor",
+        "fr": "Ceinture arrière latérale avec enrouleur"
+      },
+      {
+        "name": "Rear centre seat belt and retractor",
+        "fr": "Ceinture arrière centrale avec enrouleur"
+      },
+      {
+        "name": "Rear seat belt buckle",
+        "fr": "Boucle de ceinture arrière"
+      },
+      {
+        "name": "Rear pyrotechnic belt retractor",
+        "fr": "Enrouleur pyrotechnique arrière",
+        "manualPage": "https://www.manuelmeg.org/enrouleur_pyrotechnique_arri_egrave_re-655.html",
+        "note": "Alternative to conventional rear retractor where fitted, not an additional belt."
+      },
+      {
+        "name": "Seat belt upper guide",
+        "fr": "Renvoi supérieur de ceinture"
+      },
+      {
+        "name": "Seat belt anchor bolt",
+        "fr": "Vis d'ancrage de ceinture"
+      },
+      {
+        "name": "Seat belt anchor cover",
+        "fr": "Cache de fixation de ceinture"
+      },
+      {
+        "name": "ISOFIX anchorage bracket",
+        "fr": "Ancrage ISOFIX",
+        "note": "Often welded/integral with seat or body; replace parent structure if not separately serviceable."
+      },
+      {
+        "name": "ISOFIX guide insert",
+        "fr": "Guide ISOFIX"
+      },
+      {
+        "name": "Top-tether anchorage",
+        "fr": "Ancrage supérieur de siège enfant",
+        "note": "Integral body/seat component on some variants."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Sliding sunroof",
+    "parts": [
+      {
+        "name": "Sunroof glass panel",
+        "fr": "Vitre de toit ouvrant",
+        "note": "Sliding-sunroof option only; not a CC retractable roof."
+      },
+      {
+        "name": "Sunroof cassette frame",
+        "fr": "Cadre de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof drive motor",
+        "fr": "Moteur de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof drive cable",
+        "fr": "Câble d'entraînement de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof guide rail and slider",
+        "fr": "Rail et patin de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof wind deflector",
+        "fr": "Déflecteur de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof perimeter seal",
+        "fr": "Joint de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof drain tube",
+        "fr": "Tuyau d'évacuation de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof sunblind",
+        "fr": "Store de toit ouvrant",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof control switch",
+        "fr": "Commande de toit ouvrant",
+        "manualPage": "https://www.manuelmeg.org/commande_de_toit_ouvrant_eacute_lectrique-625.html",
+        "note": "Sunroof-equipped versions only."
+      },
+      {
+        "name": "Sunroof mechanism grease",
+        "fr": "Graisse de mécanisme de toit ouvrant",
+        "note": "Sunroof-specific service lubricant where specified."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Coupé-Cabriolet retractable roof",
+    "parts": [
+      {
+        "name": "Retractable hardtop panel assembly",
+        "fr": "Pavillon escamotable",
+        "note": "Coupé-Cabriolet only; verify K4M/JR5 availability for market/build specification."
+      },
+      {
+        "name": "Retractable roof frame and hinge",
+        "fr": "Armature et articulation de toit escamotable",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof hydraulic pump",
+        "fr": "Groupe hydraulique de toit",
+        "note": "Coupé-Cabriolet only; not present on fixed-roof cars."
+      },
+      {
+        "name": "Retractable roof hydraulic cylinder",
+        "fr": "Vérin hydraulique de toit",
+        "note": "Coupé-Cabriolet only; each motion uses its corresponding cylinder."
+      },
+      {
+        "name": "Retractable roof hydraulic hose",
+        "fr": "Flexible hydraulique de toit",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof hydraulic fluid",
+        "fr": "Fluide hydraulique de toit",
+        "note": "Coupé-Cabriolet only; not steering fluid."
+      },
+      {
+        "name": "Retractable roof latch",
+        "fr": "Verrou de toit escamotable",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof position microswitch",
+        "fr": "Contacteur de position de toit",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof control unit",
+        "fr": "Calculateur de toit escamotable",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof operating switch",
+        "fr": "Commande de toit escamotable",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Retractable roof weather seal",
+        "fr": "Joint de toit escamotable",
+        "note": "Coupé-Cabriolet only; roof-panel and header seal profiles vary by position."
+      },
+      {
+        "name": "Retractable roof drain hose",
+        "fr": "Tuyau d'évacuation de toit escamotable",
+        "note": "Coupé-Cabriolet only."
+      },
+      {
+        "name": "Cabriolet rear side window glass",
+        "fr": "Vitre latérale arrière de cabriolet",
+        "note": "Coupé-Cabriolet only; movable, unlike fixed quarter glass."
+      },
+      {
+        "name": "Cabriolet rear side window regulator and motor",
+        "fr": "Lève-vitre latéral arrière de cabriolet",
+        "note": "Coupé-Cabriolet only; distinct from rear door window regulators."
+      },
+      {
+        "name": "Cabriolet rollover protection unit",
+        "fr": "Dispositif de protection en cas de retournement",
+        "note": "Coupé-Cabriolet only; equipment-specific safety assembly."
+      },
+      {
+        "name": "Cabriolet wind deflector",
+        "fr": "Filet anti-remous",
+        "note": "Coupé-Cabriolet accessory if fitted."
+      }
+    ]
+  },
+  {
+    "system": "Body",
+    "subsystem": "Latches & hinges service consumables",
+    "parts": [
+      {
+        "name": "Door hinge and latch lubricant",
+        "fr": "Lubrifiant de charnières et serrures",
+        "note": "Service lubricant; not an additional fitted part."
+      },
+      {
+        "name": "Weatherstrip conditioning product",
+        "fr": "Produit d'entretien des joints",
+        "note": "Service consumable; material compatibility must be checked."
+      }
+    ]
+  }
+]
